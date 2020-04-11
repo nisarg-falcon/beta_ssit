@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AEAA,OAAO,CAAC,8FAAI;ACAZ;;;;;;;;;;;;;;;;;;;;;;EAsBE;ACtBF;;;;;;;;;;;;;;;;;;;EAmBE;AJbF,AACI,IADA,CACA,KAAK,CAAA;EACD,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,IAAI;EACb,UAAU,EANC,OAAO;CAWrB;;AATL,AAKQ,IALJ,CACA,KAAK,CAID,IAAI,CAAA;EACA,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,IAAI;CACnB;;AART,AAUI,IAVA,CAUA,OAAO,CAAA;EACH,WAAW,EAAE,IAAI;EACjB,WAAW,EAAE,KAAK;EAClB,SAAS,EAAE,KAAK;CACnB;;AAdL,AAeI,IAfA,CAeA,YAAY,CAAA;EAER,SAAS,EAAE,KAAK;CACnB;;AAlBL,AAmBI,IAnBA,CAmBA,WAAW,CAAA;EACP,OAAO,EAAE,KAAK;CAIjB;;AGJG,MAAM,EAAE,SAAS,EAAE,KAAK;EHpBhC,AAmBI,IAnBA,CAmBA,WAAW,CAAA;IAGH,OAAO,EAAE,CAAC;GAEjB;;;AAxBL,AAyBI,IAzBA,CAyBA,mBAAmB,CAAA;EACf,cAAc,EAAE,GAAG;CACtB",
+    "sources": [
+        "../sass/people.scss",
+        "../sass/_color.scss",
+        "../sass/_font.scss",
+        "../sass/mixins/_layout-mq.scss",
+        "../sass/mixins/_content-mq.scss"
+    ],
+    "names": [],
+    "file": "people.css"
+}

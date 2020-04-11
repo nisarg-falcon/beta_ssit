@@ -1,0 +1,168 @@
+body footer .clg-name a {
+  color: white !important;
+  text-transform: uppercase;
+  font-size: 1.7em;
+}
+
+body footer .footer-data {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% 60%;
+      grid-template-columns: 40% 60%;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+}
+
+body footer .footer-data .footer-link-cont .link-cont {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (calc(100%/3))[3];
+      grid-template-columns: repeat(3, calc(100%/3));
+}
+
+body footer .footer-data .footer-link-cont .link-cont ul {
+  text-align: left;
+}
+
+body footer .footer-data .footer-link-cont .link-cont ul li {
+  border: none;
+  background: transparent !important;
+  color: white !important;
+  width: 75%;
+  cursor: pointer;
+  font-weight: 300;
+  padding: 5px !important;
+}
+
+body footer .footer-data .footer-link-cont .link-cont ul li:nth-child(1) {
+  border-bottom: 1px solid;
+  border-color: #facc04 !important;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+body footer .footer-data .footer-link-cont .link-cont ul li:nth-child(2) {
+  padding-top: 20px !important;
+}
+
+body footer .footer-data .footer-link-cont .link-cont ul li:hover {
+  color: #facc04 !important;
+}
+
+body footer .social-cont .social-icons ul {
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+}
+
+body footer .social-cont .social-icons ul li {
+  height: 50px;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+}
+
+body footer .social-cont .social-icons ul li i {
+  color: white;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+body footer .social-cont .social-icons ul li:hover:nth-child(1) {
+  background: blue;
+}
+
+body footer .social-cont .social-icons ul li:hover:nth-child(2) {
+  background: red;
+}
+
+body footer .copyright {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body footer .copyright a {
+  text-decoration: none;
+  color: white !important;
+}
+
+body footer .copyright a:nth-child(2) {
+  cursor: pointer;
+}
+
+body footer .copyright a:nth-child(2):hover {
+  color: #facc04 !important;
+}
+
+@media screen and (max-width: 768px) {
+  body footer .clg-name {
+    padding: 10px 0;
+  }
+  body footer .clg-name a {
+    font-size: 1.2em;
+  }
+  body footer .footer-data {
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+  }
+  body footer .footer-data .footer-map-cont iframe {
+    width: 100%;
+    height: 400px !important;
+  }
+  body footer .footer-data .footer-link-cont .link-cont {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+  }
+  body footer .footer-data .footer-link-cont .link-cont .gtu-reference {
+    margin: 0 !important;
+  }
+  body footer .footer-data .footer-link-cont .link-cont .college-reference {
+    margin: 0 !important;
+  }
+  body footer .footer-data .footer-link-cont .link-cont ul {
+    margin: 10px 0 !important;
+  }
+  body footer .footer-data .footer-link-cont .link-cont ul li {
+    width: 100%;
+  }
+  body footer .footer-data .footer-link-cont .link-cont ul li:nth-child(1) {
+    font-weight: 500;
+    border-color: #fff !important;
+  }
+  body footer .footer-data .footer-link-cont .link-cont ul li:nth-child(1) a::after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 50%;
+    top: 100%;
+    left: 0;
+    background: orange;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

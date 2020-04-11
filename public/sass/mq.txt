@@ -1,0 +1,11 @@
+@include responsive-layout(smd){}
+@include responsive-layout(mobile){}
+@include responsive-layout(tablet){}
+@include responsive-layout(desktop){}
+@include responsive-layout(exd){}
+
+@include responsive-content(smd){}
+@include responsive-content(mobile){}
+@include responsive-content(tablet){}
+@include responsive-content(desktop){}
+@include responsive-content(exd){}

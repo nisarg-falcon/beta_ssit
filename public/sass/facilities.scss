@@ -1,0 +1,421 @@
+@import 'color';
+@import 'font';
+@import 'mixins/layout-mq';
+@import 'mixins/content-mq';
+$background-color: #e9e2e2;
+body {
+    background: #ccc;
+    .header-section{
+        height: 80vh;
+        @include responsive-content(smd){
+            height: 55vh
+        }
+        .media-container{
+            z-index: 9000;
+            top: 0;
+            left: 0;
+            bottom:0;
+            margin: 0 !important;
+            padding: 0 !important;
+            height: 80vh;
+            @include responsive-content(smd){
+                height: 55vh
+            }
+            .video1{
+                margin: 0 !important;
+                padding: 0 !important;
+                height: calc(100% + 1px);
+                object-fit: cover;
+            }
+        }
+    }
+    #labs {
+        margin: 15px 0;
+        padding: 15px;
+        background: $background-color;
+        .navbar{
+            border: none;
+            padding: 0.5rem 0;
+            background: #fff;
+            @include responsive-content(smd){
+                padding: 0.5rem;
+            }
+            @include responsive-content(tablet){
+                padding: 0.5rem;
+            }
+            .inner-nav{
+                ul{
+                    width: 100% !important;
+                    li{
+                        .nav-link{
+                            color: black !important;
+                        }
+                    }
+                }
+            }
+        }
+        .labs-image {
+            width: 100%;
+            height: 50vh;
+            overflow: hidden;
+            figure{
+                left: 0;
+                margin: 0;
+                width: 500%;
+                position: relative;
+                animation: slider 20s infinite linear;
+                img{
+                    width: 20%;
+                    float: left;
+                    height: 50vh;
+                    object-fit: cover;
+                }
+            }
+        }
+        .labs-info {
+            padding: 1.5rem;
+            padding-bottom: 0.3rem;
+            background: #fff;
+            text-align: justify;
+            @include responsive-content(smd){
+                padding: 1rem;
+            }
+        }
+    }
+    @keyframes slider{
+        0%{
+            left:0;
+        }
+        15%{
+            left:0;
+        }
+        20%{
+            left: -100%;
+        }
+        35%{
+            left: -100%;
+        }
+        40%{
+            left: -200%;
+        }
+        55%{
+            left: -200%;
+        }
+        60%{
+            left: -300%;
+        }
+        75%{
+            left: -300%;
+        }
+        80%{
+            left: -400%;
+        }
+        95%{
+            left: -400%;
+        }    
+    }
+
+    #hostel {
+        margin: 15px 0;
+        padding: 15px;
+        background: $background-color;
+        .hostel-facility {
+            height: 85vh;
+            overflow: hidden;
+            background-size: contain;
+        }
+    }
+
+    #library{
+        margin: 15px 0;
+        padding: 15px;
+        background: $background-color;
+        .card-body{
+            text-align: justify;
+            padding: 3rem 4rem;
+            @include responsive-content(smd){
+                padding: 1rem;
+            }
+            @include responsive-content(mobile){
+                padding: 1rem;
+            }
+        }
+        .lib-facilities{
+            margin: 15px 0;
+            margin-bottom: 0;
+            .navbar{
+                border: none;
+                background: #fff;
+                padding: 0.5rem 0;
+                @include responsive-content(smd){
+                    padding: 0.5rem;
+                }
+                @include responsive-content(tablet){
+                    padding: 0.5rem;
+                }
+                .inner-nav{
+                    ul{
+                        width: 100% !important;
+                        li{
+                            .nav-link{
+                            color: black !important;
+                            }
+                        }
+                    }
+                }
+            }
+            img{
+                height: 70vh;
+                width: 100%;
+                object-fit: cover;
+            }
+            .labs-image {
+                width: 100%;
+                height: 70vh;
+                overflow: hidden;
+                figure{
+                    left: 0;
+                    margin: 0;
+                    width: 500%;
+                    position: relative;
+                    animation: slider 20s infinite linear;
+                    img{
+                        width: 20%;
+                        float: left;
+                        height: 70vh;
+                        object-fit: cover;
+                    }
+                }
+            }
+            @keyframes slider{
+                0%{
+                    left:0;
+                }
+                15%{
+                    left:0;
+                }
+                20%{
+                    left: -100%;
+                }
+                35%{
+                    left: -100%;
+                }
+                40%{
+                    left: -200%;
+                }
+                55%{
+                    left: -200%;
+                }
+                60%{
+                    left: -300%;
+                }
+                75%{
+                    left: -300%;
+                }
+                80%{
+                    left: -400%;
+                }
+                95%{
+                    left: -400%;
+                }    
+            }
+            .lib-facility-detail{
+                padding: 1.5rem;
+                background: #fff;
+                padding-bottom: 0.3rem;
+                @include responsive-content(smd){
+                    padding: 1rem;
+                }
+                blockquote{
+                    text-align: justify;
+                }
+            }
+        }
+    }
+    #canteen {
+        margin: 15px 0;
+        padding: 15px;
+        background: $background-color;
+        .carousel-inner {
+            height: 81vh;
+            // overflow: hidden;
+        }
+    }
+    #club{
+        margin: 15px 0;
+        padding: 15px;
+        background: $background-color;
+        .department-links{
+            background: #fff;
+            @include responsive-layout(smd){
+                // margin: 2rem 0;
+            }
+            .link-grd{
+                // height: 80vh;
+                // position: relative;
+                display: grid;
+                grid-template-columns: 30% 70%;
+                grid-template-rows: auto;
+                @include responsive-layout(smd){
+                    grid-template-columns: auto;
+                    grid-template-rows: repeat(2,auto);
+                }
+                .link-cont{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;                    
+                    color: #fff;
+                    background: #111;
+                    @include responsive-layout(smd){
+                        // flex-direction: row;
+                        // overflow-x: scroll;
+                    }
+                    .link-cont-item{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        cursor: pointer;
+                        position: relative;
+                        // border-bottom: 1px solid #ccc;
+                        padding: 1.5rem 3rem;
+                        @include responsive-layout(smd){
+                            padding: 1rem 0.7rem;
+                            width: max-content;
+                        }
+
+                        a{
+                            font-weight: 500;
+                            text-transform: uppercase;
+                            font-size: 1.2em;
+                            @include responsive-layout(smd){
+                                padding: 0 1rem;
+                            }
+
+                        }
+                        span{
+                            i{
+                                @include responsive-layout(smd){
+                                    transform: rotate(90deg);
+                                }
+
+                            }
+                        }
+                        &::after{
+                            content: '';
+                            height: 1px;
+                            background: #ccc;
+                            width: 70%;
+                            position: absolute;
+                            bottom: 0;
+                            @include responsive-content(smd){
+                                display: none;
+                            }
+                        }
+                        
+                    }
+                    .link-cont-item:hover{
+                        background: #ccc;
+                        color: #111;
+                    }
+                }
+                .content-wrapper{
+                    overflow-y: scroll;   
+                    padding: 1rem;
+                    position: relative;
+                    height: 600px;
+                    max-width: 100%; 
+                    color: #111;
+                    background: #fff;
+                    .content{
+                        position: relative;
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+                        transition: .5s ;
+                        height: 2400px;
+                        .staff-content{
+                            height: 600px;
+                            max-width: 100%; 
+                            display: flex;        
+                            align-items: center;
+                            @include responsive-layout(smd){
+                                display: grid;
+                                justify-content: center;
+                                // justify-content: space-around;
+                            }
+                            img{
+                                padding: 1rem;
+                                @include responsive-layout(smd){
+                                    margin: 0 auto;
+                                }
+                            }
+                            blockquote{
+                                text-indent: 100px; 
+                                padding: 1rem;
+                                text-align: justify;
+                            }
+                        }
+                        .staff-content:nth-child(odd){
+                            background: #fff;
+                        }
+                        .staff-content:nth-child(even){
+                            background: #ccc;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #ground{
+        margin: 15px 0;
+        padding: 15px;
+        background: $background-color;
+        .carousel-inner{
+            height: 80vh;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    body {
+        #labs {
+            .labs-image {
+                height: 100%;
+            }
+            .labs-info {
+                #topic-list{
+                    display: flex;
+                    margin: 15px;
+                }
+                .labs-details{
+                    height: 30vh;
+                }
+            }
+        }
+
+        #hostel {
+            .hostel-facility {
+                height: 100%;
+            }
+        }
+
+        #canteen {
+            .carousel-inner {
+                height: 100%;
+            }
+        }
+
+        #parking{
+            .carousel-inner{
+                height: 100%;
+            }
+        }
+
+        #ground{
+            .carousel-inner{
+                height: 100%;
+            }
+        }
+    }
+}

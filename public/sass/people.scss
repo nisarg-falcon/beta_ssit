@@ -1,0 +1,35 @@
+@import 'color';
+@import 'font';
+@import 'mixins/layout-mq';
+@import 'mixins/content-mq';
+$background-color: #e9e2e2;
+
+body{
+    .card{
+        margin: 15px 0;
+        padding: 15px;
+        background: $background-color;
+        .row{
+            padding: 15px;
+            background: #fff;
+        }
+    }
+    .indent{
+        text-indent: 50px;
+        line-height: 1.8em;
+        font-size: 0.9em;
+    }
+    .people-name{
+        // padding: 1rem 0; 
+        font-size: 1.2em;
+    }
+    .people-txt{
+        padding: 0 1em;
+        @include responsive-layout(smd){
+            padding: 0;
+        }
+    }
+    .people-designation{
+        letter-spacing: 2px;
+    }
+}

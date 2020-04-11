@@ -1,0 +1,148 @@
+body{
+    footer{
+        .clg-name{
+            a{
+                color: white !important;
+                text-transform: uppercase;
+                font-size: 1.7em;
+            }
+        }
+        .footer-data{
+            display: grid;
+            grid-template-columns: 40% 60%;
+            grid-template-rows: auto;
+            .footer-link-cont{
+                .link-cont{
+                    display: grid;
+                    grid-template-columns: repeat(3, calc(100%/3));
+                    ul{
+                        text-align: left;
+                        li{
+                            border: none;
+                            background: transparent !important;
+                            color: white !important;
+                            width: 75%;
+                            cursor: pointer;
+                            font-weight: 300;
+                            padding: 5px!important;
+                            &:nth-child(1){
+                                border-bottom: 1px solid;
+                                border-color: #facc04 !important;
+                                font-weight: 500;
+                                letter-spacing: 1px;
+                                
+                            }
+                            &:nth-child(2){
+                                padding-top: 20px !important;
+                            }
+                            &:hover{
+                                color: #facc04 !important;
+                            }
+                        }
+                    }
+                }
+                
+            }
+           
+        }
+        .social-cont{
+            .social-icons{
+                ul{
+                    flex-direction: row !important;
+                    li{
+                        height: 50px;
+                        width: 50px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 5px;
+                        i{
+                            color: white;
+                            cursor: pointer;
+                            font-size: 1.5em;
+                            
+                        }
+                        
+                        &:hover:nth-child(1){
+                            background: blue;
+                            
+                        }
+                        &:hover:nth-child(2){
+                            background: red;
+                        }
+                    }
+                }
+            }
+        }
+        .copyright{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            a{
+                text-decoration: none;
+                color: white !important;
+                &:nth-child(2){
+                    cursor: pointer;
+                    &:hover{
+                        color: #facc04 !important;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    body{
+        footer{
+            .clg-name{
+                padding: 10px 0;
+                a{
+                    font-size: 1.2em;
+                }
+            }
+            .footer-data{
+                grid-template-rows: auto auto;
+                grid-template-columns: auto;
+                .footer-map-cont{
+                    iframe{
+                        width: 100%;
+                        height: 400px !important;
+                    }
+                }
+                .footer-link-cont{
+                    .link-cont{
+                        grid-template-columns: auto;
+                        grid-template-rows: auto auto;
+                        .gtu-reference{
+                            margin: 0 !important;
+                        }
+                        .college-reference{
+                            margin: 0 !important;
+                        }
+                        ul{
+                            margin: 10px 0 !important;
+                            li{
+                                width: 100%;
+                                &:nth-child(1){
+                                    font-weight: 500;
+                                    border-color: #fff !important;
+                                a::after{
+                                    content: '';
+                                    display: block;
+                                    position: absolute;
+                                    height: 1px;
+                                    width: 50%;
+                                    top: 100%;
+                                    left: 0;
+                                    background: orange;
+                                }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

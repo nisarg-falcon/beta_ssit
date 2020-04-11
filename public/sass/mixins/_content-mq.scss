@@ -1,0 +1,37 @@
+/* media queries for content images,fonts,etc. 
+
+small devices: 600px
+
+medium devices: 768px
+mobiles specification
+
+
+
+large devices: 992px
+tablets specification
+
+
+extra large devices: 1200px
+desktops and laptops specification
+
+exceptional devices: 1800px
+tv's and wide desktops specification
+
+*/
+@mixin responsive-content($breakpoint) {
+    @if $breakpoint == smd {
+        @media (max-width: 600px){ @content };
+    }
+    @if $breakpoint == mobile {
+        @media (max-width: 768px){ @content };
+    }
+    @if $breakpoint == tablet {
+        @media (max-width: 992px){ @content };
+    }
+    @if $breakpoint == desktop{
+        @media (max-width: 1200px){ @content };
+    }
+    @if $breakpoint == exd {
+        @media (min-width: 1800px){ @content };
+    }
+}

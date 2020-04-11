@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,UADM,CACN,GAAG,CAAC;EACA,UAAU,EAAE,KAAK;CAIpB;;AANL,AAGQ,UAHE,CACN,GAAG,CAEC,CAAC,AAAA,MAAM,CAAA;EACH,eAAe,EAAE,IAAI;CACxB",
+    "sources": [
+        "../sass/admin_panel.scss"
+    ],
+    "names": [],
+    "file": "admin_panel.css"
+}
