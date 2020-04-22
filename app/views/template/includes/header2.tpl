@@ -8,7 +8,7 @@
                         <a class="nav-link h6" href="{URLROOT}/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link h6" href="#">Departments</a>
+                        <a class="nav-link h6" href="{URLROOT}/PAGES/department">Departments</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link h6" href="{URLROOT}/pages/facilities">Facilities</a>
@@ -20,7 +20,7 @@
                         <a class="nav-link h6" href="{URLROOT}/pages/people">People</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link h6" href="#">About</a>
+                        <a class="nav-link h6" href="{URLROOT}/Pages/about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link h6" href="{URLROOT}/pages/admission">Admission</a>

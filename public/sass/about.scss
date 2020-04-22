@@ -1,0 +1,85 @@
+@import 'color';
+@import 'font';
+@import 'mixins/layout-mq';
+@import 'mixins/content-mq';
+$background-color: #e9e2e2;
+body {
+    background: #ccc;
+    .header-section{
+        height: 78vh;
+        @include responsive-content(smd){
+            height: 55vh
+        }
+        .media-container{
+            z-index: 9000;
+            top: 0;
+            left: 0;
+            bottom:0;
+            margin: 0 !important;
+            padding: 0 !important;
+            height: 78vh;
+            @include responsive-content(smd){
+                height: 55vh
+            }
+            .video1{
+                margin: 0 !important;
+                padding: 0 !important;
+                height: calc(100% + 1px);
+                object-fit: cover;
+            }
+        }
+    }
+    #why-ssit{
+        margin: 15px 0;
+        padding: 15px;
+        background: $background-color;
+        h1{
+            padding: 10px;
+            margin: 0px;
+            background-color: #fff;
+            font-size: 30px;
+        }
+        p{
+            margin: 0px;
+            text-indent: 30px;
+            padding-top: 0px !important;
+            line-height: 30px;
+            padding: 10px 15px;
+            background-color: #fff;
+            text-align: justify;
+        }
+    }
+    #about-trust{
+        margin: 15px 0;
+        padding: 15px;
+        background: $background-color;
+        h1{
+            margin: 0px;
+            padding: 10px;
+            font-size: 30px;
+            background-color: #fff;
+        }
+        p{
+            margin: 0px;
+            padding: 10px 15px;
+            text-indent: 30px;
+            line-height: 30px;
+            text-align: justify;
+            background-color: #fff;
+        }        
+    }
+    #ssit-family{
+        margin: 15px 0;
+        padding: 15px;
+        background: $background-color;
+        h1{
+            margin: 0px;
+            padding: 10px;
+            font-size: 30px;
+            background-color: #fff;
+        }
+        img{
+            height: 75vh;
+        }
+    }
+}

@@ -25,9 +25,9 @@
     <div class="container-fluid">
         
         <!-- lab start -->
-        <!-- <div class="rounded" id="labs">
+        <div class="rounded scroll-start1" id="labs">
             <!-- labs nav start -->
-            <!-- <nav class="navbar navbar-expand-lg navbar-light  nav-pills nav-fill">
+            <nav class="navbar navbar-expand-lg navbar-light  nav-pills nav-fill">
                 <button type="button" class="navbar-toggler navbar-light flex-row p-md-2 p-lg-2 " data-toggle="collapse" data-target="#labSupportContent2" aria-controls="navbarSupportContent" aria-expanded="false">
                     <span class="navbar-toggler-icon"></span>
                     <span class="navbar-toggler-text">Labs</span>&nbsp;    
@@ -35,43 +35,96 @@
             <div class="inner-nav navbar-collapse collapse" id="labSupportContent2">
                 <ul class="nav navbar-nav  nav-fill ">
                     <li class="nav-item"><p class="nav-link h5 font-weight-normal m-0">Labs</p></li>
-                    <li class="nav-item"><a class="nav-link active" href="#">&nbsp; Civil &nbsp;</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Computer</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Electrical</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Mechanical</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Electronics</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">MCA</a></li>
+                    <li class="nav-item"><a class="nav-link active" id="pills-civil-tab" data-toggle="pill" href="#civil">&nbsp; Civil &nbsp;</a></li>
+                    <li class="nav-item"><a class="nav-link" id="pills-computer-tab" data-toggle="pill" href="#computer">Computer</a></li>
+                    <li class="nav-item"><a class="nav-link" id="pills-electrical-tab" data-toggle="pill" href="#electrical">Electrical</a></li>
+                    <li class="nav-item"><a class="nav-link" id="pills-mechanical-tab" data-toggle="pill" href="#mechanical">Mechanical</a></li>
+                    <li class="nav-item"><a class="nav-link" id="pills-electronics-tab" data-toggle="pill" href="#electronics">Electronics</a></li>
+                    <li class="nav-item"><a class="nav-link" id="pills-mca-tab" data-toggle="pill" href="#mca">MCA</a></li>
                 </ul>
             </div>
-            </nav>
-            <div class="labs-image">
-                <figure>
-                    <img src="{URLROOT}/img/civil/lab/surveying/civil-lab-1.jpg" alt="">
-                    <img src="{URLROOT}/img/img2.jpg" alt="">
-                    <img src="{URLROOT}/img/hostel.jpg" alt="">
-                    <img src="{URLROOT}/img/library.jpg" alt="">
-                    <img src="{URLROOT}/img/img2.jpg" alt="">
-                </figure>
-            </div> -->
-
-            <!-- labs info -->
-            <!-- <div class="labs-info">
-                <p class="h4">Civil Engineering</p>
-                <blockquote class="blockquote">In SSIT, for civil department we have Concrete technology, Geotech & Soil mechnics, Surveying, Highway Engineering, Environmental Engineering, Fluid Mechanics & Advance Fluid Mechanics, Mechanics of Solids Labs and Equipments </blockquote>
-            </div>
-        </div> -->
+            </nav>                  
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="civil" role="tabpanel" aria-labelledby="pills-civil-tab">
+                    <div class="labs-image">
+                        <figure>
+                            <img src="{URLROOT}/img/civil/lab/surveying/civil-lab-1.jpg" alt="">
+                        </figure>
+                    </div>  
+                    <div class="labs-info">
+                        <p class="h4">Civil Engineering</p>
+                        <blockquote class="blockquote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi asperiores esse repudiandae sapiente beatae cupiditate officia, exercitationem rerum iusto ducimus quasi blanditiis quaerat corporis qui nesciunt dignissimos eum. Doloribus, corporis?</blockquote>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="computer" role="tabpanel" aria-labelledby="pills-computer-tab">
+                    <div class="labs-image">
+                        <figure>
+                            <img src="{URLROOT}/img/img2.jpg" alt="">                           
+                        </figure>
+                    </div>  
+                    <div class="labs-info">
+                        <p class="h4">Computer Engineering</p>
+                        <blockquote class="blockquote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi asperiores esse repudiandae sapiente beatae cupiditate officia, exercitationem rerum iusto ducimus quasi blanditiis quaerat corporis qui nesciunt dignissimos eum. Doloribus, corporis?</blockquote>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="electrical" role="tabpanel" aria-labelledby="pills-electrical-tab">
+                    <div class="labs-image">
+                        <figure>
+                            <img src="{URLROOT}/img/hostel.jpg" alt="">
+                        </figure>
+                    </div>  
+                    <div class="labs-info">
+                        <p class="h4">Electrical Engineering</p>
+                        <blockquote class="blockquote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi asperiores esse repudiandae sapiente beatae cupiditate officia, exercitationem rerum iusto ducimus quasi blanditiis quaerat corporis qui nesciunt dignissimos eum. Doloribus, corporis?</blockquote>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="mechanical" role="tabpanel" aria-labelledby="pills-mechanical-tab">
+                    <div class="labs-image">
+                        <figure>
+                            <img src="{URLROOT}/img/library.jpg" alt="">
+                        </figure>
+                    </div>  
+                    <div class="labs-info">
+                        <p class="h4">Mechanical Engineering</p>
+                        <blockquote class="blockquote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi asperiores esse repudiandae sapiente beatae cupiditate officia, exercitationem rerum iusto ducimus quasi blanditiis quaerat corporis qui nesciunt dignissimos eum. Doloribus, corporis?</blockquote>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="electronics" role="tabpanel" aria-labelledby="pills-electronics-tab">
+                    <div class="labs-image">
+                        <figure>
+                           <img src="{URLROOT}/img/img2.jpg" alt="">
+                        </figure>
+                    </div>  
+                    <div class="labs-info">
+                        <p class="h4">Electronics Engineering</p>
+                        <blockquote class="blockquote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi asperiores esse repudiandae sapiente beatae cupiditate officia, exercitationem rerum iusto ducimus quasi blanditiis quaerat corporis qui nesciunt dignissimos eum. Doloribus, corporis?</blockquote>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="mca" role="tabpanel" aria-labelledby="pills-mca-tab">
+                    <div class="labs-image">
+                        <figure>
+                            <img src="{URLROOT}/img/hostel.jpg" alt="">
+                        </figure>
+                    </div>  
+                    <div class="labs-info">
+                        <p class="h4">MCA Engineering</p>
+                        <blockquote class="blockquote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi asperiores esse repudiandae sapiente beatae cupiditate officia, exercitationem rerum iusto ducimus quasi blanditiis quaerat corporis qui nesciunt dignissimos eum. Doloribus, corporis?</blockquote>
+                    </div>
+                </div>
+            </div>                      
+        </div>
         <!-- labs ends -->
 
         <!-- hostel start -->
-        <div id="hostel" class='scroll-start1'>
+        <div id="hostel" class='scroll-start2'>
             <div class="rounded hostel-facility">
-                <div class="card bg-dark text-white">
+                <div class="card">
                     <img src="{URLROOT}/img/hostel.jpg" class="card-img" alt="...">
                     <div class="card-img-overlay">
-                        <h5 class="card-title">Hostel @ SSIT</h5>
-                        <p class="card-text">50+ rooms<br> 100+ student capacity<br> 2 times food facility</p>
-                        <!-- <p class="card-text">Last updated 3 mins ago</p> -->
-                        <!-- This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. -->
+                        <div class="content">
+                            <h5 class="card-title">Hostel @ SSIT</h5>
+                            <p class="card-text">50+ rooms<br> 100+ student capacity<br> 2 times food facility</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -79,7 +132,7 @@
         <!-- hostel end -->        
 
         <!-- library start -->
-        <div id="library" class='scroll-start2'>
+        <div id="library" class='scroll-start3'>
             <!-- library img and text section -->
             <div class="card">
                 <div class="row no-gutters">
@@ -196,7 +249,7 @@
         <!-- library ends -->
 
         <!-- canteen start -->
-        <div id="canteen" class="scroll-start3">
+        <div id="canteen" class="scroll-start4">
         <p class="h5">Canteen</p>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -227,7 +280,7 @@
         </div>
 
         <!-- club starts -->
-        <div id="club" class="scroll-start4">
+        <div id="club" class="scroll-start5">
             <nav class="navbar navbar-expand-lg navbar-light p-0">                
             <button type="button" class="navbar-toggler navbar-light flex-row p-md-2 p-lg-2 " data-toggle="collapse" data-target="#club-navbar" aria-controls="navbarSupportContent" aria-expanded="false">
                 <span class="navbar-toggler-icon"></span>
@@ -299,7 +352,7 @@
         </div>
 
         <!-- play ground start -->
-        <div id="ground" class="scroll-start5">
+        <div id="ground" class="scroll-start6">
             <p class="h5">Play Area</p>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -332,7 +385,7 @@
     </div>
 
     {include file="../template/includes/footer.tpl"}
-     <script src="{URLROOT}/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="{URLROOT}/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="{URLROOT}/node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js"></script>
     <script src="{URLROOT}/node_modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
     <script type="module"  src="{URLROOT}/node_modules/gsap/all.js"></script>

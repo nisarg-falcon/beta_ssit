@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display|Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
+/* media queries for layout grid,flex,etc 
+
+small devices: 600px
+keyword: smd
+
+medium devices: 768px
+mobiles specification
+keyword: mobile
+
+
+large devices: 992px
+tablets specification
+keyword: tablet
+
+extra large devices: 1200px
+desktops and laptops specification
+keyword: desktop
+
+
+exceptional devices: 1800px
+tv's and wide desktops specification
+keyword: exd
+*/
+/* media queries for content images,fonts,etc. 
+
+small devices: 600px
+
+medium devices: 768px
+mobiles specification
+
+
+
+large devices: 992px
+tablets specification
+
+
+extra large devices: 1200px
+desktops and laptops specification
+
+exceptional devices: 1800px
+tv's and wide desktops specification
+
+*/
+body {
+  background: #ccc;
+}
+
+body .header-section {
+  height: 78vh;
+}
+
+@media (max-width: 600px) {
+  body .header-section {
+    height: 55vh;
+  }
+}
+
+body .header-section .media-container {
+  z-index: 9000;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 78vh;
+}
+
+@media (max-width: 600px) {
+  body .header-section .media-container {
+    height: 55vh;
+  }
+}
+
+body .header-section .media-container .video1 {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: calc(100% + 1px);
+  object-fit: cover;
+}
+
+body #why-ssit {
+  margin: 15px 0;
+  padding: 15px;
+  background: #e9e2e2;
+}
+
+body #why-ssit h1 {
+  padding: 10px;
+  margin: 0px;
+  background-color: #fff;
+  font-size: 30px;
+}
+
+body #why-ssit p {
+  margin: 0px;
+  text-indent: 30px;
+  padding-top: 0px !important;
+  line-height: 30px;
+  padding: 10px 15px;
+  background-color: #fff;
+  text-align: justify;
+}
+
+body #about-trust {
+  margin: 15px 0;
+  padding: 15px;
+  background: #e9e2e2;
+}
+
+body #about-trust h1 {
+  margin: 0px;
+  padding: 10px;
+  font-size: 30px;
+  background-color: #fff;
+}
+
+body #about-trust p {
+  margin: 0px;
+  padding: 10px 15px;
+  text-indent: 30px;
+  line-height: 30px;
+  text-align: justify;
+  background-color: #fff;
+}
+
+body #ssit-family {
+  margin: 15px 0;
+  padding: 15px;
+  background: #e9e2e2;
+}
+
+body #ssit-family h1 {
+  margin: 0px;
+  padding: 10px;
+  font-size: 30px;
+  background-color: #fff;
+}
+
+body #ssit-family img {
+  height: 75vh;
+}
+/*# sourceMappingURL=about.css.map */

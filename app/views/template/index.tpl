@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -31,28 +30,30 @@
     {include file="../template/includes/header3.tpl"} 
 
     <!-- index page starts -->
-    <div class="container-fluid">
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button>
-
+    <div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button>
     <!-- course info -->
-    <div class="container-fluid row scroll-start1" id="courses">
-        <div class="course-info col-md-7">
-            <h1>Shree Swaminarayan Institute of Technology</h1>
-            <p>We are an academic excellent Technical College made up of commited scholer students ,old collegians and staff members our rich history is the foundation for our values.
-                    We are diverse, dedicated, welcoming, accepting and Passionate about being the best We can be join us to make your college experience unforgettable and best Techanocrate future.                    
-            <b>Welcome, Jay Swaminarayan</b></p>
-        </div>
-        <div class="course-name col-md-5">
-                <h1>Available courses</h1>
-                {if !empty($data['dept'])}
-                    <ol>
-                    {foreach $data['dept'] as $department}
-                        <li>{$department['name']}</li>
-                    {/foreach}
-                    </ol>
-                {else}
-                    <h2 class="h2">No courses found</h2>
-                {/if}
+    <div class="scroll-start1" id="courses">
+        <div class="container course__container">
+            <div class="course-info">
+                <h1>Shree Swaminarayan Institute of Technology</h1>
+                <p>We are an academic excellent Technical College made up of commited scholer students ,old collegians and staff members our rich history is the foundation for our values.                                          
+                <a>Welcome, Jay Swaminarayan</a></p>
+            </div>
+            <div class="course-name">
+                    <h1>Top 6 Courses</h1>
+                   <div class="course__names">
+                         {if !empty($data['dept'])}
+                        <ol>
+                        {foreach $data['dept'] as $department}
+                            <li>{$department['name']}</li>
+                        {/foreach}
+                        </ol>
+                    {else}
+                        <h2 class="h2">No courses found</h2>
+                    {/if}
+                   </div>
+            </div>
         </div>        
     </div>
    

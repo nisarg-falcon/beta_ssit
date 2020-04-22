@@ -1,0 +1,8 @@
+#admin-nav div {
+  min-height: 100px;
+}
+
+#admin-nav div a:hover {
+  text-decoration: none;
+}
+/*# sourceMappingURL=admin_panel.css.map */

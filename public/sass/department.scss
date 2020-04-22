@@ -4,7 +4,7 @@
 @import 'mixins/content-mq';
 body{
     .header-section{
-        height: 80vh;
+        height: 78vh;
         @include responsive-content(smd){
             height: 55vh
         }
@@ -15,7 +15,7 @@ body{
             bottom:0;
             margin: 0 !important;
             padding: 0 !important;
-            height: 80vh;
+            height: 78vh;
             @include responsive-content(smd){
                 height: 55vh
             }

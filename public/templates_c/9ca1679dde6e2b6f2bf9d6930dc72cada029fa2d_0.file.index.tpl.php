@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-10-11 15:08:44
+/* Smarty version 3.1.33, created on 2020-04-22 14:45:31
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5da07edcee3c86_50485031',
+  'unifunc' => 'content_5ea03c6b9dda59_13329458',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9ca1679dde6e2b6f2bf9d6930dc72cada029fa2d' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\index.tpl',
-      1 => 1570799313,
+      1 => 1587559524,
       2 => 'file',
     ),
   ),
@@ -24,13 +24,14 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5da07edcee3c86_50485031 (Smarty_Internal_Template $_smarty_tpl) {
-?>
-<html lang="en">
+function content_5ea03c6b9dda59_13329458 (Smarty_Internal_Template $_smarty_tpl) {
+?><html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="<?php echo URLROOT;?>
+/img/logo.png">
     <link rel="stylesheet" href="<?php echo URLROOT;?>
 /css/header.css">
     <link rel="stylesheet" href="<?php echo URLROOT;?>
@@ -64,36 +65,38 @@ function content_5da07edcee3c86_50485031 (Smarty_Internal_Template $_smarty_tpl)
 ?> 
 
     <!-- index page starts -->
-    <div class="container-fluid">
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button>
-
+    <div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button>
     <!-- course info -->
-    <div class="container-fluid row scroll-start1" id="courses">
-        <div class="course-info col-md-7">
-            <h1>Shree Swaminarayan Institute of Technology</h1>
-            <p>We are an academic excellent Technical College made up of commited scholer students ,old collegians and staff members our rich history is the foundation for our values.
-                    We are diverse, dedicated, welcoming, accepting and Passionate about being the best We can be join us to make your college experience unforgettable and best Techanocrate future.                    
-            <b>Welcome, Jay Swaminarayan</b></p>
-        </div>
-        <div class="course-name col-md-5">
-                <h1>Available courses</h1>
-                <?php if (!empty($_smarty_tpl->tpl_vars['data']->value['dept'])) {?>
-                    <ol>
-                    <?php
+    <div class="scroll-start1" id="courses">
+        <div class="container course__container">
+            <div class="course-info">
+                <h1>Shree Swaminarayan Institute of Technology</h1>
+                <p>We are an academic excellent Technical College made up of commited scholer students ,old collegians and staff members our rich history is the foundation for our values.                                          
+                <a>Welcome, Jay Swaminarayan</a></p>
+            </div>
+            <div class="course-name">
+                    <h1>Top 6 Courses</h1>
+                   <div class="course__names">
+                         <?php if (!empty($_smarty_tpl->tpl_vars['data']->value['dept'])) {?>
+                        <ol>
+                        <?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['data']->value['dept'], 'department');
 if ($_from !== null) {
 foreach ($_from as $_smarty_tpl->tpl_vars['department']->value) {
 ?>
-                        <li><?php echo $_smarty_tpl->tpl_vars['department']->value['name'];?>
+                            <li><?php echo $_smarty_tpl->tpl_vars['department']->value['name'];?>
 </li>
-                    <?php
+                        <?php
 }
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
-                    </ol>
-                <?php } else { ?>
-                    <h2 class="h2">No courses found</h2>
-                <?php }?>
+                        </ol>
+                    <?php } else { ?>
+                        <h2 class="h2">No courses found</h2>
+                    <?php }?>
+                   </div>
+            </div>
         </div>        
     </div>
    

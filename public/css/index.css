@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display|Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
 /* media queries for layout grid,flex,etc 
 
 small devices: 600px
@@ -44,7 +46,6 @@ tv's and wide desktops specification
 */
 body {
   scroll-behavior: smooth;
-  -webkit-transition: .5s;
   transition: .5s;
   background: #ccc;
 }
@@ -87,8 +88,7 @@ body .header-section .media-container .video1 {
   margin: 0 !important;
   padding: 0 !important;
   height: calc(100% + 1px);
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 body .header-section .header-txt {
@@ -106,19 +106,10 @@ body .header-section .header-txt {
 
 body .header-section .header-txt .txt-container {
   overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100%;
   text-align: left;
   position: relative;
@@ -173,42 +164,66 @@ body .header-section .header-txt .txt-container::before {
 }
 
 body #courses {
-  margin: 15px 0;
-  padding: 15px;
-  background: #e9e2e2;
+  background: #F1A501;
+}
+
+body #courses .course__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  body #courses .course__container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 body #courses .course-info {
-  background: #fff;
+  width: 56%;
+}
+
+@media (max-width: 768px) {
+  body #courses .course-info {
+    width: 90%;
+  }
 }
 
 body #courses .course-info h1 {
-  padding: 0 1rem;
+  font-size: 33px;
+  font-weight: 600;
   padding-top: 1rem;
-  font-size: 1.5em;
+  padding-left: 30px;
+  letter-spacing: .7px;
+  color: #000000;
+  font-family: "Roboto Slab", serif;
 }
 
 @media (max-width: 600px) {
   body #courses .course-info h1 {
-    font-size: 1.5em;
+    font-size: 28px;
     font-weight: 500;
-    text-align: center;
+    padding-left: 0px;
   }
 }
 
 body #courses .course-info p {
-  padding: 0 1rem;
-  text-indent: 100px;
-  font-size: 1.1em;
+  padding: 20px 25px;
+  word-wrap: nowrap;
+  color: #000000;
+  font-size: 22px;
   text-align: justify;
-  line-height: 2.5em;
+  line-height: 36px;
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
   body #courses .course-info p {
     padding: 0;
     font-size: 0.8em;
-    text-indent: 0px;
     line-height: 2rem;
   }
 }
@@ -217,44 +232,68 @@ body #courses .course-info p {
   body #courses .course-info p {
     padding: 0;
     font-size: 1.1em;
-    text-indent: 0px;
     line-height: 2rem;
   }
 }
 
+body #courses .course-info p a {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
 body #courses .course-name {
-  background: #fff;
+  width: 44%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  body #courses .course-name {
+    width: 90%;
+    align-items: flex-start;
+  }
 }
 
 body #courses .course-name h1 {
-  padding: 0 1rem;
-  padding-top: 1rem;
-  font-size: 1.5em;
+  text-transform: uppercase;
+  width: 38%;
+  display: block;
+  background: white;
+  letter-spacing: .7px;
+  text-align: center;
+  font-size: 20px;
+  margin-top: .5rem;
+  padding: 10px 12px;
+  font-family: "Roboto Slab", serif;
 }
 
 @media (max-width: 600px) {
   body #courses .course-name h1 {
-    margin-top: 8px;
-    padding-top: 0;
-    font-size: 1.5em;
+    font-size: 28px;
+    font-weight: 500;
+    width: 70%;
   }
 }
 
-body #courses .course-name ol li {
+body #courses .course-name .course__names ol li {
   padding: 0.3rem 0;
-  font-size: 1.1em;
-  line-height: 2em;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: .5px;
+  font-family: "Source Serif Pro", serif;
 }
 
 @media (max-width: 768px) {
-  body #courses .course-name ol li {
+  body #courses .course-name .course__names ol li {
     font-size: 0.8em;
     line-height: 1.5em;
   }
 }
 
 @media (max-width: 600px) {
-  body #courses .course-name ol li {
+  body #courses .course-name .course__names ol li {
     font-size: 1.1em;
     line-height: 1.5em;
   }
@@ -269,15 +308,12 @@ body #director {
 body #director .director-info {
   background: #fff;
   padding: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 body #director .director-info img {
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 @media (max-width: 600px) {
@@ -370,8 +406,7 @@ body #institute .institute-info {
 
 body #institute .institute-info img {
   height: 556px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 @media (max-width: 600px) {
@@ -396,36 +431,21 @@ body #events a {
 }
 
 body #events .events .img-wrapper {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-rows: auto;
-      grid-template-rows: auto;
-  -ms-grid-columns: (auto)[5];
-      grid-template-columns: repeat(5, auto);
+  grid-template-rows: auto;
+  grid-template-columns: repeat(5, auto);
 }
 
 body #events .events .img-wrapper .btn-cont {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 body #events .events .img-wrapper .btn-cont .btn-more {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 body #events .events .img-wrapper .btn-cont .btn-more a {
@@ -443,29 +463,20 @@ body #events .events .img-wrapper .event-cont .event-detail {
   z-index: 9901;
   height: 100%;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   color: white;
 }
 
 body #events .events .img-wrapper .event-cont img {
   cursor: pointer;
-  -webkit-transition: .3s ease-in;
   transition: .3s ease-in;
-  -webkit-filter: sepia(0.15) contrast(0.65) brightness(0.65);
-          filter: sepia(0.15) contrast(0.65) brightness(0.65);
+  filter: sepia(0.15) contrast(0.65) brightness(0.65);
 }
 
 body #events .events .img-wrapper .event-cont img:hover {
-  -webkit-filter: none !important;
-          filter: none !important;
+  filter: none !important;
 }
 
 body #events .events .img-wrapper .event-cont:nth-child(4) {
@@ -536,12 +547,9 @@ body #gallery .gallery a {
 }
 
 body #gallery .gallery .gallery-img-wrapper {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (25%)[4];
-      grid-template-columns: repeat(4, 25%);
-  -ms-grid-rows: (auto)[2];
-      grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(2, auto);
 }
 
 body #gallery .gallery .gallery-img-wrapper .gallery-cont {
@@ -587,8 +595,7 @@ body #gallery .gallery .gallery-img-wrapper .gallery-cont:nth-child(8) {
     height: 55vh;
   }
   body .header-section .media-container .video1 {
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   body #events a {
     font-weight: 300;
@@ -597,15 +604,11 @@ body #gallery .gallery .gallery-img-wrapper .gallery-cont:nth-child(8) {
     padding: 1rem 0;
   }
   body #events .events .img-wrapper {
-    -ms-grid-rows: (auto)[3];
-        grid-template-rows: repeat(3, auto);
-    -ms-grid-columns: 50% 50%;
-        grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: 50% 50%;
   }
   body #events .events .img-wrapper .btn-cont {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    justify-content: flex-start;
   }
   body #events .events .event-cont:nth-child(1) {
     border-bottom: 1px solid #ccc;
@@ -622,10 +625,8 @@ body #gallery .gallery .gallery-img-wrapper .gallery-cont:nth-child(8) {
     text-transform: uppercase;
   }
   body #gallery .gallery .gallery-img-wrapper {
-    -ms-grid-columns: (50%)[2];
-        grid-template-columns: repeat(2, 50%);
-    -ms-grid-rows: (auto)[4];
-        grid-template-rows: repeat(4, auto);
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(4, auto);
   }
   body #gallery .gallery .gallery-img-wrapper .gallery-cont {
     border-bottom: 1px solid #ccc;

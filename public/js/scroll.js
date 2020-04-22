@@ -14,7 +14,7 @@ for(var i=1; i<=$('.nav3').children().length ;i++){
         duration: dur
     })
     .setClassToggle('.nav3-item:nth-child('+i+')','nav3-active')
-    .addTo(scrlcontroller);
+    .addTo(scrlcontroller);    
 }
 
 
@@ -25,7 +25,8 @@ $(document).ready(function(){
             scrollTop: 0
         },800);
     });
-    $("a").on('click',function(event){
+    console.log($('#upper-header3')[0].clientHeight);
+    $(".nav3-item>a").on('click',function(event){
         $(".inner-nav").removeClass("show");
         if(this.hash !== ""){
             event.preventDefault();

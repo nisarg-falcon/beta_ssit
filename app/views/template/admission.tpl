@@ -23,21 +23,89 @@
     
     <!-- admission section start -->
     <div class="container-fluid">
-        <div id="admission">
+        <div id="admission" class="scroll-start1">
             <nav>
-              <ul class="nav nav-pills nav-fill">
+              <ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist">
                   <li class="nav-item">
-                    <a class="nav-link active" href="#">BE (Fresh)</a>
+                    <a class="nav-link active" id="pills-BEfresh-tab" data-toggle="pill" href="#pills-BEfresh" role="tab" aria-controls="pills-BEfresh" aria-selected="true">BE (Fresh)</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">BE (D2D)</a>
+                    <a class="nav-link" id="pills-BEd2d-tab" data-toggle="pill" href="#pills-BEd2d" role="tab" aria-controls="pills-BEd2d" aria-selected="false">BE (D2D)</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">MCA</a>
+                    <a class="nav-link" id="pills-mca-tab" data-toggle="pill" href="#pills-mca" role="tab" aria-controls="pills-mca" aria-selected="false">MCA</a>
                   </li>
               </ul>
             </nav>
-            <div class="timeline">
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-BEfresh" role="tabpanel" aria-labelledby="pills-BEfresh-tab">
+                <div class="timeline">
+                  <div class="text-container right">
+                      <div class="content">
+                        <p class="h5">step 1</p>
+                        <p>BE fresh 12 science passout</p>
+                      </div>
+                  </div>
+                  <div class="text-container right">
+                      <div class="content">
+                        <p class="h5">step 2</p>
+                        <p>regiser through acpc</p>
+                      </div>
+                  </div>
+                  <div class="text-container right">
+                      <div class="content">
+                        <p class="h5">step 3</p>
+                        <p>get merit choose course and etc....</p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-BEd2d" role="tabpanel" aria-labelledby="pills-BEd2d-tab">
+                <div class="timeline">
+                  <div class="text-container right">
+                      <div class="content">
+                        <p class="h5">step 1</p>
+                        <p>BE d2d diploma passout</p>
+                      </div>
+                  </div>
+                  <div class="text-container right">
+                      <div class="content">
+                        <p class="h5">step 2</p>
+                        <p>regiser through acpc</p>
+                      </div>
+                  </div>
+                  <div class="text-container right">
+                      <div class="content">
+                        <p class="h5">step 3</p>
+                        <p>get merit choose course and etc....</p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-mca" role="tabpanel" aria-labelledby="pills-mca-tab">
+                <div class="timeline">
+                  <div class="text-container right">
+                      <div class="content">
+                        <p class="h5">step 1</p>
+                        <p>MCA admission</p>
+                      </div>
+                  </div>
+                  <div class="text-container right">
+                      <div class="content">
+                        <p class="h5">step 2</p>
+                        <p>regiser through acpc</p>
+                      </div>
+                  </div>
+                  <div class="text-container right">
+                      <div class="content">
+                        <p class="h5">step 3</p>
+                        <p>get merit choose course and etc....</p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="timeline">
               <div class="text-container right">
                   <div class="content">
                   <p class="h5">step 1</p>
@@ -74,11 +142,11 @@
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, dolorem.</p>
                   </div>
               </div>
-            </div>
+            </div> -->
         </div>
 
         <!-- mq-admission -->
-        <div id="mq">
+        <div id="mq" class="scroll-start2">
           <div class="mq-heading">
               <p>Admission to Management Quota Seats (BE & MCA)</p>
           </div>
@@ -87,7 +155,7 @@
           </div>
           <div class="mq-seats">
               <table >
-                  <thead >
+                  <thead>
                     <tr>
                       <th scope="col">Branch</th>
                       <th scope="col">Computer</th>
@@ -114,7 +182,7 @@
           <div class="mq-imp-dates">
               <p>schedule for MQ Admission</p>
               <table class="table">
-                  <thead class="thead-dark">
+                  <thead>
                     <tr>
                       <th>Activities</th>
                       <th>Important Dates for Admission In BE</th>
@@ -143,16 +211,16 @@
         </div>
 
         <!-- merit list -->
-        <div id="merit-list">
+        <div id="merit-list" class="scroll-start3">
           <p class="ml-title">MERIT LIST FOR : <u>BE Management Quota Admission : 2019-20</u></p>
           <P class="ml-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est sapiente aliquid accusantium unde alias error cumque possimus exercitationem rem rerum?</P>
-          <nav class="navbar ml-search">
+          <!-- <nav class="navbar ml-search">
             <form class="form-inline">
               <input class="form-control" type="search" placeholder="Enter Your Name Here" aria-label="Search">
               <button class="btn" type="submit">Search</button>
             </form>
-          </nav>
-          <div class="ml-lists">
+          </nav> -->
+          <!-- <div class="ml-lists">
             <table>
               <thead>
                 <tr>
@@ -261,7 +329,7 @@
                 <li class="page-item"><a class="page-link" href="#">5</a></li>
               </ul>
             </nav>
-          </div>
+          </div> -->
           <div class="ml-download">
             <p>Merit List for <u>BE Management Quota Admission 2019-20</u></p>
             <button class="btn" type="submit">Download</button>
@@ -269,7 +337,7 @@
         </div>
 
         <!-- FAQs -->
-        <div id="faq">
+        <div id="faq" class="scroll-start4">
           <p class="faq-title">Frequntly Asked Question (FAQs)</p>
           <div class="accordion" id="accordionExample">
             <div class="card">
@@ -350,8 +418,13 @@
     <!-- admission section ends -->
     {include file="../template/includes/footer.tpl"}
     <script src="{URLROOT}/node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="{URLROOT}/js/scroll.js"></script>
-    <script src="{URLROOT}/node_modules/bootstrap/dist/js/bootstrap.js"></script>
-   
+    <script src="{URLROOT}/node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js"></script>
+    <script src="{URLROOT}/node_modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
+    <script type="module"  src="{URLROOT}/node_modules/gsap/all.js"></script>
+    <script type="module" src="{URLROOT}/js/scroll.js"></script>
+    <script type="text/javascript" src="{URLROOT}/js/backtotop.js"></script>
+     <script src="{URLROOT}/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/dbc30cce47.js"></script>
+    <script src="{URLROOT}/js/header.js"></script>
 </body>
 </html>

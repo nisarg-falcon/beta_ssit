@@ -1,0 +1,611 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display|Roboto&display=swap");
+/* media queries for layout grid,flex,etc 
+
+small devices: 600px
+keyword: smd
+
+medium devices: 768px
+mobiles specification
+keyword: mobile
+
+
+large devices: 992px
+tablets specification
+keyword: tablet
+
+extra large devices: 1200px
+desktops and laptops specification
+keyword: desktop
+
+
+exceptional devices: 1800px
+tv's and wide desktops specification
+keyword: exd
+*/
+/* media queries for content images,fonts,etc. 
+
+small devices: 600px
+
+medium devices: 768px
+mobiles specification
+
+
+
+large devices: 992px
+tablets specification
+
+
+extra large devices: 1200px
+desktops and laptops specification
+
+exceptional devices: 1800px
+tv's and wide desktops specification
+
+*/
+body {
+  background: black;
+}
+
+body .header-section {
+  height: 80vh;
+}
+
+@media (max-width: 600px) {
+  body .header-section {
+    height: 55vh;
+  }
+}
+
+body .header-section .media-container {
+  z-index: 9000;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 80vh;
+}
+
+@media (max-width: 600px) {
+  body .header-section .media-container {
+    height: 55vh;
+  }
+}
+
+body .header-section .media-container .video1 {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: calc(100% + 1px);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body #admission {
+  margin: 15px 0;
+  padding: 15px;
+  background: #e9e2e2;
+  /* The actual timeline (the vertical ruler) */
+}
+
+body #admission nav {
+  border: none;
+  background: #fff;
+}
+
+body #admission .timeline {
+  position: relative;
+  /* The circles on the timeline */
+  /* Place the container to the left */
+  /* Add arrows to the left container (pointing right) */
+  /* Place the container to the right */
+  /* Add arrows to the right container (pointing left) */
+  /* Fix the circle for containers on the right side */
+}
+
+body #admission .timeline .text-container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  max-width: 50%;
+  /* The actual content */
+}
+
+@media (max-width: 600px) {
+  body #admission .timeline .text-container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+}
+
+body #admission .timeline .text-container .content {
+  display: block;
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+  body #admission .timeline .text-container .content {
+    width: 63vw;
+  }
+}
+
+@media (max-width: 600px) {
+  body #admission .timeline .text-container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+}
+
+body #admission .timeline .text-container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #007BFF;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+body #admission .timeline .left {
+  left: 0;
+}
+
+body #admission .timeline .left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+body #admission .timeline .right {
+  left: 5%;
+}
+
+@media (max-width: 600px) {
+  body #admission .timeline .right {
+    left: 0%;
+  }
+}
+
+body #admission .timeline .right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+@media (max-width: 600px) {
+  body #admission .timeline .right::before {
+    left: 60px;
+  }
+}
+
+body #admission .timeline .right::after {
+  left: -12px;
+}
+
+@media (max-width: 600px) {
+  body #admission .timeline .right::after {
+    left: 18px;
+  }
+}
+
+body #admission .timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 5%;
+  margin-left: -3px;
+}
+
+@media (max-width: 600px) {
+  body #admission .timeline::after {
+    left: 31px;
+  }
+}
+
+body #mq {
+  margin: 15px 0;
+  padding: 15px;
+  background: #e9e2e2;
+}
+
+body #mq .mq-heading {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 50px;
+  background: #111111;
+  text-align: center;
+}
+
+body #mq .mq-heading p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+  body #mq .mq-heading {
+    line-height: 30px;
+  }
+}
+
+body #mq .mq-info {
+  padding: 1rem 40px;
+  font-size: 1.2rem;
+  background: #fff;
+  text-align: justify;
+}
+
+body #mq .mq-info p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+  body #mq .mq-info {
+    font-size: 1.1rem;
+    padding: 10px 15px;
+  }
+}
+
+body #mq .mq-seats {
+  padding: 5px 40px;
+  background: #fff;
+  text-align: center;
+}
+
+body #mq .mq-seats table {
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+body #mq .mq-seats table thead th {
+  padding: 1rem 0;
+  background: #343A40;
+  color: white;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+body #mq .mq-seats table tbody tr td {
+  padding: 1rem 0;
+}
+
+@media (max-width: 600px) {
+  body #mq .mq-seats {
+    padding: 0 15px !important;
+    overflow: scroll;
+    padding: 10px 15px;
+  }
+  body #mq .mq-seats table {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    width: 100%;
+    overflow: scroll;
+    margin-bottom: 2rem;
+  }
+  body #mq .mq-seats table thead tr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body #mq .mq-seats table thead tr th {
+    padding: 1rem 0;
+    background: white;
+    color: black;
+    font-weight: 500;
+  }
+  body #mq .mq-seats table thead tr th:first-child {
+    background: #343A40;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #ccc;
+  }
+  body #mq .mq-seats table tbody tr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body #mq .mq-seats table tbody tr th {
+    background: #343A40;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0;
+  }
+  body #mq .mq-seats table tbody tr td {
+    padding: 1rem 0;
+  }
+}
+
+body #mq .mq-imp-dates {
+  padding: 0 40px;
+  text-align: center;
+  background: #fff;
+  overflow: auto;
+}
+
+@media (max-width: 600px) {
+  body #mq .mq-imp-dates {
+    line-height: 30px;
+    padding: 0 15px;
+  }
+}
+
+body #mq .mq-imp-dates p {
+  color: #fff;
+  margin-bottom: 0;
+  font-size: 1.3rem;
+  line-height: 50px;
+  background: #111111;
+  text-transform: capitalize;
+}
+
+@media (max-width: 600px) {
+  body #mq .mq-imp-dates p {
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  body #mq .mq-imp-dates {
+    padding: 0 15px;
+  }
+}
+
+body #mq .mq-imp-dates table {
+  text-align: center;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  body #mq .mq-imp-dates table {
+    position: relative;
+  }
+  body #mq .mq-imp-dates table thead tr th {
+    vertical-align: 0%;
+  }
+  body #mq .mq-imp-dates table tbody tr td {
+    padding: 0.5rem !important;
+  }
+}
+
+body #mq .mq-imp-dates table tr td:first-child {
+  text-align: left;
+}
+
+body #merit-list {
+  margin: 15px 0;
+  padding: 15px;
+  background: #e9e2e2;
+}
+
+body #merit-list .ml-title {
+  color: #fff;
+  font-size: 1.3rem;
+  background: #111;
+  line-height: 50px;
+  margin-bottom: 0;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 600px) {
+  body #merit-list .ml-title {
+    font-size: 1.1rem;
+    line-height: 40px;
+  }
+}
+
+body #merit-list .ml-details {
+  padding: 1rem 40px;
+  font-size: 1.2rem;
+  background: #fff;
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+  body #merit-list .ml-details {
+    font-size: 1rem;
+    padding: 10px 15px;
+  }
+}
+
+body #merit-list .ml-search {
+  padding: 0 40px;
+  background: #fff;
+}
+
+@media (max-width: 600px) {
+  body #merit-list .ml-search {
+    padding: 10px 15px;
+  }
+}
+
+body #merit-list .ml-search input::-webkit-input-placeholder {
+  text-align: center;
+}
+
+body #merit-list .ml-search input:-ms-input-placeholder {
+  text-align: center;
+}
+
+body #merit-list .ml-search input::-ms-input-placeholder {
+  text-align: center;
+}
+
+body #merit-list .ml-search input::placeholder {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  body #merit-list .ml-search input::-webkit-input-placeholder {
+    text-align: left;
+  }
+  body #merit-list .ml-search input:-ms-input-placeholder {
+    text-align: left;
+  }
+  body #merit-list .ml-search input::-ms-input-placeholder {
+    text-align: left;
+  }
+  body #merit-list .ml-search input::placeholder {
+    text-align: left;
+  }
+}
+
+body #merit-list .ml-search button {
+  margin: 0 10px;
+  color: #fff;
+  border: none;
+  background: #111;
+}
+
+@media (max-width: 600px) {
+  body #merit-list .ml-search button {
+    margin-top: 10px;
+    margin-left: 0;
+    width: 25vw;
+  }
+}
+
+body #merit-list .ml-lists {
+  padding: 1rem 40px;
+  background: #fff;
+}
+
+@media (max-width: 600px) {
+  body #merit-list .ml-lists {
+    padding: 0;
+  }
+}
+
+body #merit-list .ml-lists table {
+  width: 100%;
+  word-wrap: break-word;
+  text-align: center;
+  border: 1px solid #111;
+}
+
+@media (max-width: 600px) {
+  body #merit-list .ml-lists table {
+    font-size: 0.8rem;
+  }
+}
+
+body #merit-list .ml-lists table thead {
+  color: #fff;
+  background: #111;
+}
+
+body #merit-list .ml-lists table tbody td {
+  border: 1px solid #111;
+}
+
+body #merit-list .ml-lists ul {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+  body #merit-list .ml-lists ul {
+    margin: 0 1rem;
+    padding: 10px 0;
+  }
+}
+
+body #merit-list .ml-download {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 0 40px;
+  padding-bottom: 8px;
+}
+
+@media (max-width: 600px) {
+  body #merit-list .ml-download {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 10px;
+  }
+}
+
+body #merit-list .ml-download p {
+  text-align: center;
+  margin: auto 1rem;
+}
+
+@media (max-width: 600px) {
+  body #merit-list .ml-download p {
+    margin: 0;
+  }
+}
+
+body #merit-list .ml-download button {
+  color: #fff;
+  border: none;
+  background: #111;
+}
+
+body #faq {
+  margin: 15px 0;
+  padding: 15px;
+  background: #e9e2e2;
+}
+
+body #faq .faq-title {
+  color: #fff;
+  font-size: 1.3rem;
+  background: #111;
+  line-height: 50px;
+  margin-bottom: 0;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 600px) {
+  body #faq .faq-title {
+    font-size: 1.1rem;
+    line-height: 40px;
+  }
+}
+/*# sourceMappingURL=admission.css.map */

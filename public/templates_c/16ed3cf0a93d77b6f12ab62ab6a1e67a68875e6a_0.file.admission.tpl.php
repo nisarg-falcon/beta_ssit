@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-10-11 14:57:17
+/* Smarty version 3.1.33, created on 2020-04-17 20:36:14
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\admission.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5da07c2d913689_08985285',
+  'unifunc' => 'content_5e99f71e821f30_07968165',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '16ed3cf0a93d77b6f12ab62ab6a1e67a68875e6a' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\admission.tpl',
-      1 => 1570797773,
+      1 => 1587148571,
       2 => 'file',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5da07c2d913689_08985285 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5e99f71e821f30_07968165 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -58,21 +58,89 @@ function content_5da07c2d913689_08985285 (Smarty_Internal_Template $_smarty_tpl)
     
     <!-- admission section start -->
     <div class="container-fluid">
-        <div id="admission">
+        <div id="admission" class="scroll-start1">
             <nav>
-              <ul class="nav nav-pills nav-fill">
+              <ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist">
                   <li class="nav-item">
-                    <a class="nav-link active" href="#">BE (Fresh)</a>
+                    <a class="nav-link active" id="pills-BEfresh-tab" data-toggle="pill" href="#pills-BEfresh" role="tab" aria-controls="pills-BEfresh" aria-selected="true">BE (Fresh)</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">BE (D2D)</a>
+                    <a class="nav-link" id="pills-BEd2d-tab" data-toggle="pill" href="#pills-BEd2d" role="tab" aria-controls="pills-BEd2d" aria-selected="false">BE (D2D)</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">MCA</a>
+                    <a class="nav-link" id="pills-mca-tab" data-toggle="pill" href="#pills-mca" role="tab" aria-controls="pills-mca" aria-selected="false">MCA</a>
                   </li>
               </ul>
             </nav>
-            <div class="timeline">
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-BEfresh" role="tabpanel" aria-labelledby="pills-BEfresh-tab">
+                <div class="timeline">
+                  <div class="text-container right">
+                      <div class="content">
+                        <p class="h5">step 1</p>
+                        <p>BE fresh 12 science passout</p>
+                      </div>
+                  </div>
+                  <div class="text-container right">
+                      <div class="content">
+                        <p class="h5">step 2</p>
+                        <p>regiser through acpc</p>
+                      </div>
+                  </div>
+                  <div class="text-container right">
+                      <div class="content">
+                        <p class="h5">step 3</p>
+                        <p>get merit choose course and etc....</p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-BEd2d" role="tabpanel" aria-labelledby="pills-BEd2d-tab">
+                <div class="timeline">
+                  <div class="text-container right">
+                      <div class="content">
+                        <p class="h5">step 1</p>
+                        <p>BE d2d diploma passout</p>
+                      </div>
+                  </div>
+                  <div class="text-container right">
+                      <div class="content">
+                        <p class="h5">step 2</p>
+                        <p>regiser through acpc</p>
+                      </div>
+                  </div>
+                  <div class="text-container right">
+                      <div class="content">
+                        <p class="h5">step 3</p>
+                        <p>get merit choose course and etc....</p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-mca" role="tabpanel" aria-labelledby="pills-mca-tab">
+                <div class="timeline">
+                  <div class="text-container right">
+                      <div class="content">
+                        <p class="h5">step 1</p>
+                        <p>MCA admission</p>
+                      </div>
+                  </div>
+                  <div class="text-container right">
+                      <div class="content">
+                        <p class="h5">step 2</p>
+                        <p>regiser through acpc</p>
+                      </div>
+                  </div>
+                  <div class="text-container right">
+                      <div class="content">
+                        <p class="h5">step 3</p>
+                        <p>get merit choose course and etc....</p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="timeline">
               <div class="text-container right">
                   <div class="content">
                   <p class="h5">step 1</p>
@@ -109,11 +177,11 @@ function content_5da07c2d913689_08985285 (Smarty_Internal_Template $_smarty_tpl)
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, dolorem.</p>
                   </div>
               </div>
-            </div>
+            </div> -->
         </div>
 
         <!-- mq-admission -->
-        <div id="mq">
+        <div id="mq" class="scroll-start2">
           <div class="mq-heading">
               <p>Admission to Management Quota Seats (BE & MCA)</p>
           </div>
@@ -122,7 +190,7 @@ function content_5da07c2d913689_08985285 (Smarty_Internal_Template $_smarty_tpl)
           </div>
           <div class="mq-seats">
               <table >
-                  <thead >
+                  <thead>
                     <tr>
                       <th scope="col">Branch</th>
                       <th scope="col">Computer</th>
@@ -149,7 +217,7 @@ function content_5da07c2d913689_08985285 (Smarty_Internal_Template $_smarty_tpl)
           <div class="mq-imp-dates">
               <p>schedule for MQ Admission</p>
               <table class="table">
-                  <thead class="thead-dark">
+                  <thead>
                     <tr>
                       <th>Activities</th>
                       <th>Important Dates for Admission In BE</th>
@@ -178,16 +246,16 @@ function content_5da07c2d913689_08985285 (Smarty_Internal_Template $_smarty_tpl)
         </div>
 
         <!-- merit list -->
-        <div id="merit-list">
+        <div id="merit-list" class="scroll-start3">
           <p class="ml-title">MERIT LIST FOR : <u>BE Management Quota Admission : 2019-20</u></p>
           <P class="ml-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est sapiente aliquid accusantium unde alias error cumque possimus exercitationem rem rerum?</P>
-          <nav class="navbar ml-search">
+          <!-- <nav class="navbar ml-search">
             <form class="form-inline">
               <input class="form-control" type="search" placeholder="Enter Your Name Here" aria-label="Search">
               <button class="btn" type="submit">Search</button>
             </form>
-          </nav>
-          <div class="ml-lists">
+          </nav> -->
+          <!-- <div class="ml-lists">
             <table>
               <thead>
                 <tr>
@@ -296,7 +364,7 @@ function content_5da07c2d913689_08985285 (Smarty_Internal_Template $_smarty_tpl)
                 <li class="page-item"><a class="page-link" href="#">5</a></li>
               </ul>
             </nav>
-          </div>
+          </div> -->
           <div class="ml-download">
             <p>Merit List for <u>BE Management Quota Admission 2019-20</u></p>
             <button class="btn" type="submit">Download</button>
@@ -304,7 +372,7 @@ function content_5da07c2d913689_08985285 (Smarty_Internal_Template $_smarty_tpl)
         </div>
 
         <!-- FAQs -->
-        <div id="faq">
+        <div id="faq" class="scroll-start4">
           <p class="faq-title">Frequntly Asked Question (FAQs)</p>
           <div class="accordion" id="accordionExample">
             <div class="card">
@@ -391,13 +459,35 @@ function content_5da07c2d913689_08985285 (Smarty_Internal_Template $_smarty_tpl)
 >
     <?php echo '<script'; ?>
  src="<?php echo URLROOT;?>
-/js/scroll.js"><?php echo '</script'; ?>
+/node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
  src="<?php echo URLROOT;?>
+/node_modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ type="module"  src="<?php echo URLROOT;?>
+/node_modules/gsap/all.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ type="module" src="<?php echo URLROOT;?>
+/js/scroll.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ type="text/javascript" src="<?php echo URLROOT;?>
+/js/backtotop.js"><?php echo '</script'; ?>
+>
+     <?php echo '<script'; ?>
+ src="<?php echo URLROOT;?>
 /node_modules/bootstrap/dist/js/bootstrap.js"><?php echo '</script'; ?>
 >
-   
+    <?php echo '<script'; ?>
+ src="https://kit.fontawesome.com/dbc30cce47.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="<?php echo URLROOT;?>
+/js/header.js"><?php echo '</script'; ?>
+>
 </body>
 </html><?php }
 }

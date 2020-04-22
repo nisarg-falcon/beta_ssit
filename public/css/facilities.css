@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display|Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
 /* media queries for layout grid,flex,etc 
 
 small devices: 600px
@@ -47,7 +49,7 @@ body {
 }
 
 body .header-section {
-  height: 80vh;
+  height: 78vh;
 }
 
 @media (max-width: 600px) {
@@ -63,7 +65,7 @@ body .header-section .media-container {
   bottom: 0;
   margin: 0 !important;
   padding: 0 !important;
-  height: 80vh;
+  height: 78vh;
 }
 
 @media (max-width: 600px) {
@@ -76,8 +78,7 @@ body .header-section .media-container .video1 {
   margin: 0 !important;
   padding: 0 !important;
   height: calc(100% + 1px);
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 body #labs {
@@ -123,16 +124,14 @@ body #labs .labs-image figure {
   margin: 0;
   width: 500%;
   position: relative;
-  -webkit-animation: slider 20s infinite linear;
-          animation: slider 20s infinite linear;
+  animation: slider 20s infinite linear;
 }
 
 body #labs .labs-image figure img {
   width: 20%;
   float: left;
   height: 50vh;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 body #labs .labs-info {
@@ -145,39 +144,6 @@ body #labs .labs-info {
 @media (max-width: 600px) {
   body #labs .labs-info {
     padding: 1rem;
-  }
-}
-
-@-webkit-keyframes slider {
-  0% {
-    left: 0;
-  }
-  15% {
-    left: 0;
-  }
-  20% {
-    left: -100%;
-  }
-  35% {
-    left: -100%;
-  }
-  40% {
-    left: -200%;
-  }
-  55% {
-    left: -200%;
-  }
-  60% {
-    left: -300%;
-  }
-  75% {
-    left: -300%;
-  }
-  80% {
-    left: -400%;
-  }
-  95% {
-    left: -400%;
   }
 }
 
@@ -224,6 +190,13 @@ body #hostel .hostel-facility {
   height: 85vh;
   overflow: hidden;
   background-size: contain;
+}
+
+body #hostel .hostel-facility .content {
+  width: fit-content;
+  padding: 10px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 body #library {
@@ -283,8 +256,7 @@ body #library .lib-facilities .navbar .inner-nav ul li .nav-link {
 body #library .lib-facilities img {
   height: 70vh;
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 body #library .lib-facilities .labs-image {
@@ -298,16 +270,14 @@ body #library .lib-facilities .labs-image figure {
   margin: 0;
   width: 500%;
   position: relative;
-  -webkit-animation: slider 20s infinite linear;
-          animation: slider 20s infinite linear;
+  animation: slider 20s infinite linear;
 }
 
 body #library .lib-facilities .labs-image figure img {
   width: 20%;
   float: left;
   height: 70vh;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 @keyframes slider {
@@ -380,48 +350,30 @@ body #club .department-links {
 }
 
 body #club .department-links .link-grd {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 30% 70%;
-      grid-template-columns: 30% 70%;
-  -ms-grid-rows: auto;
-      grid-template-rows: auto;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: auto;
 }
 
 @media (max-width: 600px) {
   body #club .department-links .link-grd {
-    -ms-grid-columns: auto;
-        grid-template-columns: auto;
-    -ms-grid-rows: (auto)[2];
-        grid-template-rows: repeat(2, auto);
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2, auto);
   }
 }
 
 body #club .department-links .link-grd .link-cont {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   color: #fff;
   background: #111;
 }
 
 body #club .department-links .link-grd .link-cont .link-cont-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   cursor: pointer;
   position: relative;
   padding: 1.5rem 3rem;
@@ -430,8 +382,6 @@ body #club .department-links .link-grd .link-cont .link-cont-item {
 @media (max-width: 600px) {
   body #club .department-links .link-grd .link-cont .link-cont-item {
     padding: 1rem 0.7rem;
-    width: -webkit-max-content;
-    width: -moz-max-content;
     width: max-content;
   }
 }
@@ -450,8 +400,7 @@ body #club .department-links .link-grd .link-cont .link-cont-item a {
 
 @media (max-width: 600px) {
   body #club .department-links .link-grd .link-cont .link-cont-item span i {
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
+    transform: rotate(90deg);
   }
 }
 
@@ -487,15 +436,9 @@ body #club .department-links .link-grd .content-wrapper {
 
 body #club .department-links .link-grd .content-wrapper .content {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   width: 100%;
-  -webkit-transition: .5s;
   transition: .5s;
   height: 2400px;
 }
@@ -503,21 +446,14 @@ body #club .department-links .link-grd .content-wrapper .content {
 body #club .department-links .link-grd .content-wrapper .content .staff-content {
   height: 600px;
   max-width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 @media (max-width: 600px) {
   body #club .department-links .link-grd .content-wrapper .content .staff-content {
-    display: -ms-grid;
     display: grid;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
 }
 
@@ -560,8 +496,6 @@ body #ground .carousel-inner {
     height: 100%;
   }
   body #labs .labs-info #topic-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     margin: 15px;
   }

@@ -6,7 +6,7 @@ $background-color: #e9e2e2;
 body {
     background: #ccc;
     .header-section{
-        height: 80vh;
+        height: 78vh;
         @include responsive-content(smd){
             height: 55vh
         }
@@ -17,7 +17,7 @@ body {
             bottom:0;
             margin: 0 !important;
             padding: 0 !important;
-            height: 80vh;
+            height: 78vh;
             @include responsive-content(smd){
                 height: 55vh
             }
@@ -114,7 +114,6 @@ body {
             left: -400%;
         }    
     }
-
     #hostel {
         margin: 15px 0;
         padding: 15px;
@@ -123,9 +122,14 @@ body {
             height: 85vh;
             overflow: hidden;
             background-size: contain;
+            .content{
+                width: fit-content;
+                padding: 10px;
+                color: #fff;
+                background: rgba(0, 0, 0, 0.7);
+            }            
         }
     }
-
     #library{
         margin: 15px 0;
         padding: 15px;

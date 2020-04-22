@@ -1,0 +1,584 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display|Roboto&display=swap");
+/* media queries for layout grid,flex,etc 
+
+small devices: 600px
+keyword: smd
+
+medium devices: 768px
+mobiles specification
+keyword: mobile
+
+
+large devices: 992px
+tablets specification
+keyword: tablet
+
+extra large devices: 1200px
+desktops and laptops specification
+keyword: desktop
+
+
+exceptional devices: 1800px
+tv's and wide desktops specification
+keyword: exd
+*/
+/* media queries for content images,fonts,etc. 
+
+small devices: 600px
+
+medium devices: 768px
+mobiles specification
+
+
+
+large devices: 992px
+tablets specification
+
+
+extra large devices: 1200px
+desktops and laptops specification
+
+exceptional devices: 1800px
+tv's and wide desktops specification
+
+*/
+body {
+  background: #ccc;
+}
+
+body .header-section {
+  height: 80vh;
+}
+
+@media (max-width: 600px) {
+  body .header-section {
+    height: 55vh;
+  }
+}
+
+body .header-section .media-container {
+  z-index: 9000;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 80vh;
+}
+
+@media (max-width: 600px) {
+  body .header-section .media-container {
+    height: 55vh;
+  }
+}
+
+body .header-section .media-container .video1 {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: calc(100% + 1px);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body #labs {
+  margin: 15px 0;
+  padding: 15px;
+  background: #e9e2e2;
+}
+
+body #labs .navbar {
+  border: none;
+  padding: 0.5rem 0;
+  background: #fff;
+}
+
+@media (max-width: 600px) {
+  body #labs .navbar {
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  body #labs .navbar {
+    padding: 0.5rem;
+  }
+}
+
+body #labs .navbar .inner-nav ul {
+  width: 100% !important;
+}
+
+body #labs .navbar .inner-nav ul li .nav-link {
+  color: black !important;
+}
+
+body #labs .labs-image {
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+}
+
+body #labs .labs-image figure {
+  left: 0;
+  margin: 0;
+  width: 500%;
+  position: relative;
+  -webkit-animation: slider 20s infinite linear;
+          animation: slider 20s infinite linear;
+}
+
+body #labs .labs-image figure img {
+  width: 20%;
+  float: left;
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body #labs .labs-info {
+  padding: 1.5rem;
+  padding-bottom: 0.3rem;
+  background: #fff;
+  text-align: justify;
+}
+
+@media (max-width: 600px) {
+  body #labs .labs-info {
+    padding: 1rem;
+  }
+}
+
+@-webkit-keyframes slider {
+  0% {
+    left: 0;
+  }
+  15% {
+    left: 0;
+  }
+  20% {
+    left: -100%;
+  }
+  35% {
+    left: -100%;
+  }
+  40% {
+    left: -200%;
+  }
+  55% {
+    left: -200%;
+  }
+  60% {
+    left: -300%;
+  }
+  75% {
+    left: -300%;
+  }
+  80% {
+    left: -400%;
+  }
+  95% {
+    left: -400%;
+  }
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  15% {
+    left: 0;
+  }
+  20% {
+    left: -100%;
+  }
+  35% {
+    left: -100%;
+  }
+  40% {
+    left: -200%;
+  }
+  55% {
+    left: -200%;
+  }
+  60% {
+    left: -300%;
+  }
+  75% {
+    left: -300%;
+  }
+  80% {
+    left: -400%;
+  }
+  95% {
+    left: -400%;
+  }
+}
+
+body #hostel {
+  margin: 15px 0;
+  padding: 15px;
+  background: #e9e2e2;
+}
+
+body #hostel .hostel-facility {
+  height: 85vh;
+  overflow: hidden;
+  background-size: contain;
+}
+
+body #library {
+  margin: 15px 0;
+  padding: 15px;
+  background: #e9e2e2;
+}
+
+body #library .card-body {
+  text-align: justify;
+  padding: 3rem 4rem;
+}
+
+@media (max-width: 600px) {
+  body #library .card-body {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  body #library .card-body {
+    padding: 1rem;
+  }
+}
+
+body #library .lib-facilities {
+  margin: 15px 0;
+  margin-bottom: 0;
+}
+
+body #library .lib-facilities .navbar {
+  border: none;
+  background: #fff;
+  padding: 0.5rem 0;
+}
+
+@media (max-width: 600px) {
+  body #library .lib-facilities .navbar {
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  body #library .lib-facilities .navbar {
+    padding: 0.5rem;
+  }
+}
+
+body #library .lib-facilities .navbar .inner-nav ul {
+  width: 100% !important;
+}
+
+body #library .lib-facilities .navbar .inner-nav ul li .nav-link {
+  color: black !important;
+}
+
+body #library .lib-facilities img {
+  height: 70vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body #library .lib-facilities .labs-image {
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+}
+
+body #library .lib-facilities .labs-image figure {
+  left: 0;
+  margin: 0;
+  width: 500%;
+  position: relative;
+  -webkit-animation: slider 20s infinite linear;
+          animation: slider 20s infinite linear;
+}
+
+body #library .lib-facilities .labs-image figure img {
+  width: 20%;
+  float: left;
+  height: 70vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  15% {
+    left: 0;
+  }
+  20% {
+    left: -100%;
+  }
+  35% {
+    left: -100%;
+  }
+  40% {
+    left: -200%;
+  }
+  55% {
+    left: -200%;
+  }
+  60% {
+    left: -300%;
+  }
+  75% {
+    left: -300%;
+  }
+  80% {
+    left: -400%;
+  }
+  95% {
+    left: -400%;
+  }
+}
+
+body #library .lib-facilities .lib-facility-detail {
+  padding: 1.5rem;
+  background: #fff;
+  padding-bottom: 0.3rem;
+}
+
+@media (max-width: 600px) {
+  body #library .lib-facilities .lib-facility-detail {
+    padding: 1rem;
+  }
+}
+
+body #library .lib-facilities .lib-facility-detail blockquote {
+  text-align: justify;
+}
+
+body #canteen {
+  margin: 15px 0;
+  padding: 15px;
+  background: #e9e2e2;
+}
+
+body #canteen .carousel-inner {
+  height: 81vh;
+}
+
+body #club {
+  margin: 15px 0;
+  padding: 15px;
+  background: #e9e2e2;
+}
+
+body #club .department-links {
+  background: #fff;
+}
+
+body #club .department-links .link-grd {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 70%;
+      grid-template-columns: 30% 70%;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+}
+
+@media (max-width: 600px) {
+  body #club .department-links .link-grd {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -ms-grid-rows: (auto)[2];
+        grid-template-rows: repeat(2, auto);
+  }
+}
+
+body #club .department-links .link-grd .link-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  background: #111;
+}
+
+body #club .department-links .link-grd .link-cont .link-cont-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  position: relative;
+  padding: 1.5rem 3rem;
+}
+
+@media (max-width: 600px) {
+  body #club .department-links .link-grd .link-cont .link-cont-item {
+    padding: 1rem 0.7rem;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+}
+
+body #club .department-links .link-grd .link-cont .link-cont-item a {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+@media (max-width: 600px) {
+  body #club .department-links .link-grd .link-cont .link-cont-item a {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  body #club .department-links .link-grd .link-cont .link-cont-item span i {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+}
+
+body #club .department-links .link-grd .link-cont .link-cont-item::after {
+  content: '';
+  height: 1px;
+  background: #ccc;
+  width: 70%;
+  position: absolute;
+  bottom: 0;
+}
+
+@media (max-width: 600px) {
+  body #club .department-links .link-grd .link-cont .link-cont-item::after {
+    display: none;
+  }
+}
+
+body #club .department-links .link-grd .link-cont .link-cont-item:hover {
+  background: #ccc;
+  color: #111;
+}
+
+body #club .department-links .link-grd .content-wrapper {
+  overflow-y: scroll;
+  padding: 1rem;
+  position: relative;
+  height: 600px;
+  max-width: 100%;
+  color: #111;
+  background: #fff;
+}
+
+body #club .department-links .link-grd .content-wrapper .content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-transition: .5s;
+  transition: .5s;
+  height: 2400px;
+}
+
+body #club .department-links .link-grd .content-wrapper .content .staff-content {
+  height: 600px;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 600px) {
+  body #club .department-links .link-grd .content-wrapper .content .staff-content {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+body #club .department-links .link-grd .content-wrapper .content .staff-content img {
+  padding: 1rem;
+}
+
+@media (max-width: 600px) {
+  body #club .department-links .link-grd .content-wrapper .content .staff-content img {
+    margin: 0 auto;
+  }
+}
+
+body #club .department-links .link-grd .content-wrapper .content .staff-content blockquote {
+  text-indent: 100px;
+  padding: 1rem;
+  text-align: justify;
+}
+
+body #club .department-links .link-grd .content-wrapper .content .staff-content:nth-child(odd) {
+  background: #fff;
+}
+
+body #club .department-links .link-grd .content-wrapper .content .staff-content:nth-child(even) {
+  background: #ccc;
+}
+
+body #ground {
+  margin: 15px 0;
+  padding: 15px;
+  background: #e9e2e2;
+}
+
+body #ground .carousel-inner {
+  height: 80vh;
+}
+
+@media (max-width: 768px) {
+  body #labs .labs-image {
+    height: 100%;
+  }
+  body #labs .labs-info #topic-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 15px;
+  }
+  body #labs .labs-info .labs-details {
+    height: 30vh;
+  }
+  body #hostel .hostel-facility {
+    height: 100%;
+  }
+  body #canteen .carousel-inner {
+    height: 100%;
+  }
+  body #parking .carousel-inner {
+    height: 100%;
+  }
+  body #ground .carousel-inner {
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=facilities.css.map */
