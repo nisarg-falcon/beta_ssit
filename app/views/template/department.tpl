@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+     <link rel="icon" href="{URLROOT}/img/logo.png">
+    <title>SSIT | Departments</title>
     <link rel="stylesheet" href="{URLROOT}/css/header.css">
     <link rel="stylesheet" href="{URLROOT}/css/department.css">
     <link rel="stylesheet" href="{URLROOT}/css/footer.css">
