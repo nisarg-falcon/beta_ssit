@@ -3,11 +3,7 @@
    
     
     public function index(){
-      $data = [
-        'title' => 'TraversyMVC',
-      ];
-     
-    $this->view('php/index', $data);
+      $this->view('php/index');
     }   
     public function department(){
       $this->view('php/department');

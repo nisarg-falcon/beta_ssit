@@ -101,19 +101,19 @@ body{
         z-index: 9904;
         background: #111;
         height: 10vh;
-        @include responsive-content(smd){
+        @include responsive-content(mobile){
             height: auto;
         }
         .navbar{
             height: 100%;
-            @include responsive-content(smd){
+            @include responsive-content(mobile){
                 height: auto;
             }
         }
         .outer-nav{
             justify-content: flex-end;
             .navbar-toggler{
-                @include responsive-content(smd){
+                @include responsive-content(mobile){
                     display: flex;
                 }   
                 border: 1px solid #fff;

@@ -1,7 +1,6 @@
 <?php
     $smarty = new Smarty();
     $nav3_data = [
-        'item0' => array('all'=>'all'),
         'item1' => array("civil" => "civil"),
         'item2' => array("computer" => "computer"),
         'item3' => array("electrical" => "electrical"),

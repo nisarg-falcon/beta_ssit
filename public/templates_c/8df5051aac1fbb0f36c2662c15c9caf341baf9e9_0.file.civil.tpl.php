@@ -1,9 +1,48 @@
-{block name="civil"}
+<?php
+/* Smarty version 3.1.33, created on 2020-04-24 14:41:43
+  from 'C:\xampp\htdocs\ssit\app\views\template\department\civil.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.33',
+  'unifunc' => 'content_5ea2de87b58387_74147507',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '8df5051aac1fbb0f36c2662c15c9caf341baf9e9' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\ssit\\app\\views\\template\\department\\civil.tpl',
+      1 => 1587731548,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5ea2de87b58387_74147507 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->_loadInheritance();
+$_smarty_tpl->inheritance->init($_smarty_tpl, false);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_13093418485ea2de87b56747_98860890', "civil");
+}
+/* {block "civil"} */
+class Block_13093418485ea2de87b56747_98860890 extends Smarty_Internal_Block
+{
+public $subBlocks = array (
+  'civil' => 
+  array (
+    0 => 'Block_13093418485ea2de87b56747_98860890',
+  ),
+);
+public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
+?>
+
    <div id="civil" class="department">
         <div class="department-cont">
             <div class="cont-grd">
                 <div class="department-img-cont">
-                    <img src='{URLROOT}/img/img2.jpg' class="department-img">
+                    <img src='<?php echo URLROOT;?>
+/img/img2.jpg' class="department-img">
                 </div>
                 <div class="department-txt-cont">
                     <div class="heading">
@@ -40,42 +79,48 @@
                             <div class="staff-content">
                                     <div class="staff-img-wrapper">
                                        <div class="staff-info">
-                                            <img src="{URLROOT}/img/img2.jpg" class="staff-img1">
+                                            <img src="<?php echo URLROOT;?>
+/img/img2.jpg" class="staff-img1">
                                            <div class="info">
                                                 <a>Name</a>
                                                 <a>Staff</a>
                                            </div>
                                        </div>
                                        <div class="staff-info">
-                                            <img src="{URLROOT}/img/img2.jpg" class="staff-img1">
+                                            <img src="<?php echo URLROOT;?>
+/img/img2.jpg" class="staff-img1">
                                             <div class="info">
                                                     <a>Name</a>
                                                     <a>Staff</a>
                                                </div>
                                        </div>
                                        <div class="staff-info">
-                                            <img src="{URLROOT}/img/img2.jpg" class="staff-img1">
+                                            <img src="<?php echo URLROOT;?>
+/img/img2.jpg" class="staff-img1">
                                             <div class="info">
                                                     <a>Name</a>
                                                     <a>Staff</a>
                                                </div>
                                        </div>
                                        <div class="staff-info">
-                                            <img src="{URLROOT}/img/img2.jpg" class="staff-img1">
+                                            <img src="<?php echo URLROOT;?>
+/img/img2.jpg" class="staff-img1">
                                             <div class="info">
                                                     <a>Name</a>
                                                     <a>Staff</a>
                                                </div>
                                        </div>
                                        <div class="staff-info">
-                                            <img src="{URLROOT}/img/img2.jpg" class="staff-img1">
+                                            <img src="<?php echo URLROOT;?>
+/img/img2.jpg" class="staff-img1">
                                             <div class="info">
                                                     <a>Name</a>
                                                     <a>Staff</a>
                                                </div>
                                        </div>
                                        <div class="staff-info">
-                                            <img src="{URLROOT}/img/img2.jpg" class="staff-img1">
+                                            <img src="<?php echo URLROOT;?>
+/img/img2.jpg" class="staff-img1">
                                             <div class="info">
                                                     <a>Name</a>
                                                     <a>Staff</a>
@@ -90,13 +135,16 @@
                                             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                                 <div class="carousel-inner">
                                                     <div class="carousel-item active">
-                                                    <img class="d-block w-100" src="{URLROOT}/img/img2.jpg" alt="First slide">
+                                                    <img class="d-block w-100" src="<?php echo URLROOT;?>
+/img/img2.jpg" alt="First slide">
                                                     </div>
                                                     <div class="carousel-item">
-                                                    <img class="d-block w-100" src="{URLROOT}/img/img2.jpg" alt="Second slide">
+                                                    <img class="d-block w-100" src="<?php echo URLROOT;?>
+/img/img2.jpg" alt="Second slide">
                                                     </div>
                                                     <div class="carousel-item">
-                                                    <img class="d-block w-100" src="{URLROOT}/img/img2.jpg" alt="Third slide">
+                                                    <img class="d-block w-100" src="<?php echo URLROOT;?>
+/img/img2.jpg" alt="Third slide">
                                                     </div>
                                                 </div>
                                                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -121,7 +169,8 @@
                                             <div class="event-crd">
                                                 
                                                     <div class="crd-img">
-                                                         <img src="{URLROOT}/img/img2.jpg">
+                                                         <img src="<?php echo URLROOT;?>
+/img/img2.jpg">
                                                     </div> 
                                                     <div class="crd-txt">
                                                         <a>Card title</a>
@@ -139,7 +188,8 @@
                                             <div class="event-crd">
                                                 
                                                     <div class="crd-img">
-                                                         <img src="{URLROOT}/img/img2.jpg">
+                                                         <img src="<?php echo URLROOT;?>
+/img/img2.jpg">
                                                     </div> 
                                                     <div class="crd-txt">
                                                         <a>Card title</a>
@@ -157,7 +207,8 @@
                                             <div class="event-crd">
                                                 
                                                     <div class="crd-img">
-                                                         <img src="{URLROOT}/img/img2.jpg">
+                                                         <img src="<?php echo URLROOT;?>
+/img/img2.jpg">
                                                     </div> 
                                                     <div class="crd-txt">
                                                         <a>Card title</a>
@@ -179,4 +230,8 @@
             </div>
         </div>
    </div>
-{/block}
+<?php
+}
+}
+/* {/block "civil"} */
+}

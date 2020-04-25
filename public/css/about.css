@@ -78,7 +78,8 @@ body .header-section .media-container .video1 {
   margin: 0 !important;
   padding: 0 !important;
   height: calc(100% + 1px);
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 body #why-ssit {
