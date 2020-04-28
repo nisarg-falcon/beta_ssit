@@ -7,7 +7,7 @@
         'item2' => array("director's message" => "director"),
         'item3' => array("About Institute" => "institute"),
         'item4' => array("EVENTS" => "events"),
-        'item5' => array("Experience at SSIT" => "experience"),
+        'item5' => array("Social Presence" => "socialmedia"),
         'item6' => array("Gallery" => "gallery")
     ];
     $get_departments = "SELECT name from departments;";

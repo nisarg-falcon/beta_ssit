@@ -100,6 +100,7 @@ body{
         top: 0;
         z-index: 9904;
         background: #111;
+        box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
         height: 10vh;
         @include responsive-content(mobile){
             height: auto;

@@ -44,3 +44,13 @@ $(document).ready(function(){
         }
     });
 });
+
+var swiper = new Swiper('.swiper-container', {
+    
+    slidesPerView: 2,
+    spaceBetween: 10, 
+    // autoplay: {
+    //     delay: 1500,
+    //     disableOnInteraction: false,
+    // }
+});
