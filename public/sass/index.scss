@@ -256,7 +256,7 @@ body{
                     font-size: 28px;
                     font-weight: 500;
                     margin:0;
-                    padding: 15px 10px;
+                    padding: 15px;
                 }
             }
             p{
@@ -276,7 +276,7 @@ body{
                 }
                 @include responsive-content(smd){
                     font-family: $source-serif;
-                    padding: 0 10px;
+                    padding: 0 15px;
                     font-size: 18px;
                     font-weight: 100;
                     text-indent: 0px;
@@ -318,10 +318,15 @@ body{
                 @include responsive-content(smd){
                     height: auto;
                     width: 100%;
-                    padding: 1rem 10px;
+                    padding: 10px;
                     display: flex;
                     justify-content: center;
                 } 
+                .container{
+                    @include responsive-content(smd){
+                    padding: 0px 5px !important;
+                    }
+                }
                 .institute-name{
                     width: 50%;
                     display: flex;
@@ -380,8 +385,9 @@ body{
         }
     }
     #events{
+        overflow: hidden;
         background: $black;  
-        .course__container{          
+        .course__container{
             padding: 2rem 0;           
         }  
         h1{
@@ -390,20 +396,24 @@ body{
             letter-spacing: .7px;
             color: $yellow;
             font-family: $roboto-slab;
+            padding-left: 30px;
             @include responsive-content(smd){
                 font-size: 28px;
                 font-weight: 500;
-                padding-left: 0px;
             }
         }
         .swiper-container {
-            width: 100%;
-            height: 100%;
+            width: auto;
+            margin: 0px 30px;
             .swiper-wrapper{
+                height: auto;
                 .swiper-slide {
                     text-align: center;
                     font-size: 18px;
-              
+                    @include responsive-content(smd){
+                        width: 80% !important;
+                        margin-bottom: 1rem !important;
+                    }
                     /* Center slide text vertically */
                     display: -webkit-box;
                     display: -ms-flexbox;
@@ -417,31 +427,125 @@ body{
                     -ms-flex-align: center;
                     -webkit-align-items: center;
                     align-items: center;
-                    height: 500px;
+                    height: 350px;
+                    margin-bottom: 2rem !important;
                     img{
                         object-fit: cover;
-                        height: 500px;
+                        height: 100%;
+                        width: 100%;
                     }
                 }  
             }
         }              
     }
-    #experience{  
+    #socialmedia{
         background: $yellow;
+        ::-webkit-scrollbar {     
+            width: 5px;
+        }
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px ; 
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: $black; 
+            border-radius: 25px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #b30000; 
+        }
         .course__container{
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
+            justify-content: space-around;
             padding: 2rem 0;
-            @include responsive-content(mobile){
+            @include responsive-content(smd){
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
             }
-
+            @include responsive-content(mobile){
+                flex-direction: column !important;
+                justify-content: center;
+                align-items: center;
+            } 
+            @include responsive-content(tablet){
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .insta-container{
+                width: 40%;
+                height: auto;
+                @include responsive-content(smd){
+                    width: 90%;
+                    margin-bottom: 20px;
+                }
+            }
+            .facebook-container{
+                width: 40%;
+                height: auto;
+                @include responsive-content(smd){
+                    width: 90%;
+                }
+            }
+            .scroll{
+                height: 80vh;
+                overflow: hidden;
+                overflow-y: scroll;
+                @include responsive-content(smd){
+                    height: 70vh;                  
+                }
+            }
+            .container-heading{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: $white;
+                padding: 10px;
+                border-radius: 25px 25px 0 0;
+                border-bottom: 5px solid $black;
+                h1{
+                    font-size: 33px;
+                    font-weight: 600;
+                    letter-spacing: .7px;
+                    color: $black;
+                    font-family: $roboto-slab;
+                    padding: 0px 30px;
+                    margin: 0px;
+                    @include responsive-content(smd){
+                        font-size: 25px;
+                        font-weight: 500;
+                    }
+                    @include responsive-content(tablet){
+                        font-size: 20px;
+                        font-weight: 500;
+                    }
+                }
+                i{
+                    padding: 0px 30px;
+                    font-size: 33px;
+                    color: $black;
+                    @include responsive-content(smd){
+                        font-size: 25px;
+                    }
+                    @include responsive-content(tablet){
+                        font-size: 20px;
+                    }
+                }
+            }
+            .content-container{
+                background: $white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;                
+                padding: 20px;
+            }        
         }
     }
     #gallery{       
+        overflow: hidden;
         background: $black;
         .course__container{
             padding: 2rem 0;                     
@@ -452,39 +556,104 @@ body{
             letter-spacing: .7px;
             color: $yellow;
             font-family: $roboto-slab;
+            padding-left: 30px;
             @include responsive-content(smd){
                 font-size: 28px;
                 font-weight: 500;
-                padding-left: 0px;
             }
         }   
         .swiper-container {
-            width: 100%;
-            height: 100%;         
-            .swiper-slide {
-                text-align: center;
-                font-size: 18px;
-                   
-                /* Center slide text vertically */
-                display: -webkit-box;
-                display: -ms-flexbox;
-                display: -webkit-flex;
-                display: flex;
-                -webkit-box-pack: center;
-                -ms-flex-pack: center;
-                -webkit-justify-content: center;
-                justify-content: center;
-                -webkit-box-align: center;
-                -ms-flex-align: center;
-                -webkit-align-items: center;
-                align-items: center;
-                height: 500px;
-                img{
-                    object-fit: cover;
-                    height: 500px;
-                }                    
+            width: auto;
+            margin: 0px 30px;  
+            .swiper-wrapper{
+                height: auto;
+                .swiper-slide {
+                    text-align: center;
+                    font-size: 18px;
+                    @include responsive-content(smd){
+                        width: 80% !important;
+                        margin-bottom: 1rem !important;
+                    }
+                    /* Center slide text vertically */
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: -webkit-flex;
+                    display: flex;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                    -webkit-justify-content: center;
+                    justify-content: center;
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    -webkit-align-items: center;
+                    align-items: center;
+                    height: 350px;
+                    margin-bottom: 2rem !important;
+                    img{
+                        object-fit: cover;
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
             }  
         }                         
+    }
+    .placement{
+        height: auto;    
+        padding: 3rem 0;                     
+        overflow: hidden;
+        background: $light-grey;
+        h1{
+            font-size: 33px;
+            font-weight: 600;
+            letter-spacing: .7px;
+            color: $black;
+            font-family: $roboto-slab;
+            margin-bottom: 20px;
+            text-align: center;
+            @include responsive-content(smd){
+                font-size: 28px;
+                font-weight: 500;
+            }
+        } 
+        .placement-swiper-container {
+            width: 100%;
+            margin: 0px 30px;
+            overflow: hidden;
+            .swiper-wrapper{
+                height: 155px;
+                .swiper-slide {
+                    text-align: center;
+                    font-size: 18px;
+                    @include responsive-content(smd){
+                        width: 80% !important;
+                        margin-bottom: 1rem !important;
+                    }
+                    /* Center slide text vertically */
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: -webkit-flex;
+                    display: flex;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                    -webkit-justify-content: center;
+                    justify-content: center;
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    -webkit-align-items: center;
+                    align-items: center;
+                    margin-bottom: 2rem !important;
+                    background: $white;
+                    img{
+                        padding: 10px;
+                        object-fit: contain;
+                        height: 150px;
+                        width: 200px;
+                        background: $white;
+                    }
+                }  
+            }
+        }   
     }
 }
 @media screen and (max-width: 768px){

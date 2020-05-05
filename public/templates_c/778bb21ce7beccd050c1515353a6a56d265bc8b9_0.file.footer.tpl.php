@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-10-11 13:55:09
+/* Smarty version 3.1.33, created on 2020-04-27 19:51:43
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\includes\footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5da06d9d5f17a2_40935336',
+  'unifunc' => 'content_5ea71baf4ac2e8_81431711',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '778bb21ce7beccd050c1515353a6a56d265bc8b9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\includes\\footer.tpl',
-      1 => 1570794904,
+      1 => 1588009900,
       2 => 'file',
     ),
   ),
@@ -20,11 +20,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5da06d9d5f17a2_40935336 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ea71baf4ac2e8_81431711 (Smarty_Internal_Template $_smarty_tpl) {
 ?><footer class="bg-dark">
     <div class="container-fluid">
-        <div class="container-fluid clg-name text-center pt-md-4">
-            <a>Shree swaminarayan institute of technology</a>
+        <div class="container-fluid clg-name">
+            <h1>Shree swaminarayan institute of technology</h1>
         </div>
         <div class="footer-data mt-md-3 py-md-3" >
             <div class="footer-map-cont d-flex justify-content-center" id="map">
@@ -35,34 +35,38 @@ function content_5da06d9d5f17a2_40935336 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="gtu-reference">
                         <ul class="list-group "> 
                             <li class="list-group-item"><a>Importants Links</a></li>
-                            <li class="list-group-item">&nbsp; ACPC</li>
-                            <li class="list-group-item">&nbsp; AICTE</li>
-                            <li class="list-group-item">&nbsp; FRC</li>
-                            <li class="list-group-item">&nbsp; MYSY</li>
-                            <li class="list-group-item">&nbsp; GTU</li>
-                            <li class="list-group-item">&nbsp; RESULT</li>
+                            <li class="list-group-item">&nbsp; <a href="http://www.jacpcldce.ac.in/" target="_blank">ACPC</a></li>
+                            <li class="list-group-item">&nbsp; <a href="https://www.aicte-india.org/" target="_blank">AICTE</li>
+                            <li class="list-group-item">&nbsp; <a href="http://www.frctech.ac.in/" target="_blank">FRC</a></li>
+                            <li class="list-group-item">&nbsp; <a href="https://mysy.guj.nic.in/" target="_blank">MYSY</a></li>
+                            <li class="list-group-item">&nbsp; <a href="https://www.gtu.ac.in/" target="_blank">GTU</a></li>
+                            <li class="list-group-item">&nbsp; <a href="https://www.gtu.ac.in/result.aspx" target="_blank">RESULT</a></li>
                         </ul>
                     </div>
                     <div class="college-reference ">
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><a>Quick Links</a></li>
-                            <li class="list-group-item"> &nbsp; About</li>
-                            <li class="list-group-item"> &nbsp; Contact</li>
-                            <li class="list-group-item"> &nbsp; Library</li>
-                            <li class="list-group-item"> &nbsp; OSTC Club</li>
-                            <li class="list-group-item"> &nbsp; Upcoming Events</li>
-                            <li class="list-group-item"> &nbsp; GTU Hackathon 2019</li>
+                            <li class="list-group-item"> &nbsp; <a href="<?php echo URLROOT;?>
+/pages/about">About</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="<?php echo URLROOT;?>
+/pages/about#contact">Contact</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="<?php echo URLROOT;?>
+/pages/facilities#library">Library</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="<?php echo URLROOT;?>
+/pages/facilities#club">OSTC Club</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="#">Upcoming Events</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="#">GTU Hackathon 2019</a></li>
                         </ul>
                     </div>
                     <div class="syllabus-reference ">
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><a>Syllabus</a></li>
-                            <li class="list-group-item"> &nbsp; Civil</li>
-                            <li class="list-group-item"> &nbsp; Computer</li>
-                            <li class="list-group-item"> &nbsp; Electrical</li>
-                            <li class="list-group-item"> &nbsp; E.C.</li>
-                            <li class="list-group-item"> &nbsp; Mechanical</li>
-                            <li class="list-group-item"> &nbsp; MCA</li>
+                            <li class="list-group-item"> &nbsp; <a href="https://www.gtu.ac.in/searchpages.aspx" target="_blank">Civil</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="https://www.gtu.ac.in/searchpages.aspx" target="_blank">Computer</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="https://www.gtu.ac.in/searchpages.aspx" target="_blank">Electrical</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="https://www.gtu.ac.in/searchpages.aspx" target="_blank">E.C.</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="https://www.gtu.ac.in/searchpages.aspx" target="_blank">Mechanical</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="https://www.gtu.ac.in/searchpages.aspx" target="_blank">MCA</a></li>
                         </ul>
                     </div>
                 </div>
@@ -70,17 +74,19 @@ function content_5da06d9d5f17a2_40935336 (Smarty_Internal_Template $_smarty_tpl)
             </div>
             
         </div>
-        <div>
-                <div class="social-cont py-2">
-                    <div class="social-icons">
-                        <ul class="nav navbar-nav navbar-expand-sm justify-content-center">
-                            <li class="navbar-item px-2"><i class="fab fa-facebook-f"></i></li>
-                            <li class="navbar-item px-2"><i class="fab fa-youtube"></i></li>
-                        </ul>
+        <div>               
+                <div class="copyright d-flex justify-content-around flex-md-row py-2">
+                    <div class="social-cont py-2">
+                        <div class="social-icons">
+                            <ul class="nav navbar-nav navbar-expand-sm justify-content-center">
+                                <a href="https://www.facebook.com/ssit.gandhinagar" target="_blank"><li class="navbar-item px-2"><i class="fab fa-facebook-f"></i></li></a>
+                                <a href="https://www.youtube.com/channel/UC2s9v4RsZJBDcwoJFoiV2rQ/" target="_blank"><li class="navbar-item px-2"><i class="fab fa-youtube"></i></li></a>
+                                <a href="https://www.instagram.com/ssit.gandhinagar/" target="_blank"><li class="navbar-item px-2"><i class="fab fa-instagram"></i></li></a>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="copyright d-flex justify-content-center py-2">
-                    <a href="" class="py-md-3">&copy; 2019 | Shree Swaminarayan Institute of Technology </a>
+                    <a href="<?php echo URLROOT;?>
+" class="py-md-3">&copy; 2019 | Shree Swaminarayan Institute of Technology </a>
                     <a>Designed By Falcon Developers</a>
                 </div>
             </div>
