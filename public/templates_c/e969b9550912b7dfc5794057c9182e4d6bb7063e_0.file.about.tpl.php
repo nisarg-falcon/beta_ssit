@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-04-17 16:13:00
+/* Smarty version 3.1.33, created on 2020-05-10 20:46:04
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\about.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5e99b96cd10552_31511174',
+  'unifunc' => 'content_5eb84bec0a7321_75191413',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e969b9550912b7dfc5794057c9182e4d6bb7063e' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\about.tpl',
-      1 => 1587132744,
+      1 => 1589134636,
       2 => 'file',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5e99b96cd10552_31511174 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5eb84bec0a7321_75191413 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,7 +38,8 @@ function content_5e99b96cd10552_31511174 (Smarty_Internal_Template $_smarty_tpl)
     <link rel="stylesheet" href="<?php echo URLROOT;?>
 /css/about.css">
     <link rel="stylesheet" href="<?php echo URLROOT;?>
-/node_modules/bootstrap/dist/css/bootstrap.css">    
+/node_modules/bootstrap/dist/css/bootstrap.css">   
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <title>About us</title>
 </head>
 <body>
@@ -55,36 +56,68 @@ function content_5e99b96cd10552_31511174 (Smarty_Internal_Template $_smarty_tpl)
     </div>
     <?php $_smarty_tpl->_subTemplateRender("file:../template/includes/header3.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>    
-    <div class="container-fluid">
+    
+    <div>
+        <!-- <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button> -->
         <div id="why-ssit" class="scroll-start1">
-            <h1>Why SSIT ?</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis neque ratione assumenda atque officiis minima blanditiis iste soluta aliquam illo necessitatibus commodi sed repudiandae reprehenderit odio, illum vero labore voluptatibus!
-            Sunt atque laborum quibusdam quam, odio laboriosam quaerat voluptatum exercitationem maiores eligendi consequatur architecto facilis voluptatem amet inventore corrupti minus totam libero asperiores aliquid harum voluptate. Cum officia obcaecati numquam.
-            Minus eum sit assumenda, ducimus ullam unde nulla maxime ex asperiores amet doloribus esse nostrum odio alias quia mollitia quae eos voluptas ad quo corrupti. Temporibus amet culpa enim. Amet?
-            Deserunt veritatis numquam, modi, quas quisquam ex laudantium asperiores ullam laboriosam odit atque officia voluptatibus nobis perspiciatis quos. Deserunt at eos, nesciunt facere quia quae saepe pariatur quibusdam beatae qui?
-            Consequatur aliquid, placeat quis dignissimos excepturi dolore saepe. Atque qui dolorum nobis, nihil expedita beatae aperiam mollitia voluptates officia numquam neque voluptatum vitae alias dolor quam sequi? Consequuntur, quisquam libero?</p>
+            <div class="container course__container">
+                <h1>Why SSIT ?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis neque ratione assumenda atque officiis minima blanditiis iste soluta aliquam illo necessitatibus commodi sed repudiandae reprehenderit odio, illum vero labore voluptatibus!
+                Deserunt veritatis numquam, modi, quas quisquam ex laudantium asperiores ullam laboriosam odit atque officia voluptatibus nobis perspiciatis quos. Deserunt at eos, nesciunt facere quia quae saepe pariatur quibusdam beatae qui?
+            </div>
         </div>
         <div id="about-trust"  class="scroll-start2">
-            <h1>Satsang Siksha Prishad</h1>
-            <div class="row m-0">    
-                <div class="col-md-4 col-sm-12 bg-white pb-3">
-                    <img src="<?php echo URLROOT;?>
-/img/about-trust.jpg"  height="100%" class="card-img p-0 m-0" alt="...">
-                </div>
-                <div class="col-md-8 col-sm-12 p-0">
+            <div class="container course__container">    
+                <img src="<?php echo URLROOT;?>
+/img/about-trust.jpg" class="img-fluid" alt="...">
+                <div>
+                    <h1>Satsang Siksha Prishad</h1>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, cupiditate voluptatum voluptatem, nulla deleniti quasi numquam provident molestias culpa harum odio sapiente quam deserunt animi ipsa dolores dolore reiciendis! Totam.
                     Sint odio ex fuga, similique debitis animi placeat laborum, eveniet quis quae, consequuntur accusamus quisquam! Facere nisi dignissimos illo vitae officiis eum quasi nulla cum alias impedit? Provident, nesciunt atque.
-                    Non exercitationem vero animi nisi adipisci iste quidem consectetur facilis placeat maiores repudiandae cum, aperiam a. Praesentium temporibus sequi dignissimos placeat? Et veniam fugiat commodi est doloribus, quia deleniti eligendi!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolorem, accusantium provident non at dolorum eaque cum natus quidem deserunt commodi voluptas error aspernatur perspiciatis ullam deleniti aliquam porro sapiente!
-                    </p>           
+                    </p>
                 </div>
             </div>
         </div>
         <div id="ssit-family" class="scroll-start3">
             <h1>SSIT Family</h1>
-            <img src="<?php echo URLROOT;?>
-/img/ssit-family.jpg" class="card-img" height="100%">
         </div>
+        <div id="people-1">
+            <div class="container course__container">
+                <div class="people-image">
+                    <img src="<?php echo URLROOT;?>
+/img/shastri-swamiji.png" class="img-fluid" alt="...">
+                </div>
+                <div class="people-content">
+                    <h1>Shastri Swami Shree Hariprakashdasji</h1>
+                    <p><q>Shastri Swami Shree Hariprakashdasji, accolade a degree of M.A.Vedantacharya, is the Secretary Shree Satsang Shiksha Parishad, Gandhinagar. He has published well known Religious Granth (Text Book) of Shree Swaminarayan Sect. The main thrust is to "equip students to go on learning after graduation and to grow through their lives in professional and personal stature and in usefulness as citizens."</q></p>
+                </div>
+            </div>
+        </div>
+        <div id="people-2">
+            <div class="container course__container">
+                <div class="people-image">
+                    <img src="<?php echo URLROOT;?>
+/img/ram swamiji.png" class="card-img" alt="...">            
+                </div>
+                <div class="people-content">
+                    <h1>Shree Ramkrishan Swamiji</h1>
+                    <p><q>With the rapid advances in science and technology during the last few decades, computers and computing systems have risen to be the key technology supporting and expanding almost every area of life, from education and research, to commerce and entertainment. With the recent growth of networking systems—such as the global Internet system connecting millions of people engaged in business, education, and research—computing has become one of the most powerful aspects of progress in human life.</q></p>
+                </div>
+            </div>
+        </div>
+        <div id="people-3">
+            <div class="container course__container">
+                <div class="people-image">
+                    <img src="<?php echo URLROOT;?>
+/img/dharmeshsir.jpg" class="card-img" alt="...">    
+                </div>
+                <div class="people-content">
+                    <h1>Prof. Dharmesh N. Vandra</h1>
+                    <p><q>It is my privilege to welcome you to Shree Swaminarayan Institute of technology (SSIT),BHAT and invite you to explore the multidimensional facets of this Technical Institute using the official website. With the support of highly qualified faculty members and excellent infrastructure I hope we shall be able to continue to add to the intellectual and professional development of the country. Apart from academic activities, the co-curricular activities form important parts of the life of the students. This importance is well indicated in the spread of facilities at the SSIT campus.</q></p>
+                </div>
+            </div>
+        </div>
+
     </div>
     
     <?php $_smarty_tpl->_subTemplateRender("file:../template/includes/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
@@ -108,6 +141,10 @@ function content_5e99b96cd10552_31511174 (Smarty_Internal_Template $_smarty_tpl)
     <?php echo '<script'; ?>
  type="module" src="<?php echo URLROOT;?>
 /js/scroll.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ type="text/javascript" src="<?php echo URLROOT;?>
+/js/backtotop.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
  src="<?php echo URLROOT;?>

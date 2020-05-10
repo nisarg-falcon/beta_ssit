@@ -18,8 +18,8 @@
     public function activities(){
       $this->view('php/activities');
     } 
-    public function people(){
-      $this->view('php/people');
+    public function contact(){
+      $this->view('php/contact');
     } 
     public function about(){
       $this->view('php/about');

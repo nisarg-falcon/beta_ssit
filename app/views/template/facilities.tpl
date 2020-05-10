@@ -23,8 +23,8 @@
     {include file="../template/includes/header3.tpl"}    
 
     <!-- Facilities content start -->
-    <div>
-        
+    <div>        
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button>
         <!-- lab start -->
         <div class="scroll-start1" id="labs">
             <div class="container course__container">

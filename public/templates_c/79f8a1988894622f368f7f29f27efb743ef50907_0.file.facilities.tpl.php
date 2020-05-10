@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-05 10:03:46
+/* Smarty version 3.1.33, created on 2020-05-10 20:35:08
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\facilities.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5eb11de2aba0e9_88164592',
+  'unifunc' => 'content_5eb8495c9286c5_92280121',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '79f8a1988894622f368f7f29f27efb743ef50907' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\facilities.tpl',
-      1 => 1588665823,
+      1 => 1589135702,
       2 => 'file',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5eb11de2aba0e9_88164592 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5eb8495c9286c5_92280121 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -58,8 +58,8 @@ function content_5eb11de2aba0e9_88164592 (Smarty_Internal_Template $_smarty_tpl)
 ?>    
 
     <!-- Facilities content start -->
-    <div>
-        
+    <div>        
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button>
         <!-- lab start -->
         <div class="scroll-start1" id="labs">
             <div class="container course__container">
