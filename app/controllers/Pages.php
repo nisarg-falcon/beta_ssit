@@ -5,8 +5,9 @@
     public function index(){
       $this->view('php/index');
     }   
-    public function department(){
-      $this->view('php/department');
+    public function department($dept){
+      $data['department'] = $dept;
+      $this->view('php/department',$data);
     }   
     public function facilities(){
       $this->view('php/facilities');

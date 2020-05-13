@@ -75,7 +75,7 @@ body footer .footer-data {
 body footer .footer-data .footer-link-cont .link-cont {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (calc(100%/3));
+  -ms-grid-columns: (calc(100%/3))[3];
       grid-template-columns: repeat(3, calc(100%/3));
 }
 
@@ -145,16 +145,28 @@ body footer .copyright a:nth-child(2):hover {
 }
 
 body footer .copyright .social-cont .social-icons ul {
-  flex-direction: row !important;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
 }
 
 body footer .copyright .social-cont .social-icons ul a li {
   height: 50px;
   width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 5px;
 }
 

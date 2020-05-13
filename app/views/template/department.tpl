@@ -21,13 +21,22 @@
         </div>
         <div class="header-txt position-absolute">
             <div class="txt-container container">
-                <p>Departments</p>
-                <p>At SSIT</p>
+                {if $data['department'] == 'all'}
+                    <p>Departments</p>
+                    <p>At SSIT</p>
+                {else}
+                    <p>{$data['department']}</p>
+                    <p>department</p>
+                {/if}
             </div>    
         </div>
         
         {include file="../template/includes/header3.tpl"} 
-        {include file="../template/department/alldepartment.tpl"}
+        {if $data['department'] == 'all'}
+            {include file="../template/department/alldepartment.tpl"}        
+        {else}
+            {include file="../template/department/{$data['department']}.tpl"}
+        {/if}
         {include file="../template/includes/footer.tpl"}
     <script src="https://kit.fontawesome.com/dbc30cce47.js"></script>
     <script src="{URLROOT}/node_modules/jquery/dist/jquery.min.js"></script>

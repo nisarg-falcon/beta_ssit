@@ -59,7 +59,7 @@
                         </div>
                     </div>
                     <a href="{URLROOT}" class="py-md-3">&copy; 2019 | Shree Swaminarayan Institute of Technology </a>
-                    <a>Designed By Falcon Developers</a>
+                    <a>Designed and Developed by Students</a>
                 </div>
             </div>
     </div>

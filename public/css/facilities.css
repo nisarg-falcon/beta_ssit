@@ -46,6 +46,7 @@ tv's and wide desktops specification
 */
 body {
   scroll-behavior: smooth;
+  -webkit-transition: .5s;
   transition: .5s;
 }
 
@@ -188,8 +189,14 @@ body #labs .course__container .labs-swiper-container .swiper-wrapper .swiper-sli
   text-align: center;
   font-size: 18px;
   /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   height: 400px;
 }
@@ -203,7 +210,8 @@ body #labs .course__container .labs-swiper-container .swiper-wrapper .swiper-sli
 }
 
 body #labs .course__container .labs-swiper-container .swiper-wrapper .swiper-slide img {
-  object-fit: fill;
+  -o-object-fit: fill;
+     object-fit: fill;
   height: 100%;
   width: 100%;
 }
@@ -233,6 +241,8 @@ body #hostel .course__container .hostel-facility .card {
 }
 
 body #hostel .course__container .hostel-facility .content {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   padding: 15px;
   color: #fff;
@@ -241,6 +251,8 @@ body #hostel .course__container .hostel-facility .content {
 
 body #hostel .course__container .hostel-facility .content h1 {
   margin-top: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   font-size: 33px;
   font-weight: 600;
@@ -309,7 +321,8 @@ body #library .card {
 }
 
 body #library .card img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 body #library .card .card-body {
@@ -331,6 +344,8 @@ body #library .card .card-body {
 
 body #library .card .card-body h1 {
   margin-top: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   font-size: 33px;
   font-weight: 600;
@@ -392,6 +407,8 @@ body #library .lib-facilities {
 body #library .lib-facilities h1 {
   margin-top: 5px;
   margin-bottom: 0px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   font-size: 33px;
   font-weight: 600;
@@ -449,7 +466,8 @@ body #library .lib-facilities .labs-swiper-container .swiper-wrapper .swiper-sli
 }
 
 body #library .lib-facilities .labs-swiper-container .swiper-wrapper .swiper-slide img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 100%;
   width: 100%;
 }
@@ -522,8 +540,14 @@ body #canteen .course__container .labs-swiper-container .swiper-wrapper .swiper-
   text-align: center;
   font-size: 18px;
   /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   height: 400px;
 }
@@ -537,7 +561,8 @@ body #canteen .course__container .labs-swiper-container .swiper-wrapper .swiper-
 }
 
 body #canteen .course__container .labs-swiper-container .swiper-wrapper .swiper-slide img {
-  object-fit: fill;
+  -o-object-fit: fill;
+     object-fit: fill;
   height: 100%;
   width: 100%;
 }
@@ -650,8 +675,14 @@ body #club .course__container .labs-swiper-container .swiper-wrapper .swiper-sli
   text-align: center;
   font-size: 18px;
   /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   height: 400px;
 }
@@ -665,7 +696,8 @@ body #club .course__container .labs-swiper-container .swiper-wrapper .swiper-sli
 }
 
 body #club .course__container .labs-swiper-container .swiper-wrapper .swiper-slide img {
-  object-fit: fill;
+  -o-object-fit: fill;
+     object-fit: fill;
   height: 100%;
   width: 100%;
 }
@@ -728,8 +760,14 @@ body #ground .course__container .labs-swiper-container .swiper-wrapper .swiper-s
   text-align: center;
   font-size: 18px;
   /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   height: 400px;
 }
@@ -743,7 +781,8 @@ body #ground .course__container .labs-swiper-container .swiper-wrapper .swiper-s
 }
 
 body #ground .course__container .labs-swiper-container .swiper-wrapper .swiper-slide img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 100%;
   width: 100%;
 }

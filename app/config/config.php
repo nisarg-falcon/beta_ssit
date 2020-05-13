@@ -8,7 +8,7 @@
   // App Root
   define('APPROOT', dirname(dirname(__FILE__)));
   // URL Root
-  define('URLROOT', 'http://localhost/ssit');
+  define('URLROOT', 'http://192.168.0.102/ssit_rebuild');
   // Site Name
   define('SITENAME', 'SSIT');
   //College Name
