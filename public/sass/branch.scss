@@ -1,0 +1,116 @@
+@import 'color';
+@import 'font';
+@import 'mixins/layout-mq';
+@import 'mixins/content-mq';
+.branch_info{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 2em 1em;
+    @include responsive-content(mobile){
+        flex-direction: column;
+    }
+    .branch_txt_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width:  100%;
+        @include responsive-content(mobile){
+            width: 100%;
+        }
+        h1{
+            padding: 10px 20px;
+            font-family: $roboto-slab;
+            margin: 0;
+            @include responsive-content(mobile){
+                padding-top:20px !important;
+            }
+        }
+        p{
+            padding: 10px 20px;
+            font-size: 18px;
+            font-family: $source-serif;
+            text-align: justify;
+            margin: 0;
+            font-weight: 700;
+        }
+        .branch_link{
+            display: flex;
+            justify-content: flex-end;
+            padding: 0px 20px;
+            width: 100%;
+            a{
+                width: 20%;
+                height: 100%;
+                font-size: 16px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding: 10px 15px;
+                font-family: $roboto-slab;
+                text-transform: uppercase;
+                cursor: pointer;
+                letter-spacing: .8px;
+                background: black;
+                color:white;
+                @include responsive-content(smd){
+                    width: 50%;
+                }
+            }
+            i{
+                font-size: 18px;
+            }
+        }
+    }
+}
+#industrial_visit{
+    .branch_iv{
+        .iv_heading{
+            h1{
+                color: white;
+                padding: 1.5rem 1rem;
+                text-transform: uppercase;
+            }
+        }
+        .iv_swiper{
+            width: 100%;
+            height: 935px;
+            @include responsive-content(smd){
+                height: 600px;
+            }
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+            .swiper-container {
+                width: 100%;
+                height: 300px;
+                margin-left: auto;
+                margin-right: auto;
+                .swiper-wrapper{
+                    .swiper-slide {
+                        background-size: cover;
+                        background-position: center;
+                    }
+                }
+            }
+            .gallery-top {
+                height: 80%;
+                width: 100%;
+            }
+            .gallery-thumbs {
+                height: 20%;
+                box-sizing: border-box;
+                padding: 10px 0;
+                .swiper-slide{
+                    width: 25%;
+                    height: 100%;
+                    opacity: 0.4;
+                }
+                .swiper-slide-thumb-active{
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-04-24 14:38:39
+/* Smarty version 3.1.33, created on 2020-05-13 08:19:04
   from 'C:\xampp\htdocs\ssit\app\views\template\includes\header2.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ea2ddcf097e09_63271371',
+  'unifunc' => 'content_5ebb9158952c61_31399065',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8d1981082d9ae282fb806fa3e98356607aa618a8' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit\\app\\views\\template\\includes\\header2.tpl',
-      1 => 1587731914,
+      1 => 1589350741,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ea2ddcf097e09_63271371 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ebb9158952c61_31399065 (Smarty_Internal_Template $_smarty_tpl) {
 ?><header id="upper-header2" class="position-relative" >
         <nav class="navbar nv-cont navbar-expand-lg navbar-dark py-lg-2 py-sm-4">
             <div class="container">
@@ -33,7 +33,7 @@ function content_5ea2ddcf097e09_63271371 (Smarty_Internal_Template $_smarty_tpl)
                     </li>
                     <li class="nav-item">
                         <a class="nav-link h6" href="<?php echo URLROOT;?>
-/pages/department">Departments</a>
+/pages/department/all">Departments</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link h6" href="<?php echo URLROOT;?>
@@ -44,11 +44,11 @@ function content_5ea2ddcf097e09_63271371 (Smarty_Internal_Template $_smarty_tpl)
                     </li>
                     <li class="nav-item">
                         <a class="nav-link h6" href="<?php echo URLROOT;?>
-/pages/people">People</a>
+/pages/contact">Contact us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link h6" href="<?php echo URLROOT;?>
-/Pages/about">About</a>
+/pages/about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link h6" href="<?php echo URLROOT;?>

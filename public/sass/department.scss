@@ -31,7 +31,7 @@ body{
     }
     .header-txt{
         z-index: 9906;
-        bottom: 20%;
+        bottom: 40%;
         height: 300px;
         @include responsive-content(smd){
             height: 200px;  
@@ -54,7 +54,7 @@ body{
             p{
                 width: 100%;
                 margin: 0;
-                padding: 0.5rem 2.5rem;
+                padding: 0.5rem 1.5rem;
                 font-size: 3.5em;
                 @include responsive-content(smd){
                     font-size: 2.5em;
@@ -66,7 +66,7 @@ body{
                     font-weight: bold;
                     padding: 0.5rem 1.5rem;
                     @include responsive-content(smd){
-                        font-size: 3.5em;
+                        font-size: 2.5em;
                     }
                     font-size: 4.5em;
                 }
@@ -198,67 +198,7 @@ body{
                         }
                      }       
                 }
-            }
-            .branch_info{
-                width: 100%;
-                display: flex;
-                justify-content: flex-start;
-                padding: 2em 1em;
-                @include responsive-content(mobile){
-                    flex-direction: column;
-                }
-                .department_txt_container{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: flex-start;
-                    width: 60%;
-                    @include responsive-content(mobile){
-                        width: 100%;
-                    }
-                    h1{
-                        padding: 10px 20px;
-                        font-family: $roboto-slab;
-                        margin: 0;
-                        @include responsive-content(mobile){
-                            padding-top:20px !important;
-                        }
-                    }
-                    p{
-                        padding: 10px 20px;
-                        font-size: 18px;
-                        font-family: $source-serif;
-                        text-align: justify;
-                        margin: 0;
-                        font-weight: 700;
-                    }
-                    .department_link{
-                        display: flex;
-                        justify-content: flex-end;
-                        padding: 0px 20px;
-                        width: 100%;
-                        a{
-                            width: 30%;
-                            height: 100%;
-                            font-size: 16px;
-                            display: flex;
-                            justify-content: space-around;
-                            align-items: center;
-                            padding: 10px 15px;
-                            font-family: $roboto-slab;
-                            text-transform: uppercase;
-                            cursor: pointer;
-                            letter-spacing: .8px;
-                            @include responsive-content(smd){
-                                width: 50%;
-                            }
-                        }
-                        i{
-                            font-size: 18px;
-                        }
-                    }
-                }
-            }
+            } 
         }
     }
     

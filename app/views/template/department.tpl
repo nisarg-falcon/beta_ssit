@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="{URLROOT}/css/header.css">
     <link rel="stylesheet" href="{URLROOT}/css/department.css">
     <link rel="stylesheet" href="{URLROOT}/css/footer.css">
+    {if $data['department'] != 'all'}
+        <link rel="stylesheet" href="{URLROOT}/css/branch.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    {/if}
     <link rel="stylesheet" href="{URLROOT}/node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
 <body>
@@ -45,7 +49,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/CSSPlugin.min.js"></script>
     <script src="{URLROOT}/js/department.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
     <script src="{URLROOT}/js/scroll.js"></script>
+    <script src="{URLROOT}/js/branch_swiper.js"></script>
     <script src="{URLROOT}/js/header.js"></script>
     <script src="{URLROOT}/node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>

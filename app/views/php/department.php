@@ -13,7 +13,7 @@
     else{
         $nav3_data = [
             'item1' => array("brochure" => "brochure"),
-            'item2' => array("industrial visit" => "computer"),
+            'item2' => array("industrial visit" => "industrial_visit"),
             'item3' => array("labs" => "electrical"),
             'item4' => array("placements" => "ec"),
             'item5' => array("events" => "mechanical"),

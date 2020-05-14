@@ -9,7 +9,7 @@
                 <h1>Civil Engineering</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquam impedit cumque ut perspiciatis eos inventore maxime explicabo nobis incidunt. Veritatis at laudantium fuga illum corrupti veniam aperiam. Repellat, itaque!Totam sapiente dolores dolore repellat quod, placeat quidem obcaecati reprehenderit id. Alias nam quos architecto, sapiente magnam ea voluptas. Alias consectetur nesciunt voluptatibus nam iure impedit quos ullam hic sed.</p>
                 <div class="department_link">
-                    <a>Learn More <i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                    <a href="{URLROOT}/pages/department/computer">Learn More <i class="fas fa-angle-right" aria-hidden="true"></i></a>
                 </div>
             </div>
            </div>

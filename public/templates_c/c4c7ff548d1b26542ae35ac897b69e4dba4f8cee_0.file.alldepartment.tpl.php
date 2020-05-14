@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-04-24 16:28:46
+/* Smarty version 3.1.33, created on 2020-05-13 08:23:28
   from 'C:\xampp\htdocs\ssit\app\views\template\department\alldepartment.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ea2f79ece8707_17665403',
+  'unifunc' => 'content_5ebb9260c0b238_88038361',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c4c7ff548d1b26542ae35ac897b69e4dba4f8cee' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit\\app\\views\\template\\department\\alldepartment.tpl',
-      1 => 1587738525,
+      1 => 1589351005,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ea2f79ece8707_17665403 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ebb9260c0b238_88038361 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="department" >
     <div class="departments_container">
         <div id="civil" class="department__container container-fluid scroll-start1">
@@ -33,7 +33,8 @@ function content_5ea2f79ece8707_17665403 (Smarty_Internal_Template $_smarty_tpl)
                 <h1>Civil Engineering</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquam impedit cumque ut perspiciatis eos inventore maxime explicabo nobis incidunt. Veritatis at laudantium fuga illum corrupti veniam aperiam. Repellat, itaque!Totam sapiente dolores dolore repellat quod, placeat quidem obcaecati reprehenderit id. Alias nam quos architecto, sapiente magnam ea voluptas. Alias consectetur nesciunt voluptatibus nam iure impedit quos ullam hic sed.</p>
                 <div class="department_link">
-                    <a>Learn More <i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                    <a href="<?php echo URLROOT;?>
+/pages/department/computer">Learn More <i class="fas fa-angle-right" aria-hidden="true"></i></a>
                 </div>
             </div>
            </div>

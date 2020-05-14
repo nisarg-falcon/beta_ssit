@@ -20,7 +20,7 @@
                         <a class="nav-link h6" href="{URLROOT}/pages/contact">Contact us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link h6" href="{URLROOT}/Pages/about">About</a>
+                        <a class="nav-link h6" href="{URLROOT}/pages/about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link h6" href="{URLROOT}/pages/admission">Admission</a>
