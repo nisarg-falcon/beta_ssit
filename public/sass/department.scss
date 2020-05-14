@@ -31,10 +31,11 @@ body{
     }
     .header-txt{
         z-index: 9906;
-        bottom: 40%;
+        bottom: 18%;
         height: 300px;
         @include responsive-content(smd){
             height: 200px;  
+            bottom: 40%;
         }
         width: 100%;
         .txt-container{

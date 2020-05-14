@@ -38,20 +38,54 @@
             </div>        
             </div>
         </div>
-        <div id="electrical" class="department__container container-fluid scroll-start3">
-            <div class="department_info container">
-                <div class="department_image_container">
-                <img src="{URLROOT}/img/img2.jpg" class="department_image">
-            </div>
-            <div class="department_txt_container">
-                <h1>Electrical Engineering</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquam impedit cumque ut perspiciatis eos inventore maxime explicabo nobis incidunt. Veritatis at laudantium fuga illum corrupti veniam aperiam. Repellat, itaque!Totam sapiente dolores dolore repellat quod, placeat quidem obcaecati reprehenderit id. Alias nam quos architecto, sapiente magnam ea voluptas. Alias consectetur nesciunt voluptatibus nam iure impedit quos ullam hic sed.</p>
-                <div class="department_link">
-                    <a>Learn More <i class="fas fa-angle-right" aria-hidden="true"></i></a>
+        <div id="branch_labs" class="department__container container-fluid scroll-start3">
+            <div class="labs_container container">
+                <div class="labs_heading">
+                    <h1>Laboratory</h1>
+                </div>
+                <div class="labs_swiper">
+                    <div class="swiper-container labs-swiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                              <img src="{URLROOT}/img/img2.jpg" width="100%"  />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="{URLROOT}/img/img2.jpg" width="100%"  />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="{URLROOT}/img/img2.jpg" width="100%"  />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="{URLROOT}/img/img2.jpg" width="100%"  />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="{URLROOT}/img/img2.jpg" width="100%"  />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="{URLROOT}/img/img2.jpg" width="100%"  />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="{URLROOT}/img/img2.jpg" width="100%"  />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="{URLROOT}/img/img2.jpg" width="100%"  />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="{URLROOT}/img/img2.jpg" width="100%"  />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="{URLROOT}/img/img2.jpg" width="100%"  />
+                          </div>
+                        </div>
+                       
+                        <div class="swiper-pagination labs-swiper-pagination"></div>
+                        
+                        <div class="swiper-button-next labs-swiper-next"></div>
+                        <div class="swiper-button-prev labs-swiper-prev"></div>
+                      </div>
                 </div>
             </div>
-
-            </div>        </div>
+        </div>
         <div id="ec" class="department__container container-fluid scroll-start4">
             <div class="department_info container">
                 <div class="department_image_container">

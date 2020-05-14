@@ -80,7 +80,7 @@ body .header-section .media-container .video1 {
 
 body .header-txt {
   z-index: 9906;
-  bottom: 40%;
+  bottom: 18%;
   height: 300px;
   width: 100%;
 }
@@ -88,6 +88,7 @@ body .header-txt {
 @media (max-width: 600px) {
   body .header-txt {
     height: 200px;
+    bottom: 40%;
   }
 }
 

@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <link rel="icon" href="{URLROOT}/img/logo.png">
-    <title>SSIT | Departments</title>
+    {if $data['department'] != 'all'}
+        <title>SSIT | Department | {$data['department']|ucfirst}</title>    
+    {else}
+        <title>SSIT | Departments</title>
+    {/if}
     <link rel="stylesheet" href="{URLROOT}/css/header.css">
     <link rel="stylesheet" href="{URLROOT}/css/department.css">
     <link rel="stylesheet" href="{URLROOT}/css/footer.css">

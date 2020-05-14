@@ -1,2 +1,2 @@
 *.css.map
-/public/templates_c/*
+public/templates_c/*

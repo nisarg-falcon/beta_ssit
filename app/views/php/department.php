@@ -14,7 +14,7 @@
         $nav3_data = [
             'item1' => array("brochure" => "brochure"),
             'item2' => array("industrial visit" => "industrial_visit"),
-            'item3' => array("labs" => "electrical"),
+            'item3' => array("labs" => "branch_labs"),
             'item4' => array("placements" => "ec"),
             'item5' => array("events" => "mechanical"),
             'item6' => array("staff" => "mca")

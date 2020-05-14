@@ -114,3 +114,36 @@
         }
     }
 }
+#branch_labs{
+    .labs_container{
+        .labs_heading{
+            h1{
+                color: black;
+                padding: 1.5rem 1rem;
+                text-transform: uppercase;
+            }
+        }
+        .labs_swiper{
+            max-height: 600px;
+            margin-bottom: 1.5rem;
+            .swiper-wrapper{
+                .swiper-slide{
+                    img{
+                        max-height: 600px;
+                    }
+                }
+            }
+            .labs-swiper-pagination{
+                .swiper-pagination-progressbar-fill{
+                    background: black;
+                }
+            }
+            .labs-swiper-next{
+                color:black;
+            }
+            .labs-swiper-prev{
+                color:black
+            }
+        }
+    }
+}

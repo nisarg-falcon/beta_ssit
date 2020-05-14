@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-13 13:58:30
+/* Smarty version 3.1.33, created on 2020-05-14 14:29:39
   from 'C:\xampp\htdocs\ssit\app\views\template\department.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ebbe0e6222527_23305514',
+  'unifunc' => 'content_5ebd39b3b1c681_09215178',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1ba90001a2ca2444dccdb5e8063aeb9de658013f' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit\\app\\views\\template\\department.tpl',
-      1 => 1589371107,
+      1 => 1589459376,
       2 => 'file',
     ),
   ),
@@ -26,7 +26,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5ebbe0e6222527_23305514 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ebd39b3b1c681_09215178 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,7 +35,12 @@ function content_5ebbe0e6222527_23305514 (Smarty_Internal_Template $_smarty_tpl)
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <link rel="icon" href="<?php echo URLROOT;?>
 /img/logo.png">
-    <title>SSIT | Departments</title>
+    <?php if ($_smarty_tpl->tpl_vars['data']->value['department'] != 'all') {?>
+        <title>SSIT | Department | <?php echo ucfirst($_smarty_tpl->tpl_vars['data']->value['department']);?>
+</title>    
+    <?php } else { ?>
+        <title>SSIT | Departments</title>
+    <?php }?>
     <link rel="stylesheet" href="<?php echo URLROOT;?>
 /css/header.css">
     <link rel="stylesheet" href="<?php echo URLROOT;?>

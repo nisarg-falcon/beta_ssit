@@ -15,3 +15,13 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
       swiper: galleryThumbs
     }
   });
+  var swiper = new Swiper('.labs-swiper', {
+    pagination: {
+      el: '.labs-swiper-pagination',
+      type: 'progressbar',
+    },
+    navigation: {
+      nextEl: '.labs-swiper-next',
+      prevEl: '.labs-swiper-prev',
+    },
+  });

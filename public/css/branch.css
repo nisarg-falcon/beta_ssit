@@ -203,4 +203,31 @@ tv's and wide desktops specification
 #industrial_visit .branch_iv .iv_swiper .gallery-thumbs .swiper-slide-thumb-active {
   opacity: 1;
 }
+
+#branch_labs .labs_container .labs_heading h1 {
+  color: black;
+  padding: 1.5rem 1rem;
+  text-transform: uppercase;
+}
+
+#branch_labs .labs_container .labs_swiper {
+  max-height: 600px;
+  margin-bottom: 1.5rem;
+}
+
+#branch_labs .labs_container .labs_swiper .swiper-wrapper .swiper-slide img {
+  max-height: 600px;
+}
+
+#branch_labs .labs_container .labs_swiper .labs-swiper-pagination .swiper-pagination-progressbar-fill {
+  background: black;
+}
+
+#branch_labs .labs_container .labs_swiper .labs-swiper-next {
+  color: black;
+}
+
+#branch_labs .labs_container .labs_swiper .labs-swiper-prev {
+  color: black;
+}
 /*# sourceMappingURL=branch.css.map */
