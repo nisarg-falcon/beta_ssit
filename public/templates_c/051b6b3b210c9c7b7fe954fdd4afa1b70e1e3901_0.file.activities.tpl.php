@@ -1,30 +1,66 @@
-<!DOCTYPE html>
+<?php
+/* Smarty version 3.1.33, created on 2020-05-18 10:24:22
+  from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\activities.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.33',
+  'unifunc' => 'content_5ec24636e44c34_56089106',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '051b6b3b210c9c7b7fe954fdd4afa1b70e1e3901' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\activities.tpl',
+      1 => 1589790261,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+    'file:../template/includes/header.tpl' => 1,
+    'file:../template/includes/header2.tpl' => 1,
+    'file:../template/includes/header3.tpl' => 1,
+    'file:../template/includes/footer.tpl' => 1,
+  ),
+),false)) {
+function content_5ec24636e44c34_56089106 (Smarty_Internal_Template $_smarty_tpl) {
+?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="{URLROOT}/img/logo.png">
-    <link rel="stylesheet" href="{URLROOT}/css/header.css">
-    <link rel="stylesheet" href="{URLROOT}/css/footer.css">
-    <link rel="stylesheet" href="{URLROOT}/css/activities.css">
+    <link rel="icon" href="<?php echo URLROOT;?>
+/img/logo.png">
+    <link rel="stylesheet" href="<?php echo URLROOT;?>
+/css/header.css">
+    <link rel="stylesheet" href="<?php echo URLROOT;?>
+/css/footer.css">
+    <link rel="stylesheet" href="<?php echo URLROOT;?>
+/css/activities.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="{URLROOT}/node_modules/bootstrap/dist/css/bootstrap.css">    
+    <link rel="stylesheet" href="<?php echo URLROOT;?>
+/node_modules/bootstrap/dist/css/bootstrap.css">    
     <title>Activities</title>
 </head>
 <body>
     <!-- hero section start -->
-     {include file="../template/includes/header.tpl"} 
+     <?php $_smarty_tpl->_subTemplateRender("file:../template/includes/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?> 
     <div class="header-section position-relative">
-        {include file="../template/includes/header2.tpl"}    
+        <?php $_smarty_tpl->_subTemplateRender("file:../template/includes/header2.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?>    
         <div class="container-fluid media-container position-absolute">
-            <img src="{URLROOT}/img/img2.jpg" class="video1 container-fluid">
+            <img src="<?php echo URLROOT;?>
+/img/img2.jpg" class="video1 container-fluid">
             <!-- <video class="video1 container-fluid" loop muted autoplay>
                 <source src="videos/video1.mp4" type="video/mp4">
                 </video> -->
         </div>          
     </div>
-    {include file="../template/includes/header3.tpl"} 
+    <?php $_smarty_tpl->_subTemplateRender("file:../template/includes/header3.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?> 
     
     <!-- activities starts here -->
     <div>
@@ -43,7 +79,8 @@
                         <div class="card-grid">
                             <div>
                                 <div class="card">
-                                <img src="{URLROOT}/img/clgimg.jpg" class="card-img-top" alt="...">
+                                <img src="<?php echo URLROOT;?>
+/img/clgimg.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title event card title card</h5>
                                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -52,7 +89,8 @@
                             </div>
                             <div>
                                 <div class="card">
-                                <img src="{URLROOT}/img/clgimg.jpg" class="card-img-top" alt="...">
+                                <img src="<?php echo URLROOT;?>
+/img/clgimg.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
                                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -61,7 +99,8 @@
                             </div>
                             <div>
                                 <div class="card">
-                                <img src="{URLROOT}/img/clgimg.jpg" class="card-img-top" alt="...">
+                                <img src="<?php echo URLROOT;?>
+/img/clgimg.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
                                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -70,7 +109,8 @@
                             </div>
                             <div>
                                 <div class="card">
-                                <img src="{URLROOT}/img/clgimg.jpg" class="card-img-top" alt="...">
+                                <img src="<?php echo URLROOT;?>
+/img/clgimg.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
                                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -79,7 +119,8 @@
                             </div>
                             <div>
                                 <div class="card">
-                                <img src="{URLROOT}/img/clgimg.jpg" class="card-img-top" alt="...">
+                                <img src="<?php echo URLROOT;?>
+/img/clgimg.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
                                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -98,16 +139,47 @@
             </div>
         </div>
     </div>
-     {include file="../template/includes/footer.tpl"}
-    <script src="{URLROOT}/node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="{URLROOT}/node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js"></script>
-    <script src="{URLROOT}/node_modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
-    <script type="module"  src="{URLROOT}/node_modules/gsap/all.js"></script>
-    <script type="module" src="{URLROOT}/js/scroll.js"></script>
-    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-    <script type="text/javascript" src="{URLROOT}/js/backtotop.js"></script>
-    <script src="{URLROOT}/node_modules/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="https://kit.fontawesome.com/dbc30cce47.js"></script>
-    <script src="{URLROOT}/js/header.js"></script>   
+     <?php $_smarty_tpl->_subTemplateRender("file:../template/includes/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?>
+    <?php echo '<script'; ?>
+ src="<?php echo URLROOT;?>
+/node_modules/jquery/dist/jquery.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="<?php echo URLROOT;?>
+/node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="<?php echo URLROOT;?>
+/node_modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ type="module"  src="<?php echo URLROOT;?>
+/node_modules/gsap/all.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ type="module" src="<?php echo URLROOT;?>
+/js/scroll.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="https://unpkg.com/swiper/js/swiper.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ type="text/javascript" src="<?php echo URLROOT;?>
+/js/backtotop.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="<?php echo URLROOT;?>
+/node_modules/bootstrap/dist/js/bootstrap.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="https://kit.fontawesome.com/dbc30cce47.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="<?php echo URLROOT;?>
+/js/header.js"><?php echo '</script'; ?>
+>   
 </body>
 </html>
+<?php }
+}

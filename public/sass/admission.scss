@@ -30,17 +30,33 @@ body {
         }
     }
     #admission{
-        margin: 15px 0;
-        padding: 15px;
-        background: $background-color;
+        background: $yellow;
+        .course__container{
+            padding: 2rem 0;
+            @include responsive-content(mobile){
+                padding: 15px;
+            }                  
+        }        
         nav{
             border: none;            
             background: #fff;
             a{
-                color: #111;
+                color: $black;
+                font-size: 21px;
+                font-weight: 600;
+                padding: 10px;
+                border-radius: 0px;
+                letter-spacing: .7px;
+                border-right: 1px solid #ccc;
+                font-family: $roboto-slab;
+                @include responsive-content(smd){
+                    font-size: 0.9rem;
+                    font-weight: 500;
+                }
             }
             a.active{
                 color: #fff;
+                border-radius: 0px;
                 background-color: #343a40;
             }
         } 
@@ -60,11 +76,24 @@ body {
                 .content {
                     display: block;
                     padding: 20px 30px;
-                    background-color: white;
+                    background-color: $white;
                     position: relative;
                     border-radius: 6px;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 36px;
+                    font-family: $roboto;
+                    p{
+                        margin: 0px;
+                        @include responsive-content(smd){
+                            padding: 0;
+                            font-size: 0.8em;
+                            line-height: 2rem;
+                        }
+                    }                    
                     @include responsive-content(smd){
-                        width: 63vw;                
+                        width: 63vw;   
+                        padding: 10px 15px;             
                     }
                 }
             }
@@ -153,200 +182,236 @@ body {
         }
     }
     #mq{
-        margin: 15px 0;
-        padding: 15px;
-        background: $background-color;
-        .mq-heading{
-            color: #fff;
-            font-size: 1.3rem;
-            line-height: 50px;
-            background: #343a40;
-            text-align: center;
+       background: $black;
+       .course__container{
+            padding: 2rem 0;
+            @include responsive-content(mobile){
+                padding: 15px;
+            }                  
+        }     
+        .mq{
+            h1{
+                font-size: 33px;
+                font-weight: 600;
+                letter-spacing: .7px;
+                color: $yellow;
+                font-family: $roboto-slab;
+                @include responsive-content(smd){
+                    font-size: 21px;
+                    font-weight: 500;
+                    padding-left: 0px;
+                    line-height: 1.7rem;
+                }
+            }            
             p{
-                margin-bottom: 0;
+                padding: 10px 0px;
+                word-wrap: nowrap;
+                color: $white;
+                font-size: 18px;
+                text-align: justify;
+                line-height: 36px;
+                font-weight: 600;
+                font-family: $roboto;
+                @include responsive-content(mobile){
+                    padding: 0;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 1.7rem;
+                }
+                @include responsive-content(smd){
+                    padding: 0;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 1.7rem;
+                }
             }
-            @include responsive-content(smd){
-                line-height: 30px;
-            }
-        }
-        .mq-info{
-            padding: 1rem 40px;
-            font-size: 1.2rem;
-            background: #fff;
-            text-align: justify;
-            p{
-                margin-bottom: 0;
-            }
-            @include responsive-content(smd){
-                font-size: 1.1rem;
-                padding: 10px 15px;
-            }
-        }
+        }      
         .mq-seats{
-            padding: 5px 40px;
-            background: #fff;
             text-align: center;
             table{
-                border: 1px solid #555;
-                margin-bottom: 0.5rem;
-                width: 100%;            
-               thead{
-                   th{
+                margin-bottom: 1rem;
+                width: 100%;
+                thead{
+                    th{
+                        color: $black;
                         padding: 1rem 0;
-                        background-color: rgba(200, 200, 200, 0.9);                      
-                        color: black;
-                        font-weight: normal;
+                        font-weight: 500;
                         letter-spacing: 1px;
+                        background-color: $yellow;
                     }
                 }
-               tbody{
-                   tr{
-                       td{
+                tbody{
+                    tr{
+                        td{
                            padding: 1rem 0;
-                       }
-                   }
-               }
+                           font-weight: 500;
+                           background-color: $white;
+                        }
+                    }
+                }
             }
             @include responsive-content(smd){
-                // padding: 0 !important;
-                padding: 0 15px !important;
+                padding: 0px !important;
+                overflow: scroll;
+                padding: 10px 15px;
                 table{
-                    // display: flex;
-                    // flex-direction: column;
                     display: grid;
                     grid-template-columns: 50% 50%;
                     grid-template-rows: auto;
                     width: 100%;
                     overflow: scroll;
-                    margin-bottom: 2rem;
+                    margin-bottom: 1rem;
                     thead{
-                        tr{
-                            th{
-                                padding: 1rem 0; 
-                                background: white;
-                                color: black;
-                                font-weight: 500;
-                             &:first-child{
-                                 background: #343A40;
-                                 color: white;
-                                 font-weight: 200;
-                                 letter-spacing: 1px;
-                                 border-bottom: 1px solid #ccc;
-                             }
-                            }
-
+                        tr{ 
                             display: flex;
                             flex-direction: column;
+                            th{
+                                padding: 0.7rem 0; 
+                                background: $white;
+                                color: $black;
+                                padding-left: 40px;
+                                font-weight: 500;
+                                text-align: left;
+                                border-right: 1px solid rgba(0, 0, 0, 0.5);
+                                &:first-child{
+                                    color: $black;
+                                    background: $yellow;
+                                    font-weight: 600;
+                                    letter-spacing: 1px;
+                                    padding-left: 0px;
+                                    text-align: center;
+                                    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+                                }
+                            }                           
                         }
                     }
                     tbody{
-                        tr{
-                           th{
-                                background: #343A40;
-                                color: white;
-                                font-weight: 200;
-                                letter-spacing: 1px;
-                                border-bottom: 1px solid #ccc; 
-                                padding: 1rem 0;
-                           } 
-                           td{
-                                padding: 1rem 0;
-                           }
+                        tr{                          
+                            td{
+                                padding: 0.7rem 0;
+                                &:first-child{
+                                    color: $black;
+                                    background: $yellow;
+                                    font-weight: 500;
+                                    letter-spacing: 1px;                                    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+                                    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+                                }
+                            }
                             display: flex;
                             flex-direction: column;
                         }
                     }
-                }
-                overflow: scroll;
-                padding: 10px 15px;
+                }              
             }
         }
         .mq-imp-dates{
-            padding: 0 40px;
-            text-align: center;
-            background: #fff;
-            overflow: auto;
             @include responsive-content(smd){
                 line-height: 30px;
-                padding: 0 15px;
             }
-            p{
-                color: #fff;
-                margin-bottom: 0;
-                font-size: 1.3rem;
-                line-height: 50px;
-                background: #343A40;
-                text-transform: capitalize;
+            h1{
+                font-size: 33px;
+                font-weight: 600;
+                letter-spacing: .7px;
+                color: $yellow;
+                font-family: $roboto-slab;
                 @include responsive-content(smd){
-                    line-height: 50px;
+                    font-size: 21px;
+                    font-weight: 500;
+                    padding-left: 0px;
+                    line-height: 1.7rem;
                 }
-            }         
-            @include responsive-content(smd){
-                padding: 0 15px;
-            }
+            }   
             table{
+                margin-bottom: 0px;
                 text-align: center;
-                margin-bottom: 1rem;
-                border: 1px solid #555;
+                tr{
+                    th{
+                        border: none;
+                        color: $black;
+                        padding: 1rem 0;
+                        font-weight: 500;
+                        letter-spacing: 1px;
+                        text-align: center;
+                        background-color: $yellow;
+                    } 
+                    td{
+                        border: none;
+                        padding: 1rem 0;
+                        padding-left: 30px;
+                        font-weight: 500;
+                        background-color: $white;
+                    }           
+                    td:first-child{
+                        text-align: left;
+                    }
+                }
                 @include responsive-content(smd){                    
                     position: relative;
                     thead{
                         tr{
                             th{
+                                font-size: 15px;
                                 vertical-align: 0%;
+                                border-right: 1px solid rgba(0, 0, 0, 0.5);
+                                border-bottom: 1px solid rgba(0, 0, 0, 0.5);
                             }
                         }
                     }
                     tbody{
                         tr{
                             td{
+                                font-size: 14px;
+                                border-right: 1px solid rgba(0, 0, 0, 0.5);
                                 padding: 0.5rem !important;
                             }
                         }
-                    }
-                }
-                tr{
-                    th{
-                        border: none;
-                        background-color: rgba(200, 200, 200, 0.9);
-                        font-weight: normal;
-                    } 
-                    td{
-                        border: none;
-                    }           
-                    td:first-child{
-                        text-align: left;
                     }
                 }
             }
         }
     }
     #merit-list{
-        margin: 15px 0;
-        padding: 15px;
-        background: $background-color;
-        .ml-title{
-            color: #fff;
-            font-size: 1.3rem;
-            background: #343A40;
-            line-height: 50px;
-            margin-bottom: 0;
-            text-align: center;
-            letter-spacing: 1px;
+        background: $yellow;
+        .course__container{
+            padding: 2rem 0;
+            @include responsive-content(mobile){
+                padding: 15px;
+            }                  
+        }     
+        h1{
+            font-size: 33px;
+            font-weight: 600;
+            letter-spacing: .7px;
+            color: $black;
+            font-family: $roboto-slab;
             @include responsive-content(smd){
-                font-size: 1.1rem;
-                line-height: 40px;
+                font-size: 18px;
+                font-weight: 500;
+                padding-left: 0px;
+                line-height: 1.7rem;
             }
-        }
-        .ml-details{
-            padding: 1rem 40px;
-            font-size: 1.2rem;
-            background: #fff;
+        }            
+        p{
+            padding: 10px 0px;
+            word-wrap: nowrap;
+            color: $black;
+            font-size: 18px;
             text-align: justify;
-            margin-bottom: 0;
+            line-height: 30px;
+            font-weight: 600;
+            font-family: $roboto;
+            margin-bottom: 0px;
+            @include responsive-content(mobile){
+                padding: 0;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.5rem;
+            }
             @include responsive-content(smd){
-                font-size: 1rem;
-                padding: 10px 15px;
+                padding: 0;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.5rem;
             }
         }
         .ml-search{
@@ -408,25 +473,27 @@ body {
         }
         .ml-download{
             display: flex;
-            background: #fff;
             align-content: center;
-            padding: 0 40px;
-            padding-bottom: 8px;
+            justify-content: flex-start;
             @include responsive-content(smd){
                 justify-content: center;
-                padding: 10px;
+                padding: 10px 5px;
             }
             p{
                 text-align: center;
                 margin: auto 1rem;
+                margin-left: 0px !important;
+                font-family: $roboto;
                 @include responsive-content(smd){
                     margin: 0;
+                    text-align: left;
                 }
             }
             button{
                 color: #fff;
                 border: none;
-                background: #111;            
+                background: #111;    
+                font-family: $roboto;        
                 @include responsive-content(smd){
                     // width: auto;
                 }
@@ -434,29 +501,58 @@ body {
         }
     }
     #faq{
-        margin: 15px 0;
-        padding: 15px;
-        background: $background-color;
-        .faq-title{
-            color: #fff;
-            font-size: 1.3rem;
-            background: #343A40;
-            line-height: 50px;
-            margin-bottom: 0;
-            text-align: center;
-            letter-spacing: 1px;
+        background: $black;
+        .course__container{
+            padding: 2rem 0;
+            @include responsive-content(mobile){
+                padding: 15px;
+            }                  
+        }     
+        h1{
+            font-size: 33px;
+            font-weight: 600;
+            letter-spacing: .7px;
+            color: $yellow;
+            font-family: $roboto-slab;
             @include responsive-content(smd){
-                font-size: 1.1rem;
-                line-height: 40px;
-            }        
-        }
+                font-size: 18px;
+                font-weight: 500;
+                padding-left: 0px;
+                line-height: 1.7rem;
+            }
+        }    
         .card-header{
             padding: 0.5rem;
+            font-family: $roboto-slab;
+            background: $yellow;
+            border: none;
         }
         button{
             font-weight: 500;
             color: black;
             text-decoration: none;
+        }
+        .card-body{
+            padding: 15px;
+            word-wrap: nowrap;
+            color: $black;
+            font-size: 14px;
+            text-align: justify;
+            line-height: 36px;
+            font-weight: 600;
+            font-family: $roboto;
+            @include responsive-content(mobile){
+                padding: 10px;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.7rem;
+            }
+            @include responsive-content(smd){
+                padding: 10px;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.7rem;
+            }            
         }
     }
 }

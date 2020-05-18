@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-02 16:04:20
+/* Smarty version 3.1.33, created on 2020-05-17 18:01:54
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ead7de40d8277_49612860',
+  'unifunc' => 'content_5ec15ff219b670_31102072',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9ca1679dde6e2b6f2bf9d6930dc72cada029fa2d' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\index.tpl',
-      1 => 1588427448,
+      1 => 1589731306,
       2 => 'file',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5ead7de40d8277_49612860 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ec15ff219b670_31102072 (Smarty_Internal_Template $_smarty_tpl) {
 ?><html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -210,12 +210,22 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
             <div class="container course__container">
                 <!-- <div class="gallery-contain"> -->
                     <h1>Gallery</h1> 
-                    <div class="swiper-container">
+                    <div class="swiper-container gallery-top">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide"><img src="img/about-hero.jpg" class="img-fluid" alt=""></div>
                             <div class="swiper-slide"><img src="img/about-hero.jpg" class="img-fluid" alt=""></div>
                             <div class="swiper-slide"><img src="img/about-hero.jpg" class="img-fluid" alt=""></div>
                             <div class="swiper-slide"><img src="img/clgimg.jpg" class="img-fluid" alt=""></div>
+                        </div>
+                        <div class="swiper-button-next swiper-button-white"></div>
+                        <div class="swiper-button-prev swiper-button-white"></div>
+                    </div>
+                    <div class="swiper-container gallery-thumbs showcase-images">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide" style="background-image:url('img/about-hero.jpg'); background-size: cover;;"></div>                    
+                          <div class="swiper-slide" style="background-image:url('img/about-hero.jpg'); background-size: cover;;"></div>                    
+                          <div class="swiper-slide" style="background-image:url('img/about-hero.jpg'); background-size: cover;;"></div>                    
+                          <div class="swiper-slide" style="background-image:url('img/clgimg.jpg'); background-size: cover;;"></div>                    
                         </div>
                     </div>
                 <!-- </div> -->

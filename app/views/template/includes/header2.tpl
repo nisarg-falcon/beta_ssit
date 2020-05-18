@@ -14,7 +14,7 @@
                         <a class="nav-link h6" href="{URLROOT}/pages/facilities">Facilities</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link h6" href="#">Activities</a>
+                        <a class="nav-link h6" href="{URLROOT}/pages/activities">Activities</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link h6" href="{URLROOT}/pages/contact">Contact us</a>

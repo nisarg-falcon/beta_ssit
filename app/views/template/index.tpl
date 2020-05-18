@@ -155,12 +155,22 @@
             <div class="container course__container">
                 <!-- <div class="gallery-contain"> -->
                     <h1>Gallery</h1> 
-                    <div class="swiper-container">
+                    <div class="swiper-container gallery-top">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide"><img src="img/about-hero.jpg" class="img-fluid" alt=""></div>
                             <div class="swiper-slide"><img src="img/about-hero.jpg" class="img-fluid" alt=""></div>
                             <div class="swiper-slide"><img src="img/about-hero.jpg" class="img-fluid" alt=""></div>
                             <div class="swiper-slide"><img src="img/clgimg.jpg" class="img-fluid" alt=""></div>
+                        </div>
+                        <div class="swiper-button-next swiper-button-white"></div>
+                        <div class="swiper-button-prev swiper-button-white"></div>
+                    </div>
+                    <div class="swiper-container gallery-thumbs showcase-images">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide" style="background-image:url('img/about-hero.jpg'); background-size: cover;;"></div>                    
+                          <div class="swiper-slide" style="background-image:url('img/about-hero.jpg'); background-size: cover;;"></div>                    
+                          <div class="swiper-slide" style="background-image:url('img/about-hero.jpg'); background-size: cover;;"></div>                    
+                          <div class="swiper-slide" style="background-image:url('img/clgimg.jpg'); background-size: cover;;"></div>                    
                         </div>
                     </div>
                 <!-- </div> -->

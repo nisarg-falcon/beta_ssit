@@ -82,10 +82,18 @@ body .header-section .media-container .video1 {
 }
 
 body #admission {
-  margin: 15px 0;
-  padding: 15px;
-  background: #e9e2e2;
+  background: #F1A501;
   /* The actual timeline (the vertical ruler) */
+}
+
+body #admission .course__container {
+  padding: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  body #admission .course__container {
+    padding: 15px;
+  }
 }
 
 body #admission nav {
@@ -94,11 +102,26 @@ body #admission nav {
 }
 
 body #admission nav a {
-  color: #111;
+  color: #000000;
+  font-size: 21px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 0px;
+  letter-spacing: .7px;
+  border-right: 1px solid #ccc;
+  font-family: "Roboto Slab", serif;
+}
+
+@media (max-width: 600px) {
+  body #admission nav a {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
 }
 
 body #admission nav a.active {
   color: #fff;
+  border-radius: 0px;
   background-color: #343a40;
 }
 
@@ -134,11 +157,28 @@ body #admission .timeline .text-container .content {
   background-color: white;
   position: relative;
   border-radius: 6px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 36px;
+  font-family: "Roboto", sans-serif;
+}
+
+body #admission .timeline .text-container .content p {
+  margin: 0px;
+}
+
+@media (max-width: 600px) {
+  body #admission .timeline .text-container .content p {
+    padding: 0;
+    font-size: 0.8em;
+    line-height: 2rem;
+  }
 }
 
 @media (max-width: 600px) {
   body #admission .timeline .text-container .content {
     width: 63vw;
+    padding: 10px 15px;
   }
 }
 
@@ -238,74 +278,91 @@ body #admission .timeline::after {
 }
 
 body #mq {
-  margin: 15px 0;
-  padding: 15px;
-  background: #e9e2e2;
+  background: #000000;
 }
 
-body #mq .mq-heading {
-  color: #fff;
-  font-size: 1.3rem;
-  line-height: 50px;
-  background: #343a40;
-  text-align: center;
+body #mq .course__container {
+  padding: 2rem 0;
 }
 
-body #mq .mq-heading p {
-  margin-bottom: 0;
-}
-
-@media (max-width: 600px) {
-  body #mq .mq-heading {
-    line-height: 30px;
+@media (max-width: 768px) {
+  body #mq .course__container {
+    padding: 15px;
   }
 }
 
-body #mq .mq-info {
-  padding: 1rem 40px;
-  font-size: 1.2rem;
-  background: #fff;
-  text-align: justify;
-}
-
-body #mq .mq-info p {
-  margin-bottom: 0;
+body #mq .mq h1 {
+  font-size: 33px;
+  font-weight: 600;
+  letter-spacing: .7px;
+  color: #F1A501;
+  font-family: "Roboto Slab", serif;
 }
 
 @media (max-width: 600px) {
-  body #mq .mq-info {
-    font-size: 1.1rem;
-    padding: 10px 15px;
+  body #mq .mq h1 {
+    font-size: 21px;
+    font-weight: 500;
+    padding-left: 0px;
+    line-height: 1.7rem;
+  }
+}
+
+body #mq .mq p {
+  padding: 10px 0px;
+  word-wrap: nowrap;
+  color: white;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 36px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 768px) {
+  body #mq .mq p {
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.7rem;
+  }
+}
+
+@media (max-width: 600px) {
+  body #mq .mq p {
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.7rem;
   }
 }
 
 body #mq .mq-seats {
-  padding: 5px 40px;
-  background: #fff;
   text-align: center;
 }
 
 body #mq .mq-seats table {
-  border: 1px solid #555;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   width: 100%;
 }
 
 body #mq .mq-seats table thead th {
+  color: #000000;
   padding: 1rem 0;
-  background-color: rgba(200, 200, 200, 0.9);
-  color: black;
-  font-weight: normal;
+  font-weight: 500;
   letter-spacing: 1px;
+  background-color: #F1A501;
 }
 
 body #mq .mq-seats table tbody tr td {
   padding: 1rem 0;
+  font-weight: 500;
+  background-color: white;
 }
 
 @media (max-width: 600px) {
   body #mq .mq-seats {
-    padding: 0 15px !important;
+    padding: 0px !important;
     overflow: scroll;
     padding: 10px 15px;
   }
@@ -315,81 +372,95 @@ body #mq .mq-seats table tbody tr td {
     grid-template-rows: auto;
     width: 100%;
     overflow: scroll;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
   body #mq .mq-seats table thead tr {
     display: flex;
     flex-direction: column;
   }
   body #mq .mq-seats table thead tr th {
-    padding: 1rem 0;
+    padding: 0.7rem 0;
     background: white;
-    color: black;
+    color: #000000;
+    padding-left: 40px;
     font-weight: 500;
+    text-align: left;
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
   }
   body #mq .mq-seats table thead tr th:first-child {
-    background: #343A40;
-    color: white;
-    font-weight: 200;
+    color: #000000;
+    background: #F1A501;
+    font-weight: 600;
     letter-spacing: 1px;
-    border-bottom: 1px solid #ccc;
+    padding-left: 0px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   }
   body #mq .mq-seats table tbody tr {
     display: flex;
     flex-direction: column;
   }
-  body #mq .mq-seats table tbody tr th {
-    background: #343A40;
-    color: white;
-    font-weight: 200;
-    letter-spacing: 1px;
-    border-bottom: 1px solid #ccc;
-    padding: 1rem 0;
-  }
   body #mq .mq-seats table tbody tr td {
-    padding: 1rem 0;
+    padding: 0.7rem 0;
   }
-}
-
-body #mq .mq-imp-dates {
-  padding: 0 40px;
-  text-align: center;
-  background: #fff;
-  overflow: auto;
+  body #mq .mq-seats table tbody tr td:first-child {
+    color: #000000;
+    background: #F1A501;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  }
 }
 
 @media (max-width: 600px) {
   body #mq .mq-imp-dates {
     line-height: 30px;
-    padding: 0 15px;
   }
 }
 
-body #mq .mq-imp-dates p {
-  color: #fff;
-  margin-bottom: 0;
-  font-size: 1.3rem;
-  line-height: 50px;
-  background: #343A40;
-  text-transform: capitalize;
+body #mq .mq-imp-dates h1 {
+  font-size: 33px;
+  font-weight: 600;
+  letter-spacing: .7px;
+  color: #F1A501;
+  font-family: "Roboto Slab", serif;
 }
 
 @media (max-width: 600px) {
-  body #mq .mq-imp-dates p {
-    line-height: 50px;
-  }
-}
-
-@media (max-width: 600px) {
-  body #mq .mq-imp-dates {
-    padding: 0 15px;
+  body #mq .mq-imp-dates h1 {
+    font-size: 21px;
+    font-weight: 500;
+    padding-left: 0px;
+    line-height: 1.7rem;
   }
 }
 
 body #mq .mq-imp-dates table {
+  margin-bottom: 0px;
   text-align: center;
-  margin-bottom: 1rem;
-  border: 1px solid #555;
+}
+
+body #mq .mq-imp-dates table tr th {
+  border: none;
+  color: #000000;
+  padding: 1rem 0;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+  background-color: #F1A501;
+}
+
+body #mq .mq-imp-dates table tr td {
+  border: none;
+  padding: 1rem 0;
+  padding-left: 30px;
+  font-weight: 500;
+  background-color: white;
+}
+
+body #mq .mq-imp-dates table tr td:first-child {
+  text-align: left;
 }
 
 @media (max-width: 600px) {
@@ -397,62 +468,76 @@ body #mq .mq-imp-dates table {
     position: relative;
   }
   body #mq .mq-imp-dates table thead tr th {
+    font-size: 15px;
     vertical-align: 0%;
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   }
   body #mq .mq-imp-dates table tbody tr td {
+    font-size: 14px;
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
     padding: 0.5rem !important;
   }
 }
 
-body #mq .mq-imp-dates table tr th {
-  border: none;
-  background-color: rgba(200, 200, 200, 0.9);
-  font-weight: normal;
-}
-
-body #mq .mq-imp-dates table tr td {
-  border: none;
-}
-
-body #mq .mq-imp-dates table tr td:first-child {
-  text-align: left;
-}
-
 body #merit-list {
-  margin: 15px 0;
-  padding: 15px;
-  background: #e9e2e2;
+  background: #F1A501;
 }
 
-body #merit-list .ml-title {
-  color: #fff;
-  font-size: 1.3rem;
-  background: #343A40;
-  line-height: 50px;
-  margin-bottom: 0;
-  text-align: center;
-  letter-spacing: 1px;
+body #merit-list .course__container {
+  padding: 2rem 0;
 }
 
-@media (max-width: 600px) {
-  body #merit-list .ml-title {
-    font-size: 1.1rem;
-    line-height: 40px;
+@media (max-width: 768px) {
+  body #merit-list .course__container {
+    padding: 15px;
   }
 }
 
-body #merit-list .ml-details {
-  padding: 1rem 40px;
-  font-size: 1.2rem;
-  background: #fff;
-  text-align: justify;
-  margin-bottom: 0;
+body #merit-list h1 {
+  font-size: 33px;
+  font-weight: 600;
+  letter-spacing: .7px;
+  color: #000000;
+  font-family: "Roboto Slab", serif;
 }
 
 @media (max-width: 600px) {
-  body #merit-list .ml-details {
-    font-size: 1rem;
-    padding: 10px 15px;
+  body #merit-list h1 {
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 0px;
+    line-height: 1.7rem;
+  }
+}
+
+body #merit-list p {
+  padding: 10px 0px;
+  word-wrap: nowrap;
+  color: #000000;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 30px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+  body #merit-list p {
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  body #merit-list p {
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5rem;
   }
 }
 
@@ -539,27 +624,28 @@ body #merit-list .ml-lists ul {
 
 body #merit-list .ml-download {
   display: flex;
-  background: #fff;
   align-content: center;
-  padding: 0 40px;
-  padding-bottom: 8px;
+  justify-content: flex-start;
 }
 
 @media (max-width: 600px) {
   body #merit-list .ml-download {
     justify-content: center;
-    padding: 10px;
+    padding: 10px 5px;
   }
 }
 
 body #merit-list .ml-download p {
   text-align: center;
   margin: auto 1rem;
+  margin-left: 0px !important;
+  font-family: "Roboto", sans-serif;
 }
 
 @media (max-width: 600px) {
   body #merit-list .ml-download p {
     margin: 0;
+    text-align: left;
   }
 }
 
@@ -567,38 +653,79 @@ body #merit-list .ml-download button {
   color: #fff;
   border: none;
   background: #111;
+  font-family: "Roboto", sans-serif;
 }
 
 body #faq {
-  margin: 15px 0;
-  padding: 15px;
-  background: #e9e2e2;
+  background: #000000;
 }
 
-body #faq .faq-title {
-  color: #fff;
-  font-size: 1.3rem;
-  background: #343A40;
-  line-height: 50px;
-  margin-bottom: 0;
-  text-align: center;
-  letter-spacing: 1px;
+body #faq .course__container {
+  padding: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  body #faq .course__container {
+    padding: 15px;
+  }
+}
+
+body #faq h1 {
+  font-size: 33px;
+  font-weight: 600;
+  letter-spacing: .7px;
+  color: #F1A501;
+  font-family: "Roboto Slab", serif;
 }
 
 @media (max-width: 600px) {
-  body #faq .faq-title {
-    font-size: 1.1rem;
-    line-height: 40px;
+  body #faq h1 {
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 0px;
+    line-height: 1.7rem;
   }
 }
 
 body #faq .card-header {
   padding: 0.5rem;
+  font-family: "Roboto Slab", serif;
+  background: #F1A501;
+  border: none;
 }
 
 body #faq button {
   font-weight: 500;
   color: black;
   text-decoration: none;
+}
+
+body #faq .card-body {
+  padding: 15px;
+  word-wrap: nowrap;
+  color: #000000;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 36px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 768px) {
+  body #faq .card-body {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.7rem;
+  }
+}
+
+@media (max-width: 600px) {
+  body #faq .card-body {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.7rem;
+  }
 }
 /*# sourceMappingURL=admission.css.map */
