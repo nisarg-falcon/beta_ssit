@@ -169,7 +169,7 @@ body #educational .course__container {
 
 @media (max-width: 600px) {
   body #educational .course__container {
-    padding: 15px;
+    padding: 15px 10px;
   }
 }
 
@@ -224,41 +224,8 @@ body #educational .course__container #nav-tabContent {
 
 @media (max-width: 600px) {
   body #educational .course__container #nav-tabContent {
-    padding: 15px;
+    padding: 10px;
   }
-}
-
-body #educational .course__container #nav-tabContent .card {
-  height: 400px;
-  border: 1px solid white;
-  border-radius: 0px;
-  background-color: #000000;
-  overflow: hidden;
-}
-
-body #educational .course__container #nav-tabContent .card img {
-  height: 358px;
-  object-fit: cover;
-  border-radius: 0px;
-}
-
-body #educational .course__container #nav-tabContent .card .card-body {
-  height: 200px;
-  width: 354px;
-  color: #F1A501;
-  padding: 0;
-}
-
-body #educational .course__container #nav-tabContent .card .card-body .card-title {
-  margin: 0px;
-  height: 40px;
-  padding: 5px 10px;
-  font-size: 25px;
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
 }
 
 body #educational .course__container #nav-tabContent .card-grid {
@@ -270,6 +237,200 @@ body #educational .course__container #nav-tabContent .card-grid {
 @media (max-width: 600px) {
   body #educational .course__container #nav-tabContent .card-grid {
     grid-template-columns: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  body #educational .course__container #nav-tabContent .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+body #educational .course__container #nav-tabContent a {
+  padding: 0px;
+}
+
+body #educational .course__container #nav-tabContent a .card {
+  height: 400px;
+  border: 1px solid white;
+  border-radius: 0px;
+  background-color: #000000;
+  overflow: hidden;
+}
+
+@media (max-width: 600px) {
+  body #educational .course__container #nav-tabContent a .card {
+    height: 350px;
+  }
+}
+
+body #educational .course__container #nav-tabContent a .card img {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 0px;
+}
+
+body #educational .course__container #nav-tabContent a .card .card-body {
+  position: absolute;
+  bottom: 0;
+  padding: 5px;
+  min-height: 50px;
+  height: auto;
+  max-height: 100px;
+  width: 100%;
+  color: #F1A501;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 600px) {
+  body #educational .course__container #nav-tabContent a .card .card-body {
+    width: 100%;
+    min-height: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  body #educational .course__container #nav-tabContent a .card .card-body {
+    width: 100%;
+    min-height: auto;
+  }
+}
+
+body #educational .course__container #nav-tabContent a .card .card-body .card-title {
+  min-height: 40px;
+  max-height: 100px;
+  margin: 0px;
+  padding: 5px 10px;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  body #educational .course__container #nav-tabContent a .card .card-body .card-title {
+    font-size: 18px;
+    min-height: auto;
+  }
+}
+
+body #educational .course__container #nav-tabContent .card:hover {
+  cursor: pointer;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5), 0 7px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+body #educational .course__container #nav-tabContent .card:hover .card-body {
+  display: none;
+}
+
+body #educational .course__container #nav-tabContent .eventmodal {
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  position: fixed;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+body #educational .course__container #nav-tabContent .eventmodal .modal-content {
+  width: 80%;
+  padding: 10px;
+  color: #F1A501;
+  margin: 2% auto;
+  background-color: #000000;
+  border: 1px solid white;
+  display: block !important;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  animation: fade 1s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  body #educational .course__container #nav-tabContent .eventmodal .modal-content {
+    width: 90%;
+    margin: 5% auto;
+  }
+}
+
+body #educational .course__container #nav-tabContent .eventmodal .modal-content .header {
+  padding: 5px 0px 10px;
+  border-bottom: 1px solid white;
+}
+
+body #educational .course__container #nav-tabContent .eventmodal .modal-content .header h1 {
+  width: 97%;
+  margin: 0px;
+  font-size: 25px;
+  display: inline-block;
+}
+
+@media (max-width: 600px) {
+  body #educational .course__container #nav-tabContent .eventmodal .modal-content .header h1 {
+    font-size: 16px;
+    width: 90%;
+    height: auto;
+    text-align: justify;
+  }
+}
+
+body #educational .course__container #nav-tabContent .eventmodal .modal-content .header .closeBtn {
+  width: fit-content;
+  color: #F1A501;
+  font-size: 25px;
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  body #educational .course__container #nav-tabContent .eventmodal .modal-content .header .closeBtn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+}
+
+body #educational .course__container #nav-tabContent .eventmodal .modal-content .header .closeBtn:hover, body #educational .course__container #nav-tabContent .eventmodal .modal-content .header .closeBtn:focus {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgba(241, 165, 1, 0.5);
+}
+
+body #educational .course__container #nav-tabContent .eventmodal .modal-content img {
+  padding-top: 10px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 0px;
+}
+
+@media (max-width: 600px) {
+  body #educational .course__container #nav-tabContent .eventmodal .modal-content img {
+    height: 200px;
+  }
+}
+
+body #educational .course__container #nav-tabContent .eventmodal .modal-content .content p {
+  margin: 0px;
+  padding: 5px;
+  text-indent: 40px;
+  text-align: justify;
+}
+
+@media (max-width: 600px) {
+  body #educational .course__container #nav-tabContent .eventmodal .modal-content .content p {
+    padding: 7px;
+    color: #000000;
+    font-size: 15px;
+    background-color: white;
   }
 }
 /*# sourceMappingURL=activities.css.map */

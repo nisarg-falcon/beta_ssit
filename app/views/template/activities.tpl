@@ -41,52 +41,66 @@
                 <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                         <div class="card-grid">
-                            <div>
+                            <a href="#"  id="modalBtn" class="button">
                                 <div class="card">
-                                <img src="{URLROOT}/img/clgimg.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title event card title card</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <img src="{URLROOT}/img/clgimg.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">GTU smart gujarat hackathon</h5>
+                                        {* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> *}
+                                    </div>
                                 </div>
+                            </a>
+                            <div id="eventModal" class="eventmodal">
+                                <div class="modal-content">
+                                    <div class="header">
+                                        <h1>GTU smart gujarat hackathon GTU smart gujarat hackathon</h1>
+                                        <i class="fa fa-times closeBtn" id="closeBtn" aria-hidden="true"></i>
+                                    </div>
+                                    <img src="{URLROOT}/img/clgimg.jpg" class="card-img-top" alt="...">
+                                    <div class="content">
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati eligendi, velit repudiandae illum ab harum, dolores consectetur recusandae aspernatur ut minus nam exercitationem deserunt debitis maxime consequuntur nobis odio nisi.
+                                        Amet, atque delectus eligendi facere fuga id temporibus magnam ullam minus recusandae ipsam eaque nisi laudantium voluptate ad repellat itaque inventore, repudiandae est quos dolore obcaecati esse reiciendis! Perferendis, reiciendis.
+                                        Facere perferendis rem sequi, obcaecati repellendus fugiat soluta commodi, neque natus facilis earum, praesentium in deleniti consequuntur assumenda! Quidem ea dolores maxime id illum voluptate nobis iste labore eum ullam?</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div>
+                            <a href="#">
                                 <div class="card">
-                                <img src="{URLROOT}/img/clgimg.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <img src="{URLROOT}/img/clgimg.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Tech-fest</h5>
+                                        {* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> *}
+                                    </div>
                                 </div>
-                                </div>
-                            </div>
-                            <div>
+                            </a>
+                            <a href="#">
                                 <div class="card">
-                                <img src="{URLROOT}/img/clgimg.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <img src="{URLROOT}/img/clgimg.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">cultural function</h5>
+                                        {* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> *}
+                                    </div>
                                 </div>
-                                </div>
-                            </div>
-                            <div>
+                            </a>
+                            <a href="#">
                                 <div class="card">
-                                <img src="{URLROOT}/img/clgimg.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <img src="{URLROOT}/img/clgimg.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">sports event</h5>
+                                        {* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> *}
+                                    </div>
                                 </div>
-                                </div>
-                            </div>
-                            <div>
+                            </a>
+                            <a href="#">
                                 <div class="card">
-                                <img src="{URLROOT}/img/clgimg.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <img src="{URLROOT}/img/clgimg.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Navratri festival</h5>
+                                        {* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> *}
+                                    </div>
                                 </div>
-                                </div>
-                            </div>
-                        </div>
+                            </a>
+                        </div>                     
                     </div>
                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                         234
@@ -99,6 +113,27 @@
         </div>
     </div>
      {include file="../template/includes/footer.tpl"}
+    <script>
+        var modal = document.getElementById('eventModal');
+        var modalBtn = document.getElementById('modalBtn');
+        var closeBtn = document.getElementById('closeBtn');
+
+        modalBtn.addEventListener('click', openModal);
+        closeBtn.addEventListener('click', closeModal);
+        window.addEventListener('click', outsideClick);
+        
+        function openModal(){
+            modal.style.display = 'block';
+        }
+        function closeModal(){
+            modal.style.display = 'none';
+        }
+        function outsideClick(e){
+            if(e.target == modal){
+                modal.style.display = 'none';
+            }
+        }
+    </script>
     <script src="{URLROOT}/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="{URLROOT}/node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js"></script>
     <script src="{URLROOT}/node_modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-18 10:24:22
+/* Smarty version 3.1.33, created on 2020-05-20 20:54:55
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\activities.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ec24636e44c34_56089106',
+  'unifunc' => 'content_5ec57cffd693c9_83062555',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '051b6b3b210c9c7b7fe954fdd4afa1b70e1e3901' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\activities.tpl',
-      1 => 1589790261,
+      1 => 1590000894,
       2 => 'file',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5ec24636e44c34_56089106 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ec57cffd693c9_83062555 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -77,57 +77,67 @@ function content_5ec24636e44c34_56089106 (Smarty_Internal_Template $_smarty_tpl)
                 <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                         <div class="card-grid">
-                            <div>
+                            <a href="#"  id="modalBtn" class="button">
                                 <div class="card">
-                                <img src="<?php echo URLROOT;?>
+                                    <img src="<?php echo URLROOT;?>
 /img/clgimg.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title event card title card</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <div class="card-body">
+                                        <h5 class="card-title">GTU smart gujarat hackathon</h5>
+                                                                            </div>
                                 </div>
+                            </a>
+                            <div id="eventModal" class="eventmodal">
+                                <div class="modal-content">
+                                    <div class="header">
+                                        <h1>GTU smart gujarat hackathon GTU smart gujarat hackathon</h1>
+                                        <i class="fa fa-times closeBtn" id="closeBtn" aria-hidden="true"></i>
+                                    </div>
+                                    <img src="<?php echo URLROOT;?>
+/img/clgimg.jpg" class="card-img-top" alt="...">
+                                    <div class="content">
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati eligendi, velit repudiandae illum ab harum, dolores consectetur recusandae aspernatur ut minus nam exercitationem deserunt debitis maxime consequuntur nobis odio nisi.
+                                        Amet, atque delectus eligendi facere fuga id temporibus magnam ullam minus recusandae ipsam eaque nisi laudantium voluptate ad repellat itaque inventore, repudiandae est quos dolore obcaecati esse reiciendis! Perferendis, reiciendis.
+                                        Facere perferendis rem sequi, obcaecati repellendus fugiat soluta commodi, neque natus facilis earum, praesentium in deleniti consequuntur assumenda! Quidem ea dolores maxime id illum voluptate nobis iste labore eum ullam?</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div>
+                            <a href="#">
                                 <div class="card">
-                                <img src="<?php echo URLROOT;?>
+                                    <img src="<?php echo URLROOT;?>
 /img/clgimg.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Tech-fest</h5>
+                                                                            </div>
                                 </div>
-                                </div>
-                            </div>
-                            <div>
+                            </a>
+                            <a href="#">
                                 <div class="card">
-                                <img src="<?php echo URLROOT;?>
+                                    <img src="<?php echo URLROOT;?>
 /img/clgimg.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <div class="card-body">
+                                        <h5 class="card-title">cultural function</h5>
+                                                                            </div>
                                 </div>
-                                </div>
-                            </div>
-                            <div>
+                            </a>
+                            <a href="#">
                                 <div class="card">
-                                <img src="<?php echo URLROOT;?>
+                                    <img src="<?php echo URLROOT;?>
 /img/clgimg.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <div class="card-body">
+                                        <h5 class="card-title">sports event</h5>
+                                                                            </div>
                                 </div>
-                                </div>
-                            </div>
-                            <div>
+                            </a>
+                            <a href="#">
                                 <div class="card">
-                                <img src="<?php echo URLROOT;?>
+                                    <img src="<?php echo URLROOT;?>
 /img/clgimg.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Navratri festival</h5>
+                                                                            </div>
                                 </div>
-                                </div>
-                            </div>
-                        </div>
+                            </a>
+                        </div>                     
                     </div>
                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                         234
@@ -141,6 +151,29 @@ function content_5ec24636e44c34_56089106 (Smarty_Internal_Template $_smarty_tpl)
     </div>
      <?php $_smarty_tpl->_subTemplateRender("file:../template/includes/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
+    <?php echo '<script'; ?>
+>
+        var modal = document.getElementById('eventModal');
+        var modalBtn = document.getElementById('modalBtn');
+        var closeBtn = document.getElementById('closeBtn');
+
+        modalBtn.addEventListener('click', openModal);
+        closeBtn.addEventListener('click', closeModal);
+        window.addEventListener('click', outsideClick);
+        
+        function openModal(){
+            modal.style.display = 'block';
+        }
+        function closeModal(){
+            modal.style.display = 'none';
+        }
+        function outsideClick(e){
+            if(e.target == modal){
+                modal.style.display = 'none';
+            }
+        }
+    <?php echo '</script'; ?>
+>
     <?php echo '<script'; ?>
  src="<?php echo URLROOT;?>
 /node_modules/jquery/dist/jquery.min.js"><?php echo '</script'; ?>
