@@ -158,32 +158,50 @@ body #labs .course__container .navbar .inner-nav ul li:nth-child(1) {
   }
 }
 
-body #labs .course__container .labs-swiper-container {
+body #labs .course__container .civil-swiper-container, body #labs .course__container .comp-swiper-container,
+body #labs .course__container .elec-swiper-container, body #labs .course__container .mech-swiper-container,
+body #labs .course__container .ec-swiper-container, body #labs .course__container .mca-swiper-container,
+body #labs .course__container .swiper-container {
   width: 100%;
   background: white;
   overflow: hidden;
 }
 
-body #labs .course__container .labs-swiper-container .swiper-pagination-progressbar-fill {
+body #labs .course__container .civil-swiper-container .swiper-pagination-progressbar-fill, body #labs .course__container .comp-swiper-container .swiper-pagination-progressbar-fill,
+body #labs .course__container .elec-swiper-container .swiper-pagination-progressbar-fill, body #labs .course__container .mech-swiper-container .swiper-pagination-progressbar-fill,
+body #labs .course__container .ec-swiper-container .swiper-pagination-progressbar-fill, body #labs .course__container .mca-swiper-container .swiper-pagination-progressbar-fill,
+body #labs .course__container .swiper-container .swiper-pagination-progressbar-fill {
   background: #000000;
 }
 
-body #labs .course__container .labs-swiper-container .swiper-pagination {
+body #labs .course__container .civil-swiper-container .swiper-pagination, body #labs .course__container .comp-swiper-container .swiper-pagination,
+body #labs .course__container .elec-swiper-container .swiper-pagination, body #labs .course__container .mech-swiper-container .swiper-pagination,
+body #labs .course__container .ec-swiper-container .swiper-pagination, body #labs .course__container .mca-swiper-container .swiper-pagination,
+body #labs .course__container .swiper-container .swiper-pagination {
   position: relative;
   background: #F1A501;
 }
 
-body #labs .course__container .labs-swiper-container .swiper-wrapper {
+body #labs .course__container .civil-swiper-container .swiper-wrapper, body #labs .course__container .comp-swiper-container .swiper-wrapper,
+body #labs .course__container .elec-swiper-container .swiper-wrapper, body #labs .course__container .mech-swiper-container .swiper-wrapper,
+body #labs .course__container .ec-swiper-container .swiper-wrapper, body #labs .course__container .mca-swiper-container .swiper-wrapper,
+body #labs .course__container .swiper-container .swiper-wrapper {
   height: auto;
 }
 
 @media (max-width: 600px) {
-  body #labs .course__container .labs-swiper-container .swiper-wrapper {
+  body #labs .course__container .civil-swiper-container .swiper-wrapper, body #labs .course__container .comp-swiper-container .swiper-wrapper,
+  body #labs .course__container .elec-swiper-container .swiper-wrapper, body #labs .course__container .mech-swiper-container .swiper-wrapper,
+  body #labs .course__container .ec-swiper-container .swiper-wrapper, body #labs .course__container .mca-swiper-container .swiper-wrapper,
+  body #labs .course__container .swiper-container .swiper-wrapper {
     height: 215px;
   }
 }
 
-body #labs .course__container .labs-swiper-container .swiper-wrapper .swiper-slide {
+body #labs .course__container .civil-swiper-container .swiper-wrapper .swiper-slide, body #labs .course__container .comp-swiper-container .swiper-wrapper .swiper-slide,
+body #labs .course__container .elec-swiper-container .swiper-wrapper .swiper-slide, body #labs .course__container .mech-swiper-container .swiper-wrapper .swiper-slide,
+body #labs .course__container .ec-swiper-container .swiper-wrapper .swiper-slide, body #labs .course__container .mca-swiper-container .swiper-wrapper .swiper-slide,
+body #labs .course__container .swiper-container .swiper-wrapper .swiper-slide {
   text-align: center;
   font-size: 18px;
   /* Center slide text vertically */
@@ -194,22 +212,27 @@ body #labs .course__container .labs-swiper-container .swiper-wrapper .swiper-sli
 }
 
 @media (max-width: 600px) {
-  body #labs .course__container .labs-swiper-container .swiper-wrapper .swiper-slide {
+  body #labs .course__container .civil-swiper-container .swiper-wrapper .swiper-slide, body #labs .course__container .comp-swiper-container .swiper-wrapper .swiper-slide,
+  body #labs .course__container .elec-swiper-container .swiper-wrapper .swiper-slide, body #labs .course__container .mech-swiper-container .swiper-wrapper .swiper-slide,
+  body #labs .course__container .ec-swiper-container .swiper-wrapper .swiper-slide, body #labs .course__container .mca-swiper-container .swiper-wrapper .swiper-slide,
+  body #labs .course__container .swiper-container .swiper-wrapper .swiper-slide {
     height: 215px;
     width: 100% !important;
     margin-bottom: 1rem !important;
   }
 }
 
-body #labs .course__container .labs-swiper-container .swiper-wrapper .swiper-slide img {
+body #labs .course__container .civil-swiper-container .swiper-wrapper .swiper-slide img, body #labs .course__container .comp-swiper-container .swiper-wrapper .swiper-slide img,
+body #labs .course__container .elec-swiper-container .swiper-wrapper .swiper-slide img, body #labs .course__container .mech-swiper-container .swiper-wrapper .swiper-slide img,
+body #labs .course__container .ec-swiper-container .swiper-wrapper .swiper-slide img, body #labs .course__container .mca-swiper-container .swiper-wrapper .swiper-slide img,
+body #labs .course__container .swiper-container .swiper-wrapper .swiper-slide img {
   object-fit: fill;
   height: 100%;
   width: 100%;
 }
 
 body #hostel {
-  background-size: cover;
-  background-image: url("../img/about-hero-edit.jpg");
+  background: #000000;
 }
 
 body #hostel .course__container {
@@ -222,69 +245,45 @@ body #hostel .course__container {
   }
 }
 
-body #hostel .course__container .hostel-facility {
-  height: 500px;
-  background-size: contain;
-}
-
-body #hostel .course__container .hostel-facility .card {
+body #hostel .course__container .card {
   border: none;
 }
 
-body #hostel .course__container .hostel-facility .content {
-  width: fit-content;
-  padding: 15px;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.7);
-}
-
-body #hostel .course__container .hostel-facility .content h1 {
+body #hostel .course__container .card h1 {
+  color: white;
   margin-top: 5px;
-  width: fit-content;
   font-size: 33px;
   font-weight: 600;
+  background: #000000;
+  width: fit-content;
   padding: 0.5rem 1rem;
   letter-spacing: .7px;
-  color: white;
-  background: #000000;
   font-family: "Roboto Slab", serif;
 }
 
 @media (max-width: 600px) {
-  body #hostel .course__container .hostel-facility .content h1 {
-    font-size: 28px;
+  body #hostel .course__container .card h1 {
+    font-size: 21px;
     font-weight: 500;
     margin-bottom: 10px;
   }
 }
 
-body #hostel .course__container .hostel-facility .content p {
-  padding: 0.3rem;
-  word-wrap: nowrap;
+body #hostel .course__container .card p {
   color: #000000;
-  font-size: 16px;
-  text-align: justify;
+  padding: 0.3rem;
+  font-size: 21px;
   line-height: 36px;
-  font-weight: 600;
-  font-family: "Roboto", sans-serif;
+  word-wrap: nowrap;
   margin-bottom: 0px;
-}
-
-@media (max-width: 768px) {
-  body #hostel .course__container .hostel-facility .content p {
-    padding: 0;
-    font-size: 0.8em;
-    line-height: 2rem;
-  }
+  font-family: "Source Serif Pro", serif;
 }
 
 @media (max-width: 600px) {
-  body #hostel .course__container .hostel-facility .content p {
-    font-family: "Source Serif Pro", serif;
+  body #hostel .course__container .card p {
     padding: 0px;
     font-size: 18px;
     font-weight: 100;
-    text-indent: 50px;
     line-height: 2rem;
   }
 }
@@ -313,7 +312,7 @@ body #library .card img {
 
 body #library .card .card-body {
   text-align: justify;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 @media (max-width: 600px) {
@@ -356,8 +355,8 @@ body #library .card .card-body p {
   color: #000000;
   font-size: 16px;
   text-align: justify;
-  line-height: 36px;
-  font-weight: 600;
+  line-height: 34px;
+  font-weight: 500;
   font-family: "Roboto", sans-serif;
   margin-bottom: 0px;
   text-indent: 50px;

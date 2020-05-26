@@ -131,6 +131,9 @@ body{
             } 
         }
         .inner-nav{
+            @include responsive-content(tablet){
+                background-color: #111;
+            }
             li{
                 padding: 1rem .8rem;
                 a{

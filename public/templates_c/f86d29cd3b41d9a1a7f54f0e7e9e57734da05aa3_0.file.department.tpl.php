@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-10-11 13:57:48
+/* Smarty version 3.1.33, created on 2020-05-26 16:02:44
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\department.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5da06e3ca3c709_48563169',
+  'unifunc' => 'content_5ecd2184537614_30262906',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f86d29cd3b41d9a1a7f54f0e7e9e57734da05aa3' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\department.tpl',
-      1 => 1570794904,
+      1 => 1590001623,
       2 => 'file',
     ),
   ),
@@ -25,7 +25,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/department/civil.tpl' => 1,
   ),
 ),false)) {
-function content_5da06e3ca3c709_48563169 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ecd2184537614_30262906 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -49,13 +49,12 @@ function content_5da06e3ca3c709_48563169 (Smarty_Internal_Template $_smarty_tpl)
             <div class="container-fluid media-container position-absolute">
                 <img src="<?php echo URLROOT;?>
 /img/img2.jpg" class="video1 container-fluid">
-            </div>    
-            
+            </div> 
             <div class="header-txt position-absolute">
-                <div class="txt-container container">
-                    <p>Welcome</p>
-                    <p>To SSIT</p>
-                </div>    
+            <div class="txt-container container">
+                <p>Welcome</p>
+                <p>To SSIT</p>
+            </div>    
             </div>
 
         </div>

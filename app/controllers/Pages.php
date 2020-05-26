@@ -27,5 +27,8 @@
     public function admission(){
       $this->view('php/admission');
     } 
+    public function tour(){
+      $this->view('php/tour');
+    } 
   
   }

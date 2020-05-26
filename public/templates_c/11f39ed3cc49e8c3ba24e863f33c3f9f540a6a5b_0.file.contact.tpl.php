@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-10 22:09:27
+/* Smarty version 3.1.33, created on 2020-05-25 21:12:42
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\contact.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5eb85f779bffd6_85788870',
+  'unifunc' => 'content_5ecc18aae00c08_71481455',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5eb85f779bffd6_85788870 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ecc18aae00c08_71481455 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>

@@ -48,7 +48,7 @@
                 </nav>                  
                 <div class="tab-content" id="pills-tabContent">
                     <div class="tab-pane fade show active" id="civil" role="tabpanel" aria-labelledby="pills-civil-tab">
-                        <div class="labs-swiper-container">
+                        <div class="civil-swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/geotech & soil mechnics/IMG-4754-300x170.jpg" class="img-fluid" alt=""></div>
                                 <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/fluid mechanics & advance fluid mechanics/IMG-4767-300x235.jpg" class="img-fluid" alt=""></div>
@@ -60,61 +60,61 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="computer" role="tabpanel" aria-labelledby="pills-computer-tab">
-                        <div class="labs-swiper-container">
-                            <div class="swiper-pagination"></div>
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="{URLROOT}/img/comp/lab/MG_5010-300x168.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/comp/lab/IMG_2173-300x200.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/comp/lab/Simulation-Lab1-300x200.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/comp/lab/IMG_2146-1-300x200.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/comp/lab/IMG_2148-300x200.jpg" class="img-fluid" alt=""></div>
+                        <div class="comp-swiper-container">
+                           <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/geotech & soil mechnics/IMG-4754-300x170.jpg" class="img-fluid" alt=""></div>
+                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/fluid mechanics & advance fluid mechanics/IMG-4767-300x235.jpg" class="img-fluid" alt=""></div>
+                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/fluid mechanics & advance fluid mechanics/IMG-4769.jpg" class="img-fluid" alt=""></div>
+                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/concrete technology/Picture3-300x200.jpg" class="img-fluid" alt=""></div>
+                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/environmental engineering/IMG_2063-300x200.jpg" class="img-fluid" alt=""></div>
                             </div>
+                            <div class="swiper-pagination"></div>
                         </div>
                     </div>
                     <div class="tab-pane fade" id="electrical" role="tabpanel" aria-labelledby="pills-electrical-tab">
-                         <div class="labs-swiper-container">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="{URLROOT}/img/img2.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/img2.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/img2.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/img2.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/img2.jpg" class="img-fluid" alt=""></div>
+                         <div class="elec-swiper-container">
+                           <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/geotech & soil mechnics/IMG-4754-300x170.jpg" class="img-fluid" alt=""></div>
+                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/fluid mechanics & advance fluid mechanics/IMG-4767-300x235.jpg" class="img-fluid" alt=""></div>
+                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/fluid mechanics & advance fluid mechanics/IMG-4769.jpg" class="img-fluid" alt=""></div>
+                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/concrete technology/Picture3-300x200.jpg" class="img-fluid" alt=""></div>
+                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/environmental engineering/IMG_2063-300x200.jpg" class="img-fluid" alt=""></div>
                             </div>
                             <div class="swiper-pagination"></div>
                         </div>
                     </div>
                     <div class="tab-pane fade" id="mechanical" role="tabpanel" aria-labelledby="pills-mechanical-tab">
-                         <div class="labs-swiper-container">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="{URLROOT}/img/img2.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/img2.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/img2.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/img2.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/img2.jpg" class="img-fluid" alt=""></div>
+                         <div class="mech-swiper-container">
+                          <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/geotech & soil mechnics/IMG-4754-300x170.jpg" class="img-fluid" alt=""></div>
+                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/fluid mechanics & advance fluid mechanics/IMG-4767-300x235.jpg" class="img-fluid" alt=""></div>
+                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/fluid mechanics & advance fluid mechanics/IMG-4769.jpg" class="img-fluid" alt=""></div>
+                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/concrete technology/Picture3-300x200.jpg" class="img-fluid" alt=""></div>
+                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/environmental engineering/IMG_2063-300x200.jpg" class="img-fluid" alt=""></div>
                             </div>
                             <div class="swiper-pagination"></div>
                         </div>
                     </div>
                     <div class="tab-pane fade" id="electronics" role="tabpanel" aria-labelledby="pills-electronics-tab">
-                         <div class="labs-swiper-container">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="{URLROOT}/img/img2.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/img2.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/img2.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/img2.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/img2.jpg" class="img-fluid" alt=""></div>
+                         <div class="ec-swiper-container">
+                             <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/geotech & soil mechnics/IMG-4754-300x170.jpg" class="img-fluid" alt=""></div>
+                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/fluid mechanics & advance fluid mechanics/IMG-4767-300x235.jpg" class="img-fluid" alt=""></div>
+                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/fluid mechanics & advance fluid mechanics/IMG-4769.jpg" class="img-fluid" alt=""></div>
+                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/concrete technology/Picture3-300x200.jpg" class="img-fluid" alt=""></div>
+                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/environmental engineering/IMG_2063-300x200.jpg" class="img-fluid" alt=""></div>
                             </div>
                             <div class="swiper-pagination"></div>
                         </div>
                     </div>
                     <div class="tab-pane fade" id="mca" role="tabpanel" aria-labelledby="pills-mca-tab">
-                         <div class="labs-swiper-container">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="{URLROOT}/img/img2.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/img2.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/img2.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/img2.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/img2.jpg" class="img-fluid" alt=""></div>
+                         <div class="mca-swiper-container">
+                           <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/geotech & soil mechnics/IMG-4754-300x170.jpg" class="img-fluid" alt=""></div>
+                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/fluid mechanics & advance fluid mechanics/IMG-4767-300x235.jpg" class="img-fluid" alt=""></div>
+                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/fluid mechanics & advance fluid mechanics/IMG-4769.jpg" class="img-fluid" alt=""></div>
+                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/concrete technology/Picture3-300x200.jpg" class="img-fluid" alt=""></div>
+                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/environmental engineering/IMG_2063-300x200.jpg" class="img-fluid" alt=""></div>
                             </div>
                             <div class="swiper-pagination"></div>
                         </div>
@@ -127,14 +127,19 @@
         <!-- hostel start -->
         <div id="hostel" class='scroll-start2'>
             <div class="container course__container">
-                <div class="rounded hostel-facility">
-                    <div class="card">
-                        <div class="card-img-overlay">
-                            <div class="content">
-                                <h1>Hostel @ SSIT</h1>
-                                <p>50+ rooms<br> 100+ student capacity<br> 2 times food facility</p>
-                            </div>
+                <div class="card">
+                    <div class="row no-gutters">                       
+                        <div class="col-md-8">
+                            <img src="{URLROOT}/img/hostel1.jpeg" class="img-fluid" alt="...">
                         </div>
+                        <div class="col-md-4">
+                            <div class="card-body">
+                                <h1>Hostel @ SSIT</h1>
+                                <p>Room available: 24</p>
+                                <p>Total Bed: 48</p>
+                                <p>Food Facilities</p>
+                            </div>
+                        </div>                        
                     </div>
                 </div>
             </div>
@@ -146,15 +151,17 @@
             <div class="container course__container">
                 <!-- library img and text section -->
                 <div class="card">
-                    <div class="row no-gutters">
+                    <div class="row no-gutters">                       
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h1>Library @ SSIT</h1>
+                                <p>The collection in the library encompasses 15500 books of 3300 titles varying in subjects  Engineering, MCA and also includes reference books, number of CDs/DVDs and subscribed to 50 print journals and magazines in print and  e-books and other e-resources.
+                                    All books of Library are classified as per Dewey Decimal Classification System (DDC). Book issue and return facilities, book search option, student membership is to be done through this Soul 2.o software.
+                                </p>
+                            </div>
+                        </div>
                         <div class="col-md-6">
                             <img src="{URLROOT}/img/library-showcase.jpg" class="img-fluid" alt="...">
-                        </div>
-                        <div class="col-md-6">
-                        <div class="card-body">
-                            <h1>Library @ SSIT</h1>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus labore qui suscipit repudiandae possimus nemo impedit consequatur quae veritatis aliquid, corrupti earum iusto tempora explicabo aliquam unde reiciendis! Aspernatur velit tenetur facilis, at magnam eaque sed, fuga maiores quos facere nesciunt rem esse culpa animi, odit eos ipsa distinctio veniam.</p>
-                        </div>
                         </div>
                     </div>
                 </div>
@@ -326,6 +333,7 @@
     <script src="{URLROOT}/node_modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
     <script type="module"  src="{URLROOT}/node_modules/gsap/all.js"></script>
     <script type="module" src="{URLROOT}/js/scroll.js"></script>
+    <script type="module" src="{URLROOT}/js/swiper.js"></script>
     <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>    
     <script type="text/javascript" src="{URLROOT}/js/backtotop.js"></script>
     <script src="{URLROOT}/node_modules/bootstrap/dist/js/bootstrap.js"></script>

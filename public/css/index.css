@@ -327,8 +327,21 @@ body #director .director-info {
 }
 
 body #director .director-info img {
-  width: 90%;
+  width: 60%;
+  height: 300px;
   object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  body #director .director-info img {
+    width: 70% !important;
+  }
+}
+
+@media (max-width: 992px) {
+  body #director .director-info img {
+    width: 90%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -576,6 +589,7 @@ body #events .swiper-container .swiper-wrapper .swiper-slide {
 @media (max-width: 600px) {
   body #events .swiper-container .swiper-wrapper .swiper-slide {
     width: 100% !important;
+    height: 215px;
     margin-bottom: 1rem !important;
   }
 }
@@ -584,6 +598,50 @@ body #events .swiper-container .swiper-wrapper .swiper-slide img {
   object-fit: cover;
   height: 100%;
   width: 100%;
+}
+
+body #events .swiper-container .swiper-wrapper .swiper-slide .card-body {
+  position: absolute;
+  bottom: 0;
+  padding: 5px;
+  min-height: 50px;
+  height: auto;
+  max-height: 100px;
+  width: 100%;
+  color: #F1A501;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 600px) {
+  body #events .swiper-container .swiper-wrapper .swiper-slide .card-body {
+    width: 100%;
+    min-height: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  body #events .swiper-container .swiper-wrapper .swiper-slide .card-body {
+    width: 100%;
+    min-height: auto;
+  }
+}
+
+body #events .swiper-container .swiper-wrapper .swiper-slide .card-body .card-title {
+  min-height: 40px;
+  max-height: 100px;
+  margin: 0px;
+  padding: 5px 10px;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  body #events .swiper-container .swiper-wrapper .swiper-slide .card-body .card-title {
+    font-size: 18px;
+    min-height: auto;
+  }
 }
 
 body #socialmedia {
@@ -617,14 +675,6 @@ body #socialmedia .course__container {
 
 @media (max-width: 600px) {
   body #socialmedia .course__container {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media (max-width: 768px) {
-  body #socialmedia .course__container {
     flex-direction: column !important;
     justify-content: center;
     align-items: center;
@@ -646,8 +696,14 @@ body #socialmedia .course__container .insta-container {
 
 @media (max-width: 600px) {
   body #socialmedia .course__container .insta-container {
-    width: 90%;
+    width: 90% !important;
     margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  body #socialmedia .course__container .insta-container {
+    width: 45%;
   }
 }
 
@@ -658,7 +714,13 @@ body #socialmedia .course__container .facebook-container {
 
 @media (max-width: 600px) {
   body #socialmedia .course__container .facebook-container {
-    width: 90%;
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 992px) {
+  body #socialmedia .course__container .facebook-container {
+    width: 45%;
   }
 }
 
@@ -670,7 +732,13 @@ body #socialmedia .course__container .scroll {
 
 @media (max-width: 600px) {
   body #socialmedia .course__container .scroll {
-    height: 70vh;
+    height: 70vh !important;
+  }
+}
+
+@media (max-width: 992px) {
+  body #socialmedia .course__container .scroll {
+    height: 55vh;
   }
 }
 
@@ -696,15 +764,14 @@ body #socialmedia .course__container .container-heading h1 {
 
 @media (max-width: 600px) {
   body #socialmedia .course__container .container-heading h1 {
-    font-size: 25px;
+    font-size: 25px !important;
     font-weight: 500;
   }
 }
 
 @media (max-width: 992px) {
   body #socialmedia .course__container .container-heading h1 {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 18px;
   }
 }
 
@@ -720,12 +787,6 @@ body #socialmedia .course__container .container-heading i {
   }
 }
 
-@media (max-width: 992px) {
-  body #socialmedia .course__container .container-heading i {
-    font-size: 20px;
-  }
-}
-
 body #socialmedia .course__container .content-container {
   background: white;
   display: flex;
@@ -736,12 +797,13 @@ body #socialmedia .course__container .content-container {
 }
 
 body #gallery {
+  height: auto;
   overflow: hidden;
   background: #000000;
 }
 
 body #gallery .course__container {
-  padding: 1rem 0;
+  padding: 1.5rem 0;
 }
 
 @media (max-width: 600px) {
@@ -767,27 +829,94 @@ body #gallery h1 {
   }
 }
 
-body #gallery .swiper-container {
-  width: 100%;
-  height: 300px;
-  margin-left: auto;
-  margin-right: auto;
+body #gallery .gallery-swiper-container {
+  width: auto;
+  margin: 0px 30px;
+  overflow: hidden;
 }
 
-body #gallery .swiper-container .swiper-slide {
-  background-size: cover;
-  background-position: center;
+@media (max-width: 600px) {
+  body #gallery .gallery-swiper-container {
+    margin: 0px;
+  }
 }
 
-body #gallery .swiper-container .swiper-slide img {
-  object-fit: fill;
+body #gallery .gallery-swiper-container .swiper-wrapper {
+  height: 375px;
+}
+
+body #gallery .gallery-swiper-container .swiper-wrapper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 375px;
+  margin-bottom: 2rem !important;
+}
+
+@media (max-width: 600px) {
+  body #gallery .gallery-swiper-container .swiper-wrapper .swiper-slide {
+    width: 100% !important;
+    height: 215px;
+    margin-bottom: 1rem !important;
+  }
+}
+
+body #gallery .gallery-swiper-container .swiper-wrapper .swiper-slide img {
+  object-fit: cover;
   height: 100%;
   width: 100%;
 }
 
-body #gallery .gallery-top {
-  height: 65%;
+body #gallery .gallery-swiper-container .swiper-wrapper .swiper-slide .card-body {
+  position: absolute;
+  bottom: 0;
+  padding: 5px;
+  min-height: 50px;
+  height: auto;
+  max-height: 100px;
   width: 100%;
+  color: #F1A501;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 600px) {
+  body #gallery .gallery-swiper-container .swiper-wrapper .swiper-slide .card-body {
+    width: 100%;
+    min-height: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  body #gallery .gallery-swiper-container .swiper-wrapper .swiper-slide .card-body {
+    width: 100%;
+    min-height: auto;
+  }
+}
+
+body #gallery .gallery-swiper-container .swiper-wrapper .swiper-slide .card-body .card-title {
+  min-height: 40px;
+  max-height: 100px;
+  margin: 0px;
+  padding: 5px 10px;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  body #gallery .gallery-swiper-container .swiper-wrapper .swiper-slide .card-body .card-title {
+    font-size: 18px;
+    min-height: auto;
+  }
+}
+
+body #gallery .gallery-top {
+  height: auto;
+  width: auto;
 }
 
 @media (max-width: 600px) {
@@ -797,15 +926,21 @@ body #gallery .gallery-top {
 }
 
 body #gallery .gallery-thumbs {
-  height: 15%;
-  width: 100%;
+  height: 150px;
+  width: auto;
   box-sizing: border-box;
   padding: 10px 0;
 }
 
+@media (max-width: 600px) {
+  body #gallery .gallery-thumbs {
+    display: none;
+  }
+}
+
 body #gallery .gallery-thumbs .swiper-wrapper .swiper-slide {
   width: 25%;
-  height: 163px !important;
+  height: 150px !important;
   opacity: 0.4;
 }
 
@@ -849,6 +984,12 @@ body .placement .placement-swiper-container {
   }
 }
 
+@media (min-width: 768px) {
+  body .placement .placement-swiper-container {
+    margin: 0px;
+  }
+}
+
 body .placement .placement-swiper-container .swiper-wrapper {
   height: 155px;
 }
@@ -883,6 +1024,44 @@ body .placement .placement-swiper-container .swiper-wrapper .swiper-slide img {
   body .placement .placement-swiper-container .swiper-wrapper .swiper-slide img {
     width: 180px;
   }
+}
+
+body .tour {
+  height: auto;
+  padding-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #DBDBDB;
+}
+
+body .tour a button {
+  border: 1px solid #000000;
+  color: white;
+  font-size: 33px;
+  font-weight: 600;
+  padding: 10px 15px;
+  text-align: center;
+  letter-spacing: .7px;
+  background-color: #000000;
+  font-family: "Roboto Slab", serif;
+}
+
+@media (max-width: 600px) {
+  body .tour a button {
+    font-size: 28px;
+    font-weight: 500;
+  }
+}
+
+body .tour a button i {
+  margin-right: 15px;
+}
+
+body .tour a button:hover {
+  color: #000000;
+  background-color: transparent;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5), 0 7px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (max-width: 768px) {
