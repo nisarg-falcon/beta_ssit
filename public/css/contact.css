@@ -70,7 +70,7 @@ body #myBtn:hover {
 }
 
 body .header-section {
-  height: 78vh;
+  height: auto;
 }
 
 body .header-section .media-container {
@@ -177,12 +177,12 @@ body #contact .course__container {
 }
 
 body #contact a {
-  color: #000000;
+  color: #D07500;
   text-decoration: none;
 }
 
 body #contact a:hover {
-  color: #D07500;
+  color: #F1A501;
 }
 
 body #contact .contact-container {
@@ -192,7 +192,13 @@ body #contact .contact-container {
 
 @media (max-width: 600px) {
   body #contact .contact-container {
-    width: auto;
+    width: auto !important;
+  }
+}
+
+@media (max-width: 992px) {
+  body #contact .contact-container {
+    width: 90%;
   }
 }
 
@@ -206,9 +212,15 @@ body #contact .contact-container h1 {
   font-family: "Roboto Slab", serif;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 992px) {
   body #contact .contact-container h1 {
     font-size: 21px;
+  }
+}
+
+@media (max-width: 600px) {
+  body #contact .contact-container h1 {
+    font-size: 21px !important;
     font-weight: 500;
   }
 }
@@ -229,7 +241,7 @@ body #contact .contact-container p {
 @media (max-width: 600px) {
   body #contact .contact-container p {
     text-align: left;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 2rem;
   }
 }
@@ -255,15 +267,26 @@ body #contact .contact-container form input, body #contact .contact-container fo
   margin: 5px;
 }
 
+@media (max-width: 992px) {
+  body #contact .contact-container form input, body #contact .contact-container form button, body #contact .contact-container form textarea {
+    width: 80%;
+  }
+}
+
 @media (max-width: 600px) {
   body #contact .contact-container form input, body #contact .contact-container form button, body #contact .contact-container form textarea {
-    width: 97%;
+    width: 97% !important;
   }
 }
 
 body #contact .contact-container form button {
   font-size: 20px;
   color: white;
+  border: none;
   background: #000000;
+}
+
+body #contact .contact-container form button:hover {
+  background-color: rgba(0, 0, 0, 0.9);
 }
 /*# sourceMappingURL=contact.css.map */

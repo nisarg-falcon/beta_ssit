@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-25 21:12:42
+/* Smarty version 3.1.33, created on 2020-05-28 20:29:52
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\contact.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ecc18aae00c08_71481455',
+  'unifunc' => 'content_5ed00320c01f20_18456346',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '11f39ed3cc49e8c3ba24e863f33c3f9f540a6a5b' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\contact.tpl',
-      1 => 1589141366,
+      1 => 1590690589,
       2 => 'file',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5ecc18aae00c08_71481455 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ed00320c01f20_18456346 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -49,14 +49,10 @@ function content_5ecc18aae00c08_71481455 (Smarty_Internal_Template $_smarty_tpl)
     <div class="header-section position-relative">
         <?php $_smarty_tpl->_subTemplateRender("file:../template/includes/header2.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>    
-        <div class="container-fluid media-container position-absolute">
-            <img src="<?php echo URLROOT;?>
-/img/img2.jpg" class="video1 container-fluid">
-            <!-- <video class="video1 container-fluid" loop muted autoplay>
+                                <!-- <video class="video1 container-fluid" loop muted autoplay>
                 <source src="videos/video1.mp4" type="video/mp4">
                 </video> -->
-        </div>
-    </div>
+            </div>
   
     <!-- people starts -->
     <div>
@@ -69,11 +65,13 @@ function content_5ecc18aae00c08_71481455 (Smarty_Internal_Template $_smarty_tpl)
                     <p>
                         <cite>
                             Shree Swaminarayan Institute of Technology (SSIT)<br />
-                            Near Apollo Circle, Bhat,<br />
-                            Gandhinagar, Gujarat,<br />
-                            Email : ssit@gmail.com<br />
-                            Contact No: 1234567890
+                            Near Agora Mall & Indira Bridge,<br />
+                            Sardar patel Ring Road, Bhat Circle<br />
+                            Ahmedabad Airport-Gandhinagar Highway,<br />
+                            Bhat, Gandhinagar-382428<br />
                         </cite>
+                            Email : <a href="mailto:info@ssit.co.in">info@ssit.co.in</a> | <a href="mailto:ssit.director@gmail.com">ssit.director@gmail.com</a><br />
+                            Contact No : <a href="tel:+919408260607">+91 9408260607</a> | <a href="tel:+917043609281">+91 7043609281</a> | <a href="tel:+919099063433">+91 9099063433</a>
                     </p>
                 </div>
                 <div class="contact-container">
@@ -90,9 +88,10 @@ function content_5ecc18aae00c08_71481455 (Smarty_Internal_Template $_smarty_tpl)
                 <div class="contact-container">
                     <h1>FEEDBACK & SUGGESTIONS</h1>
                         <form>
-                            <input type="text" placeholder="Your Name" name="">
-                            <input type="email" placeholder="Your Email ID" name="">
-                            <textarea rows="2" placeholder="Your Answer" name=""></textarea>                            
+                            <input type="text" placeholder="Your Name" name="name">
+                            <input type="email" placeholder="Your Email ID" name="email">
+                            <input type="text" placeholder="Subject of Message" name="subject">
+                            <textarea rows="2" placeholder="Your Answer" name="message"></textarea>                            
                             <button type="submit">Submit</button>
                         </form>
                  </div>
