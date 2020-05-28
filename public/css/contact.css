@@ -190,6 +190,12 @@ body #contact .contact-container {
   margin-bottom: 20px;
 }
 
+@media (max-width: 600px) {
+  body #contact .contact-container {
+    width: auto;
+  }
+}
+
 body #contact .contact-container h1 {
   font-size: 33px;
   font-weight: 600;
@@ -202,9 +208,8 @@ body #contact .contact-container h1 {
 
 @media (max-width: 600px) {
   body #contact .contact-container h1 {
-    font-size: 28px;
+    font-size: 21px;
     font-weight: 500;
-    padding-left: 0px;
   }
 }
 
@@ -221,17 +226,9 @@ body #contact .contact-container p {
   margin-bottom: 0px;
 }
 
-@media (max-width: 768px) {
-  body #contact .contact-container p {
-    padding: 0;
-    font-size: 0.8em;
-    line-height: 2rem;
-  }
-}
-
 @media (max-width: 600px) {
   body #contact .contact-container p {
-    padding: 0;
+    text-align: left;
     font-size: 18px;
     line-height: 2rem;
   }
@@ -243,6 +240,12 @@ body #contact .contact-container form {
   padding: 15px;
 }
 
+@media (max-width: 600px) {
+  body #contact .contact-container form {
+    padding: 10px;
+  }
+}
+
 body #contact .contact-container form input, body #contact .contact-container form button, body #contact .contact-container form textarea {
   width: 50%;
   font-size: 17px;
@@ -250,6 +253,12 @@ body #contact .contact-container form input, body #contact .contact-container fo
   padding: 10px;
   padding-left: 15px;
   margin: 5px;
+}
+
+@media (max-width: 600px) {
+  body #contact .contact-container form input, body #contact .contact-container form button, body #contact .contact-container form textarea {
+    width: 97%;
+  }
 }
 
 body #contact .contact-container form button {

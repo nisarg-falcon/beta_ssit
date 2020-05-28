@@ -119,6 +119,9 @@ body{
         .contact-container{
             width: 70%;
             margin-bottom: 20px;
+            @include responsive-content(smd){
+                width: auto;
+            }
             h1{
                 font-size: 33px;
                 font-weight: 600;
@@ -129,9 +132,8 @@ body{
                 // border-radius: 25px 25px 0px 0px;
                 font-family: $roboto-slab;
                 @include responsive-content(smd){
-                    font-size: 28px;
-                    font-weight: 500;
-                    padding-left: 0px;
+                    font-size: 21px;
+                    font-weight: 500;                    
                 }
             }
             p{
@@ -147,14 +149,9 @@ body{
                 font-family: $roboto;
                 background: $white;
                 margin-bottom: 0px;
-                // border-radius: 0px 0px 25px 25px;
-                @include responsive-content(mobile){
-                    padding: 0;
-                    font-size: 0.8em;
-                    line-height: 2rem;
-                }
+                // border-radius: 0px 0px 25px 25px;              
                 @include responsive-content(smd){
-                    padding: 0;
+                    text-align: left;
                     font-size: 18px;
                     line-height: 2rem;
                 }
@@ -163,6 +160,9 @@ body{
                 width: 100%;
                 background: $white;
                 padding: 15px;
+                @include responsive-content(smd){
+                    padding: 10px;
+                }
                 input, button, textarea{
                     width: 50%;
                     font-size: 17px;
@@ -170,6 +170,9 @@ body{
                     padding: 10px;                
                     padding-left: 15px;
                     margin: 5px;
+                    @include responsive-content(smd){
+                        width: 97%;
+                    }
                 }
                 button{
                     font-size: 20px;

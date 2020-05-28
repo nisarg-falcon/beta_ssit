@@ -107,75 +107,39 @@ var swiper = new Swiper('.placement-swiper-container', {
 });
 
 // facilities
-var civilSwiper = new Swiper('.civil-swiper-container', {
-    slidesPerView: 1,
-    spaceBetween: 10, 
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-    },
-    pagination: {
-        el: '.swiper-pagination',
-        type: 'progressbar',
-    }
+var swiper = new Swiper('.labs-swiper-container', {    
+  slidesPerView: 1,
+  spaceBetween: 10, 
+  loop: true,
+  autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+  }
 });
-var compSwiper = new Swiper('.comp-swiper-container', {
-    slidesPerView: 1,
-    spaceBetween: 10, 
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-    },
-    pagination: {
-        el: '.swiper-pagination',
-        type: 'progressbar',
-    }
+var swiper = new Swiper('.lib-swiper-container', {    
+  slidesPerView: 1,
+  spaceBetween: 10, 
+  loop: true,
+  autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+  }
 });
-var elecSwiper = new Swiper('.elec-swiper-container', {
-    slidesPerView: 1,
-    spaceBetween: 10, 
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-    },
-    pagination: {
-        el: '.swiper-pagination',
-        type: 'progressbar',
-    }
+var swiper = new Swiper('.canteen-swiper-container', {
+  slidesPerView: 1,
+  spaceBetween: 10, 
+  loop: true,
+  autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+  }
 });
-var mechswiper = new Swiper('.mech-swiper-container', {
-    slidesPerView: 1,
-    spaceBetween: 10, 
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-    },
-    pagination: {
-        el: '.swiper-pagination',
-        type: 'progressbar',
-    }
-});
-var ecswiper = new Swiper('.ec-swiper-container',{
-    slidesPerView: 1,
-    spaceBetween: 10, 
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-    },
-    pagination: {
-        el: '.swiper-pagination',
-        type: 'progressbar',
-    }
-});
-var mcaswiper = new Swiper('.mca-swiper-container', {
-    slidesPerView: 1,
-    spaceBetween: 10, 
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-    },
-    pagination: {
-        el: '.swiper-pagination',
-        type: 'progressbar',
-    }
+var swiper = new Swiper('.club-swiper-container', {
+  slidesPerView: 1,
+  spaceBetween: 10, 
+  loop: true,
+  autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+  }
 });

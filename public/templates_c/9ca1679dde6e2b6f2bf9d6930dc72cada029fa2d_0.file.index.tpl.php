@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-26 16:02:01
+/* Smarty version 3.1.33, created on 2020-05-26 16:19:27
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ecd2159613bd6_21133357',
+  'unifunc' => 'content_5ecd256fb74aa0_50458785',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9ca1679dde6e2b6f2bf9d6930dc72cada029fa2d' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\index.tpl',
-      1 => 1590484196,
+      1 => 1590501979,
       2 => 'file',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5ecd2159613bd6_21133357 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ecd256fb74aa0_50458785 (Smarty_Internal_Template $_smarty_tpl) {
 ?><html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -153,7 +153,6 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
         <!-- event start -->
         <div class="scroll-start4" id="events">
             <div class="container course__container">
-                <!-- <div class="event-contain"> -->
                 <h1>Events</h1> 
                 <div class="swiper-container">
                     <div class="swiper-wrapper">

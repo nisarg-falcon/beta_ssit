@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="{URLROOT}/img/logo.png">
     <link rel="stylesheet" href="{URLROOT}/css/header.css">
     <link rel="stylesheet" href="{URLROOT}/css/footer.css">
     <link rel="stylesheet" href="{URLROOT}/css/facilities.css">
@@ -28,98 +29,47 @@
         <!-- lab start -->
         <div class="scroll-start1" id="labs">
             <div class="container course__container">
-                <!-- labs nav start -->
-                <nav class="navbar navbar-expand-lg navbar-light  nav-pills nav-fill">
-                    <button type="button" class="navbar-toggler navbar-light flex-row p-md-2 p-lg-2 " data-toggle="collapse" data-target="#labSupportContent2" aria-controls="navbarSupportContent" aria-expanded="false">
-                        <span class="navbar-toggler-icon"></span>
-                        <span class="navbar-toggler-text">Labs</span>&nbsp;    
-                    </button>
-                <div class="inner-nav navbar-collapse collapse" id="labSupportContent2">
-                    <ul class="nav navbar-nav  nav-fill ">
-                        <li class="nav-item"><p class="nav-link h5 font-weight-normal m-0">Labs</p></li>
-                        <li class="nav-item"><a class="nav-link active" id="pills-civil-tab" data-toggle="pill" href="#civil">&nbsp; Civil &nbsp;</a></li>
-                        <li class="nav-item"><a class="nav-link" id="pills-computer-tab" data-toggle="pill" href="#computer">Computer</a></li>
-                        <li class="nav-item"><a class="nav-link" id="pills-electrical-tab" data-toggle="pill" href="#electrical">Electrical</a></li>
-                        <li class="nav-item"><a class="nav-link" id="pills-mechanical-tab" data-toggle="pill" href="#mechanical">Mechanical</a></li>
-                        <li class="nav-item"><a class="nav-link" id="pills-electronics-tab" data-toggle="pill" href="#electronics">Electronics</a></li>
-                        <li class="nav-item"><a class="nav-link" id="pills-mca-tab" data-toggle="pill" href="#mca">MCA</a></li>
-                    </ul>
-                </div>
-                </nav>                  
-                <div class="tab-content" id="pills-tabContent">
-                    <div class="tab-pane fade show active" id="civil" role="tabpanel" aria-labelledby="pills-civil-tab">
-                        <div class="civil-swiper-container">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/geotech & soil mechnics/IMG-4754-300x170.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/fluid mechanics & advance fluid mechanics/IMG-4767-300x235.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/fluid mechanics & advance fluid mechanics/IMG-4769.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/concrete technology/Picture3-300x200.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/environmental engineering/IMG_2063-300x200.jpg" class="img-fluid" alt=""></div>
+                <h1>Labs</h1>
+                <div class="labs-swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="{URLROOT}/public/img/comp/lab/MG_5010-300x168.jpg" class="img-fluid" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Computer Engineering</h5>
                             </div>
-                            <div class="swiper-pagination"></div>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="computer" role="tabpanel" aria-labelledby="pills-computer-tab">
-                        <div class="comp-swiper-container">
-                           <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/geotech & soil mechnics/IMG-4754-300x170.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/fluid mechanics & advance fluid mechanics/IMG-4767-300x235.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/fluid mechanics & advance fluid mechanics/IMG-4769.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/concrete technology/Picture3-300x200.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/environmental engineering/IMG_2063-300x200.jpg" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide">
+                            <img src="{URLROOT}/public/img/civil/lab/surveying/IMG_6750-300x200.jpg" class="img-fluid" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Civil Engineering</h5>
                             </div>
-                            <div class="swiper-pagination"></div>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="electrical" role="tabpanel" aria-labelledby="pills-electrical-tab">
-                         <div class="elec-swiper-container">
-                           <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/geotech & soil mechnics/IMG-4754-300x170.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/fluid mechanics & advance fluid mechanics/IMG-4767-300x235.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/fluid mechanics & advance fluid mechanics/IMG-4769.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/concrete technology/Picture3-300x200.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/environmental engineering/IMG_2063-300x200.jpg" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide">
+                            <img src="{URLROOT}/public/img/elec/lab/dc machine and transformer/DSC_0112-300x199.jpg" class="img-fluid" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Electrical Engineering</h5>
                             </div>
-                            <div class="swiper-pagination"></div>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="mechanical" role="tabpanel" aria-labelledby="pills-mechanical-tab">
-                         <div class="mech-swiper-container">
-                          <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/geotech & soil mechnics/IMG-4754-300x170.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/fluid mechanics & advance fluid mechanics/IMG-4767-300x235.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/fluid mechanics & advance fluid mechanics/IMG-4769.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/concrete technology/Picture3-300x200.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/environmental engineering/IMG_2063-300x200.jpg" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide">
+                            <img src="{URLROOT}/public/img/ec/lab/vlsi & avs lab/VLSI-AVS-Lab1-300x225.jpg" class="img-fluid" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">E.C Engineering</h5>
                             </div>
-                            <div class="swiper-pagination"></div>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="electronics" role="tabpanel" aria-labelledby="pills-electronics-tab">
-                         <div class="ec-swiper-container">
-                             <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/geotech & soil mechnics/IMG-4754-300x170.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/fluid mechanics & advance fluid mechanics/IMG-4767-300x235.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/fluid mechanics & advance fluid mechanics/IMG-4769.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/concrete technology/Picture3-300x200.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/environmental engineering/IMG_2063-300x200.jpg" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide">
+                            <img src="{URLROOT}/public/img/mech/lab/workshop/Workshop-300x225.jpg" class="img-fluid" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Mechanical Engineering</h5>
                             </div>
-                            <div class="swiper-pagination"></div>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="mca" role="tabpanel" aria-labelledby="pills-mca-tab">
-                         <div class="mca-swiper-container">
-                           <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/geotech & soil mechnics/IMG-4754-300x170.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/fluid mechanics & advance fluid mechanics/IMG-4767-300x235.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/fluid mechanics & advance fluid mechanics/IMG-4769.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/concrete technology/Picture3-300x200.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/environmental engineering/IMG_2063-300x200.jpg" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide">
+                            <img src="{URLROOT}/public/img/mca/lab/IMG_2185-300x200.jpg" class="img-fluid" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">MCA</h5>
                             </div>
-                            <div class="swiper-pagination"></div>
                         </div>
-                    </div>
-                </div>                      
+                    </div>                        
+                </div>                  
             </div>
         </div>
         <!-- labs ends -->
@@ -137,7 +87,7 @@
                                 <h1>Hostel @ SSIT</h1>
                                 <p>Room available: 24</p>
                                 <p>Total Bed: 48</p>
-                                <p>Food Facilities</p>
+                                <p>Food Facilities</p>                                
                             </div>
                         </div>                        
                     </div>
@@ -160,14 +110,14 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <img src="{URLROOT}/img/library-showcase.jpg" class="img-fluid" alt="...">
+                        <div class="col-md-6 d-flex">
+                            <img src="{URLROOT}/public/img/IMG_2898-min.JPG" class="img-fluid" alt="...">
                         </div>
                     </div>
                 </div>
                 <div class="lib-facilities">
                     <h1>Library Facilities</h1>
-                    <div class="labs-swiper-container">
+                    <div class="lib-swiper-container">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <img src="{URLROOT}/img/book-shelf-min.jpg" class="img-fluid" alt="">
@@ -240,13 +190,11 @@
         <div id="canteen" class="scroll-start4">
             <div class="container course__container">
                 <h1>Canteen</h1>
-                <div class="labs-swiper-container">
+                <div class="canteen-swiper-container">
                     <div class="swiper-wrapper">
-                      <div class="swiper-slide">Slide 1</div>
-                      <div class="swiper-slide">Slide 2</div>
-                      <div class="swiper-slide">Slide 3</div>
-                      <div class="swiper-slide">Slide 4</div>
-                      <div class="swiper-slide">Slide 5</div>
+                      <div class="swiper-slide"><img src="{URLROOT}/public/img/texture.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="{URLROOT}/public/img/texture.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="{URLROOT}/public/img/texture.jpg" alt=""></div>
                     </div>
                 </div>
             </div>
@@ -256,23 +204,29 @@
         <div id="club" class="scroll-start5">
            <div class="container course__container">
                 <h1>Clubs</h1>
-                <nav class="navbar navbar-expand-lg navbar-light  nav-pills nav-fill">
-                    <button type="button" class="navbar-toggler navbar-light flex-row p-md-2 p-lg-2 " data-toggle="collapse" data-target="#clubtabs" aria-controls="navbarSupportContent" aria-expanded="false">
-                        <span class="navbar-toggler-icon"></span>
-                        <span class="navbar-toggler-text">clubs</span>&nbsp;    
-                    </button>
-                    <div class="inner-nav navbar-collapse collapse" id="clubtabs">
-                        <ul class="nav navbar-nav  nav-fill ">
-                            <li class="nav-item"><p class="nav-link h5 font-weight-normal m-0">Clubs</p></li>
-                            <li class="nav-item"><a class="nav-link active" id="pills-ostc-tab" data-toggle="pill" href="#ostc">OSTC club</a></li>
-                            <li class="nav-item"><a class="nav-link" id="pills-gic-tab" data-toggle="pill" href="#gic">GIC club</a></li>
-                            <li class="nav-item"><a class="nav-link" id="pills-tc-tab" data-toggle="pill" href="#tc">Think-Tech club</a></li>                           
-                        </ul>
-                    </div>
+                <nav class="navbar navbar-expand navbar-light  nav-pills nav-fill">                  
+                    <ul class="nav navbar-nav  nav-fill ">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-gic-tab" data-toggle="pill" href="#gic">GIC club</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-ostc-tab" data-toggle="pill" href="#ostc">OSTC club</a>
+                        </li>
+                    </ul>
                 </nav> 
                 <div class="tab-content" id="pills-tabContent">
-                    <div class="tab-pane fade show active" id="ostc" role="tabpanel" aria-labelledby="pills-ostc-tab">
-                        <div class="labs-swiper-container">
+                    <div class="tab-pane fade show active" id="gic" role="tabpanel" aria-labelledby="pills-gic-tab">
+                        <div class="gic">
+                            <img src="{URLROOT}/public/img/gic-logo.jpg" alt="">
+                            <p>Imagination is the base of innovation. So we at GIC nurture the soft skills and talent of the students to lead their imagination in a proper way. GIC has been designed to establish close bonding between industries, entrepreneur and students to make research and development at the University relevant to the needs of industries at national and international levels. It aims to involve the industries, along with the students and faculty members, in an innovation campaign, whereby GTU rejuvenates technology education and develops quality research at the University and helps create a culture of design, new and improved products and processes in our industry.</p>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="ostc" role="tabpanel" aria-labelledby="pills-ostc-tab">
+                        <div class="gic">
+                            <img src="{URLROOT}/public/img/ostc.png" alt="">
+                            <p>OSTC provides an emerging education practice that allows students to capitalize on the scope and power of technology to create and manage their learning experiences and developed interactive application.</p>
+                        </div>
+                        <!-- <div class="club-swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/geotech & soil mechnics/IMG-4754-300x170.jpg" class="img-fluid" alt=""></div>
                                 <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/fluid mechanics & advance fluid mechanics/IMG-4767-300x235.jpg" class="img-fluid" alt=""></div>
@@ -281,32 +235,8 @@
                                 <div class="swiper-slide"><img src="{URLROOT}/img/civil/lab/environmental engineering/IMG_2063-300x200.jpg" class="img-fluid" alt=""></div>
                             </div>
                             <div class="swiper-pagination"></div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="gic" role="tabpanel" aria-labelledby="pills-gic-tab">
-                        <div class="labs-swiper-container">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="{URLROOT}/img/comp/lab/MG_5010-300x168.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/comp/lab/IMG_2173-300x200.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/comp/lab/Simulation-Lab1-300x200.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/comp/lab/IMG_2146-1-300x200.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/comp/lab/IMG_2148-300x200.jpg" class="img-fluid" alt=""></div>
-                            </div>
-                            <div class="swiper-pagination"></div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="tc" role="tabpanel" aria-labelledby="pills-tc-tab">
-                         <div class="labs-swiper-container">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="{URLROOT}/img/img2.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/img2.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/img2.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/img2.jpg" class="img-fluid" alt=""></div>
-                                <div class="swiper-slide"><img src="{URLROOT}/img/img2.jpg" class="img-fluid" alt=""></div>
-                            </div>
-                            <div class="swiper-pagination"></div>
-                        </div>
-                    </div>
+                        </div> -->
+                    </div>          
                 </div>
            </div>
         </div>
@@ -317,9 +247,9 @@
                 <h1>Play Area</h1>
                 <div class="labs-swiper-container">
                     <div class="swiper-wrapper">
-                      <div class="swiper-slide"><img src="{URLROOT}/img/IMG_2914-min.JPG" class="img-fluid" alt="..."></div>
-                      <div class="swiper-slide"><img src="{URLROOT}/img/img2.jpg" class="img-fluid" alt="..."></div>
-                      <div class="swiper-slide"><img src="{URLROOT}/img/IMG_2914-min.JPG" class="img-fluid" alt="..."></div>
+                      <div class="swiper-slide"><img src="{URLROOT}/img/playground/Boys_satoliya.jpeg" class="img-fluid" alt="..."></div>
+                      <div class="swiper-slide"><img src="{URLROOT}/img/playground/Cricket.jpeg" class="img-fluid" alt="..."></div>
+                      <div class="swiper-slide"><img src="{URLROOT}/img/playground/Girl_Satoliya.jpeg" class="img-fluid" alt="..."></div>
                     </div>
                 </div>
             </div>

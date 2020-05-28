@@ -103,11 +103,12 @@ body .header-section .media-container .video1 {
 }
 
 body #labs {
+  overflow: hidden;
   background: #F1A501;
 }
 
 body #labs .course__container {
-  padding: 3rem 0;
+  padding: 2rem 0;
 }
 
 @media (max-width: 600px) {
@@ -116,119 +117,105 @@ body #labs .course__container {
   }
 }
 
-body #labs .course__container .navbar {
-  border: none;
-  padding: 0px;
-  background: #fff;
-}
-
-@media (max-width: 600px) {
-  body #labs .course__container .navbar {
-    padding: 0.5rem;
-  }
-}
-
-@media (max-width: 992px) {
-  body #labs .course__container .navbar {
-    padding: 0.5rem;
-  }
-}
-
-body #labs .course__container .navbar .inner-nav ul {
-  width: 100% !important;
-}
-
-body #labs .course__container .navbar .inner-nav ul li .nav-link {
+body #labs h1 {
+  font-size: 33px;
+  font-weight: 600;
+  letter-spacing: .7px;
   color: #000000;
-}
-
-body #labs .course__container .navbar .inner-nav ul li .active {
-  border-radius: 0px;
-  color: white !important;
-  background: #000000 !important;
-}
-
-body #labs .course__container .navbar .inner-nav ul li:nth-child(1) {
-  display: none;
+  font-family: "Roboto Slab", serif;
+  padding-left: 30px;
 }
 
 @media (max-width: 600px) {
-  body #labs .course__container .navbar .inner-nav ul li:nth-child(1) {
-    display: block;
+  body #labs h1 {
+    font-size: 28px;
+    font-weight: 500;
+    padding: 0px;
   }
 }
 
-body #labs .course__container .civil-swiper-container, body #labs .course__container .comp-swiper-container,
-body #labs .course__container .elec-swiper-container, body #labs .course__container .mech-swiper-container,
-body #labs .course__container .ec-swiper-container, body #labs .course__container .mca-swiper-container,
-body #labs .course__container .swiper-container {
-  width: 100%;
-  background: white;
+body #labs .labs-swiper-container {
+  width: auto;
+  margin: 0px 30px;
   overflow: hidden;
 }
 
-body #labs .course__container .civil-swiper-container .swiper-pagination-progressbar-fill, body #labs .course__container .comp-swiper-container .swiper-pagination-progressbar-fill,
-body #labs .course__container .elec-swiper-container .swiper-pagination-progressbar-fill, body #labs .course__container .mech-swiper-container .swiper-pagination-progressbar-fill,
-body #labs .course__container .ec-swiper-container .swiper-pagination-progressbar-fill, body #labs .course__container .mca-swiper-container .swiper-pagination-progressbar-fill,
-body #labs .course__container .swiper-container .swiper-pagination-progressbar-fill {
-  background: #000000;
-}
-
-body #labs .course__container .civil-swiper-container .swiper-pagination, body #labs .course__container .comp-swiper-container .swiper-pagination,
-body #labs .course__container .elec-swiper-container .swiper-pagination, body #labs .course__container .mech-swiper-container .swiper-pagination,
-body #labs .course__container .ec-swiper-container .swiper-pagination, body #labs .course__container .mca-swiper-container .swiper-pagination,
-body #labs .course__container .swiper-container .swiper-pagination {
-  position: relative;
-  background: #F1A501;
-}
-
-body #labs .course__container .civil-swiper-container .swiper-wrapper, body #labs .course__container .comp-swiper-container .swiper-wrapper,
-body #labs .course__container .elec-swiper-container .swiper-wrapper, body #labs .course__container .mech-swiper-container .swiper-wrapper,
-body #labs .course__container .ec-swiper-container .swiper-wrapper, body #labs .course__container .mca-swiper-container .swiper-wrapper,
-body #labs .course__container .swiper-container .swiper-wrapper {
-  height: auto;
-}
-
 @media (max-width: 600px) {
-  body #labs .course__container .civil-swiper-container .swiper-wrapper, body #labs .course__container .comp-swiper-container .swiper-wrapper,
-  body #labs .course__container .elec-swiper-container .swiper-wrapper, body #labs .course__container .mech-swiper-container .swiper-wrapper,
-  body #labs .course__container .ec-swiper-container .swiper-wrapper, body #labs .course__container .mca-swiper-container .swiper-wrapper,
-  body #labs .course__container .swiper-container .swiper-wrapper {
-    height: 215px;
+  body #labs .labs-swiper-container {
+    margin: 0px;
   }
 }
 
-body #labs .course__container .civil-swiper-container .swiper-wrapper .swiper-slide, body #labs .course__container .comp-swiper-container .swiper-wrapper .swiper-slide,
-body #labs .course__container .elec-swiper-container .swiper-wrapper .swiper-slide, body #labs .course__container .mech-swiper-container .swiper-wrapper .swiper-slide,
-body #labs .course__container .ec-swiper-container .swiper-wrapper .swiper-slide, body #labs .course__container .mca-swiper-container .swiper-wrapper .swiper-slide,
-body #labs .course__container .swiper-container .swiper-wrapper .swiper-slide {
+body #labs .labs-swiper-container .swiper-wrapper {
+  height: auto;
+}
+
+body #labs .labs-swiper-container .swiper-wrapper .swiper-slide {
   text-align: center;
   font-size: 18px;
   /* Center slide text vertically */
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px;
+  height: 450px;
 }
 
 @media (max-width: 600px) {
-  body #labs .course__container .civil-swiper-container .swiper-wrapper .swiper-slide, body #labs .course__container .comp-swiper-container .swiper-wrapper .swiper-slide,
-  body #labs .course__container .elec-swiper-container .swiper-wrapper .swiper-slide, body #labs .course__container .mech-swiper-container .swiper-wrapper .swiper-slide,
-  body #labs .course__container .ec-swiper-container .swiper-wrapper .swiper-slide, body #labs .course__container .mca-swiper-container .swiper-wrapper .swiper-slide,
-  body #labs .course__container .swiper-container .swiper-wrapper .swiper-slide {
-    height: 215px;
+  body #labs .labs-swiper-container .swiper-wrapper .swiper-slide {
     width: 100% !important;
+    height: 250px;
     margin-bottom: 1rem !important;
   }
 }
 
-body #labs .course__container .civil-swiper-container .swiper-wrapper .swiper-slide img, body #labs .course__container .comp-swiper-container .swiper-wrapper .swiper-slide img,
-body #labs .course__container .elec-swiper-container .swiper-wrapper .swiper-slide img, body #labs .course__container .mech-swiper-container .swiper-wrapper .swiper-slide img,
-body #labs .course__container .ec-swiper-container .swiper-wrapper .swiper-slide img, body #labs .course__container .mca-swiper-container .swiper-wrapper .swiper-slide img,
-body #labs .course__container .swiper-container .swiper-wrapper .swiper-slide img {
-  object-fit: fill;
+body #labs .labs-swiper-container .swiper-wrapper .swiper-slide img {
+  object-fit: cover;
   height: 100%;
   width: 100%;
+}
+
+body #labs .labs-swiper-container .swiper-wrapper .swiper-slide .card-body {
+  position: absolute;
+  bottom: 0;
+  padding: 5px;
+  min-height: 50px;
+  height: auto;
+  max-height: 100px;
+  width: 100%;
+  color: #F1A501;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 600px) {
+  body #labs .labs-swiper-container .swiper-wrapper .swiper-slide .card-body {
+    width: 100%;
+    min-height: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  body #labs .labs-swiper-container .swiper-wrapper .swiper-slide .card-body {
+    width: 100%;
+    min-height: auto;
+  }
+}
+
+body #labs .labs-swiper-container .swiper-wrapper .swiper-slide .card-body .card-title {
+  min-height: 40px;
+  max-height: 100px;
+  margin: 0px;
+  padding: 5px 10px;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  body #labs .labs-swiper-container .swiper-wrapper .swiper-slide .card-body .card-title {
+    font-size: 18px;
+    min-height: auto;
+  }
 }
 
 body #hostel {
@@ -304,6 +291,12 @@ body #library .course__container {
 
 body #library .card {
   border: none;
+}
+
+@media (max-width: 600px) {
+  body #library .card .row {
+    flex-direction: column-reverse;
+  }
 }
 
 body #library .card img {
@@ -390,7 +383,6 @@ body #library .lib-facilities {
 body #library .lib-facilities h1 {
   margin-top: 5px;
   margin-bottom: 0px;
-  width: fit-content;
   font-size: 33px;
   font-weight: 600;
   padding: 0.5rem 1rem;
@@ -406,53 +398,53 @@ body #library .lib-facilities h1 {
   }
 }
 
-body #library .lib-facilities .labs-swiper-container {
+body #library .lib-facilities .lib-swiper-container {
   width: auto;
   background: white;
   overflow: hidden;
 }
 
-body #library .lib-facilities .labs-swiper-container .swiper-pagination-progressbar-fill {
+body #library .lib-facilities .lib-swiper-container .swiper-pagination-progressbar-fill {
   background: white;
 }
 
-body #library .lib-facilities .labs-swiper-container .swiper-pagination {
+body #library .lib-facilities .lib-swiper-container .swiper-pagination {
   position: relative;
   background: #F1A501;
 }
 
-body #library .lib-facilities .labs-swiper-container .swiper-wrapper {
+body #library .lib-facilities .lib-swiper-container .swiper-wrapper {
   height: auto;
 }
 
 @media (max-width: 600px) {
-  body #library .lib-facilities .labs-swiper-container .swiper-wrapper {
-    height: 215px;
+  body #library .lib-facilities .lib-swiper-container .swiper-wrapper {
+    height: 250px;
   }
 }
 
-body #library .lib-facilities .labs-swiper-container .swiper-wrapper .swiper-slide {
+body #library .lib-facilities .lib-swiper-container .swiper-wrapper .swiper-slide {
   text-align: center;
   font-size: 18px;
   /* Center slide text vertically */
-  height: 400px;
+  height: 450px;
 }
 
 @media (max-width: 600px) {
-  body #library .lib-facilities .labs-swiper-container .swiper-wrapper .swiper-slide {
-    height: 215px;
+  body #library .lib-facilities .lib-swiper-container .swiper-wrapper .swiper-slide {
+    height: 250px;
     width: 100% !important;
     margin-bottom: 1rem !important;
   }
 }
 
-body #library .lib-facilities .labs-swiper-container .swiper-wrapper .swiper-slide img {
+body #library .lib-facilities .lib-swiper-container .swiper-wrapper .swiper-slide img {
   object-fit: cover;
   height: 100%;
   width: 100%;
 }
 
-body #library .lib-facilities .labs-swiper-container .swiper-wrapper .swiper-slide .facility-name h2 {
+body #library .lib-facilities .lib-swiper-container .swiper-wrapper .swiper-slide .facility-name h2 {
   width: 100%;
   font-size: 20px;
   bottom: -10px;
@@ -491,32 +483,24 @@ body #canteen .course__container h1 {
   }
 }
 
-body #canteen .course__container .labs-swiper-container {
+body #canteen .course__container .canteen-swiper-container {
   width: 100%;
   background: white;
   overflow: hidden;
+  margin-bottom: 1rem;
 }
 
-body #canteen .course__container .labs-swiper-container .swiper-pagination-progressbar-fill {
-  background: #000000;
-}
-
-body #canteen .course__container .labs-swiper-container .swiper-pagination {
-  position: relative;
-  background: #F1A501;
-}
-
-body #canteen .course__container .labs-swiper-container .swiper-wrapper {
+body #canteen .course__container .canteen-swiper-container .swiper-wrapper {
   height: auto;
 }
 
 @media (max-width: 600px) {
-  body #canteen .course__container .labs-swiper-container .swiper-wrapper {
+  body #canteen .course__container .canteen-swiper-container .swiper-wrapper {
     height: 215px;
   }
 }
 
-body #canteen .course__container .labs-swiper-container .swiper-wrapper .swiper-slide {
+body #canteen .course__container .canteen-swiper-container .swiper-wrapper .swiper-slide {
   text-align: center;
   font-size: 18px;
   /* Center slide text vertically */
@@ -527,14 +511,14 @@ body #canteen .course__container .labs-swiper-container .swiper-wrapper .swiper-
 }
 
 @media (max-width: 600px) {
-  body #canteen .course__container .labs-swiper-container .swiper-wrapper .swiper-slide {
+  body #canteen .course__container .canteen-swiper-container .swiper-wrapper .swiper-slide {
     height: 215px;
     width: 100% !important;
     margin-bottom: 1rem !important;
   }
 }
 
-body #canteen .course__container .labs-swiper-container .swiper-wrapper .swiper-slide img {
+body #canteen .course__container .canteen-swiper-container .swiper-wrapper .swiper-slide img {
   object-fit: fill;
   height: 100%;
   width: 100%;
@@ -567,13 +551,6 @@ body #club .course__container h1 {
     font-size: 28px;
     font-weight: 500;
     padding: 0px;
-    display: none;
-  }
-}
-
-@media (max-width: 992px) {
-  body #club .course__container h1 {
-    display: none;
   }
 }
 
@@ -581,70 +558,105 @@ body #club .course__container .navbar {
   border: none;
   padding: 0px;
   background: #fff;
+  border-bottom: 1px solid #ccc;
 }
 
-@media (max-width: 600px) {
-  body #club .course__container .navbar {
-    padding: 0.5rem;
-  }
-}
-
-@media (max-width: 992px) {
-  body #club .course__container .navbar {
-    padding: 0.5rem;
-  }
-}
-
-body #club .course__container .navbar .inner-nav ul {
-  width: 100% !important;
-}
-
-body #club .course__container .navbar .inner-nav ul li .nav-link {
-  color: #000000;
-}
-
-body #club .course__container .navbar .inner-nav ul li .active {
+body #club .course__container .navbar .nav .nav-item a {
   border-radius: 0px;
-  color: white !important;
-  background: #000000 !important;
+  padding: 10px 20px !important;
 }
 
-body #club .course__container .navbar .inner-nav ul li:nth-child(1) {
-  display: none;
+body #club .course__container .navbar .nav .nav-item .active {
+  color: white;
+  background-color: #000000;
+}
+
+body #club .course__container .gic {
+  padding: 20px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 25% 75%;
+  background-color: white;
+  height: 300px;
 }
 
 @media (max-width: 600px) {
-  body #club .course__container .navbar .inner-nav ul li:nth-child(1) {
-    display: block;
+  body #club .course__container .gic {
+    height: 500px;
+    overflow: scroll;
+    justify-items: center;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
   }
 }
 
-body #club .course__container .labs-swiper-container {
+body #club .course__container .gic img {
+  width: 90%;
+}
+
+@media (max-width: 600px) {
+  body #club .course__container .gic img {
+    width: auto;
+  }
+}
+
+body #club .course__container .gic p {
+  text-indent: 50px;
+  padding: 0.3rem 0rem;
+  word-wrap: nowrap;
+  color: #000000;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 36px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 768px) {
+  body #club .course__container .gic p {
+    padding: 0;
+    font-size: 0.8em;
+    line-height: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  body #club .course__container .gic p {
+    font-family: "Source Serif Pro", serif;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: 100;
+    text-indent: 50px;
+    line-height: 2rem;
+  }
+}
+
+body #club .course__container .club-swiper-container {
   width: 100%;
   background: white;
   overflow: hidden;
 }
 
-body #club .course__container .labs-swiper-container .swiper-pagination-progressbar-fill {
+body #club .course__container .club-swiper-container .swiper-pagination-progressbar-fill {
   background: #000000;
 }
 
-body #club .course__container .labs-swiper-container .swiper-pagination {
+body #club .course__container .club-swiper-container .swiper-pagination {
   position: relative;
   background: #F1A501;
 }
 
-body #club .course__container .labs-swiper-container .swiper-wrapper {
+body #club .course__container .club-swiper-container .swiper-wrapper {
   height: auto;
 }
 
 @media (max-width: 600px) {
-  body #club .course__container .labs-swiper-container .swiper-wrapper {
+  body #club .course__container .club-swiper-container .swiper-wrapper {
     height: 215px;
   }
 }
 
-body #club .course__container .labs-swiper-container .swiper-wrapper .swiper-slide {
+body #club .course__container .club-swiper-container .swiper-wrapper .swiper-slide {
   text-align: center;
   font-size: 18px;
   /* Center slide text vertically */
@@ -655,14 +667,14 @@ body #club .course__container .labs-swiper-container .swiper-wrapper .swiper-sli
 }
 
 @media (max-width: 600px) {
-  body #club .course__container .labs-swiper-container .swiper-wrapper .swiper-slide {
+  body #club .course__container .club-swiper-container .swiper-wrapper .swiper-slide {
     height: 215px;
     width: 100% !important;
     margin-bottom: 1rem !important;
   }
 }
 
-body #club .course__container .labs-swiper-container .swiper-wrapper .swiper-slide img {
+body #club .course__container .club-swiper-container .swiper-wrapper .swiper-slide img {
   object-fit: fill;
   height: 100%;
   width: 100%;
@@ -673,7 +685,8 @@ body #ground {
 }
 
 body #ground .course__container {
-  padding: 2rem 0;
+  padding: 1rem 0;
+  padding-bottom: 2rem;
 }
 
 @media (max-width: 600px) {
@@ -718,7 +731,7 @@ body #ground .course__container .labs-swiper-container .swiper-wrapper {
 
 @media (max-width: 600px) {
   body #ground .course__container .labs-swiper-container .swiper-wrapper {
-    height: 215px;
+    height: 250px;
   }
 }
 
@@ -729,12 +742,12 @@ body #ground .course__container .labs-swiper-container .swiper-wrapper .swiper-s
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px;
+  height: 500px;
 }
 
 @media (max-width: 600px) {
   body #ground .course__container .labs-swiper-container .swiper-wrapper .swiper-slide {
-    height: 215px;
+    height: 250px;
     width: 100% !important;
     margin-bottom: 1rem !important;
   }
