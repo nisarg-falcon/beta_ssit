@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-26 10:21:15
+/* Smarty version 3.1.33, created on 2020-05-30 17:23:36
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\about.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5eccd17bde9c79_82725775',
+  'unifunc' => 'content_5ed27a780463e1_74131465',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e969b9550912b7dfc5794057c9182e4d6bb7063e' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\about.tpl',
-      1 => 1589134636,
+      1 => 1590852214,
       2 => 'file',
     ),
   ),
@@ -24,13 +24,15 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5eccd17bde9c79_82725775 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ed27a780463e1_74131465 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="<?php echo URLROOT;?>
+/img/logo.png">    
     <link rel="stylesheet" href="<?php echo URLROOT;?>
 /css/header.css">
     <link rel="stylesheet" href="<?php echo URLROOT;?>
@@ -58,12 +60,17 @@ function content_5eccd17bde9c79_82725775 (Smarty_Internal_Template $_smarty_tpl)
 ?>    
     
     <div>
-        <!-- <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button> -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button>
         <div id="why-ssit" class="scroll-start1">
             <div class="container course__container">
                 <h1>Why SSIT ?</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis neque ratione assumenda atque officiis minima blanditiis iste soluta aliquam illo necessitatibus commodi sed repudiandae reprehenderit odio, illum vero labore voluptatibus!
-                Deserunt veritatis numquam, modi, quas quisquam ex laudantium asperiores ullam laboriosam odit atque officia voluptatibus nobis perspiciatis quos. Deserunt at eos, nesciunt facere quia quae saepe pariatur quibusdam beatae qui?
+                <ul>
+                    <li><b>Dedicated Faculties</b> : We proudly hold the record of lowest attrition rate till date to accomplish dedication.</li>
+                    <li><b>Skill Development Activities</b> : We address the opportunities and challenges to encounter new demands of changing global and innovative technologies.</li>
+                    <li><b>Excellent Placement Record</b> : We proudly hold a good placement record and assure that each eligible student gets an opportunity to be placed in a recognized firm.</li>
+                    <li><b>Disciplined Environment</b> : Message and Calling System  for parents to track the progression of students. Mobile phones and related gadgets are strictly prohibited for students within the institute premises.</li>
+                    <li><b>Extra-curricular</b> : We provide a platform for the cultural fest  (Annual day), Ramzat (Navratri festival), GTU (Technical Fest), Cricket (Annual Sports week), etc.</li>
+                </ul>                    
             </div>
         </div>
         <div id="about-trust"  class="scroll-start2">
@@ -71,16 +78,13 @@ function content_5eccd17bde9c79_82725775 (Smarty_Internal_Template $_smarty_tpl)
                 <img src="<?php echo URLROOT;?>
 /img/about-trust.jpg" class="img-fluid" alt="...">
                 <div>
-                    <h1>Satsang Siksha Prishad</h1>
+                    <h1>Satsang Shiksha Parishad</h1>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, cupiditate voluptatum voluptatem, nulla deleniti quasi numquam provident molestias culpa harum odio sapiente quam deserunt animi ipsa dolores dolore reiciendis! Totam.
                     Sint odio ex fuga, similique debitis animi placeat laborum, eveniet quis quae, consequuntur accusamus quisquam! Facere nisi dignissimos illo vitae officiis eum quasi nulla cum alias impedit? Provident, nesciunt atque.
                     </p>
                 </div>
             </div>
-        </div>
-        <div id="ssit-family" class="scroll-start3">
-            <h1>SSIT Family</h1>
-        </div>
+        </div>      
         <div id="people-1">
             <div class="container course__container">
                 <div class="people-image">
@@ -95,29 +99,17 @@ function content_5eccd17bde9c79_82725775 (Smarty_Internal_Template $_smarty_tpl)
         </div>
         <div id="people-2">
             <div class="container course__container">
-                <div class="people-image">
-                    <img src="<?php echo URLROOT;?>
-/img/ram swamiji.png" class="card-img" alt="...">            
-                </div>
                 <div class="people-content">
                     <h1>Shree Ramkrishan Swamiji</h1>
                     <p><q>With the rapid advances in science and technology during the last few decades, computers and computing systems have risen to be the key technology supporting and expanding almost every area of life, from education and research, to commerce and entertainment. With the recent growth of networking systems—such as the global Internet system connecting millions of people engaged in business, education, and research—computing has become one of the most powerful aspects of progress in human life.</q></p>
                 </div>
-            </div>
-        </div>
-        <div id="people-3">
-            <div class="container course__container">
                 <div class="people-image">
                     <img src="<?php echo URLROOT;?>
-/img/dharmeshsir.jpg" class="card-img" alt="...">    
-                </div>
-                <div class="people-content">
-                    <h1>Prof. Dharmesh N. Vandra</h1>
-                    <p><q>It is my privilege to welcome you to Shree Swaminarayan Institute of technology (SSIT),BHAT and invite you to explore the multidimensional facets of this Technical Institute using the official website. With the support of highly qualified faculty members and excellent infrastructure I hope we shall be able to continue to add to the intellectual and professional development of the country. Apart from academic activities, the co-curricular activities form important parts of the life of the students. This importance is well indicated in the spread of facilities at the SSIT campus.</q></p>
+/img/ram swamiji.png" class="card-img" alt="...">            
                 </div>
             </div>
-        </div>
-
+        </div>      
+        
     </div>
     
     <?php $_smarty_tpl->_subTemplateRender("file:../template/includes/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);

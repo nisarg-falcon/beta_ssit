@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="{URLROOT}/img/logo.png">    
     <link rel="stylesheet" href="{URLROOT}/css/header.css">
     <link rel="stylesheet" href="{URLROOT}/css/footer.css">
     <link rel="stylesheet" href="{URLROOT}/css/about.css">
@@ -23,28 +24,30 @@
     {include file="../template/includes/header3.tpl"}    
     
     <div>
-        <!-- <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button> -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button>
         <div id="why-ssit" class="scroll-start1">
             <div class="container course__container">
                 <h1>Why SSIT ?</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis neque ratione assumenda atque officiis minima blanditiis iste soluta aliquam illo necessitatibus commodi sed repudiandae reprehenderit odio, illum vero labore voluptatibus!
-                Deserunt veritatis numquam, modi, quas quisquam ex laudantium asperiores ullam laboriosam odit atque officia voluptatibus nobis perspiciatis quos. Deserunt at eos, nesciunt facere quia quae saepe pariatur quibusdam beatae qui?
+                <ul>
+                    <li><b>Dedicated Faculties</b> : We proudly hold the record of lowest attrition rate till date to accomplish dedication.</li>
+                    <li><b>Skill Development Activities</b> : We address the opportunities and challenges to encounter new demands of changing global and innovative technologies.</li>
+                    <li><b>Excellent Placement Record</b> : We proudly hold a good placement record and assure that each eligible student gets an opportunity to be placed in a recognized firm.</li>
+                    <li><b>Disciplined Environment</b> : Message and Calling System  for parents to track the progression of students. Mobile phones and related gadgets are strictly prohibited for students within the institute premises.</li>
+                    <li><b>Extra-curricular</b> : We provide a platform for the cultural fest  (Annual day), Ramzat (Navratri festival), GTU (Technical Fest), Cricket (Annual Sports week), etc.</li>
+                </ul>                    
             </div>
         </div>
         <div id="about-trust"  class="scroll-start2">
             <div class="container course__container">    
                 <img src="{URLROOT}/img/about-trust.jpg" class="img-fluid" alt="...">
                 <div>
-                    <h1>Satsang Siksha Prishad</h1>
+                    <h1>Satsang Shiksha Parishad</h1>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, cupiditate voluptatum voluptatem, nulla deleniti quasi numquam provident molestias culpa harum odio sapiente quam deserunt animi ipsa dolores dolore reiciendis! Totam.
                     Sint odio ex fuga, similique debitis animi placeat laborum, eveniet quis quae, consequuntur accusamus quisquam! Facere nisi dignissimos illo vitae officiis eum quasi nulla cum alias impedit? Provident, nesciunt atque.
                     </p>
                 </div>
             </div>
-        </div>
-        <div id="ssit-family" class="scroll-start3">
-            <h1>SSIT Family</h1>
-        </div>
+        </div>      
         <div id="people-1">
             <div class="container course__container">
                 <div class="people-image">
@@ -58,26 +61,18 @@
         </div>
         <div id="people-2">
             <div class="container course__container">
-                <div class="people-image">
-                    <img src="{URLROOT}/img/ram swamiji.png" class="card-img" alt="...">            
-                </div>
                 <div class="people-content">
                     <h1>Shree Ramkrishan Swamiji</h1>
                     <p><q>With the rapid advances in science and technology during the last few decades, computers and computing systems have risen to be the key technology supporting and expanding almost every area of life, from education and research, to commerce and entertainment. With the recent growth of networking systems—such as the global Internet system connecting millions of people engaged in business, education, and research—computing has become one of the most powerful aspects of progress in human life.</q></p>
                 </div>
-            </div>
-        </div>
-        <div id="people-3">
-            <div class="container course__container">
                 <div class="people-image">
-                    <img src="{URLROOT}/img/dharmeshsir.jpg" class="card-img" alt="...">    
-                </div>
-                <div class="people-content">
-                    <h1>Prof. Dharmesh N. Vandra</h1>
-                    <p><q>It is my privilege to welcome you to Shree Swaminarayan Institute of technology (SSIT),BHAT and invite you to explore the multidimensional facets of this Technical Institute using the official website. With the support of highly qualified faculty members and excellent infrastructure I hope we shall be able to continue to add to the intellectual and professional development of the country. Apart from academic activities, the co-curricular activities form important parts of the life of the students. This importance is well indicated in the spread of facilities at the SSIT campus.</q></p>
+                    <img src="{URLROOT}/img/ram swamiji.png" class="card-img" alt="...">            
                 </div>
             </div>
-        </div>
+        </div>      
+        {* <div id="ssit-family" class="scroll-start3">
+            <h1>SSIT Family</h1>
+        </div> *}
 
     </div>
     

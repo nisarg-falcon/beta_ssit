@@ -3,7 +3,7 @@
     $nav3_data = [
         'item1' => array("Why SSIT?" => "why-ssit"),
         'item2' => array("About Trust" => "about-trust"),
-        'item3' => array("SSIT Family" => "ssit-family")
+        // 'item3' => array("SSIT Family" => "ssit-family")
         // 'item4' => array("" => "")
         // 'item5' => array("clubs" => "club"),
         // 'item6' => array("play ground" => "ground")
