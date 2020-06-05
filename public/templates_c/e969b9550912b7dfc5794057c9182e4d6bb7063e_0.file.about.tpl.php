@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-30 17:23:36
+/* Smarty version 3.1.33, created on 2020-06-03 13:38:35
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\about.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ed27a780463e1_74131465',
+  'unifunc' => 'content_5ed78bbb811970_74708619',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e969b9550912b7dfc5794057c9182e4d6bb7063e' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\about.tpl',
-      1 => 1590852214,
+      1 => 1591184309,
       2 => 'file',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5ed27a780463e1_74131465 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ed78bbb811970_74708619 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -78,10 +78,8 @@ function content_5ed27a780463e1_74131465 (Smarty_Internal_Template $_smarty_tpl)
                 <img src="<?php echo URLROOT;?>
 /img/about-trust.jpg" class="img-fluid" alt="...">
                 <div>
-                    <h1>Satsang Shiksha Parishad</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, cupiditate voluptatum voluptatem, nulla deleniti quasi numquam provident molestias culpa harum odio sapiente quam deserunt animi ipsa dolores dolore reiciendis! Totam.
-                    Sint odio ex fuga, similique debitis animi placeat laborum, eveniet quis quae, consequuntur accusamus quisquam! Facere nisi dignissimos illo vitae officiis eum quasi nulla cum alias impedit? Provident, nesciunt atque.
-                    </p>
+                    <h1>Satsang Shiksha Parishad (Estd. 1971)</h1>
+                    <p>Over the last forty-nine years, Shree Swaminarayan Gurukul has established itself as premier education organization providing excellent education from kindergarten to Post Graduation in the district Ahmedabad, Gandhinagar, Bhavnagar, Narmada etc.</p>
                 </div>
             </div>
         </div>      

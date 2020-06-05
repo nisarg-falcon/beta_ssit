@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-28 20:14:17
+/* Smarty version 3.1.33, created on 2020-06-03 20:35:56
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\activities.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ecfff79d74fd9_07902294',
+  'unifunc' => 'content_5ed7ed8cb03a89_20302183',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '051b6b3b210c9c7b7fe954fdd4afa1b70e1e3901' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\activities.tpl',
-      1 => 1590000894,
+      1 => 1591207896,
       2 => 'file',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5ecfff79d74fd9_07902294 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ed7ed8cb03a89_20302183 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,9 +69,9 @@ function content_5ecfff79d74fd9_07902294 (Smarty_Internal_Template $_smarty_tpl)
             <div class="container course__container">
                 <nav>
                     <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">2020</a>
-                        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">2019</a>
-                        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">2018</a>
+                        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">2019</a>
+                        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">2018</a>
+                        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Other</a>
                     </div>
                 </nav>
                 <div class="tab-content" id="nav-tabContent">
@@ -109,34 +109,7 @@ function content_5ecfff79d74fd9_07902294 (Smarty_Internal_Template $_smarty_tpl)
                                         <h5 class="card-title">Tech-fest</h5>
                                                                             </div>
                                 </div>
-                            </a>
-                            <a href="#">
-                                <div class="card">
-                                    <img src="<?php echo URLROOT;?>
-/img/clgimg.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">cultural function</h5>
-                                                                            </div>
-                                </div>
-                            </a>
-                            <a href="#">
-                                <div class="card">
-                                    <img src="<?php echo URLROOT;?>
-/img/clgimg.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">sports event</h5>
-                                                                            </div>
-                                </div>
-                            </a>
-                            <a href="#">
-                                <div class="card">
-                                    <img src="<?php echo URLROOT;?>
-/img/clgimg.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Navratri festival</h5>
-                                                                            </div>
-                                </div>
-                            </a>
+                            </a>                          
                         </div>                     
                     </div>
                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">

@@ -41,10 +41,8 @@
             <div class="container course__container">    
                 <img src="{URLROOT}/img/about-trust.jpg" class="img-fluid" alt="...">
                 <div>
-                    <h1>Satsang Shiksha Parishad</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, cupiditate voluptatum voluptatem, nulla deleniti quasi numquam provident molestias culpa harum odio sapiente quam deserunt animi ipsa dolores dolore reiciendis! Totam.
-                    Sint odio ex fuga, similique debitis animi placeat laborum, eveniet quis quae, consequuntur accusamus quisquam! Facere nisi dignissimos illo vitae officiis eum quasi nulla cum alias impedit? Provident, nesciunt atque.
-                    </p>
+                    <h1>Satsang Shiksha Parishad (Estd. 1971)</h1>
+                    <p>Over the last forty-nine years, Shree Swaminarayan Gurukul has established itself as premier education organization providing excellent education from kindergarten to Post Graduation in the district Ahmedabad, Gandhinagar, Bhavnagar, Narmada etc.</p>
                 </div>
             </div>
         </div>      

@@ -127,12 +127,12 @@ var swiper = new Swiper('.lib-swiper-container', {
 });
 var swiper = new Swiper('.canteen-swiper-container', {
   slidesPerView: 1,
-  spaceBetween: 10, 
-  loop: true,
-  autoplay: {
-      delay: 2500,
-      disableOnInteraction: false,
-  }
+  spaceBetween: 10
+  // loop: true,
+  // autoplay: {
+  //     delay: 2500,
+  //     disableOnInteraction: false,
+  // }
 });
 var swiper = new Swiper('.club-swiper-container', {
   slidesPerView: 1,

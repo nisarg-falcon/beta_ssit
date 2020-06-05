@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-28 07:41:11
+/* Smarty version 3.1.33, created on 2020-06-03 13:25:46
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\facilities.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ecf4ef7125d14_49578062',
+  'unifunc' => 'content_5ed788ba5ddd48_18139093',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '79f8a1988894622f368f7f29f27efb743ef50907' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\facilities.tpl',
-      1 => 1590643576,
+      1 => 1591183543,
       2 => 'file',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5ecf4ef7125d14_49578062 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ed788ba5ddd48_18139093 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -245,11 +245,7 @@ function content_5ecf4ef7125d14_49578062 (Smarty_Internal_Template $_smarty_tpl)
                 <div class="canteen-swiper-container">
                     <div class="swiper-wrapper">
                       <div class="swiper-slide"><img src="<?php echo URLROOT;?>
-/public/img/texture.jpg" alt=""></div>
-                      <div class="swiper-slide"><img src="<?php echo URLROOT;?>
-/public/img/texture.jpg" alt=""></div>
-                      <div class="swiper-slide"><img src="<?php echo URLROOT;?>
-/public/img/texture.jpg" alt=""></div>
+/public/img/canteen.JPG" alt=""></div>
                     </div>
                 </div>
             </div>

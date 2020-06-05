@@ -192,9 +192,7 @@
                 <h1>Canteen</h1>
                 <div class="canteen-swiper-container">
                     <div class="swiper-wrapper">
-                      <div class="swiper-slide"><img src="{URLROOT}/public/img/texture.jpg" alt=""></div>
-                      <div class="swiper-slide"><img src="{URLROOT}/public/img/texture.jpg" alt=""></div>
-                      <div class="swiper-slide"><img src="{URLROOT}/public/img/texture.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="{URLROOT}/public/img/canteen.JPG" alt=""></div>
                     </div>
                 </div>
             </div>
