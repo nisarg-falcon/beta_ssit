@@ -1,68 +1,99 @@
-{block name="all"}
-<div class="all-department" id="all">
-<div class="loader"></div>
-    <div class="dept-container">
-        <div class="dept-comp dept">
-            <div class="dept-img-container">
-                <img src="{URLROOT}/img/img2.jpg" class="dept-img"> 
+<div id="department" >
+    <div class="departments_container">
+        <div id="civil" class="department__container container-fluid scroll-start1">
+           <div class="department_info container">
+                <div class="department_image_container">
+                    <img src="{URLROOT}/img/img2.jpg" class="department_image">
+                </div>
+                <div class="department_txt_container">
+                    <h1>Civil Engineering</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquam impedit cumque ut perspiciatis eos inventore maxime explicabo nobis incidunt. Veritatis at laudantium fuga illum corrupti veniam aperiam. Repellat, itaque!Totam sapiente dolores dolore repellat quod, placeat quidem obcaecati reprehenderit id. Alias nam quos architecto, sapiente magnam ea voluptas. Alias consectetur nesciunt voluptatibus nam iure impedit quos ullam hic sed.</p>
+                    <div class="department_link">
+                        <a href="{URLROOT}/pages/department/civil">Learn More <i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div id="computer" class="department__container container-fluid scroll-start2">
+            <div class="department_info container">
+                <div class="department_image_container">
+                    <img src="{URLROOT}/img/img2.jpg" class="department_image">
+                </div>
+                <div class="department_txt_container">
+                    <h1>Computer Engineering</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquam impedit cumque ut perspiciatis eos inventore maxime explicabo nobis incidunt. Veritatis at laudantium fuga illum corrupti veniam aperiam. Repellat, itaque!Totam sapiente dolores dolore repellat quod, placeat quidem obcaecati reprehenderit id. Alias nam quos architecto, sapiente magnam ea voluptas. Alias consectetur nesciunt voluptatibus nam iure impedit quos ullam hic sed.</p>
+                    <div class="department_link">
+                        <a href="{URLROOT}/pages/department/computer">Learn More <i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>        
+        </div>
+        <div id="electrical" class="department__container container-fluid scroll-start3">
+            <div class="department_info container">
+                <div class="department_image_container">
+                <img src="{URLROOT}/img/img2.jpg" class="department_image">
             </div>
-            <div class="dept-text-container">
-    
-                    <a>Computer Engineering</a>
-                    <p class="text-justify">Computer Engineering has enabled Academic Excellence in fields like Artificial Intelligance,Big Data, SAP HANA,ERP,ABAP4,medical, missiles, satellite, communication, transportation, etc.; Due to the rapid growth of computer & internet and its impact on our lives, Computer Engineering has become one of the fastest growing segments of world’s economy. The department has well qualified, experienced and dedicated faculty providing excellent teaching & learning environment. Faculties with industrial background bridge the gap between academic learning and industrial needs. Faculties are easily accessible and enjoy mentoring students. The department regularly conducts various seminars and training programs on advanced technologies for the up-gradation of student’s knowledge and makes them compatible with market requirements.</p>
-
+            <div class="department_txt_container">
+                <h1>Electrical Engineering</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquam impedit cumque ut perspiciatis eos inventore maxime explicabo nobis incidunt. Veritatis at laudantium fuga illum corrupti veniam aperiam. Repellat, itaque!Totam sapiente dolores dolore repellat quod, placeat quidem obcaecati reprehenderit id. Alias nam quos architecto, sapiente magnam ea voluptas. Alias consectetur nesciunt voluptatibus nam iure impedit quos ullam hic sed.</p>
+                <div class="department_link">
+                    <a href="{URLROOT}/pages/department/electrical">Learn More <i class="fas fa-angle-right" aria-hidden="true"></i></a>
                 </div>
             </div>
-            <div class="dept-elec dept">
-                    <div class="dept-img-container">
-                        <img src="{URLROOT}/img/img2.jpg" class="dept-img"> 
-                    </div>
-                    <div class="dept-text-container">
-                            <a>Civil Engineering</a>
-                            <p class="text-justify">Civil Engineering Department is part of the Institute since its inception. The department offers undergraduate program in Civil Engineering.The Department is known for its reputed faculty with expertise in diverse fields. Presently, the department has highly qualified, knowledgeable and energetic faculty members, to develop professionally superior and ethically strong technocrats with an ability to adapt into an intellectually and technologically challenging environment.
-The Department has established a state of the art experimental facilities and laboratories in different fields of Civil Engineering. Besides quality teaching and instructions, department is actively involved in technological advisory support and consultancy projects to various organizations and industries. The Department strongly believes in continuous efforts to strive for excellence by exploring new frontiers of knowledge, imparting the latest technical knowledge to the students and conducting quality research.</p>
-                            
-                        </div>
+
+            </div>        
+        </div>
+        <div id="ec" class="department__container container-fluid scroll-start4">
+            <div class="department_info container">
+                <div class="department_image_container">
+                <img src="{URLROOT}/public/img/ec/EC DEPT.jpg" class="department_image">
             </div>
-            <div class="dept-mech dept">
-                    <div class="dept-img-container">
-                            <img src="{URLROOT}/img/img2.jpg" class="dept-img"> 
-                        </div>
-                        <div class="dept-text-container">
-                            <a>Electronics and communication Engineering</a>
-                            <p class="text-justify">SSIT offers B.E program in Electronics and Communication in affiliation with GTU. It was founded in the year 2014. Electronics and Communication Engineering field deals with Analog Electronics, Digital Electronics, Consumer Electronics, Embedded Systems, Power Electronics VLSI Technology, Antenna, Satellite Communication, RADAR Technology and etc.. The Department has well equipped laboratories with required software & hardware. It has qualified, experienced and dedicated faculty providing excellent teaching & learning environment.</p>
-                            
-                        </div>
+            <div class="department_txt_container">
+                <h1>Electronics and Communication Engineering</h1>
+                <p>Electronics & Communication (EC) engineering broadly deals with systems related to acquiring, communicating, manipulating and analyzing information.
+
+                    “EC Engineering” is one of the fastest growing field of engineering courses. It involves the transmission of information across the channel.
+                    
+                    EC Engineering compiles in Communication Engineering and core Electronics Engineering. The course concept is to focus mainly on the communication part with the knowledge of the electronics field.
+                    
+                    “EC Engineering deals with the electronic devices and software applications. It is an interface of chip level hardware and information technology”.                    
+                </p>
+                <div class="department_link">
+                    <a href="{URLROOT}/pages/department/EC">Learn More <i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                </div>
             </div>
-            <div class="dept-civil dept">
-                    <div class="dept-img-container">
-                            <img src="{URLROOT}/img/img2.jpg" class="dept-img"> 
-                        </div>
-                        <div class="dept-text-container">
-                            <a>Mechanical Engineering</a>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur suscipit obcaecati vitae ratione, voluptas magnam provident deserunt! Veniam doloremque at repudiandae, dolorem atque placeat nobis dicta impedit fuga commodi necessitatibus!</p>
-                            
-                        </div>
+
+            </div>        
+        </div>
+        <div id="mechanical" class="department__container container-fluid scroll-start5">
+            <div class="department_info container">
+                <div class="department_image_container">
+                <img src="{URLROOT}/img/img2.jpg" class="department_image">
             </div>
-            <div class="dept-ec dept">
-                    <div class="dept-img-container">
-                            <img src="{URLROOT}/img/img2.jpg" class="dept-img"> 
-                        </div>
-                        <div class="dept-text-container">
-                            <a>M.C.A</a>
-                            <p class="text-justify">Shri Swaminarayan Institute of Technology is a vision of Shree Hariprakash Swamiji to provide the Higher Level Education to the young generation of the Society especially in Gujarat. The institute has been running since 2001. The department has well qualified, experienced and dedicated faculty providing excellent teaching & learning environment. Faculties with industrial background bridge the gap between academic learning and industrial needs. Faculties are easily accessible and enjoy mentoring students. The department regularly conducts various seminars and training programs on advanced technologies for the up-gradation of student’s knowledge and makes them compatible with market requirements.</p>
-                        </div>
-                    </div>
-                    <div class="dept-mca dept">
-                        <div class="dept-img-container">
-                            <img src="{URLROOT}/img/img2.jpg" class="dept-img"> 
-                        </div>
-                        <div class="dept-text-container">
-                            <a>Electrical Engineering</a>
-                            <p class="text-justify">Electrical Engineering is a continuously evolving subject. As the technology has advanced, so have the challenges facing the modern engineer. A silicon chip containing over 100 million transistors in an area is no larger than a postage stamp. With rapid expansion of technologies sector over the last few decades, the demand for those who can create, understand and alter electrical control systems has risen accordingly.</p>
-                            
-                        </div>
+            <div class="department_txt_container">
+                <h1>Mechanical Engineering</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquam impedit cumque ut perspiciatis eos inventore maxime explicabo nobis incidunt. Veritatis at laudantium fuga illum corrupti veniam aperiam. Repellat, itaque!Totam sapiente dolores dolore repellat quod, placeat quidem obcaecati reprehenderit id. Alias nam quos architecto, sapiente magnam ea voluptas. Alias consectetur nesciunt voluptatibus nam iure impedit quos ullam hic sed.</p>
+                <div class="department_link">
+                    <a href="{URLROOT}/pages/department/mechanical">Learn More <i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                </div>
             </div>
+
+            </div>        
+        </div>
+        <div id="mca" class="department__container container-fluid scroll-start6">
+            <div class="department_info container">
+                <div class="department_image_container">
+                <img src="{URLROOT}/img/img2.jpg" class="department_image">
+            </div>
+            <div class="department_txt_container">
+                <h1>MCA Engineering</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquam impedit cumque ut perspiciatis eos inventore maxime explicabo nobis incidunt. Veritatis at laudantium fuga illum corrupti veniam aperiam. Repellat, itaque!Totam sapiente dolores dolore repellat quod, placeat quidem obcaecati reprehenderit id. Alias nam quos architecto, sapiente magnam ea voluptas. Alias consectetur nesciunt voluptatibus nam iure impedit quos ullam hic sed.</p>
+                <div class="department_link">
+                    <a href="{URLROOT}/pages/department/MCA">Learn More <i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+            </div>        
         </div>
     </div>
-{/block}
+</div>

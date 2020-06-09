@@ -1,16 +1,28 @@
 <?php
     $smarty = new Smarty();
-    $nav3_data = [
-        'item0' => array('all'=>'all'),
-        'item1' => array("civil" => "civil"),
-        'item2' => array("computer" => "computer"),
-        'item3' => array("electrical" => "electrical"),
-        'item4' => array("Electronics and communication" => "ec"),
-        'item5' => array("mechanical" => "mechanical"),
-        'item6' => array("mca" => "mca")
-    ];
+    if($data['department'] == 'all'){
+        $nav3_data = [
+            'item1' => array("civil" => "civil"),
+            'item2' => array("computer" => "computer"),
+            'item3' => array("electrical" => "electrical"),
+            'item4' => array("Electronics and communication" => "ec"),
+            'item5' => array("mechanical" => "mechanical"),
+            'item6' => array("mca" => "mca")
+        ];
+    }
+    else{
+        $nav3_data = [
+            'item1' => array("brochure" => "brochure"),
+            'item2' => array("industrial visit" => "industrial_visit"),
+            'item3' => array("labs" => "branch_labs"),
+            'item4' => array("placements" => "placement"),
+            'item5' => array("events" => "events"),
+            'item6' => array("staff" => "staff")
+        ];
+    }
     $data = [
-        "navitems" => $nav3_data
+        "navitems" => $nav3_data,
+        "department" => $data['department']
     ];
     $smarty->assign('data',$data);
     $smarty->display('../app/views/template/department.tpl');

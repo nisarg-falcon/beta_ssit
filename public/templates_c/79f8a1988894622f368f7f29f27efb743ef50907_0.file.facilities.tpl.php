@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-06-03 13:25:46
+/* Smarty version 3.1.33, created on 2020-06-08 18:24:49
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\facilities.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ed788ba5ddd48_18139093',
+  'unifunc' => 'content_5ede6651e310b4_04902286',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '79f8a1988894622f368f7f29f27efb743ef50907' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\facilities.tpl',
-      1 => 1591183543,
+      1 => 1591633487,
       2 => 'file',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5ed788ba5ddd48_18139093 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ede6651e310b4_04902286 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -70,42 +70,42 @@ function content_5ed788ba5ddd48_18139093 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="<?php echo URLROOT;?>
-/public/img/comp/lab/MG_5010-300x168.jpg" class="img-fluid" alt="">
+/public/img/lab/computer/2.JPG" class="img-fluid" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Computer Engineering</h5>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <img src="<?php echo URLROOT;?>
-/public/img/civil/lab/surveying/IMG_6750-300x200.jpg" class="img-fluid" alt="">
+/public/img/lab/civil lab/2.JPG" class="img-fluid" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Civil Engineering</h5>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <img src="<?php echo URLROOT;?>
-/public/img/elec/lab/dc machine and transformer/DSC_0112-300x199.jpg" class="img-fluid" alt="">
+/public/img/lab/electrical/3.JPG" class="img-fluid" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Electrical Engineering</h5>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <img src="<?php echo URLROOT;?>
-/public/img/ec/lab/vlsi & avs lab/VLSI-AVS-Lab1-300x225.jpg" class="img-fluid" alt="">
+/public/img//lab/E.C/1.JPG" class="img-fluid" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">E.C Engineering</h5>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <img src="<?php echo URLROOT;?>
-/public/img/mech/lab/workshop/Workshop-300x225.jpg" class="img-fluid" alt="">
+/public/img/lab/mechanical/4.JPG" class="img-fluid" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Mechanical Engineering</h5>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <img src="<?php echo URLROOT;?>
-/public/img/mca/lab/IMG_2185-300x200.jpg" class="img-fluid" alt="">
+/public/img/lab/mca/3.JPG" class="img-fluid" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">MCA</h5>
                             </div>

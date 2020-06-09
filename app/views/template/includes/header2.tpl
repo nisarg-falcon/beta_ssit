@@ -8,7 +8,7 @@
                         <a class="nav-link h6" href="{URLROOT}/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link h6" href="{URLROOT}/PAGES/department">Departments</a>
+                        <a class="nav-link h6" href="{URLROOT}/pages/department/all">Departments</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link h6" href="{URLROOT}/pages/facilities">Facilities</a>

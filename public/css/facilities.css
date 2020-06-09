@@ -157,7 +157,7 @@ body #labs .labs-swiper-container .swiper-wrapper .swiper-slide {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 450px;
+  height: 500px;
 }
 
 @media (max-width: 600px) {
@@ -169,7 +169,7 @@ body #labs .labs-swiper-container .swiper-wrapper .swiper-slide {
 }
 
 body #labs .labs-swiper-container .swiper-wrapper .swiper-slide img {
-  object-fit: cover;
+  object-fit: fill;
   height: 100%;
   width: 100%;
 }

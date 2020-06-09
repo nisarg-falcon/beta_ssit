@@ -33,37 +33,37 @@
                 <div class="labs-swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="{URLROOT}/public/img/comp/lab/MG_5010-300x168.jpg" class="img-fluid" alt="">
+                            <img src="{URLROOT}/public/img/lab/computer/2.jpg" class="img-fluid" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Computer Engineering</h5>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <img src="{URLROOT}/public/img/civil/lab/surveying/IMG_6750-300x200.jpg" class="img-fluid" alt="">
+                            <img src="{URLROOT}/public/img/lab/civil lab/2.JPG" class="img-fluid" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Civil Engineering</h5>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <img src="{URLROOT}/public/img/elec/lab/dc machine and transformer/DSC_0112-300x199.jpg" class="img-fluid" alt="">
+                            <img src="{URLROOT}/public/img/lab/Electrical/3.JPG" class="img-fluid" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Electrical Engineering</h5>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <img src="{URLROOT}/public/img/ec/lab/vlsi & avs lab/VLSI-AVS-Lab1-300x225.jpg" class="img-fluid" alt="">
+                            <img src="{URLROOT}/public/img//lab/E.C/1.JPG" class="img-fluid" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">E.C Engineering</h5>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <img src="{URLROOT}/public/img/mech/lab/workshop/Workshop-300x225.jpg" class="img-fluid" alt="">
+                            <img src="{URLROOT}/public/img/lab/mechanical/4.JPG" class="img-fluid" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Mechanical Engineering</h5>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <img src="{URLROOT}/public/img/mca/lab/IMG_2185-300x200.jpg" class="img-fluid" alt="">
+                            <img src="{URLROOT}/public/img/lab/MCA/3.JPG" class="img-fluid" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">MCA</h5>
                             </div>
