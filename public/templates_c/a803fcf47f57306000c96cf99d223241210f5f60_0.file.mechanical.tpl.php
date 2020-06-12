@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-06-08 18:11:16
+/* Smarty version 3.1.33, created on 2020-06-09 08:51:26
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\department\mechanical.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ede6324b11181_69657547',
+  'unifunc' => 'content_5edf316ecadd64_77053064',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a803fcf47f57306000c96cf99d223241210f5f60' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\department\\mechanical.tpl',
-      1 => 1591632674,
+      1 => 1591684684,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ede6324b11181_69657547 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5edf316ecadd64_77053064 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="department" >
     <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button>
     <div class="departments_container">
@@ -193,7 +193,7 @@ function content_5ede6324b11181_69657547 (Smarty_Internal_Template $_smarty_tpl)
                   <div class="swiper-slide"><img src="<?php echo URLROOT;?>
 /public/img/mech/placement/9.jpg" class="img-fluid" alt=""></div>
                   <div class="swiper-slide"><img src="<?php echo URLROOT;?>
-/public/img/mech/placement/1-2.jpg." class="img-fluid" alt=""></div>
+/public/img/mech/placement/1-2.jpg" class="img-fluid" alt=""></div>
                 </div>
               </div>
             </div>        
@@ -267,6 +267,16 @@ function content_5ede6324b11181_69657547 (Smarty_Internal_Template $_smarty_tpl)
               <a id="modalBtn2" class="button">
                 <div class="card">
                     <img src="<?php echo URLROOT;?>
+/img/mech/staff/Prof.-Sumitsingh-Sikarwar-200x200.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Prof. Sumitsingh Sikarwar</h4>
+                        <h5>Assistant Professor</h5>
+                    </div>
+                </div>
+              </a>
+              <a id="modalBtn2" class="button">
+                <div class="card">
+                    <img src="<?php echo URLROOT;?>
 /img/mech/staff/Prof.-Vikas-Sheth-200x200.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4 class="card-title">Prof. Vikas Sheth</h4>
@@ -287,13 +297,13 @@ function content_5ede6324b11181_69657547 (Smarty_Internal_Template $_smarty_tpl)
               <a id="modalBtn2" class="button">
                 <div class="card">
                     <img src="<?php echo URLROOT;?>
-/img/mech/staff/Prof.-Sumitsingh-Sikarwar-200x200.jpg" class="card-img-top" alt="...">
+/img/mech/staff/Prof.-Ketan-Shah-200x200.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h4 class="card-title">Prof. Sumitsingh Sikarwar</h4>
+                        <h4 class="card-title">Prof. Ketan Shah</h4>
                         <h5>Assistant Professor</h5>
                     </div>
                 </div>
-              </a>
+              </a>    
               <a id="modalBtn2" class="button">
                 <div class="card">
                     <img src="<?php echo URLROOT;?>
@@ -303,17 +313,7 @@ function content_5ede6324b11181_69657547 (Smarty_Internal_Template $_smarty_tpl)
                         <h5>Assistant Professor</h5>
                     </div>
                 </div>
-              </a>
-              <a id="modalBtn2" class="button">
-                <div class="card">
-                    <img src="<?php echo URLROOT;?>
-/img/mech/staff/Prof.-Ketan-Shah-200x200.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h4 class="card-title">Prof. Ketan Shah</h4>
-                        <h5>Assistant Professor</h5>
-                    </div>
-                </div>
-              </a>                   
+              </a>                            
             </div>  
           </div>        
         </div>

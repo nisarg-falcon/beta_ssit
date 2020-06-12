@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="{URLROOT}/css/footer.css">
     <link rel="stylesheet" href="{URLROOT}/css/about.css">
     <link rel="stylesheet" href="{URLROOT}/node_modules/bootstrap/dist/css/bootstrap.css">   
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <title>About us</title>
+    <title>SSIT | About us</title>
 </head>
 <body>
     <!-- hero section start -->
@@ -19,7 +18,13 @@
         {include file="../template/includes/header2.tpl"}    
         <div class="container-fluid media-container position-absolute">
             <img src="{URLROOT}/img/about-hero-edit.jpg" class="video1 container-fluid">
-        </div>  
+        </div>
+         <div class="header-txt position-absolute">
+            <div class="txt-container container">
+                <p>About</p>
+                <p>SSIT</p>
+            </div>    
+        </div>
     </div>
     {include file="../template/includes/header3.tpl"}    
     

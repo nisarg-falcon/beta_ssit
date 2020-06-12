@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-06-08 18:24:49
+/* Smarty version 3.1.33, created on 2020-06-09 08:51:01
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\facilities.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ede6651e310b4_04902286',
+  'unifunc' => 'content_5edf3155713e85_51846240',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '79f8a1988894622f368f7f29f27efb743ef50907' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\facilities.tpl',
-      1 => 1591633487,
+      1 => 1591685025,
       2 => 'file',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5ede6651e310b4_04902286 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5edf3155713e85_51846240 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -70,7 +70,7 @@ function content_5ede6651e310b4_04902286 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="<?php echo URLROOT;?>
-/public/img/lab/computer/2.JPG" class="img-fluid" alt="">
+/public/img/lab/computer/2.jpg" class="img-fluid" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Computer Engineering</h5>
                             </div>
@@ -84,7 +84,7 @@ function content_5ede6651e310b4_04902286 (Smarty_Internal_Template $_smarty_tpl)
                         </div>
                         <div class="swiper-slide">
                             <img src="<?php echo URLROOT;?>
-/public/img/lab/electrical/3.JPG" class="img-fluid" alt="">
+/public/img/lab/Electrical/3.JPG" class="img-fluid" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Electrical Engineering</h5>
                             </div>
@@ -105,7 +105,7 @@ function content_5ede6651e310b4_04902286 (Smarty_Internal_Template $_smarty_tpl)
                         </div>
                         <div class="swiper-slide">
                             <img src="<?php echo URLROOT;?>
-/public/img/lab/mca/3.JPG" class="img-fluid" alt="">
+/public/img/lab/MCA/3.JPG" class="img-fluid" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">MCA</h5>
                             </div>

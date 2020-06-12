@@ -62,7 +62,7 @@ body #myBtn {
   background-color: #111;
   color: white;
   cursor: pointer;
-  padding: 15px;
+  padding: 10px 12px;
   border-radius: 4px;
 }
 
@@ -74,6 +74,12 @@ body .header-section {
   height: 78vh;
 }
 
+@media (max-width: 600px) {
+  body .header-section {
+    height: 55vh;
+  }
+}
+
 body .header-section .media-container {
   z-index: 9000;
   top: 0;
@@ -82,6 +88,12 @@ body .header-section .media-container {
   margin: 0 !important;
   padding: 0 !important;
   height: 78vh;
+}
+
+@media (max-width: 600px) {
+  body .header-section .media-container {
+    height: 55vh;
+  }
 }
 
 body .header-section .media-container .video1 {
@@ -163,32 +175,48 @@ body .header-section .header-txt .txt-container::before {
   width: 10px;
 }
 
-body #educational .course__container {
+body #educational .course__container, body #cultural .course__container, body #sports .course__container, body #other .course__container {
   padding: 2rem 0;
 }
 
 @media (max-width: 600px) {
-  body #educational .course__container {
+  body #educational .course__container, body #cultural .course__container, body #sports .course__container, body #other .course__container {
     padding: 15px 10px;
   }
 }
 
-body #educational .course__container #nav-tab {
+body #educational .course__container h1, body #cultural .course__container h1, body #sports .course__container h1, body #other .course__container h1 {
+  font-size: 33px;
+  font-weight: 600;
+  letter-spacing: .7px;
+  color: #000000;
+  font-family: "Roboto Slab", serif;
+}
+
+@media (max-width: 600px) {
+  body #educational .course__container h1, body #cultural .course__container h1, body #sports .course__container h1, body #other .course__container h1 {
+    font-size: 28px;
+    font-weight: 500;
+    padding-left: 0px;
+  }
+}
+
+body #educational .course__container #nav-tab, body #cultural .course__container #nav-tab, body #sports .course__container #nav-tab, body #other .course__container #nav-tab {
   width: 100%;
   background: white;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   border: none;
 }
 
 @media (max-width: 600px) {
-  body #educational .course__container #nav-tab {
+  body #educational .course__container #nav-tab, body #cultural .course__container #nav-tab, body #sports .course__container #nav-tab, body #other .course__container #nav-tab {
     justify-content: flex-start;
   }
 }
 
-body #educational .course__container a {
+body #educational .course__container a, body #cultural .course__container a, body #sports .course__container a, body #other .course__container a {
   border: none;
   border-right: 1px solid #F1A501;
   border-bottom: 1px solid #F1A501;
@@ -202,55 +230,55 @@ body #educational .course__container a {
 }
 
 @media (max-width: 600px) {
-  body #educational .course__container a {
+  body #educational .course__container a, body #cultural .course__container a, body #sports .course__container a, body #other .course__container a {
     padding: 10px 15px;
   }
 }
 
-body #educational .course__container a:first-child {
+body #educational .course__container a:first-child, body #cultural .course__container a:first-child, body #sports .course__container a:first-child, body #other .course__container a:first-child {
   border-left: 1px solid #F1A501;
 }
 
-body #educational .course__container a.active {
+body #educational .course__container a.active, body #cultural .course__container a.active, body #sports .course__container a.active, body #other .course__container a.active {
   color: #000000;
   background: #F1A501;
 }
 
-body #educational .course__container #nav-tabContent {
+body #educational .course__container #nav-tabContent, body #cultural .course__container #nav-tabContent, body #sports .course__container #nav-tabContent, body #other .course__container #nav-tabContent {
   padding: 20px;
   background: #F1A501;
   border: none;
 }
 
 @media (max-width: 600px) {
-  body #educational .course__container #nav-tabContent {
+  body #educational .course__container #nav-tabContent, body #cultural .course__container #nav-tabContent, body #sports .course__container #nav-tabContent, body #other .course__container #nav-tabContent {
     padding: 10px;
   }
 }
 
-body #educational .course__container #nav-tabContent .card-grid {
+body #educational .course__container #nav-tabContent .card-grid, body #cultural .course__container #nav-tabContent .card-grid, body #sports .course__container #nav-tabContent .card-grid, body #other .course__container #nav-tabContent .card-grid {
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: 1fr 1fr;
 }
 
 @media (max-width: 600px) {
-  body #educational .course__container #nav-tabContent .card-grid {
+  body #educational .course__container #nav-tabContent .card-grid, body #cultural .course__container #nav-tabContent .card-grid, body #sports .course__container #nav-tabContent .card-grid, body #other .course__container #nav-tabContent .card-grid {
     grid-template-columns: auto;
   }
 }
 
 @media (max-width: 992px) {
-  body #educational .course__container #nav-tabContent .card-grid {
+  body #educational .course__container #nav-tabContent .card-grid, body #cultural .course__container #nav-tabContent .card-grid, body #sports .course__container #nav-tabContent .card-grid, body #other .course__container #nav-tabContent .card-grid {
     grid-template-columns: 1fr;
   }
 }
 
-body #educational .course__container #nav-tabContent a {
+body #educational .course__container #nav-tabContent a, body #cultural .course__container #nav-tabContent a, body #sports .course__container #nav-tabContent a, body #other .course__container #nav-tabContent a {
   padding: 0px;
 }
 
-body #educational .course__container #nav-tabContent a .card {
+body #educational .course__container #nav-tabContent a .card, body #cultural .course__container #nav-tabContent a .card, body #sports .course__container #nav-tabContent a .card, body #other .course__container #nav-tabContent a .card {
   height: 400px;
   border: 1px solid white;
   border-radius: 0px;
@@ -259,18 +287,18 @@ body #educational .course__container #nav-tabContent a .card {
 }
 
 @media (max-width: 600px) {
-  body #educational .course__container #nav-tabContent a .card {
+  body #educational .course__container #nav-tabContent a .card, body #cultural .course__container #nav-tabContent a .card, body #sports .course__container #nav-tabContent a .card, body #other .course__container #nav-tabContent a .card {
     height: 350px;
   }
 }
 
-body #educational .course__container #nav-tabContent a .card img {
+body #educational .course__container #nav-tabContent a .card img, body #cultural .course__container #nav-tabContent a .card img, body #sports .course__container #nav-tabContent a .card img, body #other .course__container #nav-tabContent a .card img {
   height: 400px;
   object-fit: cover;
   border-radius: 0px;
 }
 
-body #educational .course__container #nav-tabContent a .card .card-body {
+body #educational .course__container #nav-tabContent a .card .card-body, body #cultural .course__container #nav-tabContent a .card .card-body, body #sports .course__container #nav-tabContent a .card .card-body, body #other .course__container #nav-tabContent a .card .card-body {
   position: absolute;
   bottom: 0;
   padding: 5px;
@@ -283,20 +311,20 @@ body #educational .course__container #nav-tabContent a .card .card-body {
 }
 
 @media (max-width: 600px) {
-  body #educational .course__container #nav-tabContent a .card .card-body {
+  body #educational .course__container #nav-tabContent a .card .card-body, body #cultural .course__container #nav-tabContent a .card .card-body, body #sports .course__container #nav-tabContent a .card .card-body, body #other .course__container #nav-tabContent a .card .card-body {
     width: 100%;
     min-height: auto;
   }
 }
 
 @media (max-width: 992px) {
-  body #educational .course__container #nav-tabContent a .card .card-body {
+  body #educational .course__container #nav-tabContent a .card .card-body, body #cultural .course__container #nav-tabContent a .card .card-body, body #sports .course__container #nav-tabContent a .card .card-body, body #other .course__container #nav-tabContent a .card .card-body {
     width: 100%;
     min-height: auto;
   }
 }
 
-body #educational .course__container #nav-tabContent a .card .card-body .card-title {
+body #educational .course__container #nav-tabContent a .card .card-body .card-title, body #cultural .course__container #nav-tabContent a .card .card-body .card-title, body #sports .course__container #nav-tabContent a .card .card-body .card-title, body #other .course__container #nav-tabContent a .card .card-body .card-title {
   min-height: 40px;
   max-height: 100px;
   margin: 0px;
@@ -308,22 +336,22 @@ body #educational .course__container #nav-tabContent a .card .card-body .card-ti
 }
 
 @media (max-width: 600px) {
-  body #educational .course__container #nav-tabContent a .card .card-body .card-title {
+  body #educational .course__container #nav-tabContent a .card .card-body .card-title, body #cultural .course__container #nav-tabContent a .card .card-body .card-title, body #sports .course__container #nav-tabContent a .card .card-body .card-title, body #other .course__container #nav-tabContent a .card .card-body .card-title {
     font-size: 18px;
     min-height: auto;
   }
 }
 
-body #educational .course__container #nav-tabContent .card:hover {
+body #educational .course__container #nav-tabContent .card:hover, body #cultural .course__container #nav-tabContent .card:hover, body #sports .course__container #nav-tabContent .card:hover, body #other .course__container #nav-tabContent .card:hover {
   cursor: pointer;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5), 0 7px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
-body #educational .course__container #nav-tabContent .card:hover .card-body {
+body #educational .course__container #nav-tabContent .card:hover .card-body, body #cultural .course__container #nav-tabContent .card:hover .card-body, body #sports .course__container #nav-tabContent .card:hover .card-body, body #other .course__container #nav-tabContent .card:hover .card-body {
   display: none;
 }
 
-body #educational .course__container #nav-tabContent .eventmodal {
+body #educational .course__container #nav-tabContent .eventmodal, body #cultural .course__container #nav-tabContent .eventmodal, body #sports .course__container #nav-tabContent .eventmodal, body #other .course__container #nav-tabContent .eventmodal {
   display: none;
   top: 0;
   left: 0;
@@ -335,12 +363,13 @@ body #educational .course__container #nav-tabContent .eventmodal {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-body #educational .course__container #nav-tabContent .eventmodal .modal-content {
+body #educational .course__container #nav-tabContent .eventmodal .modal-content, body #cultural .course__container #nav-tabContent .eventmodal .modal-content, body #sports .course__container #nav-tabContent .eventmodal .modal-content, body #other .course__container #nav-tabContent .eventmodal .modal-content {
   width: 80%;
-  padding: 10px;
-  color: #F1A501;
+  color: #000000;
   margin: 2% auto;
-  background-color: #000000;
+  padding: 10px 0px 0px;
+  border-radius: 0px;
+  background-color: white;
   border: 1px solid white;
   display: block !important;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
@@ -357,18 +386,18 @@ body #educational .course__container #nav-tabContent .eventmodal .modal-content 
 }
 
 @media (max-width: 600px) {
-  body #educational .course__container #nav-tabContent .eventmodal .modal-content {
+  body #educational .course__container #nav-tabContent .eventmodal .modal-content, body #cultural .course__container #nav-tabContent .eventmodal .modal-content, body #sports .course__container #nav-tabContent .eventmodal .modal-content, body #other .course__container #nav-tabContent .eventmodal .modal-content {
     width: 90%;
     margin: 5% auto;
   }
 }
 
-body #educational .course__container #nav-tabContent .eventmodal .modal-content .header {
-  padding: 5px 0px 10px;
-  border-bottom: 1px solid white;
+body #educational .course__container #nav-tabContent .eventmodal .modal-content .header, body #cultural .course__container #nav-tabContent .eventmodal .modal-content .header, body #sports .course__container #nav-tabContent .eventmodal .modal-content .header, body #other .course__container #nav-tabContent .eventmodal .modal-content .header {
+  padding: 0px 10px 10px;
+  border-bottom: 1px solid #F1A501;
 }
 
-body #educational .course__container #nav-tabContent .eventmodal .modal-content .header h1 {
+body #educational .course__container #nav-tabContent .eventmodal .modal-content .header h1, body #cultural .course__container #nav-tabContent .eventmodal .modal-content .header h1, body #sports .course__container #nav-tabContent .eventmodal .modal-content .header h1, body #other .course__container #nav-tabContent .eventmodal .modal-content .header h1 {
   width: 97%;
   margin: 0px;
   font-size: 25px;
@@ -376,7 +405,7 @@ body #educational .course__container #nav-tabContent .eventmodal .modal-content 
 }
 
 @media (max-width: 600px) {
-  body #educational .course__container #nav-tabContent .eventmodal .modal-content .header h1 {
+  body #educational .course__container #nav-tabContent .eventmodal .modal-content .header h1, body #cultural .course__container #nav-tabContent .eventmodal .modal-content .header h1, body #sports .course__container #nav-tabContent .eventmodal .modal-content .header h1, body #other .course__container #nav-tabContent .eventmodal .modal-content .header h1 {
     font-size: 16px;
     width: 90%;
     height: auto;
@@ -384,7 +413,7 @@ body #educational .course__container #nav-tabContent .eventmodal .modal-content 
   }
 }
 
-body #educational .course__container #nav-tabContent .eventmodal .modal-content .header .closeBtn {
+body #educational .course__container #nav-tabContent .eventmodal .modal-content .header .closeBtn, body #cultural .course__container #nav-tabContent .eventmodal .modal-content .header .closeBtn, body #sports .course__container #nav-tabContent .eventmodal .modal-content .header .closeBtn, body #other .course__container #nav-tabContent .eventmodal .modal-content .header .closeBtn {
   width: fit-content;
   color: #F1A501;
   font-size: 25px;
@@ -392,44 +421,120 @@ body #educational .course__container #nav-tabContent .eventmodal .modal-content 
 }
 
 @media (max-width: 600px) {
-  body #educational .course__container #nav-tabContent .eventmodal .modal-content .header .closeBtn {
+  body #educational .course__container #nav-tabContent .eventmodal .modal-content .header .closeBtn, body #cultural .course__container #nav-tabContent .eventmodal .modal-content .header .closeBtn, body #sports .course__container #nav-tabContent .eventmodal .modal-content .header .closeBtn, body #other .course__container #nav-tabContent .eventmodal .modal-content .header .closeBtn {
     position: absolute;
-    top: 15px;
+    top: 10px;
     right: 15px;
   }
 }
 
-body #educational .course__container #nav-tabContent .eventmodal .modal-content .header .closeBtn:hover, body #educational .course__container #nav-tabContent .eventmodal .modal-content .header .closeBtn:focus {
+body #educational .course__container #nav-tabContent .eventmodal .modal-content .header .closeBtn:hover, body #educational .course__container #nav-tabContent .eventmodal .modal-content .header .closeBtn:focus, body #cultural .course__container #nav-tabContent .eventmodal .modal-content .header .closeBtn:hover, body #cultural .course__container #nav-tabContent .eventmodal .modal-content .header .closeBtn:focus, body #sports .course__container #nav-tabContent .eventmodal .modal-content .header .closeBtn:hover, body #sports .course__container #nav-tabContent .eventmodal .modal-content .header .closeBtn:focus, body #other .course__container #nav-tabContent .eventmodal .modal-content .header .closeBtn:hover, body #other .course__container #nav-tabContent .eventmodal .modal-content .header .closeBtn:focus {
   cursor: pointer;
   text-decoration: none;
   color: rgba(241, 165, 1, 0.5);
 }
 
-body #educational .course__container #nav-tabContent .eventmodal .modal-content img {
-  padding-top: 10px;
-  height: 400px;
-  object-fit: cover;
-  border-radius: 0px;
+body #educational .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container, body #cultural .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container, body #sports .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container, body #other .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
 }
 
 @media (max-width: 600px) {
-  body #educational .course__container #nav-tabContent .eventmodal .modal-content img {
-    height: 200px;
+  body #educational .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container, body #cultural .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container, body #sports .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container, body #other .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container {
+    height: 250px;
   }
 }
 
-body #educational .course__container #nav-tabContent .eventmodal .modal-content .content p {
+body #educational .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container .swiper-wrapper, body #cultural .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container .swiper-wrapper, body #sports .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container .swiper-wrapper, body #other .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container .swiper-wrapper {
+  height: auto;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+@media (max-width: 600px) {
+  body #educational .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container .swiper-wrapper, body #cultural .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container .swiper-wrapper, body #sports .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container .swiper-wrapper, body #other .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container .swiper-wrapper {
+    height: 250px;
+  }
+}
+
+body #educational .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container .swiper-wrapper .swiper-slide, body #cultural .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container .swiper-wrapper .swiper-slide, body #sports .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container .swiper-wrapper .swiper-slide, body #other .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container .swiper-wrapper .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+}
+
+@media (max-width: 600px) {
+  body #educational .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container .swiper-wrapper .swiper-slide, body #cultural .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container .swiper-wrapper .swiper-slide, body #sports .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container .swiper-wrapper .swiper-slide, body #other .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container .swiper-wrapper .swiper-slide {
+    height: 250px;
+  }
+}
+
+body #educational .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container .swiper-wrapper .swiper-slide img, body #cultural .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container .swiper-wrapper .swiper-slide img, body #sports .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container .swiper-wrapper .swiper-slide img, body #other .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  body #educational .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container .swiper-wrapper .swiper-slide img, body #cultural .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container .swiper-wrapper .swiper-slide img, body #sports .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container .swiper-wrapper .swiper-slide img, body #other .course__container #nav-tabContent .eventmodal .modal-content .activities-swiper-container .swiper-wrapper .swiper-slide img {
+    height: 250px;
+  }
+}
+
+body #educational .course__container #nav-tabContent .eventmodal .modal-content .swiper-pagination .swiper-pagination-progressbar-fill, body #cultural .course__container #nav-tabContent .eventmodal .modal-content .swiper-pagination .swiper-pagination-progressbar-fill, body #sports .course__container #nav-tabContent .eventmodal .modal-content .swiper-pagination .swiper-pagination-progressbar-fill, body #other .course__container #nav-tabContent .eventmodal .modal-content .swiper-pagination .swiper-pagination-progressbar-fill {
+  background: black;
+}
+
+body #educational .course__container #nav-tabContent .eventmodal .modal-content .swiper-button-next, body #cultural .course__container #nav-tabContent .eventmodal .modal-content .swiper-button-next, body #sports .course__container #nav-tabContent .eventmodal .modal-content .swiper-button-next, body #other .course__container #nav-tabContent .eventmodal .modal-content .swiper-button-next {
+  width: 50px;
+  height: 50px;
+  color: #F1A501;
+  padding: 20px;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+body #educational .course__container #nav-tabContent .eventmodal .modal-content .swiper-button-next::after, body #cultural .course__container #nav-tabContent .eventmodal .modal-content .swiper-button-next::after, body #sports .course__container #nav-tabContent .eventmodal .modal-content .swiper-button-next::after, body #other .course__container #nav-tabContent .eventmodal .modal-content .swiper-button-next::after {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+body #educational .course__container #nav-tabContent .eventmodal .modal-content .swiper-button-next:hover, body #cultural .course__container #nav-tabContent .eventmodal .modal-content .swiper-button-next:hover, body #sports .course__container #nav-tabContent .eventmodal .modal-content .swiper-button-next:hover, body #other .course__container #nav-tabContent .eventmodal .modal-content .swiper-button-next:hover {
+  background-color: #000000;
+}
+
+body #educational .course__container #nav-tabContent .eventmodal .modal-content .swiper-button-prev, body #cultural .course__container #nav-tabContent .eventmodal .modal-content .swiper-button-prev, body #sports .course__container #nav-tabContent .eventmodal .modal-content .swiper-button-prev, body #other .course__container #nav-tabContent .eventmodal .modal-content .swiper-button-prev {
+  width: 50px;
+  height: 50px;
+  color: #F1A501;
+  padding: 20px;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+body #educational .course__container #nav-tabContent .eventmodal .modal-content .swiper-button-prev::after, body #cultural .course__container #nav-tabContent .eventmodal .modal-content .swiper-button-prev::after, body #sports .course__container #nav-tabContent .eventmodal .modal-content .swiper-button-prev::after, body #other .course__container #nav-tabContent .eventmodal .modal-content .swiper-button-prev::after {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+body #educational .course__container #nav-tabContent .eventmodal .modal-content .swiper-button-prev:hover, body #cultural .course__container #nav-tabContent .eventmodal .modal-content .swiper-button-prev:hover, body #sports .course__container #nav-tabContent .eventmodal .modal-content .swiper-button-prev:hover, body #other .course__container #nav-tabContent .eventmodal .modal-content .swiper-button-prev:hover {
+  background-color: #000000;
+}
+
+body #educational .course__container #nav-tabContent .eventmodal .modal-content .content p, body #cultural .course__container #nav-tabContent .eventmodal .modal-content .content p, body #sports .course__container #nav-tabContent .eventmodal .modal-content .content p, body #other .course__container #nav-tabContent .eventmodal .modal-content .content p {
   margin: 0px;
   padding: 5px;
   text-indent: 40px;
   text-align: justify;
+  font-family: "Roboto", sans-serif;
 }
 
 @media (max-width: 600px) {
-  body #educational .course__container #nav-tabContent .eventmodal .modal-content .content p {
+  body #educational .course__container #nav-tabContent .eventmodal .modal-content .content p, body #cultural .course__container #nav-tabContent .eventmodal .modal-content .content p, body #sports .course__container #nav-tabContent .eventmodal .modal-content .content p, body #other .course__container #nav-tabContent .eventmodal .modal-content .content p {
     padding: 7px;
     color: #000000;
-    font-size: 15px;
+    font-size: 16px;
     background-color: white;
   }
 }

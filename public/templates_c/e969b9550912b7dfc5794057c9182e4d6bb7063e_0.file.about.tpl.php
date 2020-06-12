@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-06-03 13:38:35
+/* Smarty version 3.1.33, created on 2020-06-09 14:45:21
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\about.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ed78bbb811970_74708619',
+  'unifunc' => 'content_5edf8461d5ec32_16242122',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e969b9550912b7dfc5794057c9182e4d6bb7063e' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\about.tpl',
-      1 => 1591184309,
+      1 => 1591706715,
       2 => 'file',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5ed78bbb811970_74708619 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5edf8461d5ec32_16242122 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,8 +41,7 @@ function content_5ed78bbb811970_74708619 (Smarty_Internal_Template $_smarty_tpl)
 /css/about.css">
     <link rel="stylesheet" href="<?php echo URLROOT;?>
 /node_modules/bootstrap/dist/css/bootstrap.css">   
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <title>About us</title>
+    <title>SSIT | About us</title>
 </head>
 <body>
     <!-- hero section start -->
@@ -54,7 +53,13 @@ function content_5ed78bbb811970_74708619 (Smarty_Internal_Template $_smarty_tpl)
         <div class="container-fluid media-container position-absolute">
             <img src="<?php echo URLROOT;?>
 /img/about-hero-edit.jpg" class="video1 container-fluid">
-        </div>  
+        </div>
+         <div class="header-txt position-absolute">
+            <div class="txt-container container">
+                <p>About</p>
+                <p>SSIT</p>
+            </div>    
+        </div>
     </div>
     <?php $_smarty_tpl->_subTemplateRender("file:../template/includes/header3.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>    

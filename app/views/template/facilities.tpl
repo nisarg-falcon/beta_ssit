@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="{URLROOT}/css/facilities.css">
     <link rel="stylesheet" href="{URLROOT}/node_modules/bootstrap/dist/css/bootstrap.css">    
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">    
-    <title>Facilities</title>
+    <title>SSIT | Facilities</title>
 </head>
 <body>
     <!-- hero section start -->

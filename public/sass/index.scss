@@ -29,6 +29,9 @@ body{
 
     .header-section{
         height: 78vh;
+        @include responsive-content(smd){
+            height: 55vh;
+        }
         .media-container{
             z-index: 9000;
             top: 0;
@@ -37,6 +40,9 @@ body{
             margin: 0 !important;
             padding: 0 !important;
             height: 78vh;
+            @include responsive-content(smd){
+                height: 55vh;
+            }    
             .video1{
                 margin: 0 !important;
                 padding: 0 !important;
@@ -814,18 +820,5 @@ body{
                             0 7px 20px 0 rgba($color: $black, $alpha: 0.5);
             }
         }
-    }
-}
-@media screen and (max-width: 768px){
-    body{
-        .header-section{
-            height: 55vh;
-            .media-container{
-                height: 55vh;
-                .video1{
-                    object-fit: cover;
-                }
-            }
-        }    
     }
 }

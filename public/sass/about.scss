@@ -28,6 +28,61 @@ body {
                 object-fit: cover;
             }
         }
+        .header-txt{
+            z-index: 9906;
+            bottom: 10%;
+            height: 300px;
+            @include responsive-content(smd){
+                height: 200px;  
+            }
+            width: 100%;
+            .txt-container{
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;  
+                height: 100%;
+                text-align: left;
+                position: relative;
+                @include responsive-content(smd){
+                    margin-left: 5%;
+                    padding: 0 !important;
+                    width: 95%;
+                }
+                p{
+                    width: 100%;
+                    margin: 0;
+                    padding: 0.5rem 2.5rem;
+                    font-size: 3.5em;
+                    @include responsive-content(smd){
+                        font-size: 2.5em;
+                    }
+                    font-weight: 500;
+                    color: white;
+                    text-transform: uppercase;
+                    &:nth-child(1){
+                        font-weight: bold;
+                        padding: 0.5rem 1.5rem;
+                        @include responsive-content(smd){
+                            font-size: 3.5em;
+                        }
+                        font-size: 4.5em;
+                    }
+                }
+                &::before{                   
+                    z-index: 9906;
+                    content: '';
+                    display: inline;
+                    top: 0;
+                    left: 0;
+                    position: absolute;
+                    background: #ccc;
+                    height: 100%;
+                    width: 10px;
+                }
+            }
+        }
     }
     #myBtn {
         display: none;

@@ -4,7 +4,7 @@
         'item1' => array("educational" => "educational"),
         'item2' => array("cultural" => "cultural"),
         'item3' => array("sports" => "sports"),
-        'item3' => array("other" => "other")
+        'item4' => array("other" => "other")
     ];
     $data = [
         "navitems" => $nav3_data
