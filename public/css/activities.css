@@ -47,7 +47,6 @@ tv's and wide desktops specification
 body {
   scroll-behavior: smooth;
   transition: .5s;
-  background: #ccc;
 }
 
 body #myBtn {
@@ -203,7 +202,6 @@ body #educational .course__container h1, body #cultural .course__container h1, b
 
 body #educational .course__container #nav-tab, body #cultural .course__container #nav-tab, body #sports .course__container #nav-tab, body #other .course__container #nav-tab {
   width: 100%;
-  background: white;
   display: flex;
   align-items: center;
   justify-content: left;
@@ -216,38 +214,8 @@ body #educational .course__container #nav-tab, body #cultural .course__container
   }
 }
 
-body #educational .course__container a, body #cultural .course__container a, body #sports .course__container a, body #other .course__container a {
-  border: none;
-  border-right: 1px solid #F1A501;
-  border-bottom: 1px solid #F1A501;
-  color: #000000;
-  font-size: 21px;
-  text-decoration: none;
-  border-radius: 0px;
-  font-family: "Roboto Slab", serif;
-  background-color: white;
-  padding: 10px 60px;
-}
-
-@media (max-width: 600px) {
-  body #educational .course__container a, body #cultural .course__container a, body #sports .course__container a, body #other .course__container a {
-    padding: 10px 15px;
-  }
-}
-
-body #educational .course__container a:first-child, body #cultural .course__container a:first-child, body #sports .course__container a:first-child, body #other .course__container a:first-child {
-  border-left: 1px solid #F1A501;
-}
-
-body #educational .course__container a.active, body #cultural .course__container a.active, body #sports .course__container a.active, body #other .course__container a.active {
-  color: #000000;
-  background: #F1A501;
-}
-
 body #educational .course__container #nav-tabContent, body #cultural .course__container #nav-tabContent, body #sports .course__container #nav-tabContent, body #other .course__container #nav-tabContent {
-  padding: 20px;
-  background: #F1A501;
-  border: none;
+  padding: 5px 0px;
 }
 
 @media (max-width: 600px) {
@@ -280,7 +248,7 @@ body #educational .course__container #nav-tabContent a, body #cultural .course__
 
 body #educational .course__container #nav-tabContent a .card, body #cultural .course__container #nav-tabContent a .card, body #sports .course__container #nav-tabContent a .card, body #other .course__container #nav-tabContent a .card {
   height: 400px;
-  border: 1px solid white;
+  border: none;
   border-radius: 0px;
   background-color: #000000;
   overflow: hidden;
@@ -307,7 +275,7 @@ body #educational .course__container #nav-tabContent a .card .card-body, body #c
   max-height: 100px;
   width: 100%;
   color: #F1A501;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 @media (max-width: 600px) {
@@ -344,11 +312,11 @@ body #educational .course__container #nav-tabContent a .card .card-body .card-ti
 
 body #educational .course__container #nav-tabContent .card:hover, body #cultural .course__container #nav-tabContent .card:hover, body #sports .course__container #nav-tabContent .card:hover, body #other .course__container #nav-tabContent .card:hover {
   cursor: pointer;
-  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5), 0 7px 20px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5), 0 7px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 body #educational .course__container #nav-tabContent .card:hover .card-body, body #cultural .course__container #nav-tabContent .card:hover .card-body, body #sports .course__container #nav-tabContent .card:hover .card-body, body #other .course__container #nav-tabContent .card:hover .card-body {
-  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 body #educational .course__container #nav-tabContent .eventmodal, body #cultural .course__container #nav-tabContent .eventmodal, body #sports .course__container #nav-tabContent .eventmodal, body #other .course__container #nav-tabContent .eventmodal {
@@ -537,5 +505,37 @@ body #educational .course__container #nav-tabContent .eventmodal .modal-content 
     font-size: 16px;
     background-color: white;
   }
+}
+
+body #educational {
+  background-color: #F1A501;
+}
+
+body #educational .course__container h1 {
+  color: #000000;
+}
+
+body #cultural {
+  background-color: #000000;
+}
+
+body #cultural .course__container h1 {
+  color: #F1A501;
+}
+
+body #sports {
+  background-color: #F1A501;
+}
+
+body #sports .course__container h1 {
+  color: #000000;
+}
+
+body #other {
+  background-color: #000000;
+}
+
+body #other .course__container h1 {
+  color: #F1A501;
 }
 /*# sourceMappingURL=activities.css.map */
