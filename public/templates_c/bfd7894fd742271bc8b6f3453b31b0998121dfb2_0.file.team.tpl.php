@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-06-17 15:41:04
+/* Smarty version 3.1.33, created on 2020-06-17 17:58:28
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\team.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5eea1d701c74e1_57102028',
+  'unifunc' => 'content_5eea3da4b313d2_53767153',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'bfd7894fd742271bc8b6f3453b31b0998121dfb2' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\team.tpl',
-      1 => 1592401261,
+      1 => 1592409507,
       2 => 'file',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5eea1d701c74e1_57102028 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5eea3da4b313d2_53767153 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,11 +51,11 @@ function content_5eea1d701c74e1_57102028 (Smarty_Internal_Template $_smarty_tpl)
     </div>
     <div>
         <!-- <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button> -->
-        <h1>Falcon Developers</h1>   
+        <h1>Developers</h1>   
         <div class="team">
             <div class="card">
                 <img src="<?php echo URLROOT;?>
-/img/team/pritesh_barot.jpg" alt="John" style="width:100%; object-fit: fill;">
+/img/team/pritesh_barot.jpg" alt="John" style="width:100%;">
                 <h1>Pritesh Brahmbhatt</h1>
                 <p class="title">Team Leader</p>
                 <div style="margin: 10px 0;">

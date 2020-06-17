@@ -18,10 +18,10 @@
     </div>
     <div>
         <!-- <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button> -->
-        <h1>Falcon Developers</h1>   
+        <h1>Developers</h1>   
         <div class="team">
             <div class="card">
-                <img src="{URLROOT}/img/team/pritesh_barot.jpg" alt="John" style="width:100%; object-fit: fill;">
+                <img src="{URLROOT}/img/team/pritesh_barot.jpg" alt="John" style="width:100%;">
                 <h1>Pritesh Brahmbhatt</h1>
                 <p class="title">Team Leader</p>
                 <div style="margin: 10px 0;">
