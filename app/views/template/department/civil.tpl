@@ -17,7 +17,7 @@
                     creatively envision the progress of our tomorrows</li>
                 </ul>
                 <div class="branch_link">
-                    <a href="{URLROOT}/public/img/civil/brochure/CIVIL-VIEW-BOOK-dipika.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Brochure</a>
+                    <a href="{URLROOT}/public/img/civil/brochure/CIVIL BROCHURE 2020-21.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Brochure</a>
                 </div>
             </div>
            </div>
@@ -37,7 +37,7 @@
                   </div>
                   <div class="swiper-slide">
                     <a id="ivbtn2" class="button">
-                      <img src="{URLROOT}/public/img/civil/industrial_visit/mudra_port/IMG_4525-300x225.jpg" class="card-img-top" alt="">
+                      <img src="{URLROOT}/public/img/civil/industrial_visit/mudra_port/mudra1.jpg" class="card-img-top" alt="">
                     </a>
                   </div>
                   <div class="swiper-slide">
@@ -47,7 +47,7 @@
                   </div>
                   <div class="swiper-slide">
                     <a id="ivbtn4" class="button">
-                      <img src="{URLROOT}/public/img/civil/industrial_visit/mudra_port/IMG_4518-300x225.jpg" class="card-img-top" alt="">
+                      <img src="{URLROOT}/public/img/civil/industrial_visit/iv.jpg" class="card-img-top" alt="">
                     </a>
                     </div>
                 </div>
@@ -58,9 +58,9 @@
               <div class="swiper-container gallery-thumbs">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide" style="background-image:url({URLROOT}/public/img/civil/industrial_visit/RMC_plant_visit/rmc1.jpeg);"></div>
-                  <div class="swiper-slide" style="background-image:url({URLROOT}/public/img/civil/industrial_visit/mudra_port/IMG_4525-300x225.jpg);"></div>
+                  <div class="swiper-slide" style="background-image:url({URLROOT}/public/img/civil/industrial_visit/mudra_port/mudra1.jpg);"></div>
                   <div class="swiper-slide" style="background-image:url({URLROOT}/public/img/civil/industrial_visit/RMC_plant_visit/rmc2.jpeg"></div>
-                  <div class="swiper-slide" style="background-image:url({URLROOT}/public/img/civil/industrial_visit/mudra_port/IMG_4518-300x225.jpg);"></div>
+                  <div class="swiper-slide" style="background-image:url({URLROOT}/public/img/civil/industrial_visit/iv.jpg);"></div>
                 </div>
               </div>              
             </div>        
@@ -81,7 +81,7 @@
                 <h1>Mudra Port</h1>
                 <i class="fa fa-times closeBtn" id="ivcloseBtn2" aria-hidden="true"></i>
             </div>
-            <img src="{URLROOT}/public/img/civil/industrial_visit/mudra_port/IMG_4525-300x225.jpg" class="card-img-top" alt="...">             
+            <img src="{URLROOT}/public/img/civil/industrial_visit/mudra_port/mudra1.jpg" class="card-img-top" alt="...">             
           </div>
         </div>
         <div id="ivmodal3" class="eventmodal">
@@ -96,10 +96,10 @@
         <div id="ivmodal4" class="eventmodal">
           <div class="modal-content">
               <div class="header">
-                  <h1>Mudra Port</h1>
+                  <h1>Industrial Visit</h1>
                   <i class="fa fa-times closeBtn" id="ivcloseBtn4" aria-hidden="true"></i>
               </div>
-              <img src="{URLROOT}/public/img/civil/industrial_visit/mudra_port/IMG_4518-300x225.jpg" class="card-img-top" alt="...">             
+              <img src="{URLROOT}/public/img/civil/industrial_visit/iv.jpg" class="card-img-top" alt="...">             
           </div>
         </div>
         <div id="branch_labs" class="container-fluid scroll-start3">

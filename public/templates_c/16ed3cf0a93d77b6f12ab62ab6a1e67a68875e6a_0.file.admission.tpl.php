@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-06-01 10:18:32
+/* Smarty version 3.1.33, created on 2020-06-16 20:20:34
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\admission.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ed4b9d8eaee99_81877928',
+  'unifunc' => 'content_5ee90d72486c49_90703694',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '16ed3cf0a93d77b6f12ab62ab6a1e67a68875e6a' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\admission.tpl',
-      1 => 1589312687,
+      1 => 1592248093,
       2 => 'file',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5ed4b9d8eaee99_81877928 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ee90d72486c49_90703694 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,7 +41,7 @@ function content_5ed4b9d8eaee99_81877928 (Smarty_Internal_Template $_smarty_tpl)
 /css/admission.css">
     <link rel="stylesheet" href="<?php echo URLROOT;?>
 /node_modules/bootstrap/dist/css/bootstrap.css">    
-    <title>Admission</title>
+    <title>SSIT | Admission</title>
 </head>
 <body>
     <!-- hero section start -->
@@ -52,14 +52,21 @@ function content_5ed4b9d8eaee99_81877928 (Smarty_Internal_Template $_smarty_tpl)
 ?>    
         <div class="container-fluid media-container position-absolute">
             <img src="<?php echo URLROOT;?>
-/img/img1.jpg" class="video1 container-fluid">
-        </div>    
+/img/landing/admission.jpg" class="video1 container-fluid">
+        </div> 
+        <div class="header-txt position-absolute">
+            <div class="txt-container container">
+                <p>Admission</p>
+                <p>At SSIT</p>
+            </div>    
+        </div>   
     </div>
     <?php $_smarty_tpl->_subTemplateRender("file:../template/includes/header3.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>  
     
     <!-- admission section start -->
     <div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button>
         <div id="admission" class="scroll-start1">
           <div class="container course__container">
             <nav>

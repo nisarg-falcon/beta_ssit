@@ -12,6 +12,7 @@ body{
                 padding-left: 30px;
                 letter-spacing: .7px;
                 color: $yellow;
+                background-color: transparent;
                 text-align: center;
                 font-family: $roboto-slab;
                 @include responsive-content(smd){
@@ -80,6 +81,14 @@ body{
                         color: #facc04 !important;
                     }
                 }
+            }
+            .team{
+                font-size: 17px;
+                color: $yellow !important;
+                background-color: transparent;
+            }
+            .team:hover{
+                text-decoration: underline;
             }
             .social-cont{
                 .social-icons{

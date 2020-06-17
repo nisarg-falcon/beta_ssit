@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-06-05 20:24:13
+/* Smarty version 3.1.33, created on 2020-06-14 22:02:18
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\department.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5eda8dcd6e1183_83897049',
+  'unifunc' => 'content_5ee6824a199e51_92854772',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f86d29cd3b41d9a1a7f54f0e7e9e57734da05aa3' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\department.tpl',
-      1 => 1591380646,
+      1 => 1592164933,
       2 => 'file',
     ),
   ),
@@ -26,7 +26,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5eda8dcd6e1183_83897049 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ee6824a199e51_92854772 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -63,8 +63,8 @@ function content_5eda8dcd6e1183_83897049 (Smarty_Internal_Template $_smarty_tpl)
 ?>    
             <div class="container-fluid media-container position-absolute">
                 <img src="<?php echo URLROOT;?>
-/img/img2.jpg" class="video1 container-fluid">
-            </div>  
+/img/landing/dept.jpg" class="video1 container-fluid">
+            </div>             
         </div>
         <div class="header-txt position-absolute">
             <div class="txt-container container">
@@ -78,7 +78,7 @@ function content_5eda8dcd6e1183_83897049 (Smarty_Internal_Template $_smarty_tpl)
                 <?php }?>
             </div>    
         </div>
-        
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button>        
         <?php $_smarty_tpl->_subTemplateRender("file:../template/includes/header3.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?> 
         <?php if ($_smarty_tpl->tpl_vars['data']->value['department'] == 'all') {?>
@@ -129,6 +129,10 @@ function content_5eda8dcd6e1183_83897049 (Smarty_Internal_Template $_smarty_tpl)
     <?php echo '<script'; ?>
  src="<?php echo URLROOT;?>
 /js/header.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ type="text/javascript" src="<?php echo URLROOT;?>
+/js/backtotop.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
  src="<?php echo URLROOT;?>

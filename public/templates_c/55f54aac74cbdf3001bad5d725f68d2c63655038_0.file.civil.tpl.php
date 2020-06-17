@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-06-08 17:27:55
+/* Smarty version 3.1.33, created on 2020-06-17 15:10:32
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\department\civil.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ede58fb0099e8_85163752',
+  'unifunc' => 'content_5eea164870c440_48086364',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '55f54aac74cbdf3001bad5d725f68d2c63655038' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\department\\civil.tpl',
-      1 => 1591630068,
+      1 => 1592399296,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ede58fb0099e8_85163752 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5eea164870c440_48086364 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="department" >
     <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button>
     <div class="departments_container">
@@ -41,7 +41,7 @@ function content_5ede58fb0099e8_85163752 (Smarty_Internal_Template $_smarty_tpl)
                 </ul>
                 <div class="branch_link">
                     <a href="<?php echo URLROOT;?>
-/public/img/civil/brochure/CIVIL-VIEW-BOOK-dipika.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Brochure</a>
+/public/img/civil/brochure/CIVIL BROCHURE 2020-21.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Brochure</a>
                 </div>
             </div>
            </div>
@@ -63,7 +63,7 @@ function content_5ede58fb0099e8_85163752 (Smarty_Internal_Template $_smarty_tpl)
                   <div class="swiper-slide">
                     <a id="ivbtn2" class="button">
                       <img src="<?php echo URLROOT;?>
-/public/img/civil/industrial_visit/mudra_port/IMG_4525-300x225.jpg" class="card-img-top" alt="">
+/public/img/civil/industrial_visit/mudra_port/mudra1.jpg" class="card-img-top" alt="">
                     </a>
                   </div>
                   <div class="swiper-slide">
@@ -75,7 +75,7 @@ function content_5ede58fb0099e8_85163752 (Smarty_Internal_Template $_smarty_tpl)
                   <div class="swiper-slide">
                     <a id="ivbtn4" class="button">
                       <img src="<?php echo URLROOT;?>
-/public/img/civil/industrial_visit/mudra_port/IMG_4518-300x225.jpg" class="card-img-top" alt="">
+/public/img/civil/industrial_visit/iv.jpg" class="card-img-top" alt="">
                     </a>
                     </div>
                 </div>
@@ -88,11 +88,11 @@ function content_5ede58fb0099e8_85163752 (Smarty_Internal_Template $_smarty_tpl)
                   <div class="swiper-slide" style="background-image:url(<?php echo URLROOT;?>
 /public/img/civil/industrial_visit/RMC_plant_visit/rmc1.jpeg);"></div>
                   <div class="swiper-slide" style="background-image:url(<?php echo URLROOT;?>
-/public/img/civil/industrial_visit/mudra_port/IMG_4525-300x225.jpg);"></div>
+/public/img/civil/industrial_visit/mudra_port/mudra1.jpg);"></div>
                   <div class="swiper-slide" style="background-image:url(<?php echo URLROOT;?>
 /public/img/civil/industrial_visit/RMC_plant_visit/rmc2.jpeg"></div>
                   <div class="swiper-slide" style="background-image:url(<?php echo URLROOT;?>
-/public/img/civil/industrial_visit/mudra_port/IMG_4518-300x225.jpg);"></div>
+/public/img/civil/industrial_visit/iv.jpg);"></div>
                 </div>
               </div>              
             </div>        
@@ -115,7 +115,7 @@ function content_5ede58fb0099e8_85163752 (Smarty_Internal_Template $_smarty_tpl)
                 <i class="fa fa-times closeBtn" id="ivcloseBtn2" aria-hidden="true"></i>
             </div>
             <img src="<?php echo URLROOT;?>
-/public/img/civil/industrial_visit/mudra_port/IMG_4525-300x225.jpg" class="card-img-top" alt="...">             
+/public/img/civil/industrial_visit/mudra_port/mudra1.jpg" class="card-img-top" alt="...">             
           </div>
         </div>
         <div id="ivmodal3" class="eventmodal">
@@ -131,11 +131,11 @@ function content_5ede58fb0099e8_85163752 (Smarty_Internal_Template $_smarty_tpl)
         <div id="ivmodal4" class="eventmodal">
           <div class="modal-content">
               <div class="header">
-                  <h1>Mudra Port</h1>
+                  <h1>Industrial Visit</h1>
                   <i class="fa fa-times closeBtn" id="ivcloseBtn4" aria-hidden="true"></i>
               </div>
               <img src="<?php echo URLROOT;?>
-/public/img/civil/industrial_visit/mudra_port/IMG_4518-300x225.jpg" class="card-img-top" alt="...">             
+/public/img/civil/industrial_visit/iv.jpg" class="card-img-top" alt="...">             
           </div>
         </div>
         <div id="branch_labs" class="container-fluid scroll-start3">

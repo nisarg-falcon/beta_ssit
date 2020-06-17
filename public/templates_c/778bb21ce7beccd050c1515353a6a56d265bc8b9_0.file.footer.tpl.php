@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-25 20:47:39
+/* Smarty version 3.1.33, created on 2020-06-17 09:48:51
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\includes\footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ecc12cb395df2_49110231',
+  'unifunc' => 'content_5ee9cae3b3b312_23209274',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '778bb21ce7beccd050c1515353a6a56d265bc8b9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\includes\\footer.tpl',
-      1 => 1590001623,
+      1 => 1592380129,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ecc12cb395df2_49110231 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ee9cae3b3b312_23209274 (Smarty_Internal_Template $_smarty_tpl) {
 ?><footer class="bg-dark">
     <div class="container-fluid">
         <div class="container-fluid clg-name">
@@ -33,7 +33,7 @@ function content_5ecc12cb395df2_49110231 (Smarty_Internal_Template $_smarty_tpl)
             <div class="footer-link-cont my-2">
                 <div class="link-cont px-md-3">
                     <div class="gtu-reference">
-                        <ul class="list-group "> 
+                        <ul class="list-group"> 
                             <li class="list-group-item"><a>Importants Links</a></li>
                             <li class="list-group-item">&nbsp; <a href="http://www.jacpcldce.ac.in/" target="_blank">ACPC</a></li>
                             <li class="list-group-item">&nbsp; <a href="https://www.aicte-india.org/" target="_blank">AICTE</li>
@@ -45,28 +45,30 @@ function content_5ecc12cb395df2_49110231 (Smarty_Internal_Template $_smarty_tpl)
                     </div>
                     <div class="college-reference ">
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><a>Quick Links</a></li>
+                            <li class="list-group-item"><a>Departments</a></li>
                             <li class="list-group-item"> &nbsp; <a href="<?php echo URLROOT;?>
-/pages/about">About</a></li>
+/pages/department/civil">Civil</a></li>
                             <li class="list-group-item"> &nbsp; <a href="<?php echo URLROOT;?>
-/pages/about#contact">Contact</a></li>
+/pages/department/computer">Computer</a></li>
                             <li class="list-group-item"> &nbsp; <a href="<?php echo URLROOT;?>
-/pages/facilities#library">Library</a></li>
+/pages/department/electrical">Electrical</a></li>
                             <li class="list-group-item"> &nbsp; <a href="<?php echo URLROOT;?>
-/pages/facilities#club">OSTC Club</a></li>
-                            <li class="list-group-item"> &nbsp; <a href="#">Upcoming Events</a></li>
-                            <li class="list-group-item"> &nbsp; <a href="#">GTU Hackathon 2019</a></li>
+/pages/department/EC">EC</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="<?php echo URLROOT;?>
+/pages/department/mechanical">Mechanical</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="<?php echo URLROOT;?>
+/pages/department/MCA">MCA</a></li>
                         </ul>
                     </div>
                     <div class="syllabus-reference ">
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><a>Syllabus</a></li>
-                            <li class="list-group-item"> &nbsp; <a href="https://www.gtu.ac.in/searchpages.aspx" target="_blank">Civil</a></li>
-                            <li class="list-group-item"> &nbsp; <a href="https://www.gtu.ac.in/searchpages.aspx" target="_blank">Computer</a></li>
-                            <li class="list-group-item"> &nbsp; <a href="https://www.gtu.ac.in/searchpages.aspx" target="_blank">Electrical</a></li>
-                            <li class="list-group-item"> &nbsp; <a href="https://www.gtu.ac.in/searchpages.aspx" target="_blank">E.C.</a></li>
-                            <li class="list-group-item"> &nbsp; <a href="https://www.gtu.ac.in/searchpages.aspx" target="_blank">Mechanical</a></li>
-                            <li class="list-group-item"> &nbsp; <a href="https://www.gtu.ac.in/searchpages.aspx" target="_blank">MCA</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="http://syllabus.gtu.ac.in/Syllabus.aspx?tp=BE" target="_blank">Civil</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="http://syllabus.gtu.ac.in/Syllabus.aspx?tp=BE" target="_blank">Computer</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="http://syllabus.gtu.ac.in/Syllabus.aspx?tp=BE" target="_blank">Electrical</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="http://syllabus.gtu.ac.in/Syllabus.aspx?tp=BE" target="_blank">E.C.</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="http://syllabus.gtu.ac.in/Syllabus.aspx?tp=BE" target="_blank">Mechanical</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="http://syllabus.gtu.ac.in/Syllabus.aspx?tp=BE" target="_blank">MCA</a></li>
                         </ul>
                     </div>
                 </div>
@@ -87,7 +89,8 @@ function content_5ecc12cb395df2_49110231 (Smarty_Internal_Template $_smarty_tpl)
                     </div>
                     <a href="<?php echo URLROOT;?>
 " class="py-md-3">&copy; 2019 | Shree Swaminarayan Institute of Technology </a>
-                    <a>Designed By Falcon Developers</a>
+                    <a href="<?php echo URLROOT;?>
+/pages/team" class="team">Designed By Falcon Developers</a>
                 </div>
             </div>
     </div>

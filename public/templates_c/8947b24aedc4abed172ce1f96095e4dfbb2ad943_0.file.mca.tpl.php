@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-06-08 13:40:36
+/* Smarty version 3.1.33, created on 2020-06-13 19:44:22
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\department\mca.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ede23b4f020d8_36745951',
+  'unifunc' => 'content_5ee51076075789_59119591',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8947b24aedc4abed172ce1f96095e4dfbb2ad943' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\department\\mca.tpl',
-      1 => 1591616431,
+      1 => 1592070260,
       2 => 'file',
     ),
   ),
@@ -20,34 +20,29 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ede23b4f020d8_36745951 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ee51076075789_59119591 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="department" >
     <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button>
     <div class="departments_container">
         <div id="brochure" class="department__container container-fluid scroll-start1">
            <div class="branch_info container">
             <div class="branch_txt_container">
-                <h1>Electrical Engineering</h1>
-                <ul>
-                    <li>To be a nodal agency for advancement of Electrical Engineering academics,
-                        research & development within and in close collaboration with industry, society
-                        and leading institutions. To develop responsible professionals and citizens
-                        through awareness and by acceptance of ethical values.</li>
-                    <li>To impart programme oriented knowledge in mathematical, scientific and
-                        engineering fundamentals required to solve engineering problems so as to
-                        comprehend, analyse, design and create novel products and solutions for real
-                        life problems.</li>
-                    <li>To strive for excellence in academics, research in engineering and technology
-                        to contribute to the development of the region and the nations and develop
-                        centre of research in the area of relevance in industry and enterprise in the
-                        region through continuous up gradation of faculty and facilities.</li>
-                    <li>The Department organizes guest lectures, short term training program, workshop
-                        and seminar on various specialized field. This is an opportunity to meet eminent
-                        speaker and exchange ideas.</li>
-                </ul>
+                <h1>MCA</h1>
+                <ul>                   
+                    <li>To provide environment that develops a positive attitude among students,
+                        concerning their profession and its impact on society and a desire to continue to
+                        grow intellectually and professionally in their chosen field i.e.to pursue life-long
+                        learning to fulfill their goals.</li>
+                    <li>To enable students to identify problems from real life, perceive and offer effective
+                        computer based solutions.</li>
+                    <li>To facilitate teaching-learning practices to provide basic foundation of information
+                        technology and high- level of practical skills.</li>
+                    <li>To enable educated, expressive, ethical and responsible citizens which will
+                        contribute to society with proven expertise by strong practical skills along with
+                        human values.</li>
+                  </ul>
                 <div class="branch_link">
-                    <a href="<?php echo URLROOT;?>
-/public/img/elec/brochure/Electrical-Eng.-BOOKLET-2018-format_1.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Brochure</a>
+                    <a><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Brochure</a>
                 </div>
             </div>
            </div>
@@ -57,52 +52,7 @@ function content_5ede23b4f020d8_36745951 (Smarty_Internal_Template $_smarty_tpl)
             <div class="iv_heading">
                 <h1>Industrial Visit</h1>
             </div>
-            <div class="iv_swiper">
-              <div class="swiper-container iv_gallery_top gallery-top">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <a id="ivbtn" class="button">
-                      <img src="<?php echo URLROOT;?>
-/public/img/elec/industrial_visit/charanka_solar_power_plant/IMG_9944-300x200.jpg" class="card-img-top" alt="">
-                    </a>                    
-                  </div>
-                  <div class="swiper-slide">
-                    <a id="ivbtn2" class="button">
-                      <img src="<?php echo URLROOT;?>
-/public/img/elec/industrial_visit/charanka_solar_power_plant/IMG_9914-300x200.jpg" class="card-img-top" alt="">
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a id="ivbtn3" class="button">
-                      <img src="<?php echo URLROOT;?>
-/public/img/elec/industrial_visit/switch_ex-po/IMG_20161007_112339-300x225.jpg" class="card-img-top" alt="">
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a id="ivbtn4" class="button">
-                      <img src="<?php echo URLROOT;?>
-/public/img/elec/industrial_visit/switch_ex-po/IMG_20161007_134019-300x225.jpg" class="card-img-top" alt="">
-                    </a>
-                    </div>
-                </div>
-                <!-- <div class="swiper-pagination labs-swiper-pagination"></div>-->
-                <div class="swiper-button-next swiper-button-white"></div>
-                <div class="swiper-button-prev swiper-button-white"></div>
-              </div>
-              <div class="swiper-container gallery-thumbs">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide" style="background-image:url(<?php echo URLROOT;?>
-/public/img/elec/industrial_visit/charanka_solar_power_plant/IMG_9944-300x200.jpg);"></div>
-                  <div class="swiper-slide" style="background-image:url(<?php echo URLROOT;?>
-/public/img/elec/industrial_visit/charanka_solar_power_plant/IMG_9914-300x200.jpg);"></div>
-                  <div class="swiper-slide" style="background-image:url(<?php echo URLROOT;?>
-/public/img/elec/industrial_visit/switch_ex-po/IMG_20161007_112339-300x225.jpg);"></div>
-                  <div class="swiper-slide" style="background-image:url(<?php echo URLROOT;?>
-/public/img/elec/industrial_visit/switch_ex-po/IMG_20161007_134019-300x225.jpg);"></div>
-                </div>
-              </div>              
-            </div>        
-          </div>
+                      </div>
         </div>
         <div id="ivmodal" class="eventmodal">
           <div class="modal-content">
@@ -151,30 +101,18 @@ function content_5ede23b4f020d8_36745951 (Smarty_Internal_Template $_smarty_tpl)
             </div>
             <div class="labs_swiper">
               <div class="swiper-container labs-swiper">
-                <div class="swiper-wrapper">
+                <div class="swiper-wrapper">  
                   <div class="swiper-slide">
                     <img src="<?php echo URLROOT;?>
-/public/img/elec/lab/ac machine/DSC_0108-300x199.jpg" width="100%"  />
+/public/img/lab/MCA/1.JPG" width="100%"  />
                   </div>
                   <div class="swiper-slide">
                     <img src="<?php echo URLROOT;?>
-/public/img/elec/lab/dc machine and transformer/DSC_0112-300x199.jpg" width="100%"  />
+/public/img/lab/MCA/2.JPG" width="100%"  />
                   </div>
                   <div class="swiper-slide">
                     <img src="<?php echo URLROOT;?>
-/public/img/elec/lab/dc machine and transformer/DSC_0117-300x199.jpg" width="100%"  />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="<?php echo URLROOT;?>
-/public/img/elec/lab/high voltage/DSC_0122-300x199.jpg" width="100%"  />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="<?php echo URLROOT;?>
-/public/img/elec/lab/high voltage/DSC_0126-300x199.jpg" width="100%"  />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="<?php echo URLROOT;?>
-/public/img/elec/lab/switch gear and protection/DSC_0123-300x199.jpg" width="100%"  />
+/public/img/lab/MCA/3.JPG" width="100%"  />
                   </div>
                 </div>                       
                 <div class="swiper-button-next labs-swiper-next"></div>
@@ -190,15 +128,15 @@ function content_5ede23b4f020d8_36745951 (Smarty_Internal_Template $_smarty_tpl)
               <div class="placement-swiper-container">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide"><img src="<?php echo URLROOT;?>
-/public/img/elec/placement/evercrest_logo.png" class="img-fluid" alt=""></div>
+/public/img/mca/placement/silverwing-300x81.jpg" class="img-fluid" alt=""></div>
                   <div class="swiper-slide"><img src="<?php echo URLROOT;?>
-/public/img/elec/placement/Greenfield Control System.jpg" class="img-fluid" alt=""></div>
+/public/img/mca/placement/royal-300x76.png" class="img-fluid" alt=""></div>
                   <div class="swiper-slide"><img src="<?php echo URLROOT;?>
-/public/img/elec/placement/Snabar Pumps & Motors.jpg" class="img-fluid" alt=""></div>
+/public/img/mca/placement/images-1.png" class="img-fluid" alt=""></div>
                   <div class="swiper-slide"><img src="<?php echo URLROOT;?>
-/public/img/elec/placement/PCB planet.gif" class="img-fluid" alt=""></div>
+/public/img/mca/placement/grass.jpg" class="img-fluid" alt=""></div>
                   <div class="swiper-slide"><img src="<?php echo URLROOT;?>
-/public/img/elec/placement/IPR .png" class="img-fluid" alt=""></div>
+/public/img/mca/placement/download-4.jpg" class="img-fluid" alt=""></div>
                 </div>
               </div>
             </div>        
@@ -217,21 +155,12 @@ function content_5ede23b4f020d8_36745951 (Smarty_Internal_Template $_smarty_tpl)
                 <a id="modalBtn" class="button">
                     <div class="card">
                         <img src="<?php echo URLROOT;?>
-/img/elec/events/Electrical3.jpg" class="card-img-top" alt="...">
+/img/mca/events/hands on session on R language/1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Panel Design workshop</h5>
+                            <h5 class="card-title">hands on session on R language</h5>
                         </div>
                     </div>
-                </a>
-                <a id="modalBtn2" class="button">
-                    <div class="card">
-                        <img src="<?php echo URLROOT;?>
-/img/elec/events/Electrical2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Energy Conservation workshop</h5>
-                        </div>
-                    </div>
-                </a>
+                </a>              
               </div>                  
             </div>        
         </div>
@@ -242,25 +171,12 @@ function content_5ede23b4f020d8_36745951 (Smarty_Internal_Template $_smarty_tpl)
                   <i class="fa fa-times closeBtn" id="closeBtn" aria-hidden="true"></i>
               </div>
               <img src="<?php echo URLROOT;?>
-/img/elec/events/Electrical3.jpg" class="card-img-top" alt="...">
+/img/mca/events/hands on session on R language/1.jpg" class="card-img-top" alt="...">
               <!-- <div class="content">
                 <p></p>
               </div> -->
           </div>
-        </div>
-        <div id="eventModal2" class="eventmodal">
-          <div class="modal-content">
-              <div class="header">
-                  <h1>Energy Conservation Workshop</h1>
-                  <i class="fa fa-times closeBtn" id="closeBtn2" aria-hidden="true"></i>
-              </div>
-              <img src="<?php echo URLROOT;?>
-/img/elec/events/Electrical2.jpg" class="card-img-top" alt="...">
-              <!-- <div class="content">
-                <p></p>
-              </div> -->
-          </div>
-        </div>
+        </div>       
         <div id="staff" class="container-fluid scroll-start6">
           <div class="container">
             <h1>Staff</h1>
@@ -268,9 +184,9 @@ function content_5ede23b4f020d8_36745951 (Smarty_Internal_Template $_smarty_tpl)
               <a id="modalBtn2" class="button">
                 <div class="card">
                     <img src="<?php echo URLROOT;?>
-/img/elec/staff/Prof. Urvish Mewada.jpg" class="card-img-top" alt="...">
+/img/mca/staff/deena-200x200.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h4 class="card-title">Prof. Urvish Mewada</h4>
+                        <h4 class="card-title">Prof. deena</h4>
                         <h5>Assistant Professor & Head of Dept.</h5>                        
                     </div>
                 </div>
@@ -278,33 +194,23 @@ function content_5ede23b4f020d8_36745951 (Smarty_Internal_Template $_smarty_tpl)
               <a id="modalBtn" class="button">
                 <div class="card">
                     <img src="<?php echo URLROOT;?>
-/public/img/elec/staff/Prof. Suvas Vora.JPG" class="card-img-top" alt="...">
+/public/img/mca/staff/Prof.-Megha-Shah-200x200.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h4 class="card-title">Prof. Suvas Vora</h4>
+                        <h4 class="card-title">Prof. Megha Shah</h4>
                         <h5>Assistant Professor</h5>
                     </div>
                 </div>
-              </a>
-              <a id="modalBtn2" class="button">
-                <div class="card">
-                    <img src="<?php echo URLROOT;?>
-/img/elec/staff/Prof. Ripan Patel.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h4 class="card-title">Prof. Ripan Patel</h4>
-                        <h5>Assistant Professor</h5>
-                    </div>
-                </div>
-              </a>              
+              </a>               
               <a id="modalBtn" class="button">
                 <div class="card">
                     <img src="<?php echo URLROOT;?>
-/img/elec/staff/Prof. Nishit Chotaliya.JPG" class="card-img-top" alt="...">
+/public/img/comp/staff/Brinda mam.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h4 class="card-title">Prof. Nishit Chotaliya</h4>
+                        <h4 class="card-title">Prof. Brinda Patel</h4>
                         <h5>Assistant Professor</h5>
                     </div>
                 </div>
-              </a>            
+              </a>               
             </div>  
           </div>        
         </div>

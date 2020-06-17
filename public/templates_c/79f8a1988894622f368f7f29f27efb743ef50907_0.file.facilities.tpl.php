@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-06-09 08:51:01
+/* Smarty version 3.1.33, created on 2020-06-16 20:19:51
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\facilities.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5edf3155713e85_51846240',
+  'unifunc' => 'content_5ee90d47dfcea7_81383177',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '79f8a1988894622f368f7f29f27efb743ef50907' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\facilities.tpl',
-      1 => 1591685025,
+      1 => 1592331589,
       2 => 'file',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5edf3155713e85_51846240 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ee90d47dfcea7_81383177 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,7 +42,7 @@ function content_5edf3155713e85_51846240 (Smarty_Internal_Template $_smarty_tpl)
     <link rel="stylesheet" href="<?php echo URLROOT;?>
 /node_modules/bootstrap/dist/css/bootstrap.css">    
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">    
-    <title>Facilities</title>
+    <title>SSIT | Facilities</title>
 </head>
 <body>
     <!-- hero section start -->
@@ -53,8 +53,14 @@ function content_5edf3155713e85_51846240 (Smarty_Internal_Template $_smarty_tpl)
 ?>    
         <div class="container-fluid media-container position-absolute">
             <img src="<?php echo URLROOT;?>
-/img/clg-downview-min.jpg" class="video1 container-fluid">
+/img/landing/facility.jpg" class="video1 container-fluid">
         </div>    
+        <div class="header-txt position-absolute">
+            <div class="txt-container container">
+                <p>Facilities</p>
+                <p>At SSIT</p>
+            </div>    
+        </div>
     </div>
     <?php $_smarty_tpl->_subTemplateRender("file:../template/includes/header3.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>    
@@ -69,48 +75,69 @@ function content_5edf3155713e85_51846240 (Smarty_Internal_Template $_smarty_tpl)
                 <div class="labs-swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="<?php echo URLROOT;?>
+                            <a href="<?php echo URLROOT;?>
+/pages/department/computer">
+                                <img src="<?php echo URLROOT;?>
 /public/img/lab/computer/2.jpg" class="img-fluid" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Computer Engineering</h5>
-                            </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Computer Engineering</h5>
+                                </div>
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img src="<?php echo URLROOT;?>
+                            <a href="<?php echo URLROOT;?>
+/pages/department/civil">
+                                <img src="<?php echo URLROOT;?>
 /public/img/lab/civil lab/2.JPG" class="img-fluid" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Civil Engineering</h5>
-                            </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Civil Engineering</h5>
+                                </div>
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img src="<?php echo URLROOT;?>
+                            <a href="<?php echo URLROOT;?>
+/pages/department/electrical">
+                                <img src="<?php echo URLROOT;?>
 /public/img/lab/Electrical/3.JPG" class="img-fluid" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Electrical Engineering</h5>
-                            </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Electrical Engineering</h5>
+                                </div>
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img src="<?php echo URLROOT;?>
+                            <a href="<?php echo URLROOT;?>
+/pages/department/EC">
+                                <img src="<?php echo URLROOT;?>
 /public/img//lab/E.C/1.JPG" class="img-fluid" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">E.C Engineering</h5>
-                            </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">E.C Engineering</h5>
+                                </div>
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img src="<?php echo URLROOT;?>
+                            <a href="<?php echo URLROOT;?>
+/pages/department/mechanical">
+                                <img src="<?php echo URLROOT;?>
 /public/img/lab/mechanical/4.JPG" class="img-fluid" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Mechanical Engineering</h5>
-                            </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Mechanical Engineering</h5>
+                                </div>
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img src="<?php echo URLROOT;?>
+                            <a href="<?php echo URLROOT;?>
+/pages/department/MCA">
+                                <img src="<?php echo URLROOT;?>
 /public/img/lab/MCA/3.JPG" class="img-fluid" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">MCA</h5>
-                            </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">MCA</h5>
+                                </div>
+                            </a>
                         </div>
-                    </div>                        
+                    </div>
+                    <div class="swiper-button-next lab-button-next"></div>
+                    <div class="swiper-button-prev lab-button-prev"></div> 
+                    <div class="swiper-pagination lab-pagination"></div>  
                 </div>                  
             </div>
         </div>
@@ -193,8 +220,10 @@ function content_5edf3155713e85_51846240 (Smarty_Internal_Template $_smarty_tpl)
 /img/work-area-zoom.jpg" class="img-fluid" alt="">
                                 <div class="facility-name"><h2>Work Area</h2></div>
                             </div>
-                        </div>                     
-                        <div class="swiper-pagination"></div>
+                        </div>                                            
+                        <div class="swiper-button-next lib-button-next"></div>
+                        <div class="swiper-button-prev lib-button-prev"></div> 
+                        <div class="swiper-pagination lib-pagination"></div>
                     </div>
                 </div>                
                 <!-- librarian details -->
@@ -303,7 +332,7 @@ function content_5edf3155713e85_51846240 (Smarty_Internal_Template $_smarty_tpl)
         <div id="ground" class="scroll-start6">
             <div class="container course__container">
                 <h1>Play Area</h1>
-                <div class="labs-swiper-container">
+                <div class="play-swiper-container">
                     <div class="swiper-wrapper">
                       <div class="swiper-slide"><img src="<?php echo URLROOT;?>
 /img/playground/Boys_satoliya.jpeg" class="img-fluid" alt="..."></div>
@@ -312,6 +341,9 @@ function content_5edf3155713e85_51846240 (Smarty_Internal_Template $_smarty_tpl)
                       <div class="swiper-slide"><img src="<?php echo URLROOT;?>
 /img/playground/Girl_Satoliya.jpeg" class="img-fluid" alt="..."></div>
                     </div>
+                    <div class="swiper-pagination play-pagination"></div>  
+                    <div class="swiper-button-next play-button-next"></div>
+                    <div class="swiper-button-prev play-button-prev"></div> 
                 </div>
             </div>
         </div>

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="{URLROOT}/img/logo.png">    
-    <title>Contact us</title>
+    <title>SSIT | Contact us</title>
     <link rel="stylesheet" href="{URLROOT}/css/header.css">
     <link rel="stylesheet" href="{URLROOT}/css/contact.css">
     <link rel="stylesheet" href="{URLROOT}/css/footer.css">
@@ -26,7 +26,7 @@
   
     <!-- people starts -->
     <div>
-        <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button>
+        {* <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button> *}
         <!-- contact us form -->
         <div id="contact">
             <div class="container course__container">
@@ -71,8 +71,7 @@
     <script src="{URLROOT}/node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js"></script>
     <script src="{URLROOT}/node_modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
     <script type="module"  src="{URLROOT}/node_modules/gsap/all.js"></script>
-    <script type="module" src="{URLROOT}/js/scroll.js"></script>
-    <script type="text/javascript" src="{URLROOT}/js/backtotop.js"></script>
+    {* <script type="text/javascript" src="{URLROOT}/js/backtotop.js"></script> *}
     <script src="{URLROOT}/node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="https://kit.fontawesome.com/dbc30cce47.js"></script>
     <script src="{URLROOT}/js/header.js"></script>   

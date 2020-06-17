@@ -18,8 +18,14 @@
     <div class="header-section position-relative">
         {include file="../template/includes/header2.tpl"}    
         <div class="container-fluid media-container position-absolute">
-            <img src="{URLROOT}/img/clg-downview-min.jpg" class="video1 container-fluid">
+            <img src="{URLROOT}/img/landing/facility.jpg" class="video1 container-fluid">
         </div>    
+        <div class="header-txt position-absolute">
+            <div class="txt-container container">
+                <p>Facilities</p>
+                <p>At SSIT</p>
+            </div>    
+        </div>
     </div>
     {include file="../template/includes/header3.tpl"}    
 
@@ -33,42 +39,57 @@
                 <div class="labs-swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="{URLROOT}/public/img/lab/computer/2.jpg" class="img-fluid" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Computer Engineering</h5>
-                            </div>
+                            <a href="{URLROOT}/pages/department/computer">
+                                <img src="{URLROOT}/public/img/lab/computer/2.jpg" class="img-fluid" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">Computer Engineering</h5>
+                                </div>
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img src="{URLROOT}/public/img/lab/civil lab/2.JPG" class="img-fluid" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Civil Engineering</h5>
-                            </div>
+                            <a href="{URLROOT}/pages/department/civil">
+                                <img src="{URLROOT}/public/img/lab/civil lab/2.JPG" class="img-fluid" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">Civil Engineering</h5>
+                                </div>
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img src="{URLROOT}/public/img/lab/Electrical/3.JPG" class="img-fluid" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Electrical Engineering</h5>
-                            </div>
+                            <a href="{URLROOT}/pages/department/electrical">
+                                <img src="{URLROOT}/public/img/lab/Electrical/3.JPG" class="img-fluid" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">Electrical Engineering</h5>
+                                </div>
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img src="{URLROOT}/public/img//lab/E.C/1.JPG" class="img-fluid" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">E.C Engineering</h5>
-                            </div>
+                            <a href="{URLROOT}/pages/department/EC">
+                                <img src="{URLROOT}/public/img//lab/E.C/1.JPG" class="img-fluid" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">E.C Engineering</h5>
+                                </div>
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img src="{URLROOT}/public/img/lab/mechanical/4.JPG" class="img-fluid" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Mechanical Engineering</h5>
-                            </div>
+                            <a href="{URLROOT}/pages/department/mechanical">
+                                <img src="{URLROOT}/public/img/lab/mechanical/4.JPG" class="img-fluid" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mechanical Engineering</h5>
+                                </div>
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img src="{URLROOT}/public/img/lab/MCA/3.JPG" class="img-fluid" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">MCA</h5>
-                            </div>
+                            <a href="{URLROOT}/pages/department/MCA">
+                                <img src="{URLROOT}/public/img/lab/MCA/3.JPG" class="img-fluid" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">MCA</h5>
+                                </div>
+                            </a>
                         </div>
-                    </div>                        
+                    </div>
+                    <div class="swiper-button-next lab-button-next"></div>
+                    <div class="swiper-button-prev lab-button-prev"></div> 
+                    <div class="swiper-pagination lab-pagination"></div>  
                 </div>                  
             </div>
         </div>
@@ -143,8 +164,10 @@
                                 <img src="{URLROOT}/img/work-area-zoom.jpg" class="img-fluid" alt="">
                                 <div class="facility-name"><h2>Work Area</h2></div>
                             </div>
-                        </div>                     
-                        <div class="swiper-pagination"></div>
+                        </div>                                            
+                        <div class="swiper-button-next lib-button-next"></div>
+                        <div class="swiper-button-prev lib-button-prev"></div> 
+                        <div class="swiper-pagination lib-pagination"></div>
                     </div>
                 </div>                
                 <!-- librarian details -->
@@ -243,12 +266,15 @@
         <div id="ground" class="scroll-start6">
             <div class="container course__container">
                 <h1>Play Area</h1>
-                <div class="labs-swiper-container">
+                <div class="play-swiper-container">
                     <div class="swiper-wrapper">
                       <div class="swiper-slide"><img src="{URLROOT}/img/playground/Boys_satoliya.jpeg" class="img-fluid" alt="..."></div>
                       <div class="swiper-slide"><img src="{URLROOT}/img/playground/Cricket.jpeg" class="img-fluid" alt="..."></div>
                       <div class="swiper-slide"><img src="{URLROOT}/img/playground/Girl_Satoliya.jpeg" class="img-fluid" alt="..."></div>
                     </div>
+                    <div class="swiper-pagination play-pagination"></div>  
+                    <div class="swiper-button-next play-button-next"></div>
+                    <div class="swiper-button-prev play-button-prev"></div> 
                 </div>
             </div>
         </div>

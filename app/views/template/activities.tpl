@@ -18,7 +18,7 @@
     <div class="header-section position-relative">
         {include file="../template/includes/header2.tpl"}    
         <div class="container-fluid media-container position-absolute">
-            <img src="{URLROOT}/img/img2.jpg" class="video1 container-fluid">
+            <img src="{URLROOT}/img/landing/act.jpg" class="video1 container-fluid">
             <!-- <video class="video1 container-fluid" loop muted autoplay>
                 <source src="videos/video1.mp4" type="video/mp4">
                 </video> -->

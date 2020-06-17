@@ -18,7 +18,7 @@ body {
         background-color: #111;
         color: white;
         cursor: pointer;
-        padding: 15px;
+        padding: 10px 12px;
         border-radius: 4px;
     }      
     #myBtn:hover {
@@ -40,11 +40,73 @@ body {
             @include responsive-content(smd){
                 height: 55vh
             }
+            img{
+                filter: contrast(120%);
+            }
             .video1{
                 margin: 0 !important;
                 padding: 0 !important;
                 height: calc(100% + 1px);
                 object-fit: cover;
+            }
+        }
+        .header-txt{
+            z-index: 9906;
+            bottom: 10%;
+            height: 300px;
+            @include responsive-content(smd){
+                height: 200px;  
+            }
+            width: 100%;
+            .txt-container{
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;  
+                height: 100%;
+                text-align: left;
+                position: relative;
+                @include responsive-content(smd){
+                    margin-left: 5%;
+                    padding: 0 !important;
+                    width: 95%;
+                }
+                p{
+                    width: 100%;
+                    margin: 0;
+                    padding: 0.5rem 2.5rem;
+                    font-size: 3.5em;
+                    @include responsive-content(smd){
+                        font-size: 2.5em;
+                    }
+                    font-weight: 500;
+                    color: $light-grey;
+                    // text-shadow:  5px 5px 10px rgba($color: $black, $alpha: 1);
+                    text-shadow:    0px 4px 3px rgba(0,0,0,0.9), 
+                                    0px 8px 13px rgba(0,0,0,0.9), 
+                                    0px 18px 23px rgba(0,0,0,0.9);
+                    text-transform: uppercase;
+                    &:nth-child(1){
+                        font-weight: bold;
+                        // padding: 0.5rem 1.5rem;
+                        @include responsive-content(smd){
+                            font-size: 3.5em;
+                        }
+                        font-size: 4.5em;
+                    }
+                }
+                &::before{                   
+                    z-index: 9906;
+                    content: '';
+                    display: inline;
+                    top: 0;
+                    left: 0;
+                    position: absolute;
+                    background: $light-grey;
+                    height: 100%;
+                    width: 10px;
+                }
             }
         }
     }
@@ -72,13 +134,14 @@ body {
         }
         .labs-swiper-container{
             width: auto;
+            height: 100%;
             margin: 0px 30px;
             overflow: hidden;
+            position: relative;
             @include responsive-content(smd){
                 margin: 0px;
             }
-            .swiper-wrapper{
-                height: auto;
+            .swiper-wrapper{              
                 .swiper-slide {
                     text-align: center;
                     font-size: 18px;
@@ -101,10 +164,14 @@ body {
                     -webkit-align-items: center;
                     align-items: center;
                     height: 500px;                
-                    img{
-                        object-fit: fill;
-                        height: 100%;
+                    a{
                         width: 100%;
+                        height: 100%;    
+                        img{
+                            object-fit: fill;
+                            height: 100%;
+                            width: 100%;
+                        }
                     }
                     .card-body{
                         position: absolute;
@@ -139,7 +206,47 @@ body {
                             }
                         }
                     }  
-                }  
+                }
+                .swiper-slide:hover{
+                    .card-body{
+                        background-color: rgba($color: $black, $alpha: 0.5);
+                    }
+                }
+            }
+            .swiper-pagination{                
+                .swiper-pagination-progressbar-fill{
+                    background: $black;
+                }
+            }
+            .swiper-button-next{
+                width: 50px;
+                height: 50px;
+                color: $yellow;
+                padding: 20px;
+                border-radius: 25px;
+                background-color: rgba($color: $black, $alpha: 0.7);
+            }
+            .swiper-button-next::after{
+                font-size: 25px;
+                font-weight: bold;
+            }
+            .swiper-button-next:hover{
+                background-color: $black;
+            }
+            .swiper-button-prev{
+                width: 50px;
+                height: 50px;
+                color: $yellow;
+                padding: 20px;
+                border-radius: 25px;
+                background-color: rgba($color: $black, $alpha: 0.7);
+            }
+            .swiper-button-prev::after{
+                font-size: 25px;
+                font-weight: bold;
+            }
+            .swiper-button-prev:hover{
+                background-color: $black;
             }
         }          
     }
@@ -261,15 +368,14 @@ body {
         .lib-facilities {
             margin: 15px 0;
             margin-bottom: 0;  
-            background: $white;
             h1{
                 margin-top: 5px;
                 margin-bottom: 0px;
                 font-size: 33px;
                 font-weight: 600;
-                padding: 0.5rem 1rem;
+                padding: 0.5rem 0rem;
                 letter-spacing: .7px;
-                color: $black;                
+                color: $black;
                 font-family: $roboto-slab;
                 @include responsive-content(smd){
                     font-size: 28px;
@@ -280,13 +386,7 @@ body {
                 width: auto;
                 background: $white;
                 overflow: hidden;
-                .swiper-pagination-progressbar-fill{
-                    background: $white;
-                }                
-                .swiper-pagination{
-                    position: relative;
-                    background: $yellow;
-                }
+                position: relative;              
                 .swiper-wrapper{
                     height: auto;
                     @include responsive-content(smd){
@@ -313,7 +413,7 @@ body {
                         // -ms-flex-align: center;
                         // -webkit-align-items: center;
                         // align-items: center;
-                        height: 450px;
+                        height: 500px;
                         img{
                             object-fit: cover;
                             height: 100%;
@@ -331,6 +431,41 @@ body {
                             }    
                         }
                     }  
+                }
+                .swiper-pagination{
+                    .swiper-pagination-progressbar-fill{
+                        background: $black;
+                    }
+                }
+                .swiper-button-next{
+                    width: 50px;
+                    height: 50px;
+                    color: $yellow;
+                    padding: 20px;
+                    border-radius: 25px;
+                    background-color: rgba($color: $black, $alpha: 0.7);
+                }
+                .swiper-button-next::after{
+                    font-size: 25px;
+                    font-weight: bold;
+                }
+                .swiper-button-next:hover{
+                    background-color: $black;
+                }
+                .swiper-button-prev{
+                    width: 50px;
+                    height: 50px;
+                    color: $yellow;
+                    padding: 20px;
+                    border-radius: 25px;
+                    background-color: rgba($color: $black, $alpha: 0.7);
+                }
+                .swiper-button-prev::after{
+                    font-size: 25px;
+                    font-weight: bold;
+                }
+                .swiper-button-prev:hover{
+                    background-color: $black;
                 }
             } 
         }        
@@ -384,7 +519,7 @@ body {
                         -ms-flex-align: center;
                         -webkit-align-items: center;
                         align-items: center;
-                        height: 400px;
+                        height: 475px;
                         img{
                             object-fit: fill;
                             height: 100%;
@@ -529,7 +664,7 @@ body {
     #ground{
         background: $black;
         .course__container{
-            padding: 1rem 0; 
+            padding: 1.5rem 0; 
             padding-bottom: 2rem;
             @include responsive-content(smd){
                 padding: 15px;
@@ -545,16 +680,15 @@ body {
                     font-weight: 500;
                 }
             }
-            .labs-swiper-container{
+            .play-swiper-container{
                 width: 100%;
                 background: $white;
                 overflow: hidden;
-                .swiper-pagination-progressbar-fill{
-                    background: $black;
-                }                
+                position: relative;               
                 .swiper-pagination{
-                    position: relative;
-                    background: $yellow;
+                    .swiper-pagination-progressbar-fill{
+                        background: $yellow;
+                    }
                 }
                 .swiper-wrapper{
                     height: auto;
@@ -592,6 +726,36 @@ body {
                             // }
                         }
                     }  
+                }
+                .swiper-button-next{
+                    width: 50px;
+                    height: 50px;
+                    color: $yellow;
+                    padding: 20px;
+                    border-radius: 25px;
+                    background-color: rgba($color: $black, $alpha: 0.7);
+                }
+                .swiper-button-next::after{
+                    font-size: 25px;
+                    font-weight: bold;
+                }
+                .swiper-button-next:hover{
+                    background-color: $black;
+                }
+                .swiper-button-prev{
+                    width: 50px;
+                    height: 50px;
+                    color: $yellow;
+                    padding: 20px;
+                    border-radius: 25px;
+                    background-color: rgba($color: $black, $alpha: 0.7);
+                }
+                .swiper-button-prev::after{
+                    font-size: 25px;
+                    font-weight: bold;
+                }
+                .swiper-button-prev:hover{
+                    background-color: $black;
                 }
             }
         }   

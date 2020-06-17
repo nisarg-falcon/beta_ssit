@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-06-08 17:36:49
+/* Smarty version 3.1.33, created on 2020-06-14 16:02:30
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\department\computer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ede5b11bfc793_42105354',
+  'unifunc' => 'content_5ee62df632c696_68703449',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a7a0c1cc565a650605841551479db73fee390d93' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\department\\computer.tpl',
-      1 => 1591630606,
+      1 => 1592126720,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ede5b11bfc793_42105354 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ee62df632c696_68703449 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="department" >
     <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button>
     <div class="departments_container">
@@ -72,7 +72,7 @@ function content_5ede5b11bfc793_42105354 (Smarty_Internal_Template $_smarty_tpl)
                       <img src="<?php echo URLROOT;?>
 /public/img/comp/industrial_visit/odoo1.jpg" class="card-img-top" alt="">
                     </a>
-                    </div>
+                  </div>
                 </div>
                 <!-- <div class="swiper-pagination labs-swiper-pagination"></div>-->
                 <div class="swiper-button-next swiper-button-white"></div>

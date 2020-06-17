@@ -27,5 +27,8 @@
     public function tour(){
       $this->view('php/tour');
     } 
+    public function team(){
+      $this->view('php/team');
+    } 
   
   }

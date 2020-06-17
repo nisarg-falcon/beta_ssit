@@ -342,6 +342,7 @@ tv's and wide desktops specification
 
 #branch_labs .labs_container .labs_swiper .swiper-wrapper .swiper-slide img {
   height: 500px;
+  object-fit: cover;
 }
 
 @media (max-width: 600px) {

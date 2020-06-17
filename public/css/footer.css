@@ -51,6 +51,7 @@ body footer .clg-name h1 {
   padding-left: 30px;
   letter-spacing: .7px;
   color: #F1A501;
+  background-color: transparent;
   text-align: center;
   font-family: "Roboto Slab", serif;
 }
@@ -130,6 +131,16 @@ body footer .copyright a:nth-child(2) {
 
 body footer .copyright a:nth-child(2):hover {
   color: #facc04 !important;
+}
+
+body footer .copyright .team {
+  font-size: 17px;
+  color: #F1A501 !important;
+  background-color: transparent;
+}
+
+body footer .copyright .team:hover {
+  text-decoration: underline;
 }
 
 body footer .copyright .social-cont .social-icons ul {

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-06-12 21:19:23
+/* Smarty version 3.1.33, created on 2020-06-14 21:26:42
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\activities.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ee3d53baa5a47_51700882',
+  'unifunc' => 'content_5ee679f2d93279_16637395',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '051b6b3b210c9c7b7fe954fdd4afa1b70e1e3901' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\activities.tpl',
-      1 => 1591989554,
+      1 => 1592162801,
       2 => 'file',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5ee3d53baa5a47_51700882 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ee679f2d93279_16637395 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -53,7 +53,7 @@ function content_5ee3d53baa5a47_51700882 (Smarty_Internal_Template $_smarty_tpl)
 ?>    
         <div class="container-fluid media-container position-absolute">
             <img src="<?php echo URLROOT;?>
-/img/img2.jpg" class="video1 container-fluid">
+/img/landing/act.jpg" class="video1 container-fluid">
             <!-- <video class="video1 container-fluid" loop muted autoplay>
                 <source src="videos/video1.mp4" type="video/mp4">
                 </video> -->
@@ -75,14 +75,7 @@ function content_5ee3d53baa5a47_51700882 (Smarty_Internal_Template $_smarty_tpl)
         <div class="scroll-start1" id="educational">
             <div class="container course__container">
                 <h1>Educational</h1>
-                <nav>
-                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">All</a>
-                        <!-- <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">2018</a>
-                        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Other</a> -->
-                    </div>
-                </nav>
-                <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                         <div class="card-grid">
                             <a id="modalBtn" class="button">
@@ -313,17 +306,10 @@ function content_5ee3d53baa5a47_51700882 (Smarty_Internal_Template $_smarty_tpl)
                 </div>            
             </div>
         </div>          
-        <div colass="scroll-start2" id="cultural">
+        <div class="scroll-start2" id="cultural">
             <div class="container course__container">
                 <h1>Cultural</h1>        
-                <nav>
-                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">All</a>
-                        <!-- <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">2018</a>
-                        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Other</a> -->
-                    </div>
-                </nav>
-                <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                         <div class="card-grid">
                             <a id="CmodalBtn" class="button">
@@ -497,14 +483,7 @@ function content_5ee3d53baa5a47_51700882 (Smarty_Internal_Template $_smarty_tpl)
         <div class="scroll-start3" id="sports">
             <div class="container course__container">
                 <h1>Sports</h1>                
-                <nav>
-                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">All</a>
-                        <!-- <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">2018</a>
-                        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Other</a> -->
-                    </div>
-                </nav>
-                <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                         <div class="card-grid">
                             <a id="SmodalBtn" class="button">
@@ -673,14 +652,7 @@ function content_5ee3d53baa5a47_51700882 (Smarty_Internal_Template $_smarty_tpl)
         <div class="scroll-start4" id="other">
             <div class="container course__container">
                 <h1>Other</h1>
-                <nav>
-                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">All</a>
-                        <!-- <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">2018</a>
-                        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Other</a> -->
-                    </div>
-                </nav>
-                <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                         <div class="card-grid">
                             <a id="OmodalBtn" class="button">

@@ -17,7 +17,7 @@
     <div class="header-section position-relative">
         {include file="../template/includes/header2.tpl"}    
         <div class="container-fluid media-container position-absolute">
-            <img src="{URLROOT}/img/about-hero-edit.jpg" class="video1 container-fluid">
+            <img src="{URLROOT}/img/landing/about.jpg" class="video1 container-fluid">
         </div>
          <div class="header-txt position-absolute">
             <div class="txt-container container">

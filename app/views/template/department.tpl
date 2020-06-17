@@ -24,8 +24,8 @@
         <div class="header-section position-relative">
             {include file="../template/includes/header2.tpl"}    
             <div class="container-fluid media-container position-absolute">
-                <img src="{URLROOT}/img/img2.jpg" class="video1 container-fluid">
-            </div>  
+                <img src="{URLROOT}/img/landing/dept.jpg" class="video1 container-fluid">
+            </div>             
         </div>
         <div class="header-txt position-absolute">
             <div class="txt-container container">
@@ -38,7 +38,7 @@
                 {/if}
             </div>    
         </div>
-        
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button>        
         {include file="../template/includes/header3.tpl"} 
         {if $data['department'] == 'all'}
             {include file="../template/department/alldepartment.tpl"}        
@@ -57,6 +57,7 @@
     <script src="{URLROOT}/js/scroll.js"></script>
     <script src="{URLROOT}/js/branch_swiper.js"></script>
     <script src="{URLROOT}/js/header.js"></script>
+    <script type="text/javascript" src="{URLROOT}/js/backtotop.js"></script>
     <script src="{URLROOT}/node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 </html>

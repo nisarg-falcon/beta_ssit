@@ -3,8 +3,16 @@ var swiper = new Swiper('.swiper-container', {
     slidesPerView: 2,
     spaceBetween: 10, 
     autoplay: {
-        delay: 2500,
+        delay: 3000,
         disableOnInteraction: false,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'progressbar',
     },
     breakpoints: {
         320: {
@@ -57,9 +65,13 @@ var galleryTop = new Swiper('.gallery-top', {
     delay: 3500,
     disableOnInteraction: false,
   },
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'progressbar',
+  },
   navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
   },
   thumbs: {
       swiper: galleryThumbs
@@ -110,20 +122,28 @@ var swiper = new Swiper('.placement-swiper-container', {
 var swiper = new Swiper('.labs-swiper-container', {    
   slidesPerView: 1,
   spaceBetween: 10, 
-  loop: true,
-  autoplay: {
-      delay: 2500,
-      disableOnInteraction: false,
-  }
+  // loop: true,
+  pagination: {
+    el: '.lab-pagination',
+    type: 'progressbar',
+  },
+  navigation: {
+    nextEl: '.lab-button-next',
+    prevEl: '.lab-button-prev',
+  }  
 });
 var swiper = new Swiper('.lib-swiper-container', {    
   slidesPerView: 1,
   spaceBetween: 10, 
-  loop: true,
-  autoplay: {
-      delay: 3000,
-      disableOnInteraction: false,
-  }
+  // loop: true,
+  pagination: {
+    el: '.lib-pagination',
+    type: 'progressbar',
+  },
+  navigation: {
+    nextEl: '.lib-button-next',
+    prevEl: '.lib-button-prev',
+  }  
 });
 var swiper = new Swiper('.canteen-swiper-container', {
   slidesPerView: 1,
@@ -142,4 +162,17 @@ var swiper = new Swiper('.club-swiper-container', {
       delay: 2500,
       disableOnInteraction: false,
   }
+});
+var swiper = new Swiper('.play-swiper-container', {    
+  slidesPerView: 1,
+  spaceBetween: 10, 
+  // loop: true,
+  pagination: {
+    el: '.play-pagination',
+    type: 'progressbar',
+  },
+  navigation: {
+    nextEl: '.play-button-next',
+    prevEl: '.play-button-prev',
+  }  
 });

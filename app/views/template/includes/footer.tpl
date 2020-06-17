@@ -10,7 +10,7 @@
             <div class="footer-link-cont my-2">
                 <div class="link-cont px-md-3">
                     <div class="gtu-reference">
-                        <ul class="list-group "> 
+                        <ul class="list-group"> 
                             <li class="list-group-item"><a>Importants Links</a></li>
                             <li class="list-group-item">&nbsp; <a href="http://www.jacpcldce.ac.in/" target="_blank">ACPC</a></li>
                             <li class="list-group-item">&nbsp; <a href="https://www.aicte-india.org/" target="_blank">AICTE</li>
@@ -22,24 +22,24 @@
                     </div>
                     <div class="college-reference ">
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><a>Quick Links</a></li>
-                            <li class="list-group-item"> &nbsp; <a href="{URLROOT}/pages/about">About</a></li>
-                            <li class="list-group-item"> &nbsp; <a href="{URLROOT}/pages/about#contact">Contact</a></li>
-                            <li class="list-group-item"> &nbsp; <a href="{URLROOT}/pages/facilities#library">Library</a></li>
-                            <li class="list-group-item"> &nbsp; <a href="{URLROOT}/pages/facilities#club">OSTC Club</a></li>
-                            <li class="list-group-item"> &nbsp; <a href="#">Upcoming Events</a></li>
-                            <li class="list-group-item"> &nbsp; <a href="#">GTU Hackathon 2019</a></li>
+                            <li class="list-group-item"><a>Departments</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="{URLROOT}/pages/department/civil">Civil</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="{URLROOT}/pages/department/computer">Computer</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="{URLROOT}/pages/department/electrical">Electrical</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="{URLROOT}/pages/department/EC">EC</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="{URLROOT}/pages/department/mechanical">Mechanical</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="{URLROOT}/pages/department/MCA">MCA</a></li>
                         </ul>
                     </div>
                     <div class="syllabus-reference ">
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><a>Syllabus</a></li>
-                            <li class="list-group-item"> &nbsp; <a href="https://www.gtu.ac.in/searchpages.aspx" target="_blank">Civil</a></li>
-                            <li class="list-group-item"> &nbsp; <a href="https://www.gtu.ac.in/searchpages.aspx" target="_blank">Computer</a></li>
-                            <li class="list-group-item"> &nbsp; <a href="https://www.gtu.ac.in/searchpages.aspx" target="_blank">Electrical</a></li>
-                            <li class="list-group-item"> &nbsp; <a href="https://www.gtu.ac.in/searchpages.aspx" target="_blank">E.C.</a></li>
-                            <li class="list-group-item"> &nbsp; <a href="https://www.gtu.ac.in/searchpages.aspx" target="_blank">Mechanical</a></li>
-                            <li class="list-group-item"> &nbsp; <a href="https://www.gtu.ac.in/searchpages.aspx" target="_blank">MCA</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="http://syllabus.gtu.ac.in/Syllabus.aspx?tp=BE" target="_blank">Civil</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="http://syllabus.gtu.ac.in/Syllabus.aspx?tp=BE" target="_blank">Computer</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="http://syllabus.gtu.ac.in/Syllabus.aspx?tp=BE" target="_blank">Electrical</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="http://syllabus.gtu.ac.in/Syllabus.aspx?tp=BE" target="_blank">E.C.</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="http://syllabus.gtu.ac.in/Syllabus.aspx?tp=BE" target="_blank">Mechanical</a></li>
+                            <li class="list-group-item"> &nbsp; <a href="http://syllabus.gtu.ac.in/Syllabus.aspx?tp=BE" target="_blank">MCA</a></li>
                         </ul>
                     </div>
                 </div>
@@ -59,7 +59,7 @@
                         </div>
                     </div>
                     <a href="{URLROOT}" class="py-md-3">&copy; 2019 | Shree Swaminarayan Institute of Technology </a>
-                    <a>Designed By Falcon Developers</a>
+                    <a href="{URLROOT}/pages/team" class="team">Designed By Falcon Developers</a>
                 </div>
             </div>
     </div>

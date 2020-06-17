@@ -237,6 +237,7 @@
                 .swiper-slide{
                     img{
                         height: 500px;
+                        object-fit: cover;
                         @include responsive-content(smd){
                             height: 250px;
                         }

@@ -45,7 +45,7 @@
                     <a id="ivbtn4" class="button">
                       <img src="{URLROOT}/public/img/comp/industrial_visit/odoo1.jpg" class="card-img-top" alt="">
                     </a>
-                    </div>
+                  </div>
                 </div>
                 <!-- <div class="swiper-pagination labs-swiper-pagination"></div>-->
                 <div class="swiper-button-next swiper-button-white"></div>

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{URLROOT}/css/footer.css">
     <link rel="stylesheet" href="{URLROOT}/css/admission.css">
     <link rel="stylesheet" href="{URLROOT}/node_modules/bootstrap/dist/css/bootstrap.css">    
-    <title>Admission</title>
+    <title>SSIT | Admission</title>
 </head>
 <body>
     <!-- hero section start -->
@@ -17,13 +17,20 @@
     <div class="header-section position-relative">
         {include file="../template/includes/header2.tpl"}    
         <div class="container-fluid media-container position-absolute">
-            <img src="{URLROOT}/img/img1.jpg" class="video1 container-fluid">
-        </div>    
+            <img src="{URLROOT}/img/landing/admission.jpg" class="video1 container-fluid">
+        </div> 
+        <div class="header-txt position-absolute">
+            <div class="txt-container container">
+                <p>Admission</p>
+                <p>At SSIT</p>
+            </div>    
+        </div>   
     </div>
     {include file="../template/includes/header3.tpl"}  
     
     <!-- admission section start -->
     <div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button>
         <div id="admission" class="scroll-start1">
           <div class="container course__container">
             <nav>

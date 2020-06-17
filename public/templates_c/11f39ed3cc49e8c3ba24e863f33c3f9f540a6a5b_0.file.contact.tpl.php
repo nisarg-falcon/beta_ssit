@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-28 20:29:52
+/* Smarty version 3.1.33, created on 2020-06-17 15:28:05
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\contact.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ed00320c01f20_18456346',
+  'unifunc' => 'content_5eea1a653c1ce8_55055016',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '11f39ed3cc49e8c3ba24e863f33c3f9f540a6a5b' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\contact.tpl',
-      1 => 1590690589,
+      1 => 1592400483,
       2 => 'file',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5ed00320c01f20_18456346 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5eea1a653c1ce8_55055016 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,7 +32,7 @@ function content_5ed00320c01f20_18456346 (Smarty_Internal_Template $_smarty_tpl)
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="<?php echo URLROOT;?>
 /img/logo.png">    
-    <title>Contact us</title>
+    <title>SSIT | Contact us</title>
     <link rel="stylesheet" href="<?php echo URLROOT;?>
 /css/header.css">
     <link rel="stylesheet" href="<?php echo URLROOT;?>
@@ -56,8 +56,7 @@ function content_5ed00320c01f20_18456346 (Smarty_Internal_Template $_smarty_tpl)
   
     <!-- people starts -->
     <div>
-        <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button>
-        <!-- contact us form -->
+                <!-- contact us form -->
         <div id="contact">
             <div class="container course__container">
                 <div class="contact-container">
@@ -116,15 +115,7 @@ function content_5ed00320c01f20_18456346 (Smarty_Internal_Template $_smarty_tpl)
  type="module"  src="<?php echo URLROOT;?>
 /node_modules/gsap/all.js"><?php echo '</script'; ?>
 >
-    <?php echo '<script'; ?>
- type="module" src="<?php echo URLROOT;?>
-/js/scroll.js"><?php echo '</script'; ?>
->
-    <?php echo '<script'; ?>
- type="text/javascript" src="<?php echo URLROOT;?>
-/js/backtotop.js"><?php echo '</script'; ?>
->
-    <?php echo '<script'; ?>
+        <?php echo '<script'; ?>
  src="<?php echo URLROOT;?>
 /node_modules/bootstrap/dist/js/bootstrap.js"><?php echo '</script'; ?>
 >

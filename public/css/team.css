@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display|Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
+/* media queries for layout grid,flex,etc 
+
+small devices: 600px
+keyword: smd
+
+medium devices: 768px
+mobiles specification
+keyword: mobile
+
+
+large devices: 992px
+tablets specification
+keyword: tablet
+
+extra large devices: 1200px
+desktops and laptops specification
+keyword: desktop
+
+
+exceptional devices: 1800px
+tv's and wide desktops specification
+keyword: exd
+*/
+/* media queries for content images,fonts,etc. 
+
+small devices: 600px
+
+medium devices: 768px
+mobiles specification
+
+
+
+large devices: 992px
+tablets specification
+
+
+extra large devices: 1200px
+desktops and laptops specification
+
+exceptional devices: 1800px
+tv's and wide desktops specification
+
+*/
+body {
+  background-color: #000000;
+}
+
+body #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #111;
+  color: white;
+  cursor: pointer;
+  padding: 10px 12px;
+  border-radius: 4px;
+}
+
+body #myBtn:hover {
+  background-color: #555;
+}
+
+body h1 {
+  color: #F1A501;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: .7px;
+  padding: 1rem 0;
+  margin-bottom: 0;
+  font-family: "Roboto Slab", serif;
+}
+
+@media (max-width: 600px) {
+  body h1 {
+    font-size: 24px;
+    background-color: white;
+  }
+}
+
+body .team {
+  display: flex;
+  background-color: white;
+  padding: 1rem 0;
+}
+
+@media (max-width: 992px) {
+  body .team {
+    flex-direction: column;
+    background-color: #DBDBDB;
+  }
+}
+
+body .team .card {
+  margin: auto;
+  padding: 0px 0px 15px 0;
+  max-width: 350px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  body .team .card {
+    margin: 1rem auto;
+  }
+}
+
+body .team .card h1 {
+  color: #000000;
+  font-size: 33px;
+  font-weight: 600;
+  padding: 0.5rem 0;
+  letter-spacing: .7px;
+  font-family: "Roboto Slab", serif;
+  background-color: white;
+}
+
+body .team .card .title {
+  color: grey;
+  font-size: 20px;
+}
+
+body .team .card p {
+  margin-bottom: 0;
+}
+
+body .team .card button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+body .team .card img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+body .team .card a {
+  text-decoration: none;
+  font-size: 22px;
+  padding: 0px 5px;
+  color: black;
+}
+
+body .team .card button:hover, body .team .card a:hover {
+  opacity: 0.7;
+}
+/*# sourceMappingURL=team.css.map */

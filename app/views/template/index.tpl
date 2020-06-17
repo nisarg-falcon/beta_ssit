@@ -16,15 +16,15 @@
     <div class="header-section position-relative">
         {include file="../template/includes/header2.tpl"}    
         <div class="container-fluid media-container position-absolute">
-            <img src="{URLROOT}/img/img2.jpg" class="video1 container-fluid">
+            <img src="{URLROOT}/img/landing/hero-image.jpg" class="video1 container-fluid">
             <!-- <video class="video1 container-fluid" loop muted autoplay>
                 <source src="videos/video1.mp4" type="video/mp4">
                 </video> -->
         </div>    
         <div class="header-txt position-absolute">
             <div class="txt-container container">
-                <p>Welcome</p>
-                <p>To SSIT</p>
+                <p>SSIT</p>
+                <p>Welcomes You</p>
             </div>    
         </div>
     </div>
@@ -106,42 +106,57 @@
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="img/comp/events/comp_hackathon.jpeg" class="img-fluid" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Smart Gujarat for New India Hackathon</h5>
-                            </div>
+                            <a href="{URLROOT}/pages/activities">
+                                <img src="img/events/educational/HACKATHON 2019/1.JPG" class="img-fluid" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">Hackathon 2019</h5>
+                                </div>
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img src="img/civil/events/civil.jpeg" class="img-fluid" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Civil Department Industrial Visit</h5>
-                            </div>
+                            <a href="{URLROOT}/pages/activities">
+                                <img src="img/events/cultural/Ramzat/5.JPG" class="img-fluid" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ramzat 2019</h5>
+                                </div>
+                            </a>
+                        </div>                        
+                        <div class="swiper-slide">
+                            <a href="{URLROOT}/pages/activities">
+                                <img src="img/events/cultural/Cultural/4.JPG" class="img-fluid" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cultural Festival</h5>
+                                </div>
+                            </a>
+                        </div>                     
+                        <div class="swiper-slide">
+                            <a href="{URLROOT}/pages/activities">
+                                <img src="img/events/sports/Sports/1.JPG" class="img-fluid" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sports Festival</h5>
+                                </div>
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img src="img/ec/events/E.C_RESERCH ACTIVITY.jpg" class="img-fluid" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">E.C. Department Research activities</h5>
-                            </div>
-                        </div>
+                            <a href="{URLROOT}/pages/activities">
+                                <img src="img/civil/events/civil.jpeg" class="img-fluid" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">Days celebration</h5>
+                                </div>
+                            </a>
+                        </div>                    
                         <div class="swiper-slide">
-                            <img src="img/elec/events/Electrical2.jpg" class="img-fluid" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Workshop for Electrical Department</h5>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="img/events/cultural/mismatchday.jpg" class="img-fluid" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Mismatch day celebration</h5>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="img/mech/event/Mechanical2.jpg" class="img-fluid" alt="">
-                            <div class="card-body">
-                                <h5 class="card-title">Practical session for Mechanical students</h5>
-                            </div>
-                        </div>
-                    </div>                        
+                            <a href="{URLROOT}/pages/activities">
+                                <img src="img/events/educational/Autodesk Workshop/1.JPG" class="img-fluid" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">Autodesk Workshop</h5>
+                                </div>
+                            </a>
+                        </div>                                              
+                    </div>   
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div> 
+                    <div class="swiper-pagination"></div>                        
                 </div>            
             </div>
         </div>
@@ -186,81 +201,82 @@
                     <div class="gallery-swiper-container gallery-top">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
+                                <img src="img/events/educational/HACKATHON 2019/1.JPG" class="img-fluid" alt="">
+                                <!-- <div class="card-body">
+                                    <h5 class="card-title"></h5>
+                                </div> -->
+                            </div>
+                            <div class="swiper-slide">
                                 <img src="img/gallery/Hackathon.jpg" class="img-fluid" alt="">
-                                <div class="card-body">
+                                <!-- <div class="card-body">
                                     <h5 class="card-title">Hackathon At ssit</h5>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="swiper-slide">
-                                <img src="img/gallery/Sports.jpg" class="img-fluid" alt="">
-                                <div class="card-body">
-                                    <h5 class="card-title">Cricket tournament</h5>
-                                </div>
-                            </div>
+                                <img src="img/Events/cultural/Cultural/4.JPG" class="img-fluid" alt="">
+                                <!-- <div class="card-body">
+                                    <h5 class="card-title"></h5>
+                                </div> -->
+                            </div>                                                     
                             <div class="swiper-slide">
-                                <img src="img/gallery/SHIKSHAPATRI.JPG" class="img-fluid" alt="">
-                                <div class="card-body">
-                                    <h5 class="card-title">SHIKSHAPATRI by ssit</h5>
-                                </div>
+                                <img src="img/gallery/SSIT16.jpeg" class="img-fluid" alt="">
+                                <!-- <div class="card-body">
+                                    <h5 class="card-title">Day celebration</h5>
+                                </div> -->
                             </div>
                             <div class="swiper-slide">
                                 <img src="img/gallery/SSIT6.jpeg" class="img-fluid" alt="">
-                                <div class="card-body">
+                                <!-- <div class="card-body">
                                     <h5 class="card-title">with CM shree Vijaybhai rupani </h5>
-                                </div>
+                                </div> -->
+                            </div>                          
+                            <div class="swiper-slide">
+                                <img src="img/gallery/Sports.jpg" class="img-fluid" alt="">
+                                <!-- <div class="card-body">
+                                    <h5 class="card-title">Cricket tournament</h5>
+                                </div> -->
                             </div>
+                            <div class="swiper-slide">
+                                <img src="img/events/sports/Sports/8.JPG" class="img-fluid" alt="">
+                                <!-- <div class="card-body">
+                                    <h5 class="card-title"></h5>
+                                </div> -->
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/events/sports/Sports/10.JPG" class="img-fluid" alt="">
+                                <!-- <div class="card-body">
+                                    <h5 class="card-title"></h5>
+                                </div> -->
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/gallery/SHIKSHAPATRI.JPG" class="img-fluid" alt="">
+                                <!-- <div class="card-body">
+                                    <h5 class="card-title">SHIKSHAPATRI by ssit</h5>
+                                </div> -->
+                            </div>                          
                             <div class="swiper-slide">
                                 <img src="img/gallery/SSIT9.jpeg" class="img-fluid" alt="">
-                                <div class="card-body">
+                                <!-- <div class="card-body">
                                     <h5 class="card-title">visit to Gujarat vidhansabha</h5>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/gallery/SSIT10.jpeg" class="img-fluid" alt="">
-                                <div class="card-body">
-                                    <h5 class="card-title">black & white day celebration</h5>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/gallery/SSIT11.jpeg" class="img-fluid" alt="">
-                                <div class="card-body">
-                                    <!-- <h5 class="card-title">Tech-fest</h5> -->
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/gallery/SSIT14.jpg" class="img-fluid" alt="">
-                                <div class="card-body">
-                                    <h5 class="card-title">annual function</h5>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/gallery/SSIT15.jpg" class="img-fluid" alt="">
-                                <div class="card-body">
-                                    <h5 class="card-title">racing competition</h5>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/gallery/SSIT16.jpeg" class="img-fluid" alt="">
-                                <div class="card-body">
-                                    <h5 class="card-title">mismatchday celebration</h5>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
-                        <div class="swiper-button-next swiper-button-white"></div>
-                        <div class="swiper-button-prev swiper-button-white"></div>
+                        <div class="swiper-pagination swiper-pagination"></div>  
+                        <div class="swiper-button-next swiper-button-next"></div>
+                        <div class="swiper-button-prev swiper-button-prev"></div>
                     </div>
                     <div class="gallery-swiper-container gallery-thumbs">
                         <div class="swiper-wrapper">
+                          <div class="swiper-slide" style="background-image:url('img/events/educational/HACKATHON 2019/1.JPG'); background-size: cover;"></div>
                           <div class="swiper-slide" style="background-image:url('img/gallery/Hackathon.jpg'); background-size: cover;"></div>
-                          <div class="swiper-slide" style="background-image:url('img/gallery/Sports.jpg'); background-size: cover;"></div>
-                          <div class="swiper-slide" style="background-image:url('img/gallery/SHIKSHAPATRI.JPG'); background-size: cover;"></div>
-                          <div class="swiper-slide" style="background-image:url('img/gallery/SSIT6.jpeg'); background-size: cover;"></div>
-                          <div class="swiper-slide" style="background-image:url('img/gallery/SSIT9.jpeg'); background-size: cover;"></div>
-                          <div class="swiper-slide" style="background-image:url('img/gallery/SSIT10.jpeg'); background-size: cover;"></div>
-                          <div class="swiper-slide" style="background-image:url('img/gallery/SSIT11.jpeg'); background-size: cover;"></div>
-                          <div class="swiper-slide" style="background-image:url('img/gallery/SSIT14.jpg'); background-size: cover;"></div>
-                          <div class="swiper-slide" style="background-image:url('img/gallery/SSIT15.jpg'); background-size: cover;"></div>
+                          <div class="swiper-slide" style="background-image:url('img/events/cultural/Cultural/4.JPG'); background-size: cover;"></div>
                           <div class="swiper-slide" style="background-image:url('img/gallery/SSIT16.jpeg'); background-size: cover;"></div>
+                          <div class="swiper-slide" style="background-image:url('img/gallery/SSIT6.jpeg'); background-size: cover;"></div>
+                          <div class="swiper-slide" style="background-image:url('img/gallery/Sports.jpg'); background-size: cover;"></div>
+                          <div class="swiper-slide" style="background-image:url('img/events/sports/Sports/8.JPG'); background-size: cover;"></div>
+                          <div class="swiper-slide" style="background-image:url('img/events/sports/Sports/10.JPG'); background-size: cover;"></div>
+                          <div class="swiper-slide" style="background-image:url('img/gallery/SHIKSHAPATRI.JPG'); background-size: cover;"></div>
+                          <div class="swiper-slide" style="background-image:url('img/gallery/SSIT9.jpeg'); background-size: cover;"></div>
                         </div>
                     </div>                    
                 <!-- </div> -->
