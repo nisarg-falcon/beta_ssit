@@ -41,7 +41,8 @@ function content_5ee90d47dfcea7_81383177 (Smarty_Internal_Template $_smarty_tpl)
 /css/facilities.css">
     <link rel="stylesheet" href="<?php echo URLROOT;?>
 /node_modules/bootstrap/dist/css/bootstrap.css">    
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">    
     <title>SSIT | Facilities</title>
 </head>
 <body>

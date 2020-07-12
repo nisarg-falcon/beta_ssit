@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="{URLROOT}/css/footer.css">
     <link rel="stylesheet" href="{URLROOT}/css/index.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <title>SSIT | Shree Swaminarayan Institute Of Technology</title>
 </head>
 <body>
@@ -283,6 +284,79 @@
             </div> 
         </div>
 
+        <!-- fees -->
+        <div class="scroll-start7" id="fees">
+            <div class="container course__container">
+                <h1>Online Fees</h1> 
+                <nav>
+                    <ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-paynow-tab" data-toggle="pill" href="#pills-paynow" role="tab" aria-controls="pills-paynow" aria-selected="true">Pay Now</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-feespolicy-tab" data-toggle="pill" href="#pills-feespolicy" role="tab" aria-controls="pills-feespolicy" aria-selected="false">Fees & Refund Policy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-tc-tab" data-toggle="pill" href="#pills-tc" role="tab" aria-controls="pills-tc" aria-selected="false">Terms & Conditions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-privacypolicy-tab" data-toggle="pill" href="#pills-privacypolicy" role="tab" aria-controls="pills-privacypolicy" aria-selected="false">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-paynow" role="tabpanel" aria-labelledby="pills-paynow-tab">
+                        <p></p>
+                    </div>
+                    <div class="tab-pane fade" id="pills-feespolicy" role="tabpanel" aria-labelledby="pills-feespolicy-tab">
+                        <p>
+                            Fees once paid will not be refundable. <br>
+                            All fees fixed by the college are to be paid according to the procedure and with the time limit set by the college. <br>
+                            A penalty of Rs 500/- will have to be paid if fees are not paid within the specified dates. Repeated non-payment of fees on time will render the student liable for expulsion from the college. <br>
+                            Fees are to be paid as per the Schedule given below. <br>
+                            Semester 3rd,5th & 7th in All Branch <br>
+                            Last Week of July – 2020
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="pills-tc" role="tabpanel" aria-labelledby="pills-tc-tab">
+                        <p>
+                            Welcome to our website. If you continue to browse and use this website you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern Shree Swaminarayan Institute of Technology Gandhinagar relationship with you in relation to this website. <br>
+                            <u>The use of this website is subject to the following terms:</u> <br>
+                            The content of the pages of this website is for your general information and use only. It is subject to change without notice. <br>
+                            Neither we nor any third parties provide any warranty or guarantee as to the accuracy, timeliness, performance, completeness or suitability of the information and materials found or offered on this website for any particular purpose. You acknowledge that such information and materials may contain inaccuracies or errors and we expressly exclude liability for any such inaccuracies or errors to the fullest extent permitted by law. <br>
+                            Your use of any information or materials on this website is entirely at your own risk, for which we shall not be liable. It shall be your own responsibility to ensure that any products, services or information available through this website meet your specific requirements. <br> 
+                            This website contains material which is owned by or licensed to us. This material includes, but is not limited to, the design, layout, look, appearance and graphics. Reproduction is prohibited other than in accordance with the copyright notice, which forms part of these terms and conditions. <br>
+                            All trade-marks reproduced in this website which are not the property of, or licensed to, the operator are acknowledged on the website. <br>
+                            Unauthorised use of this website may give rise to a claim for damages and/or be a criminal offence. <br>
+                            From time to time this website may also include links to other websites. These links are provided for your convenience to provide further information. They do not signify that we endorse the website(s). We have no responsibility for the content of the linked website(s). <br>
+                            You may not create a link to this website from another website or document without prior written consent from ‘Shree Swaminarayan Institute of Technology Gandhinagar’, Gandhinagar - Gujarat. <br>
+                            Your use of this website and any dispute arising out of such use of the website is subject to the laws of India or other regulatory authority. <br>
+                            Any type of fee / charges charged for providing services of online deposit of college fee shall be borne by the parents. <br>
+                            Parents can pay fee online as well as at college office. Kindly use any of either mode to pay your wards fee for a particular quarter. <br>
+                            The issue, if any, related to online payment of college fee will be taken care by college office only. <br>
+                            Parents paying college fee through online mode will get fee receipt for the same which will be generated online after successful processing of transaction. <br>
+                            In case of successful transaction where fee receipt has not been generated after paying fee, the parents may contact the college office. <br>
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="pills-privacypolicy" role="tabpanel" aria-labelledby="pills-privacypolicy-tab">
+                        <p>
+                            We, Shree Swaminarayan Institute of Technology, Gandhinagar value the relationship we have with our candidates and web site visitors. The following privacy commitment has been created to demonstrate our policy on privacy. Shree Swaminarayan Institute of Technology, Gandhinagar is not responsible for the privacy practices or the content of such other Websites. <br>
+                            We use your IP address to help diagnose problems with our server and/or to administer our Web site. This gives us an idea of which parts of our site users are visiting. We do not link IP addresses to anything personally identifiable. This means that a user’s session will be tracked, but the user will be anonymous. <br>
+                            You can visit most pages on our site without giving us any information about yourself. However, our Web site may at various occasions require you to give us contact information like your name and email address and other personal information. We use the contact information only to respond to your queries or send you information about our company. <br>
+                            We occasionally engage other parties to provide limited services to us or on our behalf. We will only provide those other parties the information they need to deliver the service, and they are prohibited from using that information for any other purpose. <br>
+                            When you give us personal information, Shree Swaminarayan Institute of Technology, Gandhinagar will not share that information with third parties without your permission, other than for the limited exceptions already listed. It will only be used for the purposes stated above. However, you are requested to review their privacy policies to learn more about what, why, and how they collect and use personally identifiable information. <br>
+                            When you visit our site, our privacy policy only applies to www.dps-gandhinagar.com network. It does not apply to non-network sites that you connect to from our site. We recommend that you read their privacy policy to understand how they manage personal information. We are not responsible for the content or practices of web sites operated by third parties that are linked to our sites. These links may have been provided as a service to our users. Unless otherwise stated, they do not constitute our endorsement, sponsorship or approval of their content, policies or practices. <br>
+                            When someone visits the site, a cookie is placed on the user’s machine (if the user accepts cookies) or is read if the customer has visited the site previously. One use of cookies is to assist in the collection of the site visitation statistics described above. <br>
+                            Web beacons, also known as clear gif technology or action tags, may be used to assist in delivering the cookie on our site. This technology tells us how many visitors clicked on key elements (such as links or graphics) on a webpage. We do not use this technology to access your personal information on www.dps-gandhinagar.com.It is a tool we use to compile aggregated statistics about our Web site usage. We may share aggregated site statistics with partner companies but do not allow other companies to place clear gifs on our sites. <br>
+                            If you choose to not have your browser accept cookies from www.dps-gandhinagar.com you will be able to view the text on the screens; however, you will not experience a personalized visit nor will you be able to subscribe to the service offerings on the site. <br>
+                            This site has security measures in place to protect the loss, misuse, and/or alteration of information under our control. The data resides behind a firewall, with access restricted to authorized Shree Swaminarayan Institute of Technology, Gandhinagar personnel. <br>
+                            Shree Swaminarayan Institute of Technology, Gandhinagar will occasionally update this privacy statement. We will give you as much notice as possible prior to implementation. In rare cases, just like with any company or person, we may need to disclose certain information to comply with a valid legal process, such as a court order, subpoena or search. We also may choose to establish or exercise our legal rights or defend against legal claims. <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- 360 tour -->
         <div class="tour">
             <a href="{URLROOT}/pages/tour">
@@ -319,7 +393,8 @@
     <script type="module"  src="{URLROOT}/node_modules/gsap/all.js"></script>
     <script type="module" src="{URLROOT}/js/scroll.js"></script>
     <script type="module" src="{URLROOT}/js/swiper.js"></script>
-    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script type="text/javascript" src="{URLROOT}/js/backtotop.js"></script>
     <script src="{URLROOT}/node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="https://kit.fontawesome.com/dbc30cce47.js"></script>

@@ -8,7 +8,8 @@
         'item3' => array("About Institute" => "institute"),
         'item4' => array("EVENTS" => "events"),
         'item5' => array("Social Presence" => "socialmedia"),
-        'item6' => array("Gallery" => "gallery")
+        'item6' => array("Gallery" => "gallery"),
+        'item7' => array("&#8377; Pay Fees" => "fees")
     ];
     $get_departments = "SELECT name from departments;";
     $departments = mysqli_query($con,$get_departments);

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-06-16 20:20:34
+/* Smarty version 3.1.33, created on 2020-07-08 17:06:56
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\admission.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ee90d72486c49_90703694',
+  'unifunc' => 'content_5f05e110c2d0c6_54323199',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '16ed3cf0a93d77b6f12ab62ab6a1e67a68875e6a' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\admission.tpl',
-      1 => 1592248093,
+      1 => 1594220812,
       2 => 'file',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5ee90d72486c49_90703694 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f05e110c2d0c6_54323199 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -149,45 +149,7 @@ function content_5ee90d72486c49_90703694 (Smarty_Internal_Template $_smarty_tpl)
                   </div>
                 </div>
               </div>
-            </div>
-            <!-- <div class="timeline">
-              <div class="text-container right">
-                  <div class="content">
-                  <p class="h5">step 1</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nostrum?</p>
-                  </div>
-              </div>
-              <div class="text-container right">
-                  <div class="content">
-                  <p class="h5">step 2</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, id!</p>
-                  </div>
-              </div>
-              <div class="text-container right">
-                  <div class="content">
-                  <p class="h5">step 3</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, pariatur.</p>
-                  </div>
-              </div>
-              <div class="text-container right">
-                  <div class="content">
-                  <p class="h5">step 4</p>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, commodi.</p>
-                  </div>
-              </div>
-              <div class="text-container right">
-                  <div class="content">
-                  <p class="h5">step 5</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, soluta.</p>
-                  </div>
-              </div>
-              <div class="text-container right">
-                  <div class="content">
-                  <p class="h5">step 6</p>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, dolorem.</p>
-                  </div>
-              </div>
-            </div> -->
+            </div>         
           </div>
         </div>
 
@@ -196,7 +158,13 @@ function content_5ee90d72486c49_90703694 (Smarty_Internal_Template $_smarty_tpl)
           <div class="container course__container">            
             <div class="mq">
               <h1>Admission to Management Quota Seats (BE & MCA)</h1>
-              <p>Applications are invited from eligible candidates enlisted in concerned ACPC merit list for admission against 25% Management Quota Seats in with form fees RS.350/- at SSIT Campus</p>
+              <h6>Steps for Admission in MQ</h6>
+              <ol>
+                <li>Online Registration</li>
+                <li>Display Merit List</li>
+                <li>Counselling Round</li>
+              </ol>
+              <!-- <p>Applications are invited from eligible candidates enlisted in concerned ACPC merit list for admission against 25% Management Quota Seats in with form fees RS.350/- at SSIT Campus</p> -->
             </div>
             <div class="mq-seats">
                 <table>
@@ -214,12 +182,12 @@ function content_5ee90d72486c49_90703694 (Smarty_Internal_Template $_smarty_tpl)
                     <tbody>
                       <tr>
                         <td>Seats</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>30</td>
                         <td>15</td>
-                        <td>15</td>
-                        <td>15</td>
-                        <td>15</td>
-                        <td>15</td>
-                        <td>15</td>
+                        <td>30</td>
+                        <td>-</td>
                       </tr>
                     </tbody>
                 </table>                                

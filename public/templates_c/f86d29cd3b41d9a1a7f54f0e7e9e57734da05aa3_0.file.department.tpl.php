@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-06-14 22:02:18
+/* Smarty version 3.1.33, created on 2020-07-05 17:08:57
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\department.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ee6824a199e51_92854772',
+  'unifunc' => 'content_5f01ed099a30c3_69143651',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f86d29cd3b41d9a1a7f54f0e7e9e57734da05aa3' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\department.tpl',
-      1 => 1592164933,
+      1 => 1593961714,
       2 => 'file',
     ),
   ),
@@ -26,7 +26,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5ee6824a199e51_92854772 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f01ed099a30c3_69143651 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -50,7 +50,8 @@ function content_5ee6824a199e51_92854772 (Smarty_Internal_Template $_smarty_tpl)
     <?php if ($_smarty_tpl->tpl_vars['data']->value['department'] != 'all') {?>
         <link rel="stylesheet" href="<?php echo URLROOT;?>
 /css/branch.css">
-        <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <?php }?>
     <link rel="stylesheet" href="<?php echo URLROOT;?>
 /node_modules/bootstrap/dist/css/bootstrap.css">
@@ -116,7 +117,10 @@ function content_5ee6824a199e51_92854772 (Smarty_Internal_Template $_smarty_tpl)
 /js/department.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
- src="https://unpkg.com/swiper/js/swiper.min.js"><?php echo '</script'; ?>
+ src="https://unpkg.com/swiper/swiper-bundle.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="https://unpkg.com/swiper/swiper-bundle.min.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
  src="<?php echo URLROOT;?>

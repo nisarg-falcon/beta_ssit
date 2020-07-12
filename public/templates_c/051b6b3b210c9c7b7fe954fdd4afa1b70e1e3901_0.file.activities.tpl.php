@@ -39,7 +39,8 @@ function content_5ee679f2d93279_16637395 (Smarty_Internal_Template $_smarty_tpl)
 /css/footer.css">
     <link rel="stylesheet" href="<?php echo URLROOT;?>
 /css/activities.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">    
     <link rel="stylesheet" href="<?php echo URLROOT;?>
 /node_modules/bootstrap/dist/css/bootstrap.css">
     <title>SSIT | Activities</title>

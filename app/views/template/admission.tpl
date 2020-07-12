@@ -113,45 +113,7 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <!-- <div class="timeline">
-              <div class="text-container right">
-                  <div class="content">
-                  <p class="h5">step 1</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nostrum?</p>
-                  </div>
-              </div>
-              <div class="text-container right">
-                  <div class="content">
-                  <p class="h5">step 2</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, id!</p>
-                  </div>
-              </div>
-              <div class="text-container right">
-                  <div class="content">
-                  <p class="h5">step 3</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, pariatur.</p>
-                  </div>
-              </div>
-              <div class="text-container right">
-                  <div class="content">
-                  <p class="h5">step 4</p>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, commodi.</p>
-                  </div>
-              </div>
-              <div class="text-container right">
-                  <div class="content">
-                  <p class="h5">step 5</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, soluta.</p>
-                  </div>
-              </div>
-              <div class="text-container right">
-                  <div class="content">
-                  <p class="h5">step 6</p>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, dolorem.</p>
-                  </div>
-              </div>
-            </div> -->
+            </div>         
           </div>
         </div>
 
@@ -160,7 +122,13 @@
           <div class="container course__container">            
             <div class="mq">
               <h1>Admission to Management Quota Seats (BE & MCA)</h1>
-              <p>Applications are invited from eligible candidates enlisted in concerned ACPC merit list for admission against 25% Management Quota Seats in with form fees RS.350/- at SSIT Campus</p>
+              <h6>Steps for Admission in MQ</h6>
+              <ol>
+                <li>Online Registration</li>
+                <li>Display Merit List</li>
+                <li>Counselling Round</li>
+              </ol>
+              <!-- <p>Applications are invited from eligible candidates enlisted in concerned ACPC merit list for admission against 25% Management Quota Seats in with form fees RS.350/- at SSIT Campus</p> -->
             </div>
             <div class="mq-seats">
                 <table>
@@ -178,12 +146,12 @@
                     <tbody>
                       <tr>
                         <td>Seats</td>
+                        <td>30</td>
+                        <td>30</td>
+                        <td>30</td>
                         <td>15</td>
-                        <td>15</td>
-                        <td>15</td>
-                        <td>15</td>
-                        <td>15</td>
-                        <td>15</td>
+                        <td>30</td>
+                        <td>-</td>
                       </tr>
                     </tbody>
                 </table>                                

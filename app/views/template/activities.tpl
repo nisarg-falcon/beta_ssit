@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="{URLROOT}/css/header.css">
     <link rel="stylesheet" href="{URLROOT}/css/footer.css">
     <link rel="stylesheet" href="{URLROOT}/css/activities.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">    
     <link rel="stylesheet" href="{URLROOT}/node_modules/bootstrap/dist/css/bootstrap.css">
     <title>SSIT | Activities</title>
 </head>
@@ -696,7 +697,8 @@
     <script src="{URLROOT}/node_modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
     <script type="module" src="{URLROOT}/node_modules/gsap/all.js"></script>
     <script type="module" src="{URLROOT}/js/scroll.js"></script>
-    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>      
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>  
     <script type="module" src="{URLROOT}/js/activities_swiper.js"></script>
     <script type="text/javascript" src="{URLROOT}/js/backtotop.js"></script>
     <script src="{URLROOT}/node_modules/bootstrap/dist/js/bootstrap.js"></script>

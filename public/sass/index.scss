@@ -822,6 +822,81 @@ body{
             }          
         }
     }
+    #fees{
+        background-color: $yellow;
+        .course__container{
+            padding: 1.5rem 0;
+            @include responsive-content(smd){
+                padding: 15px;
+            }
+        }
+        h1{
+            font-size: 33px;
+            font-weight: 600;
+            letter-spacing: .7px;
+            color: $black;
+            padding-left: 30px;
+            font-family: $roboto-slab;
+            @include responsive-content(smd){
+                font-size: 28px;
+                font-weight: 500;
+                padding: 0px;
+            }
+        }
+        nav{
+            border: none;      
+            margin: auto 30px;      
+            background: #fff;
+            @include responsive-content(smd){
+                margin: 0;
+            }
+            a{
+                color: $black;
+                font-size: 21px;
+                font-weight: 600;
+                padding: 10px;
+                border-radius: 0px;
+                letter-spacing: .7px;
+                border-right: 1px solid #ccc;
+                font-family: $roboto-slab;
+                @include responsive-content(smd){
+                    font-size: 0.9rem;
+                    font-weight: 500;
+                }
+            }
+            a.active{
+                color: #fff;
+                border-radius: 0px;
+                background-color: #343a40;
+            }
+        } 
+        p{
+            padding: 1rem;
+            padding-bottom: 0px;
+            word-wrap: nowrap;
+            color: $black;
+            font-size: 16px;
+            text-align: justify;
+            line-height: 36px;
+            font-weight: 600;  
+            margin: auto 30px;              
+            margin-bottom: 0px;
+            font-family: $roboto;
+            @include responsive-content(mobile){
+                padding: 10px;
+                font-size: 0.8em;
+                line-height: 2rem;
+            }
+            @include responsive-content(smd){
+                font-family: $source-serif;
+                padding: 5px;
+                font-size: 18px;
+                font-weight: 100;              
+                line-height: 2rem;
+                margin: 0px;
+            }
+        }       
+    }
     .placement{
         height: auto;    
         padding: 3rem 0;                     

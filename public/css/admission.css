@@ -404,6 +404,43 @@ body #mq .mq h1 {
   }
 }
 
+body #mq .mq h6 {
+  font-size: 20px;
+  padding-left: 20px;
+  font-weight: 600;
+  letter-spacing: .7px;
+  color: #F1A501;
+  text-decoration: underline;
+  font-family: "Roboto Slab", serif;
+}
+
+@media (max-width: 600px) {
+  body #mq .mq h6 {
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 0px;
+    line-height: 1.7rem;
+  }
+}
+
+body #mq .mq ol {
+  padding-left: 50px;
+}
+
+body #mq .mq ol li {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: .7px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 600px) {
+  body #mq .mq ol li {
+    font-size: 18px;
+  }
+}
+
 body #mq .mq p {
   padding: 10px 0px;
   word-wrap: nowrap;

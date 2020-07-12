@@ -1083,6 +1083,106 @@ body #gallery .gallery-thumbs .swiper-wrapper .swiper-slide-thumb-active {
   opacity: 1;
 }
 
+body #fees {
+  background-color: #F1A501;
+}
+
+body #fees .course__container {
+  padding: 1.5rem 0;
+}
+
+@media (max-width: 600px) {
+  body #fees .course__container {
+    padding: 15px;
+  }
+}
+
+body #fees h1 {
+  font-size: 33px;
+  font-weight: 600;
+  letter-spacing: .7px;
+  color: #000000;
+  padding-left: 30px;
+  font-family: "Roboto Slab", serif;
+}
+
+@media (max-width: 600px) {
+  body #fees h1 {
+    font-size: 28px;
+    font-weight: 500;
+    padding: 0px;
+  }
+}
+
+body #fees nav {
+  border: none;
+  margin: auto 30px;
+  background: #fff;
+}
+
+@media (max-width: 600px) {
+  body #fees nav {
+    margin: 0;
+  }
+}
+
+body #fees nav a {
+  color: #000000;
+  font-size: 21px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 0px;
+  letter-spacing: .7px;
+  border-right: 1px solid #ccc;
+  font-family: "Roboto Slab", serif;
+}
+
+@media (max-width: 600px) {
+  body #fees nav a {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+}
+
+body #fees nav a.active {
+  color: #fff;
+  border-radius: 0px;
+  background-color: #343a40;
+}
+
+body #fees p {
+  padding: 1rem;
+  padding-bottom: 0px;
+  word-wrap: nowrap;
+  color: #000000;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 36px;
+  font-weight: 600;
+  margin: auto 30px;
+  margin-bottom: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 768px) {
+  body #fees p {
+    padding: 10px;
+    font-size: 0.8em;
+    line-height: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  body #fees p {
+    font-family: "Source Serif Pro", serif;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 2rem;
+    margin: 0px;
+  }
+}
+
 body .placement {
   height: auto;
   padding: 3rem 0;
