@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-07-08 17:06:56
+/* Smarty version 3.1.33, created on 2020-08-17 13:16:32
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\admission.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5f05e110c2d0c6_54323199',
+  'unifunc' => 'content_5f3a67107e0fe9_67274170',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '16ed3cf0a93d77b6f12ab62ab6a1e67a68875e6a' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\admission.tpl',
-      1 => 1594220812,
+      1 => 1597662948,
       2 => 'file',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5f05e110c2d0c6_54323199 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f3a67107e0fe9_67274170 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -158,12 +158,13 @@ function content_5f05e110c2d0c6_54323199 (Smarty_Internal_Template $_smarty_tpl)
           <div class="container course__container">            
             <div class="mq">
               <h1>Admission to Management Quota Seats (BE & MCA)</h1>
+              <p>Applications are invited from eligible candidates enlisted in concerned ACPC merit list for admission against 25% Management Quota Seats in with form fees RS.500/- at SSIT Campus</p>
               <h6>Steps for Admission in MQ</h6>
-              <ol>
+              <ul>
                 <li>Online Registration</li>
                 <li>Display Merit List</li>
                 <li>Counselling Round</li>
-              </ol>
+              </ul>
               <!-- <p>Applications are invited from eligible candidates enlisted in concerned ACPC merit list for admission against 25% Management Quota Seats in with form fees RS.350/- at SSIT Campus</p> -->
             </div>
             <div class="mq-seats">
@@ -192,36 +193,8 @@ function content_5f05e110c2d0c6_54323199 (Smarty_Internal_Template $_smarty_tpl)
                     </tbody>
                 </table>                                
             </div>
-            <div class="mq-imp-dates">
-                <h1>Schedule for MQ Admission</h1>
-                <table class="table">
-                    <thead>
-                      <tr>
-                        <th>Activities</th>
-                        <th>Important Dates for Admission In BE</th>
-                        <th>Important Dates for Admission In MCA</th>                       
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Issue and Acceptance of application form</td>
-                        <td>08-07-2019 <b>to</b> 15-07-2019</td>
-                        <td>18-07-2019 <b>to</b> 26-07-2019</td>                       
-                      </tr>
-                      <tr>
-                        <td>Display Merit List</td>
-                        <td>25-07-2019</td>
-                        <td>27-07-2019</td>                       
-                      </tr>
-                      <tr>
-                        <td>Counselling for MQ Quota</td>
-                        <td>25-07-2019</td>
-                        <td>30-07-2019</td>                       
-                      </tr>
-                    </tbody>
-                </table>
-            </div>
-          </div>
+            <!-- schudule for MQ admission  -->
+                      </div>
         </div>
 
         <!-- merit list -->
@@ -361,14 +334,45 @@ function content_5f05e110c2d0c6_54323199 (Smarty_Internal_Template $_smarty_tpl)
                 <div class="card-header" id="headingOne">
                   <h2 class="mb-0">
                     <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Admission in Bachelor in Engineering
+                      Eligibility for Admission  in Engineering
                     </button>
                   </h2>
                 </div>
             
                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                   <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    <u>AFTER 12 TH SCIENCE</u>
+                    <ul>
+                      <li>The aspiring candidate shall have passed Std. 12 (Science Stream) from single board
+                        with minimum 45% (40% for SC/ST/SEBC/EWSs candidates) in three subjects with
+                        Physics and Mathematics as two compulsory subjects and third subject as optional
+                        subject from Chemistry or Biotechnology or Biology or any Technical Vocational
+                        Subject as prescribed by the concerned board, and shall have appeared in Entrance
+                        examination as specified for respective criteria of seats as mentioned below.
+                      </li>
+                      <li>
+                        Candidates who have cleared the qualifying examination from an eligible board from
+                        school located in India (Including Gujarat State) with minimum eligibility criteria as
+                        prescribed by AICTE from time to time, and have appeared in JEE(Main) / GUJCET
+                        examination for the corresponding academic year.
+                      </li>
+                      <li>
+                        Candidates who have cleared the qualifying examination from school located outside
+                        India with minimum eligibility criteria as prescribed by AICTE from time to time, and
+                        equivalency defined by Association of Indian Universities (AIU), New Delhi shall be
+                        eligible for admission.
+                      </li>
+                      <p>It is not mandatory for candidate to have ACPC merit rank to be eligible for management seats.</p>
+                    </ul>
+                    <u>AFTER DIPLOMA</u>
+                      <ul>
+                        <li>
+                          In the Government Notification for Diploma to Degree Engineering admissions, the
+                          eligibility for admission is specified as per the norms and guidelines of AICTE. For
+                          the year 2019-20, the AICTE guidelines specified 45% for open category and 40% for
+                          reserved category candidates in qualifying examination to be eligible for admission.
+                        </li>
+                      </ul>
                   </div>
                 </div>
               </div>
@@ -376,17 +380,19 @@ function content_5f05e110c2d0c6_54323199 (Smarty_Internal_Template $_smarty_tpl)
                 <div class="card-header" id="headingTwo">
                   <h2 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Admission in MCA
+                      Category Wise Eligibility
                     </button>
                   </h2>
                 </div>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                  <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  <div class="card-body scroll">
+                    <img src="<?php echo URLROOT;?>
+/img/faq_admission.png" alt="">
                   </div>
                 </div>
               </div>
-              <div class="card">
+              <!-- extra faq cards -->
+              <!-- <div class="card">
                 <div class="card-header" id="headingThree">
                   <h2 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -427,7 +433,7 @@ function content_5f05e110c2d0c6_54323199 (Smarty_Internal_Template $_smarty_tpl)
                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>          
         </div>

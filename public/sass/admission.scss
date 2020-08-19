@@ -298,7 +298,7 @@ body {
                     line-height: 1.7rem;
                 }
             }
-            ol{
+            ul{
                 padding-left: 50px;
                 li{
                     font-size: 18px;
@@ -661,6 +661,15 @@ body {
                 font-weight: 500;
                 line-height: 1.7rem;
             }            
+            @include responsive-content(smd){
+                ul{
+                    padding-left: 30px;
+                }
+            }
+            p{
+                color: red;
+                font-size: 18px;
+            }
         }
     }
 }

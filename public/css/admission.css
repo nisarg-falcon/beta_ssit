@@ -423,11 +423,11 @@ body #mq .mq h6 {
   }
 }
 
-body #mq .mq ol {
+body #mq .mq ul {
   padding-left: 50px;
 }
 
-body #mq .mq ol li {
+body #mq .mq ul li {
   font-size: 18px;
   font-weight: 500;
   letter-spacing: .7px;
@@ -436,7 +436,7 @@ body #mq .mq ol li {
 }
 
 @media (max-width: 600px) {
-  body #mq .mq ol li {
+  body #mq .mq ul li {
     font-size: 18px;
   }
 }
@@ -860,5 +860,16 @@ body #faq .card-body {
     font-weight: 500;
     line-height: 1.7rem;
   }
+}
+
+@media (max-width: 600px) {
+  body #faq .card-body ul {
+    padding-left: 30px;
+  }
+}
+
+body #faq .card-body p {
+  color: red;
+  font-size: 18px;
 }
 /*# sourceMappingURL=admission.css.map */

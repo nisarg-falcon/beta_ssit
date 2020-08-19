@@ -214,7 +214,7 @@
                                 </div> -->
                             </div>
                             <div class="swiper-slide">
-                                <img src="img/Events/cultural/Cultural/4.JPG" class="img-fluid" alt="">
+                                <img src="img/events/cultural/Cultural/4.JPG" class="img-fluid" alt="">
                                 <!-- <div class="card-body">
                                     <h5 class="card-title"></h5>
                                 </div> -->
