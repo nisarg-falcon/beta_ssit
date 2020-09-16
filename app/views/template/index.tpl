@@ -116,7 +116,7 @@
                         </div>
                         <div class="swiper-slide">
                             <a href="{URLROOT}/pages/activities">
-                                <img src="img/events/cultural/Ramzat/5.JPG" class="img-fluid" alt="">
+                                <img src="img/events/cultural/Ramzat/1.JPG" class="img-fluid" alt="">
                                 <div class="card-body">
                                     <h5 class="card-title">Ramzat 2019</h5>
                                 </div>

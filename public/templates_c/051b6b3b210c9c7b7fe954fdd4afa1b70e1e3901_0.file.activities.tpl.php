@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-06-14 21:26:42
+/* Smarty version 3.1.33, created on 2020-09-16 09:50:33
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\activities.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ee679f2d93279_16637395',
+  'unifunc' => 'content_5f61c3c95a6a43_69200904',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '051b6b3b210c9c7b7fe954fdd4afa1b70e1e3901' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\activities.tpl',
-      1 => 1592162801,
+      1 => 1593961708,
       2 => 'file',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5ee679f2d93279_16637395 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f61c3c95a6a43_69200904 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -824,8 +824,11 @@ function content_5ee679f2d93279_16637395 (Smarty_Internal_Template $_smarty_tpl)
 /js/scroll.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
- src="https://unpkg.com/swiper/js/swiper.min.js"><?php echo '</script'; ?>
->      
+ src="https://unpkg.com/swiper/swiper-bundle.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="https://unpkg.com/swiper/swiper-bundle.min.js"><?php echo '</script'; ?>
+>  
     <?php echo '<script'; ?>
  type="module" src="<?php echo URLROOT;?>
 /js/activities_swiper.js"><?php echo '</script'; ?>

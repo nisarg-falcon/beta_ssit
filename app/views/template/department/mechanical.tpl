@@ -25,24 +25,20 @@
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <a id="ivbtn" class="button">
-                        <img src="{URLROOT}/public/img/mech/industrial_visit/narmada_dam_visit/WP_20160912_17_13_07_Pro-300x169.jpg" class="card-img-top" alt="">                    
+                        <img src="{URLROOT}/public/img/mech/industrial_visit/Industrial_visit-1.jpg" class="card-img-top" alt="">                    
                     </a>                    
                   </div>
                   <div class="swiper-slide">
                     <a id="ivbtn2" class="button">
-                      <img src="{URLROOT}/public/img/mech/industrial_visit/dr.dinesh&ramesh_engineers_pvt_ltd/Dr.-Dinesh-Ramesh-Engineers-Pvt.-Ltd.-2-300x241.jpg" class="card-img-top" alt="">
+                      <img src="{URLROOT}/public/img/mech/industrial_visit/Industrial_visit-2.jpg" class="card-img-top" alt="">
                     </a>
                   </div>
                   <div class="swiper-slide">
                     <a id="ivbtn3" class="button">
-                      <img src="{URLROOT}/public/img/mech/industrial_visit/GEB_gandhinagar/geb-300x221.jpg" class="card-img-top" alt="">
+                      <img src="{URLROOT}/public/img/mech/industrial_visit/Industrial_visit-3.jpg" class="card-img-top" alt="">
                     </a>
                   </div>
-                  <div class="swiper-slide">
-                    <a id="ivbtn4" class="button">
-                        <img src="{URLROOT}/public/img/mech/industrial_visit/charanka_solar_plant/WP_20160428_14_19_23_Pro-300x169.jpg" class="card-img-top" alt="">
-                    </a>
-                    </div>
+                  
                 </div>
                 <!-- <div class="swiper-pagination labs-swiper-pagination"></div>-->
                 <div class="swiper-button-next swiper-button-white"></div>
@@ -50,10 +46,9 @@
               </div>
               <div class="swiper-container gallery-thumbs">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide" style="background-image:url({URLROOT}/public/img/mech/industrial_visit/narmada_dam_visit/WP_20160912_17_13_07_Pro-300x169.jpg);"></div>
-                  <div class="swiper-slide" style="background-image:url({URLROOT}/public/img/mech/industrial_visit/dr.dinesh&ramesh_engineers_pvt_ltd/Dr.-Dinesh-Ramesh-Engineers-Pvt.-Ltd.-2-300x241.jpg);"></div>
-                  <div class="swiper-slide" style="background-image:url({URLROOT}/public/img/mech/industrial_visit/GEB_gandhinagar/geb-300x221.jpg);"></div>
-                  <div class="swiper-slide" style="background-image:url({URLROOT}/public/img/mech/industrial_visit/charanka_solar_plant/WP_20160428_14_19_23_Pro-300x169.jpg);"></div>
+                  <div class="swiper-slide" style="background-image:url({URLROOT}/public/img/mech/industrial_visit/Industrial_visit-1.jpg);"></div>
+                  <div class="swiper-slide" style="background-image:url({URLROOT}/public/img/mech/industrial_visit/Industrial_visit-2.jpg);"></div>
+                  <div class="swiper-slide" style="background-image:url({URLROOT}/public/img/mech/industrial_visit/Industrial_visit-3.jpg);"></div>
                 </div>
               </div>              
             </div>        
@@ -62,31 +57,32 @@
         <div id="ivmodal" class="eventmodal">
           <div class="modal-content">
               <div class="header">
-                  <h1>Narmada Dam Visit</h1>
+                  <h1>Industrial Visit</h1>
                   <i class="fa fa-times closeBtn" id="ivcloseBtn" aria-hidden="true"></i>
               </div>
-              <img src="{URLROOT}/img/mech/industrial_visit/narmada_dam_visit/WP_20160912_17_13_07_Pro-300x169.jpg" class="card-img-top" alt="...">             
+              <img src="{URLROOT}/img/mech/industrial_visit/Industrial_visit-1.jpg" class="card-img-top" alt="...">             
           </div>
         </div>
         <div id="ivmodal2" class="eventmodal">
           <div class="modal-content">
               <div class="header">
-                  <h1>dr. dinesh & Ramesh Engineers Pvt Ltd</h1>
+                  <h1>Mudra port visit</h1>
                   <i class="fa fa-times closeBtn" id="ivcloseBtn2" aria-hidden="true"></i>
               </div>
-              <img src="{URLROOT}/img/mech/industrial_visit/dr.dinesh&ramesh_engineers_pvt_ltd/Dr.-Dinesh-Ramesh-Engineers-Pvt.-Ltd.-2-300x241.jpg" class="card-img-top" alt="...">             
+              <img src="{URLROOT}/img/mech/industrial_visit/Industrial_visit-2.jpg" class="card-img-top" alt="...">             
           </div>
         </div>
         <div id="ivmodal3" class="eventmodal">
           <div class="modal-content">
               <div class="header">
-                  <h1>GEB Gandhinagar</h1>
+                  <h1>Industrial Visit</h1>
                   <i class="fa fa-times closeBtn" id="ivcloseBtn3" aria-hidden="true"></i>
               </div>
-              <img src="{URLROOT}/img/mech/industrial_visit/GEB_gandhinagar/geb-300x221.jpg" class="card-img-top" alt="...">             
+              <img src="{URLROOT}/img/mech/industrial_visit/Industrial_visit-3.jpg" class="card-img-top" alt="...">             
           </div>
         </div>
-        <div id="ivmodal4" class="eventmodal">
+        <!-- uncomment this if you are using fourth image for industrial visit -->
+        <!-- <div id="ivmodal4" class="eventmodal">
           <div class="modal-content">
               <div class="header">
                   <h1>Charanka Solar Plant</h1>
@@ -94,7 +90,7 @@
               </div>
               <img src="{URLROOT}/img/mech/industrial_visit/charanka_solar_plant/WP_20160428_14_19_23_Pro-300x169.jpg" class="card-img-top" alt="...">             
           </div>
-        </div>
+        </div> -->
         <div id="branch_labs" class="container-fluid scroll-start3">
           <div class="labs_container container">
             <div class="labs_heading">

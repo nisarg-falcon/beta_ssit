@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-06-09 08:51:26
+/* Smarty version 3.1.33, created on 2020-08-19 16:14:00
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\department\mechanical.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5edf316ecadd64_77053064',
+  'unifunc' => 'content_5f3d33a89c6ec4_91214799',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a803fcf47f57306000c96cf99d223241210f5f60' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\department\\mechanical.tpl',
-      1 => 1591684684,
+      1 => 1597846438,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5edf316ecadd64_77053064 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f3d33a89c6ec4_91214799 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="department" >
     <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button>
     <div class="departments_container">
@@ -50,27 +50,22 @@ function content_5edf316ecadd64_77053064 (Smarty_Internal_Template $_smarty_tpl)
                   <div class="swiper-slide">
                     <a id="ivbtn" class="button">
                         <img src="<?php echo URLROOT;?>
-/public/img/mech/industrial_visit/narmada_dam_visit/WP_20160912_17_13_07_Pro-300x169.jpg" class="card-img-top" alt="">                    
+/public/img/mech/industrial_visit/Industrial_visit-1.jpg" class="card-img-top" alt="">                    
                     </a>                    
                   </div>
                   <div class="swiper-slide">
                     <a id="ivbtn2" class="button">
                       <img src="<?php echo URLROOT;?>
-/public/img/mech/industrial_visit/dr.dinesh&ramesh_engineers_pvt_ltd/Dr.-Dinesh-Ramesh-Engineers-Pvt.-Ltd.-2-300x241.jpg" class="card-img-top" alt="">
+/public/img/mech/industrial_visit/Industrial_visit-2.jpg" class="card-img-top" alt="">
                     </a>
                   </div>
                   <div class="swiper-slide">
                     <a id="ivbtn3" class="button">
                       <img src="<?php echo URLROOT;?>
-/public/img/mech/industrial_visit/GEB_gandhinagar/geb-300x221.jpg" class="card-img-top" alt="">
+/public/img/mech/industrial_visit/Industrial_visit-3.jpg" class="card-img-top" alt="">
                     </a>
                   </div>
-                  <div class="swiper-slide">
-                    <a id="ivbtn4" class="button">
-                        <img src="<?php echo URLROOT;?>
-/public/img/mech/industrial_visit/charanka_solar_plant/WP_20160428_14_19_23_Pro-300x169.jpg" class="card-img-top" alt="">
-                    </a>
-                    </div>
+                  
                 </div>
                 <!-- <div class="swiper-pagination labs-swiper-pagination"></div>-->
                 <div class="swiper-button-next swiper-button-white"></div>
@@ -79,13 +74,11 @@ function content_5edf316ecadd64_77053064 (Smarty_Internal_Template $_smarty_tpl)
               <div class="swiper-container gallery-thumbs">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide" style="background-image:url(<?php echo URLROOT;?>
-/public/img/mech/industrial_visit/narmada_dam_visit/WP_20160912_17_13_07_Pro-300x169.jpg);"></div>
+/public/img/mech/industrial_visit/Industrial_visit-1.jpg);"></div>
                   <div class="swiper-slide" style="background-image:url(<?php echo URLROOT;?>
-/public/img/mech/industrial_visit/dr.dinesh&ramesh_engineers_pvt_ltd/Dr.-Dinesh-Ramesh-Engineers-Pvt.-Ltd.-2-300x241.jpg);"></div>
+/public/img/mech/industrial_visit/Industrial_visit-2.jpg);"></div>
                   <div class="swiper-slide" style="background-image:url(<?php echo URLROOT;?>
-/public/img/mech/industrial_visit/GEB_gandhinagar/geb-300x221.jpg);"></div>
-                  <div class="swiper-slide" style="background-image:url(<?php echo URLROOT;?>
-/public/img/mech/industrial_visit/charanka_solar_plant/WP_20160428_14_19_23_Pro-300x169.jpg);"></div>
+/public/img/mech/industrial_visit/Industrial_visit-3.jpg);"></div>
                 </div>
               </div>              
             </div>        
@@ -94,34 +87,35 @@ function content_5edf316ecadd64_77053064 (Smarty_Internal_Template $_smarty_tpl)
         <div id="ivmodal" class="eventmodal">
           <div class="modal-content">
               <div class="header">
-                  <h1>Narmada Dam Visit</h1>
+                  <h1>Industrial Visit</h1>
                   <i class="fa fa-times closeBtn" id="ivcloseBtn" aria-hidden="true"></i>
               </div>
               <img src="<?php echo URLROOT;?>
-/img/mech/industrial_visit/narmada_dam_visit/WP_20160912_17_13_07_Pro-300x169.jpg" class="card-img-top" alt="...">             
+/img/mech/industrial_visit/Industrial_visit-1.jpg" class="card-img-top" alt="...">             
           </div>
         </div>
         <div id="ivmodal2" class="eventmodal">
           <div class="modal-content">
               <div class="header">
-                  <h1>dr. dinesh & Ramesh Engineers Pvt Ltd</h1>
+                  <h1>Mudra port visit</h1>
                   <i class="fa fa-times closeBtn" id="ivcloseBtn2" aria-hidden="true"></i>
               </div>
               <img src="<?php echo URLROOT;?>
-/img/mech/industrial_visit/dr.dinesh&ramesh_engineers_pvt_ltd/Dr.-Dinesh-Ramesh-Engineers-Pvt.-Ltd.-2-300x241.jpg" class="card-img-top" alt="...">             
+/img/mech/industrial_visit/Industrial_visit-2.jpg" class="card-img-top" alt="...">             
           </div>
         </div>
         <div id="ivmodal3" class="eventmodal">
           <div class="modal-content">
               <div class="header">
-                  <h1>GEB Gandhinagar</h1>
+                  <h1>Industrial Visit</h1>
                   <i class="fa fa-times closeBtn" id="ivcloseBtn3" aria-hidden="true"></i>
               </div>
               <img src="<?php echo URLROOT;?>
-/img/mech/industrial_visit/GEB_gandhinagar/geb-300x221.jpg" class="card-img-top" alt="...">             
+/img/mech/industrial_visit/Industrial_visit-3.jpg" class="card-img-top" alt="...">             
           </div>
         </div>
-        <div id="ivmodal4" class="eventmodal">
+        <!-- uncomment this if you are using fourth image for industrial visit -->
+        <!-- <div id="ivmodal4" class="eventmodal">
           <div class="modal-content">
               <div class="header">
                   <h1>Charanka Solar Plant</h1>
@@ -130,7 +124,7 @@ function content_5edf316ecadd64_77053064 (Smarty_Internal_Template $_smarty_tpl)
               <img src="<?php echo URLROOT;?>
 /img/mech/industrial_visit/charanka_solar_plant/WP_20160428_14_19_23_Pro-300x169.jpg" class="card-img-top" alt="...">             
           </div>
-        </div>
+        </div> -->
         <div id="branch_labs" class="container-fluid scroll-start3">
           <div class="labs_container container">
             <div class="labs_heading">
