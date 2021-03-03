@@ -23,6 +23,7 @@ body{
                         p{
                             margin: 0;
                             color: white;
+                            font-size: 25px;
                         }
                     }
                     .navbar-toggler{
@@ -102,19 +103,19 @@ body{
         background: #111;
         box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
         height: 10vh;
-        @include responsive-content(smd){
+        @include responsive-content(mobile){
             height: auto;
         }
         .navbar{
             height: 100%;
-            @include responsive-content(smd){
+            @include responsive-content(mobile){
                 height: auto;
             }
         }
         .outer-nav{
             justify-content: flex-end;
             .navbar-toggler{
-                @include responsive-content(smd){
+                @include responsive-content(mobile){
                     display: flex;
                 }   
                 border: 1px solid #fff;
@@ -172,7 +173,19 @@ body{
 
 @media screen and (max-width: 768px){
     body{
-        
+    #upper-header1{
+        .container{
+            .row{
+                .uh-r{
+                    .nm{
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
         #upper-header2{
             nav{
                 padding: 0 !important;

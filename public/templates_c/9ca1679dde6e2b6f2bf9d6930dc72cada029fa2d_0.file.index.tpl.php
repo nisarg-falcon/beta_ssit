@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-09-16 09:49:40
+/* Smarty version 3.1.33, created on 2021-03-01 09:20:16
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5f61c394f2e366_77712513',
+  'unifunc' => 'content_603ca3c0e866b2_21942312',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9ca1679dde6e2b6f2bf9d6930dc72cada029fa2d' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\index.tpl',
-      1 => 1600242561,
+      1 => 1614585280,
       2 => 'file',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5f61c394f2e366_77712513 (Smarty_Internal_Template $_smarty_tpl) {
+function content_603ca3c0e866b2_21942312 (Smarty_Internal_Template $_smarty_tpl) {
 ?><html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -269,13 +269,25 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
                                 </div> -->
                             </div>
                             <div class="swiper-slide">
+                                <img src="img/gallery/26jan.JPG" class="img-fluid" alt="">
+                                <!-- <div class="card-body">
+                                    <h5 class="card-title">SHIKSHAPATRI by ssit</h5>
+                                </div> -->
+                            </div>    
+                            <div class="swiper-slide">
                                 <img src="img/gallery/Hackathon.jpg" class="img-fluid" alt="">
                                 <!-- <div class="card-body">
                                     <h5 class="card-title">Hackathon At ssit</h5>
                                 </div> -->
                             </div>
                             <div class="swiper-slide">
-                                <img src="img/events/cultural/Cultural/4.JPG" class="img-fluid" alt="">
+                                <img src="img/gallery/mp1edit.png" class="img-fluid" alt="">
+                                <!-- <div class="card-body">
+                                    <h5 class="card-title"></h5>
+                                </div> -->
+                            </div>                                                     
+                            <div class="swiper-slide">
+                                <img src="img/gallery/mp2edit.png" class="img-fluid" alt="">
                                 <!-- <div class="card-body">
                                     <h5 class="card-title"></h5>
                                 </div> -->
@@ -287,7 +299,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
                                 </div> -->
                             </div>
                             <div class="swiper-slide">
-                                <img src="img/gallery/SSIT6.jpeg" class="img-fluid" alt="">
+                                <img src="img/gallery/SSIT6.JPG" class="img-fluid" alt="">
                                 <!-- <div class="card-body">
                                     <h5 class="card-title">with CM shree Vijaybhai rupani </h5>
                                 </div> -->
@@ -495,6 +507,24 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
  src="<?php echo URLROOT;?>
 /js/header.js"><?php echo '</script'; ?>
 >   
+    <?php echo '<script'; ?>
+ data-ad-client="ca-pub-2968140453972661" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"><?php echo '</script'; ?>
+>
+     
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <?php echo '<script'; ?>
+ async src="https://www.googletagmanager.com/gtag/js?id=UA-179928256-1"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-179928256-1');
+    <?php echo '</script'; ?>
+>
+    
 </body>
 </html><?php }
 }

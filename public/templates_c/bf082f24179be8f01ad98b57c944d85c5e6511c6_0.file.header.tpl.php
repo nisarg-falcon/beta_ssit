@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-25 20:47:38
+/* Smarty version 3.1.33, created on 2021-03-01 09:27:11
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\includes\header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ecc12cadfaf18_17133464',
+  'unifunc' => 'content_603ca55f319fb8_40375975',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'bf082f24179be8f01ad98b57c944d85c5e6511c6' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\includes\\header.tpl',
-      1 => 1586625916,
+      1 => 1614587091,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ecc12cadfaf18_17133464 (Smarty_Internal_Template $_smarty_tpl) {
+function content_603ca55f319fb8_40375975 (Smarty_Internal_Template $_smarty_tpl) {
 ?><header id="upper-header1" class="container-fluid bg-dark">
     <div class="container">
        <div class="row">
@@ -28,8 +28,8 @@ function content_5ecc12cadfaf18_17133464 (Smarty_Internal_Template $_smarty_tpl)
             <img src="<?php echo URLROOT;?>
 /img/logo.png" height="60" width="60">
            <div class="nm container">
-                <p class="p-1 h6">Shree Swaminarayan </p>
-                <p class="p-1 h6">Institute Of Technology</p>
+                <p class="p-1 h6">Shree Swaminarayan Institute of Technology</p>
+                <!--<p class="p-1 h6">Institute of Technology</p> -->
            </div>
             <button type="button" class="navbar-toggler navbar-dark flex-row"  data-toggle="collapse" data-target="#navbarSupportContent" aria-controls="navbarSupportContent" aria-expanded="false">  
                 <span class="navbar-toggler-icon"></span>

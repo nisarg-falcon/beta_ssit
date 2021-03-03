@@ -167,6 +167,14 @@
                         </div>
                     </div>
                 </a>
+                <a id="modalBtn3" class="button">
+                    <div class="card">
+                        <img src="{URLROOT}/img/comp/events/Gujcost_ML.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Workshop on Machine Learning</h5>
+                        </div>
+                    </div>
+                </a>
               </div>                  
             </div>        
         </div>
@@ -198,6 +206,18 @@
               <img src="{URLROOT}/img/comp/events/computer.JPG" class="card-img-top" alt="...">
               <div class="content">
                 <p>Campus establishes the vital link between students and prospective employers to facilitate training and placement of students as they begin their career after graduation. We work relentlessly to ensure job placements for our students and provide them with top career opportunities. Various renowned organizations like, TCS...etc</p>
+              </div>
+          </div>
+        </div>
+        <div id="eventModal3" class="eventmodal">
+          <div class="modal-content">
+              <div class="header">
+                  <h1>Training and Placement cell</h1>
+                  <i class="fa fa-times closeBtn" id="closeBtn2" aria-hidden="true"></i>
+              </div>
+              <img src="{URLROOT}/img/comp/events/computer.JPG" class="card-img-top" alt="...">
+              <div class="content">
+                <p>Three days workshop on machine learning and python with raspberry Pi</p>
               </div>
           </div>
         </div>
@@ -314,6 +334,27 @@
   function outsideClick2(e){
       if(e.target == modal2){
           modal2.style.display = 'none';
+      }
+  }
+
+  // modal 3
+  var modal3 = document.getElementById('eventModal3');
+  var modalBtn3 = document.getElementById('modalBtn3');
+  var closeBtn3 = document.getElementById('closeBtn3');
+
+  modalBtn3.addEventListener('click', openModal3);
+  closeBtn3.addEventListener('click', closeModal3);
+  window.addEventListener('click', outsideClick3);
+
+  function openModal3(){
+      modal3.style.display = 'block';
+  }
+  function closeModal3(){
+      modal3.style.display = 'none';
+  }
+  function outsideClick3(e){
+      if(e.target == modal3){
+          modal3.style.display = 'none';
       }
   }
 

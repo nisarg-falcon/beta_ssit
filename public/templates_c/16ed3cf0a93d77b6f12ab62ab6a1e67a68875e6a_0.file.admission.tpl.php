@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-08-17 13:16:32
+/* Smarty version 3.1.33, created on 2020-12-24 12:05:54
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\admission.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5f3a67107e0fe9_67274170',
+  'unifunc' => 'content_5fe476120d1f78_78614508',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '16ed3cf0a93d77b6f12ab62ab6a1e67a68875e6a' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\admission.tpl',
-      1 => 1597662948,
+      1 => 1608807947,
       2 => 'file',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5f3a67107e0fe9_67274170 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5fe476120d1f78_78614508 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,6 +69,7 @@ function content_5f3a67107e0fe9_67274170 (Smarty_Internal_Template $_smarty_tpl)
         <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button>
         <div id="admission" class="scroll-start1">
           <div class="container course__container">
+            <!-- <h5 class="text-black">*Admission open on 50% Seats on Management Quota</h5> -->
             <nav>
               <ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist">
                   <li class="nav-item">
@@ -157,51 +158,108 @@ function content_5f3a67107e0fe9_67274170 (Smarty_Internal_Template $_smarty_tpl)
         <div id="mq" class="scroll-start2">
           <div class="container course__container">            
             <div class="mq">
-              <h1>Admission to Management Quota Seats (BE & MCA)</h1>
-              <p>Applications are invited from eligible candidates enlisted in concerned ACPC merit list for admission against 25% Management Quota Seats in with form fees RS.500/- at SSIT Campus</p>
-              <h6>Steps for Admission in MQ</h6>
+              <h1>Admission to Vacant Quota Seats (BE & MCA)</h1>
+              <!-- <h5>Advertisement Detail <a href="<?php echo URLROOT;?>
+/public/document/ADVT_MQ_2020.jpg">Download Here</a></h5> -->
+              <!-- <p>Applications are invited from eligible candidates for admission in Degree Engineering Vacant
+                Quota Seats in with form fees RS. 500/- at SSIT Campus</p> -->
+              <p>Applications are invited from eligible candidates for admission in MCA Vacant Quota Seats in with form
+                fees RS.350/- at SSIT Campus.</p>
+              <h6>Steps for Admission in VQ</h6>
               <ul>
-                <li>Online Registration</li>
-                <li>Display Merit List</li>
-                <li>Counselling Round</li>
+                <li>Online Registration in MCA</li><a href="https://forms.gle/WeyFKhV5sEwpkmCWA">https://forms.gle/WeyFKhV5sEwpkmCWA</a>
+                <li>Schedule for VQ Admission &amp; Display of Vacant Seats :- (Date:- 14-12-2020)</li>
+                <!-- <li>Online Registration in B.E.</li><a href="https://forms.gle/FbGFHjiQCEi4UYbj8">https://forms.gle/FbGFHjiQCEi4UYbj8</a>
+                <li>Online Registration in D2D</li><a href="https://forms.gle/FbGFHjiQCEi4UYbj8">https://forms.gle/FbGFHjiQCEi4UYbj8</a> 
+                <li>Schedule for VQ Admission &amp; Display of Vacant Seats :- (Date:- 17-11-2020)</li>
+                <li>Display Merit List :- (Date:- 24-11-2020)</li>
+                <li>Counselling Round :- (Date:- 26-11-2020 &amp; 27-11-2020)</li> -->
               </ul>
               <!-- <p>Applications are invited from eligible candidates enlisted in concerned ACPC merit list for admission against 25% Management Quota Seats in with form fees RS.350/- at SSIT Campus</p> -->
             </div>
+            <!-- Vacant Seats of B.E. & D2D -->
             <div class="mq-seats">
-                <table>
+              <!-- <h1>Vacant Seats of B.E. &amp; D2D</h1>   -->
+              <h1>Vacant Seats of M.C.A</h1>  
+              <table>
                     <thead>
                       <tr>
                         <th scope="col">Branch</th>
-                        <th scope="col">Computer</th>
+                        <th scope="col">MCA</th>
+                        <!-- <th scope="col">Computer</th>
                         <th scope="col">Civil</th>
                         <th scope="col">Electrical</th>
                         <th scope="col">E.C.</th>
                         <th scope="col">Mechanical</th>
-                        <th scope="col">MCA</th>
+                        <th scope="col"><b>Total</b></th> -->
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td>Seats</td>
-                        <td>30</td>
-                        <td>30</td>
-                        <td>30</td>
-                        <td>15</td>
-                        <td>30</td>
+                        <td>Vacant Seats M.C.A</td>
+                        <td>67</td>
+                        <!-- <td>-</td>
                         <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td><b>67</b></td> -->
                       </tr>
+                      <!-- <tr>
+                        <td>Vacant Seats D2D</td>
+                        <td>3</td>
+                        <td>12</td>
+                        <td>73</td>
+                        <td>29</td>
+                        <td>33</td>
+                        <td><b>150</b></td>
+                        <td>30</td>
+                      </tr> -->
                     </tbody>
                 </table>                                
             </div>
             <!-- schudule for MQ admission  -->
-                      </div>
+            <div class="mq-imp-dates">
+                <h1>Schedule for VQ Admission</h1>
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th>Activities</th>
+                        <!-- <th>Important Dates for Admission In BE</th> -->
+                        <th>Important Dates for Admission In MCA</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Online/ Offline Distribution &amp; Submission of Filled Form</td>
+                        <td>15-12-2020 <b>to</b> 19-12-2020</td>
+                        <!-- <td>will be updated soon</td> -->
+                        <!-- <td>15-10-2020 <b>to</b> 25-10-2020</td>                        -->
+                      </tr>
+                      <tr>
+                        <td>Online Declaration of Merit List</td>
+                        <td>22-12-2020</td>
+                        <!-- <td>will be updated soon</td> -->
+                        <!-- <td>29-10-2020</td>-->
+                      </tr>
+                      <tr>
+                        <td>Counselling for VQ Quota</td>
+                        <td>23-12-2020 <b>to</b> 24-12-2020</td>
+                        <!-- <td>will be updated soon</td> -->
+                        <!-- <td>01-11-2020 <b>to</b> 02-11-2020</td> -->
+                      </tr>
+                    </tbody>
+                </table>
+            </div>
+          </div>
         </div>
 
         <!-- merit list -->
         <div id="merit-list" class="scroll-start3">
           <div class="container course__container">          
-            <h1>MERIT LIST FOR : <u>BE Management Quota Admission : 2019-20</u></h1>
-            <P class="ml-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est sapiente aliquid accusantium unde alias error cumque possimus exercitationem rem rerum?</P>
+            <h1>MERIT LIST FOR : <u>MCA Vacant Quota Admission : 2020-21</u></h1>
+            <!-- <h1>MERIT LIST FOR : <u>BE/ D2D Vacant Quota Admission : 2020-21</u></h1> -->
+            <!-- <P class="ml-details">We will Declare Merit list on 29-10-2020</P> -->
             <!-- <nav class="navbar ml-search">
               <form class="form-inline">
                 <input class="form-control" type="search" placeholder="Enter Your Name Here" aria-label="Search">
@@ -319,8 +377,43 @@ function content_5f3a67107e0fe9_67274170 (Smarty_Internal_Template $_smarty_tpl)
               </nav>
             </div> -->
             <div class="ml-download">
-              <p>Merit List for <u>BE Management Quota Admission 2019-20</u></p>
-              <button class="btn" type="submit">Download</button>
+              <ul>
+                <!-- <li>
+                  <p>BE Vacant Quota Admission 2020-21
+                  <a href="<?php echo URLROOT;?>
+/public/document/BE_Vacant_Quota_Admission_2020-21.pdf"><button class="btn" type="submit">Download</button></a></p>
+                </li>
+                <li>
+                  <p>D2D E.C. Engineering Vacant Quota Admission 2020-21
+                  <a href="<?php echo URLROOT;?>
+/public/document/D2D EC Engineering Vacant Quota Admission 2020-21.pdf"><button class="btn" type="submit">Download</button></a></p>
+                </li>
+                <li>
+                  <p>D2D Civil Engineering Vacant Quota Admission 2020-21
+                  <a href="<?php echo URLROOT;?>
+/public/document/D2D Civil Engineering Vacant Quota Admission 2020-21.pdf"><button class="btn" type="submit">Download</button></a></p>
+                </li>                
+                <li>
+                  <p>D2D Electrical Engineering Vacant Quota Admission 2020-21
+                  <a href="<?php echo URLROOT;?>
+/public/document/D2D Electrical Engineering Vacant Quota Admission 2020-21.pdf"><button class="btn" type="submit">Download</button></a></p>
+                </li>   
+                <li>
+                  <p>D2D Computer Engineering Vacant Quota Admission 2020-21
+                  <a href="<?php echo URLROOT;?>
+/public/document/D2D Computer Engineering Vacant Quota Admission 2020-21.pdf"><button class="btn" type="submit">Download</button></a></p>
+                </li>                          
+                <li>
+                  <p>D2D Mechanical Engineering Vacant Quota Admission 2020-21
+                  <a href="<?php echo URLROOT;?>
+/public/document/D2D Mechanical Engineering Vacant Quota Admission 2020-21.pdf"><button class="btn" type="submit">Download</button></a></p>
+                </li> -->
+                <li>
+                  <p>MCA Vacant Quota Admission 2020-21
+                  <a href="<?php echo URLROOT;?>
+/public/document/MERIT_LIST_MCA.pdf"><button class="btn" type="submit">Download</button></a></p>                  
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -478,6 +571,21 @@ function content_5f3a67107e0fe9_67274170 (Smarty_Internal_Template $_smarty_tpl)
  src="<?php echo URLROOT;?>
 /js/header.js"><?php echo '</script'; ?>
 >
+     
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <?php echo '<script'; ?>
+ async src="https://www.googletagmanager.com/gtag/js?id=UA-179928256-1"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-179928256-1');
+    <?php echo '</script'; ?>
+>
+    
 </body>
 </html><?php }
 }

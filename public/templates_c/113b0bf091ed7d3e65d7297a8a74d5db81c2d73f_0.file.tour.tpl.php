@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-05-25 21:27:55
+/* Smarty version 3.1.33, created on 2021-02-23 08:36:49
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\tour.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ecc1c3be53e86_07987539',
+  'unifunc' => 'content_6034b091831640_81408869',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '113b0bf091ed7d3e65d7297a8a74d5db81c2d73f' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\tour.tpl',
-      1 => 1590434874,
+      1 => 1614065793,
       2 => 'file',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5ecc1c3be53e86_07987539 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6034b091831640_81408869 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,7 +54,7 @@ function content_5ecc1c3be53e86_07987539 (Smarty_Internal_Template $_smarty_tpl)
     <!-- tour -->
     <h1 class="h1">Virtual Campus Tour</h1>
     <div class="tour">
-        <iframe src="https://www.google.com/maps/embed?pb=!4v1590432769765!6m8!1m7!1sCAoSK0FGMVFpcE5SdU16dGRmTHNJcWd4NTJzUVVnSUpYSjZ1UFpYMDNjV3NTbms.!2m2!1d23.11541420479152!2d72.63023034527203!3f0!4f10!5f0.7820865974627469" width="80%" height="90%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!4v1614065699980!6m8!1m7!1sCAoSLEFGMVFpcFBuSWd1VkwxMW0yYk5lVkxPX3Y3MTVEcEJtV2lxbVNINGU5UTk5!2m2!1d23.1151226!2d72.6302689!3f240!4f20!5f0.7820865974627469" width="80%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
     
     <?php $_smarty_tpl->_subTemplateRender("file:../template/includes/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
@@ -94,6 +94,21 @@ function content_5ecc1c3be53e86_07987539 (Smarty_Internal_Template $_smarty_tpl)
  src="<?php echo URLROOT;?>
 /js/header.js"><?php echo '</script'; ?>
 >   
+     
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <?php echo '<script'; ?>
+ async src="https://www.googletagmanager.com/gtag/js?id=UA-179928256-1"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-179928256-1');
+    <?php echo '</script'; ?>
+>
+    
 </body>
 </html><?php }
 }

@@ -10,6 +10,17 @@
     <link rel="stylesheet" href="{URLROOT}/css/team.css">
     <link rel="stylesheet" href="{URLROOT}/node_modules/bootstrap/dist/css/bootstrap.css">    
     <title>SSIT | Team</title>
+    {literal} 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179928256-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-179928256-1');
+    </script>
+    {/literal}
 </head>
 <body>
     {include file="../template/includes/header.tpl"} 

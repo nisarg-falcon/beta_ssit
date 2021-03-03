@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-06-16 20:19:51
+/* Smarty version 3.1.33, created on 2021-03-01 09:16:10
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\facilities.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ee90d47dfcea7_81383177',
+  'unifunc' => 'content_603ca2cacc82f2_55326337',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '79f8a1988894622f368f7f29f27efb743ef50907' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\facilities.tpl',
-      1 => 1592331589,
+      1 => 1614585274,
       2 => 'file',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5ee90d47dfcea7_81383177 (Smarty_Internal_Template $_smarty_tpl) {
+function content_603ca2cacc82f2_55326337 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,6 +44,21 @@ function content_5ee90d47dfcea7_81383177 (Smarty_Internal_Template $_smarty_tpl)
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">    
     <title>SSIT | Facilities</title>
+     
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <?php echo '<script'; ?>
+ async src="https://www.googletagmanager.com/gtag/js?id=UA-179928256-1"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-179928256-1');
+    <?php echo '</script'; ?>
+>
+    
 </head>
 <body>
     <!-- hero section start -->
@@ -293,20 +308,38 @@ function content_5ee90d47dfcea7_81383177 (Smarty_Internal_Template $_smarty_tpl)
                         <li class="nav-item">
                             <a class="nav-link" id="pills-ostc-tab" data-toggle="pill" href="#ostc">OSTC club</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-redhat-tab" data-toggle="pill" href="#redhat">RedHat club</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-eyantra-tab" data-toggle="pill" href="#eyantra">e - Yantra</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-robotics-tab" data-toggle="pill" href="#robotics">Robotics DIY club</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-solidworks-tab" data-toggle="pill" href="#solidworks">Solidworks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-ssip-tab" data-toggle="pill" href="#ssip">SSIP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-cad-tab" data-toggle="pill" href="#cad">3D Modeling Design</a>
+                        </li>
                     </ul>
                 </nav> 
                 <div class="tab-content" id="pills-tabContent">
                     <div class="tab-pane fade show active" id="gic" role="tabpanel" aria-labelledby="pills-gic-tab">
                         <div class="gic">
                             <img src="<?php echo URLROOT;?>
-/public/img/gic-logo.jpg" alt="">
+/public/img/club/gic-logo.jpg" alt="">
                             <p>Imagination is the base of innovation. So we at GIC nurture the soft skills and talent of the students to lead their imagination in a proper way. GIC has been designed to establish close bonding between industries, entrepreneur and students to make research and development at the University relevant to the needs of industries at national and international levels. It aims to involve the industries, along with the students and faculty members, in an innovation campaign, whereby GTU rejuvenates technology education and develops quality research at the University and helps create a culture of design, new and improved products and processes in our industry.</p>
                         </div>
-                    </div>
+                    </div>                 
                     <div class="tab-pane fade" id="ostc" role="tabpanel" aria-labelledby="pills-ostc-tab">
                         <div class="gic">
                             <img src="<?php echo URLROOT;?>
-/public/img/ostc.png" alt="">
+/public/img/club/ostc.png" alt="">
                             <p>OSTC provides an emerging education practice that allows students to capitalize on the scope and power of technology to create and manage their learning experiences and developed interactive application.</p>
                         </div>
                         <!-- <div class="club-swiper-container">
@@ -325,6 +358,49 @@ function content_5ee90d47dfcea7_81383177 (Smarty_Internal_Template $_smarty_tpl)
                             <div class="swiper-pagination"></div>
                         </div> -->
                     </div>          
+                    <div class="tab-pane fade" id="redhat" role="tabpanel" aria-labelledby="pills-redhat-tab">
+                        <div class="gic">
+                            <img src="<?php echo URLROOT;?>
+/public/img/club/rha3.png" alt="">
+                            <p>Red Hat® Academy is an academic training program designed to help institutions differentiate themselves by providing an enterprise-ready Linux and open-source curriculum.</p>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="eyantra" role="tabpanel" aria-labelledby="pills-eyantra-tab">
+                        <div class="gic">
+                            <img src="<?php echo URLROOT;?>
+/public/img/club/eyantra.png" alt="">
+                            <p>e-Yantra is a robotics outreach project, an initiative of the Department of Computer Science and Engineering at the (IIT Bombay). It is funded by the Ministry of Education, Government of India, under the National Mission on Education through ICT (NMEICT). The goal of e-Yantra is to complement existing Higher Education systems worldwide and solve local problems across a variety of domains such as: Agriculture, Disaster, Manufacturing Défense, Home, Smart Cities and Service Industries through technology.</p>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="robotics" role="tabpanel" aria-labelledby="pills-robotics-tab">
+                        <div class="gic">
+                            <img src="<?php echo URLROOT;?>
+/public/img/club/robotics.png" alt="">
+                            <p>The concept and creation of autonomously operating machines dates back a long time, but credible research into the functionality and potential uses of robots did not grow substantially until the 20th century. And today, robotics is a rapidly growing field, as we continue to research, design and build new robots that serve various practical purposes including domestic, commercial and military. </p>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="solidworks" role="tabpanel" aria-labelledby="pills-solidworks-tab">
+                        <div class="gic">
+                            <img src="<?php echo URLROOT;?>
+/public/img/club/solidworks.png" alt="">
+                            <p>It is based on parametric modelling and is primarily used to create 3D models and assemblies. SOLIDWORKS has also been adopted in the world of additive manufacturing as it enables engineers to save their models in a STL format; the format needed for a 3D model to be processed by 3D printing software.</p>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="ssip" role="tabpanel" aria-labelledby="pills-ssip-tab">
+                        <div class="gic">
+                            <img src="<?php echo URLROOT;?>
+/public/img/club/logo.png" alt="">
+                            <p>The Education Department, Government of Gujarat has issued Student Startup and Innovation Policy (SSIP) in year  2017.</p>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="cad" role="tabpanel" aria-labelledby="pills-cad-tab">
+                        <div class="gic">
+                            <!-- <h3 class="text-center">3D Modeling <br> Design</h3> -->
+                            <img src="<?php echo URLROOT;?>
+/public/img/club/3dmodel.png" alt="">
+                            <p>3D modeling is the process of developing a mathematical representation of any surface of an object (inanimate or living) in three dimensions via specialized software.  A 3D Model can also be displayed as a two-dimensional image through a process called 3D rendering or used in a computer simulation of physical phenomena. The 3D model can be physically created using 3D printing devices that form 2D layers of the model with three-dimensional material, one layer at a time. In terms of game development, 3D modeling is merely a stage in the entire development process.</p>
+                        </div>
+                    </div>
                 </div>
            </div>
         </div>
@@ -378,8 +454,11 @@ function content_5ee90d47dfcea7_81383177 (Smarty_Internal_Template $_smarty_tpl)
 /js/swiper.js"><?php echo '</script'; ?>
 >
     <?php echo '<script'; ?>
- src="https://unpkg.com/swiper/js/swiper.min.js"><?php echo '</script'; ?>
->    
+ src="https://unpkg.com/swiper/swiper-bundle.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="https://unpkg.com/swiper/swiper-bundle.min.js"><?php echo '</script'; ?>
+>
     <?php echo '<script'; ?>
  type="text/javascript" src="<?php echo URLROOT;?>
 /js/backtotop.js"><?php echo '</script'; ?>

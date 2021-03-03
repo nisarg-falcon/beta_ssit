@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-06-14 16:02:30
+/* Smarty version 3.1.33, created on 2021-03-01 19:40:06
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\department\computer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ee62df632c696_68703449',
+  'unifunc' => 'content_603d35067afb93_26787730',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a7a0c1cc565a650605841551479db73fee390d93' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\department\\computer.tpl',
-      1 => 1592126720,
+      1 => 1610344761,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ee62df632c696_68703449 (Smarty_Internal_Template $_smarty_tpl) {
+function content_603d35067afb93_26787730 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="department" >
     <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button>
     <div class="departments_container">
@@ -213,6 +213,15 @@ function content_5ee62df632c696_68703449 (Smarty_Internal_Template $_smarty_tpl)
                         </div>
                     </div>
                 </a>
+                <a id="modalBtn3" class="button">
+                    <div class="card">
+                        <img src="<?php echo URLROOT;?>
+/img/comp/events/Gujcost_ML.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Workshop on Machine Learning</h5>
+                        </div>
+                    </div>
+                </a>
               </div>                  
             </div>        
         </div>
@@ -246,6 +255,19 @@ function content_5ee62df632c696_68703449 (Smarty_Internal_Template $_smarty_tpl)
 /img/comp/events/computer.JPG" class="card-img-top" alt="...">
               <div class="content">
                 <p>Campus establishes the vital link between students and prospective employers to facilitate training and placement of students as they begin their career after graduation. We work relentlessly to ensure job placements for our students and provide them with top career opportunities. Various renowned organizations like, TCS...etc</p>
+              </div>
+          </div>
+        </div>
+        <div id="eventModal3" class="eventmodal">
+          <div class="modal-content">
+              <div class="header">
+                  <h1>Training and Placement cell</h1>
+                  <i class="fa fa-times closeBtn" id="closeBtn2" aria-hidden="true"></i>
+              </div>
+              <img src="<?php echo URLROOT;?>
+/img/comp/events/computer.JPG" class="card-img-top" alt="...">
+              <div class="content">
+                <p>Three days workshop on machine learning and python with raspberry Pi</p>
               </div>
           </div>
         </div>
@@ -370,6 +392,27 @@ function content_5ee62df632c696_68703449 (Smarty_Internal_Template $_smarty_tpl)
   function outsideClick2(e){
       if(e.target == modal2){
           modal2.style.display = 'none';
+      }
+  }
+
+  // modal 3
+  var modal3 = document.getElementById('eventModal3');
+  var modalBtn3 = document.getElementById('modalBtn3');
+  var closeBtn3 = document.getElementById('closeBtn3');
+
+  modalBtn3.addEventListener('click', openModal3);
+  closeBtn3.addEventListener('click', closeModal3);
+  window.addEventListener('click', outsideClick3);
+
+  function openModal3(){
+      modal3.style.display = 'block';
+  }
+  function closeModal3(){
+      modal3.style.display = 'none';
+  }
+  function outsideClick3(e){
+      if(e.target == modal3){
+          modal3.style.display = 'none';
       }
   }
 

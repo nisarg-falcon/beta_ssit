@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-06-17 09:48:51
+/* Smarty version 3.1.33, created on 2021-03-01 08:12:47
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\includes\footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ee9cae3b3b312_23209274',
+  'unifunc' => 'content_603c93efb940f7_89518127',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '778bb21ce7beccd050c1515353a6a56d265bc8b9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\includes\\footer.tpl',
-      1 => 1592380129,
+      1 => 1614582729,
       2 => 'file',
     ),
   ),
@@ -20,11 +20,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ee9cae3b3b312_23209274 (Smarty_Internal_Template $_smarty_tpl) {
+function content_603c93efb940f7_89518127 (Smarty_Internal_Template $_smarty_tpl) {
 ?><footer class="bg-dark">
     <div class="container-fluid">
         <div class="container-fluid clg-name">
-            <h1>Shree swaminarayan institute of technology</h1>
+            <h1>Shree Swaminarayan Institute of Technology</h1>
         </div>
         <div class="footer-data mt-md-3 py-md-3" >
             <div class="footer-map-cont d-flex justify-content-center" id="map">

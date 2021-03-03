@@ -703,6 +703,17 @@
     <script type="text/javascript" src="{URLROOT}/js/backtotop.js"></script>
     <script src="{URLROOT}/node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="https://kit.fontawesome.com/dbc30cce47.js"></script>
-    <script src="{URLROOT}/js/header.js"></script>     
+    <script src="{URLROOT}/js/header.js"></script>   
+    {literal} 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179928256-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-179928256-1');
+    </script>
+    {/literal}  
 </body>
 </html>

@@ -1,7 +1,7 @@
 <footer class="bg-dark">
     <div class="container-fluid">
         <div class="container-fluid clg-name">
-            <h1>Shree swaminarayan institute of technology</h1>
+            <h1>Shree Swaminarayan Institute of Technology</h1>
         </div>
         <div class="footer-data mt-md-3 py-md-3" >
             <div class="footer-map-cont d-flex justify-content-center" id="map">

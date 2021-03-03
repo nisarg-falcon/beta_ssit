@@ -46,6 +46,7 @@ tv's and wide desktops specification
 */
 body {
   scroll-behavior: smooth;
+  -webkit-transition: .5s;
   transition: .5s;
 }
 
@@ -103,7 +104,8 @@ body .header-section .media-container .video1 {
   margin: 0 !important;
   padding: 0 !important;
   height: calc(100% + 1px);
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 body .header-section .header-txt {
@@ -228,8 +230,14 @@ body #labs .labs-swiper-container .swiper-wrapper .swiper-slide {
   text-align: center;
   font-size: 18px;
   /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   height: 500px;
 }
@@ -423,7 +431,8 @@ body #library .card {
 }
 
 body #library .card img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 body #library .card .card-body {
@@ -445,6 +454,8 @@ body #library .card .card-body {
 
 body #library .card .card-body h1 {
   margin-top: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   font-size: 33px;
   font-weight: 600;
@@ -658,8 +669,14 @@ body #canteen .course__container .canteen-swiper-container .swiper-wrapper .swip
   text-align: center;
   font-size: 18px;
   /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   height: 475px;
 }
@@ -814,8 +831,14 @@ body #club .course__container .club-swiper-container .swiper-wrapper .swiper-sli
   text-align: center;
   font-size: 18px;
   /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   height: 400px;
 }
@@ -889,8 +912,14 @@ body #ground .course__container .play-swiper-container .swiper-wrapper .swiper-s
   text-align: center;
   font-size: 18px;
   /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   height: 500px;
 }

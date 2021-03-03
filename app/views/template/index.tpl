@@ -208,13 +208,25 @@
                                 </div> -->
                             </div>
                             <div class="swiper-slide">
+                                <img src="img/gallery/26jan.JPG" class="img-fluid" alt="">
+                                <!-- <div class="card-body">
+                                    <h5 class="card-title">SHIKSHAPATRI by ssit</h5>
+                                </div> -->
+                            </div>    
+                            <div class="swiper-slide">
                                 <img src="img/gallery/Hackathon.jpg" class="img-fluid" alt="">
                                 <!-- <div class="card-body">
                                     <h5 class="card-title">Hackathon At ssit</h5>
                                 </div> -->
                             </div>
                             <div class="swiper-slide">
-                                <img src="img/events/cultural/Cultural/4.JPG" class="img-fluid" alt="">
+                                <img src="img/gallery/mp1edit.png" class="img-fluid" alt="">
+                                <!-- <div class="card-body">
+                                    <h5 class="card-title"></h5>
+                                </div> -->
+                            </div>                                                     
+                            <div class="swiper-slide">
+                                <img src="img/gallery/mp2edit.png" class="img-fluid" alt="">
                                 <!-- <div class="card-body">
                                     <h5 class="card-title"></h5>
                                 </div> -->
@@ -226,7 +238,7 @@
                                 </div> -->
                             </div>
                             <div class="swiper-slide">
-                                <img src="img/gallery/SSIT6.jpeg" class="img-fluid" alt="">
+                                <img src="img/gallery/SSIT6.JPG" class="img-fluid" alt="">
                                 <!-- <div class="card-body">
                                     <h5 class="card-title">with CM shree Vijaybhai rupani </h5>
                                 </div> -->
@@ -399,5 +411,17 @@
     <script src="{URLROOT}/node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="https://kit.fontawesome.com/dbc30cce47.js"></script>
     <script src="{URLROOT}/js/header.js"></script>   
+    <script data-ad-client="ca-pub-2968140453972661" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    {literal} 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179928256-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-179928256-1');
+    </script>
+    {/literal}
 </body>
 </html>
