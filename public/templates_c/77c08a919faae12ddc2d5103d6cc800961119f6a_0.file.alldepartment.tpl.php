@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-06-17 15:46:06
+/* Smarty version 3.1.33, created on 2021-03-12 15:17:14
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\department\alldepartment.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5eea1e9e0e5e04_21923031',
+  'unifunc' => 'content_604b77ea1b4819_71137564',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '77c08a919faae12ddc2d5103d6cc800961119f6a' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\department\\alldepartment.tpl',
-      1 => 1592401564,
+      1 => 1614782617,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5eea1e9e0e5e04_21923031 (Smarty_Internal_Template $_smarty_tpl) {
+function content_604b77ea1b4819_71137564 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="department" >
     <div class="departments_container">
         <div id="civil" class="department__container container-fluid scroll-start1">

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2021-03-01 19:40:06
+/* Smarty version 3.1.33, created on 2021-03-22 11:01:45
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\department\computer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_603d35067afb93_26787730',
+  'unifunc' => 'content_60586b091621e2_45094051',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a7a0c1cc565a650605841551479db73fee390d93' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\department\\computer.tpl',
-      1 => 1610344761,
+      1 => 1616407296,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_603d35067afb93_26787730 (Smarty_Internal_Template $_smarty_tpl) {
+function content_60586b091621e2_45094051 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="department" >
     <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up"></span></button>
     <div class="departments_container">
@@ -168,18 +168,70 @@ function content_603d35067afb93_26787730 (Smarty_Internal_Template $_smarty_tpl)
         <div id="placement" class="container-fluid scroll-start4">
           <div class="department_info container">
             <h1>Placement</h1>              
-              <div class="placement-swiper-container">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide"><img src="<?php echo URLROOT;?>
-/public/img/comp/placement/NSSPL-Gandhinagar.png" class="img-fluid" alt=""></div>
-                  <div class="swiper-slide"><img src="<?php echo URLROOT;?>
-/public/img/comp/placement/way2web.png" class="img-fluid" alt=""></div>
-                  <div class="swiper-slide"><img src="<?php echo URLROOT;?>
-/public/img/comp/placement/Creart-Technologies.png" class="img-fluid" alt=""></div>
-                  <div class="swiper-slide"><img src="<?php echo URLROOT;?>
-/public/img/comp/placement/Cedron-Solutions.jpg" class="img-fluid" alt=""></div>
-                  <div class="swiper-slide"><img src="<?php echo URLROOT;?>
-/public/img/comp/placement/infinity-Pvt-Ltd.png" class="img-fluid" alt=""></div>
+                            <div class="placement-swiper-container">
+                <div class="swiper-wrapper">                         
+                     <div class="swiper-slide">
+                    <div class="card placement-card">
+                      <img src="<?php echo URLROOT;?>
+/public/img/comp/placement/student/arun.jpeg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Arun Pandey</h5>
+                        <p class="card-text">Developer</p>
+                        <p class="card-text i">Infigic Technologies</p>
+                        <p class="card-text">2.40 L.P.A.</p>
+                      </div>
+                    </div>
+                  </div> 
+                  <div class="swiper-slide">
+                    <div class="card placement-card">
+                      <img src="<?php echo URLROOT;?>
+/public/img/comp/placement/student/Riddhi_Vyas.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Vyas Riddhi Kamleshkumar</h5>
+                        <p class="card-text">Software developer Trainee</p>
+                        <p class="card-text">Shaligram Infotech</p>
+                        <p class="card-text">2.4 L.P.A.</p>
+                      </div>
+                    </div>
+                  </div>     
+                  <div class="swiper-slide">
+                    <div class="card placement-card">
+                      <img src="<?php echo URLROOT;?>
+/public/img/comp/placement/student/Prenik_Shah.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Shah Prenik Pankajkumar</h5>
+                        <p class="card-text">Jr. Unity developer</p>
+                        <p class="card-text">Plutomen technology Pvt Ltd</p>
+                        <p class="card-text">2.20 L.P.A.</p>
+                      </div>
+                    </div>
+                  </div>                 
+                  <div class="swiper-slide">
+                    <div class="card placement-card">
+                      <img src="<?php echo URLROOT;?>
+/public/img/comp/placement/student/manoj.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Kanojiya Manoj S.</h5>
+                        <p class="card-text">Software Engineer</p>
+                        <p class="card-text i">Softvan Pvt. Ltd</p>
+                        <p class="card-text">1.98  L.P.A.</p>
+                      </div>
+                    </div>
+                  </div>                                              
+                  <div class="swiper-slide">
+                    <div class="card placement-card">
+                      <img src="<?php echo URLROOT;?>
+/public/img/comp/placement/student/jay.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Patel Jay P.</h5>
+                        <p class="card-text">Web Developer</p>
+                        <p class="card-text">Dasinfomedia Pvt.Ltd.</p>
+                        <p class="card-text">1.10 lakh P.A.</p>
+                      </div>
+                    </div>
+                  </div>                 
+                              
+                    
                 </div>
               </div>
             </div>        
@@ -212,16 +264,7 @@ function content_603d35067afb93_26787730 (Smarty_Internal_Template $_smarty_tpl)
                             <h5 class="card-title">Training and Placement cell</h5>
                         </div>
                     </div>
-                </a>
-                <a id="modalBtn3" class="button">
-                    <div class="card">
-                        <img src="<?php echo URLROOT;?>
-/img/comp/events/Gujcost_ML.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Workshop on Machine Learning</h5>
-                        </div>
-                    </div>
-                </a>
+                </a>           
               </div>                  
             </div>        
         </div>
@@ -258,19 +301,6 @@ function content_603d35067afb93_26787730 (Smarty_Internal_Template $_smarty_tpl)
               </div>
           </div>
         </div>
-        <div id="eventModal3" class="eventmodal">
-          <div class="modal-content">
-              <div class="header">
-                  <h1>Training and Placement cell</h1>
-                  <i class="fa fa-times closeBtn" id="closeBtn2" aria-hidden="true"></i>
-              </div>
-              <img src="<?php echo URLROOT;?>
-/img/comp/events/computer.JPG" class="card-img-top" alt="...">
-              <div class="content">
-                <p>Three days workshop on machine learning and python with raspberry Pi</p>
-              </div>
-          </div>
-        </div>
         <div id="staff" class="container-fluid scroll-start6">
           <div class="container">
             <h1>Staff</h1>
@@ -280,7 +310,7 @@ function content_603d35067afb93_26787730 (Smarty_Internal_Template $_smarty_tpl)
                     <img src="<?php echo URLROOT;?>
 /img/comp/staff/Vijay Gadhavi.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h4 class="card-title">Prof. Vijay Gadhavi</h4>
+                        <h4 class="card-title">Dr. Vijay Gadhavi</h4>
                         <h5>Assistant Professor & Head of Dept.</h5>
                     </div>
                 </div>
@@ -310,7 +340,7 @@ function content_603d35067afb93_26787730 (Smarty_Internal_Template $_smarty_tpl)
                     <img src="<?php echo URLROOT;?>
 /img/comp/staff/Deepali Mahatma.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h4 class="card-title">Prof. Deepali Mahatma</h4>
+                        <h4 class="card-title">Prof. Deepali Jain</h4>
                         <h5>Assistant Professor</h5>
                     </div>
                 </div>

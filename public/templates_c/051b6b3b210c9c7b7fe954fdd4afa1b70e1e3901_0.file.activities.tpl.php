@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-09-16 09:50:33
+/* Smarty version 3.1.33, created on 2021-03-09 09:15:41
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\activities.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5f61c3c95a6a43_69200904',
+  'unifunc' => 'content_60472ead2996a9_07006074',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '051b6b3b210c9c7b7fe954fdd4afa1b70e1e3901' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\activities.tpl',
-      1 => 1593961708,
+      1 => 1602439741,
       2 => 'file',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../template/includes/footer.tpl' => 1,
   ),
 ),false)) {
-function content_5f61c3c95a6a43_69200904 (Smarty_Internal_Template $_smarty_tpl) {
+function content_60472ead2996a9_07006074 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -847,7 +847,22 @@ function content_5f61c3c95a6a43_69200904 (Smarty_Internal_Template $_smarty_tpl)
     <?php echo '<script'; ?>
  src="<?php echo URLROOT;?>
 /js/header.js"><?php echo '</script'; ?>
->     
+>   
+     
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <?php echo '<script'; ?>
+ async src="https://www.googletagmanager.com/gtag/js?id=UA-179928256-1"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-179928256-1');
+    <?php echo '</script'; ?>
+>
+      
 </body>
 </html>
 <?php }

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{URLROOT}/css/header.css">
     <link rel="stylesheet" href="{URLROOT}/css/footer.css">
     <link rel="stylesheet" href="{URLROOT}/css/index.css">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="{URLROOT}/node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <title>SSIT | Shree Swaminarayan Institute Of Technology</title>
@@ -16,6 +16,9 @@
     {include file="../template/includes/header.tpl"} 
     <div class="header-section position-relative">
         {include file="../template/includes/header2.tpl"}    
+        <div class="recruitment">
+           <h2><span>👉</span> <a href="{URLROOT}/pages/recruitment">Recruitment Notification</a></h2>
+        </div>
         <div class="container-fluid media-container position-absolute">
             <img src="{URLROOT}/img/landing/hero-image.jpg" class="video1 container-fluid">
             <!-- <video class="video1 container-fluid" loop muted autoplay>

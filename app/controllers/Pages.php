@@ -30,5 +30,7 @@
     public function team(){
       $this->view('php/team');
     } 
-  
+    public function recruitment(){
+      $this->view('php/recruitment');
+    } 
   }

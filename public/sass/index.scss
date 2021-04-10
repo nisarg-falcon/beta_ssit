@@ -8,6 +8,11 @@ body{
     transition: .5s;
     background: #ccc;
 
+    ::selection{
+        color: black;
+        background: $white;
+    }
+
     #myBtn {
         display: none;
         position: fixed;
@@ -32,6 +37,30 @@ body{
         @include responsive-content(smd){
             height: 55vh;
         }
+        .recruitment{
+            padding: 1.3em;
+            position: absolute;
+            right: 0;
+            z-index: 999999;
+            width: fit-content;
+            background: rgba($color: $white, $alpha: 1);
+            border-top-left-radius: 14px;
+            border-bottom-left-radius: 14px;       
+            h2{
+                margin: 0;
+                font-size: 18px;
+                display: flex;
+                span{
+                    display: block;
+                    padding-right: .5em;
+                    animation: handanime 3s linear 2s infinite;
+                }
+                a{
+                    color: red !important;
+                    text-decoration: none;
+                }
+            }
+        }        
         .media-container{
             z-index: 9000;
             top: 0;
@@ -997,4 +1026,18 @@ body{
             }
         }
     }
+}
+
+@keyframes handanime{
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
 }

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-10-17 17:17:17
+/* Smarty version 3.1.33, created on 2021-03-03 15:46:37
   from 'C:\xampp\htdocs\ssit_rebuild\app\views\template\includes\header2.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5f8b0afd478fa2_65917204',
+  'unifunc' => 'content_603fa14dcc7920_73552629',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ca069e61bc2b44cdb0a49ee474cbc560c50069e6' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ssit_rebuild\\app\\views\\template\\includes\\header2.tpl',
-      1 => 1602947821,
+      1 => 1614782143,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f8b0afd478fa2_65917204 (Smarty_Internal_Template $_smarty_tpl) {
+function content_603fa14dcc7920_73552629 (Smarty_Internal_Template $_smarty_tpl) {
 ?><header id="upper-header2" class="position-relative" >
         <nav class="navbar nv-cont navbar-expand-lg navbar-dark py-lg-2 py-sm-4">
             <div class="container">
@@ -49,7 +49,7 @@ function content_5f8b0afd478fa2_65917204 (Smarty_Internal_Template $_smarty_tpl)
                     </li>
                     <li class="nav-item">
                         <a class="nav-link h6" href="<?php echo URLROOT;?>
-/Pages/about">About</a>
+/pages/about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link h6" href="<?php echo URLROOT;?>

@@ -26,7 +26,7 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
     },
   });
   var swiper = new Swiper('.placement-swiper-container', {    
-    slidesPerView: 5,
+    slidesPerView: 4,
     spaceBetween: 20, 
     autoplay: {
         delay: 1500,
@@ -46,7 +46,7 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
         spaceBetween: 10,
       },
       992: {
-          slidesPerView: 5,
+          slidesPerView: 4,
           spaceBetween: 20,
       }
     }

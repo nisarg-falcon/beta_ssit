@@ -3,11 +3,8 @@
  class Admins extends Controller {
      // load admin_panel
     public function index(){
-        session_start();
-        if(isset($_SESSION['username'])){
-            if($_SESSION['username'] == 'admin'){
-                $this->view('php/admin_panel');
-            }
+       if(isset($_SESSION['username'])){
+            $this->view('php/admin_panel');
         }else{
             $data = [];
             $this->view('php/admin',$data);
