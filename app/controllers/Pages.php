@@ -33,4 +33,7 @@
     public function recruitment(){
       $this->view('php/recruitment');
     } 
+    public function notification(){
+      $this->view('php/notification');
+    } 
   }

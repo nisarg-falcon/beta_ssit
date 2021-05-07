@@ -17,7 +17,7 @@
     <div class="header-section position-relative">
         {include file="../template/includes/header2.tpl"}    
         <div class="recruitment">
-           <h2><span>👉</span> <a href="{URLROOT}/pages/recruitment">Recruitment Notification</a></h2>
+           <h2><span>👉</span> <a href="{URLROOT}/pages/notification">Latest Circular</a></h2>
         </div>
         <div class="container-fluid media-container position-absolute">
             <img src="{URLROOT}/img/landing/hero-image.jpg" class="video1 container-fluid">

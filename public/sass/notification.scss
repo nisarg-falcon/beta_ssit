@@ -1,0 +1,47 @@
+@import 'color';
+@import 'font';
+@import 'mixins/layout-mq';
+@import 'mixins/content-mq';
+
+body{
+    .notification{
+        h1{
+            margin: 0;
+            font-size: 24px;
+            font-weight: 600;
+            padding: 1rem 0 1rem 0;
+            letter-spacing: .7px;
+            color: $black;
+            font-family: $roboto-slab;
+            @include responsive-content(smd){
+                font-size: 18px;
+                font-weight: 500;
+                padding-left: 0px;
+            }
+        }
+        ul{
+            @include responsive-content(smd){
+                padding: 0;
+            }
+            li{
+                display: inline;
+                .info{
+                    padding: .5em 0;
+                    h5{
+                        font-size: 16px;
+                        margin: 0;
+                        display: inline;
+                        color: $yellow;
+                        padding-right: 1em;
+                        @include responsive-content(smd){
+                            display: block;
+                        }
+                    }
+                    h6, a{
+                        display: inline;
+                    }                    
+                }
+            }
+        }
+    }
+}
