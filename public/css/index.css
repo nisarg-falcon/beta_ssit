@@ -481,6 +481,138 @@ body #director .director-message footer {
   text-decoration: underline;
 }
 
+body #principal {
+  background: #000000;
+}
+
+body #principal .course__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  body #principal .course__container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+body #principal .director-info {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+body #principal .director-info img {
+  width: 60%;
+  height: 300px;
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  body #principal .director-info img {
+    width: 70% !important;
+  }
+}
+
+@media (max-width: 992px) {
+  body #principal .director-info img {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  body #principal .director-info {
+    width: 100%;
+  }
+}
+
+body #principal .director-message {
+  width: 60%;
+}
+
+@media (max-width: 600px) {
+  body #principal .director-message {
+    width: 100%;
+  }
+}
+
+body #principal .director-message h1 {
+  font-size: 33px;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  letter-spacing: .7px;
+  color: #F1A501;
+  font-family: "Roboto Slab", serif;
+}
+
+@media (max-width: 600px) {
+  body #principal .director-message h1 {
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0;
+    padding: 15px;
+  }
+}
+
+body #principal .director-message p {
+  text-indent: 50px;
+  padding: 0.5rem 1rem;
+  word-wrap: nowrap;
+  color: white;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 36px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 768px) {
+  body #principal .director-message p {
+    padding: 0;
+    font-size: 0.8em;
+    line-height: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  body #principal .director-message p {
+    font-family: "Source Serif Pro", serif;
+    padding: 0 15px;
+    font-size: 18px;
+    font-weight: 100;
+    text-indent: 0px;
+    line-height: 2rem;
+  }
+}
+
+body #principal .director-message p q {
+  quotes: "“" "”" "‘" "’";
+}
+
+body #principal .director-message p q::before {
+  font-size: 30px;
+  content: open-quote;
+}
+
+body #principal .director-message p q::after {
+  font-size: 30px;
+  content: close-quote;
+}
+
+body #principal .director-message footer {
+  font-family: "Source Serif Pro", serif;
+  color: white;
+  padding: 0.5rem 1rem;
+  letter-spacing: .7px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 body #institute .institute-info {
   background-size: cover;
   background-image: url("../img/about-hero-edit.jpg");

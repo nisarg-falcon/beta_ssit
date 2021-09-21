@@ -35,5 +35,9 @@
     } 
     public function notification(){
       $this->view('php/notification');
+    }
+
+    public function principal(){
+      $this->view('php/principal');
     } 
   }

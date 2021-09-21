@@ -216,7 +216,7 @@ body #upper-header3 .outer-nav .navbar-toggler .navbar-toggler-icon {
 }
 
 body #upper-header3 .inner-nav li {
-  padding: 1rem .8rem;
+  padding: 0.5rem 0.2rem;
 }
 
 body #upper-header3 .inner-nav li a {

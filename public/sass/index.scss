@@ -353,6 +353,106 @@ body{
             }
         }
     }
+    #principal{
+        background: $black;
+        // background: linear-gradient(to right, rgb(0,0,0) 10%, transparent);
+        .course__container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 2rem 0;
+            @include responsive-content(mobile){
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+        }
+        .director-info{
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-content: center;         
+            img{
+                width: 60%;
+                height: 300px;
+                // padding: 1rem;
+                object-fit: cover;
+                @include responsive-content(smd){
+                    width: 70% !important;
+                }
+                @include responsive-content(tablet){
+                    width: 90%;
+                }
+            }
+            @include responsive-content(smd){
+                width:100%;             
+            }
+        }        
+        .director-message{
+            width: 60%; 
+            @include responsive-content(smd){
+                width:100%;
+            }      
+            h1{
+                font-size: 33px;
+                font-weight: 600;
+                padding: 0.5rem 1rem;
+                letter-spacing: .7px;
+                color: $yellow;
+                font-family: $roboto-slab;
+                @include responsive-content(smd){
+                    font-size: 28px;
+                    font-weight: 500;
+                    margin:0;
+                    padding: 15px;
+                }
+            }
+            p{
+                text-indent: 50px;
+                padding: 0.5rem 1rem;
+                word-wrap: nowrap;
+                color: $white;
+                font-size: 18px;
+                text-align: justify;
+                line-height: 36px;
+                font-weight: 600;  
+                font-family: $roboto;
+                @include responsive-content(mobile){
+                    padding: 0;
+                    font-size: 0.8em;
+                    line-height: 2rem;
+                }
+                @include responsive-content(smd){
+                    font-family: $source-serif;
+                    padding: 0 15px;
+                    font-size: 18px;
+                    font-weight: 100;
+                    text-indent: 0px;
+                    line-height: 2rem;
+                }
+                q {
+                    quotes: "“" "”" "‘" "’";                    
+                  }
+                  q::before {
+                      font-size: 30px;
+                      content: open-quote;
+                  }
+                  q::after {
+                      font-size: 30px;
+                      content: close-quote;
+                  }
+            }
+            footer{
+                font-family: $source-serif;
+                color: $white;
+                padding: 0.5rem 1rem;
+                letter-spacing: .7px;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+        }
+    }
     #institute{
         .institute-info{
             background-size: cover;

@@ -85,8 +85,25 @@
             </div>
         </div>
 
+
+        <div class="scroll-start3" id="principal">
+            <div class="container course__container">
+                <div class="director-info">
+                    <img src="img/principal.jpg" class="img" alt="">
+                </div>    
+                <div class="director-message">
+                    <h1>principal's Desk</h1>
+                    <blockquote class="blockquote mb-0 text-justify">
+                        <p class="mb-0"><q>lorem ipsum</q></p>
+                        <footer class="blockquote-footer">Dr. Hitesh Vandra. Principal at <cite title="Source Title">SSIT</cite></footer>
+                    </blockquote>
+                    <a href="{URLROOT}/pages/principal">Principal's Desk ></a>                                       
+                </div>
+            </div>
+        </div>
+
         <!-- about institute -->
-        <div class="scroll-start3" id="institute">
+        <div class="scroll-start4" id="institute">
             <div class="institute-info">
                 <div class="bg-effect">
                     <div class="container d-flex justify-content-end">
@@ -104,7 +121,7 @@
         </div>
     
         <!-- event start -->
-        <div class="scroll-start4" id="events">
+        <div class="scroll-start5" id="events">
             <div class="container course__container">
                 <h1>Events</h1> 
                 <div class="swiper-container">
@@ -166,7 +183,7 @@
         </div>
 
         <!-- social presence -->
-        <div class="scroll-start5" id="socialmedia">
+        <div class="scroll-start6" id="socialmedia">
             <div class="container course__container">
                 <div class="insta-container">
                     <div class="container-heading">
@@ -198,7 +215,7 @@
         </div>
 
         <!-- gallery -->
-        <div class="scroll-start6" id="gallery">
+        <div class="scroll-start7" id="gallery">
             <div class="container course__container">
                 <!-- <div class="gallery-contain"> -->
                     <h1>Gallery</h1> 
@@ -300,7 +317,7 @@
         </div>
 
         <!-- fees -->
-        <div class="scroll-start7" id="fees">
+        <div class="scroll-start8" id="fees">
             <div class="container course__container">
                 <h1>Online Fees</h1> 
                 <nav>

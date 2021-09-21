@@ -11,7 +11,11 @@
                 <ul class="navbar-nav nav3 nav nav-fill">
                 {foreach $data['navitems'] as $item}
                     <li class="nav-item nav3-item">
-                        <a class="nav-link h6 my-0" href="#{$item[key($item)]}">{key($item)}</a>
+                        {if {key($item)} == "pricipal"}
+                            <a class="nav-link h6 my-0" href="{URLROOT}/app/views/php/principal.php">{key($item)}</a>
+                        {else}
+                            <a class="nav-link h6 my-0" href="#{$item[key($item)]}">{key($item)}</a>
+                        {/if}
                     </li>
                 {/foreach}
                 </ul>
